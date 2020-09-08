@@ -1,0 +1,1 @@
+<span data-ttu-id="12f0f-101">Надстройка Dynamics 365 Project Service Automation для Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="12f0f-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>
