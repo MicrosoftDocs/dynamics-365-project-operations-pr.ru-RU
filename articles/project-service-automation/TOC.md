@@ -88,7 +88,7 @@
 ### [Работа с моделью данных Project Service Automation](reports-working-project-service-data-model.md)
 ## [Создание записей времени](time-entries.md)
 ### [Календарь записи времени](time-entry-calendar.md)
-### [Настройка еженедельного ввода времени](time-entry-extensibility-v3.md)
+### [Настройка еженедельной записи времени](time-entry-extensibility-v3.md)
 
 # Вопросы и ответы и устранение неполадок (версия приложения 3.x)
 ## [Почему цена в фактических данных стоимости расходов по умолчанию принимает нулевое значение?](FAQ-zero-price-expense-cost-actuals.md)
@@ -164,7 +164,7 @@
 ### [Управление проектами и резервированиями в Office 365](manage-project-bookings-office-365-calendar.md)
 ### [Ввод времени](enter-time.md)
 ### [Ввод расходов](enter-expenses.md)
-### [Делегирование ввода данных о времени или расходах](allow-someone-else-enter-time-entry-expense.md)
+### [Делегирование записи времени или расходов](allow-someone-else-enter-time-entry-expense.md)
 ### [Планирование выходных](schedule-time-off.md)
 ### [Совместная работа с использованием групп Office 365](collaborate-project-team-members-office-365-groups.md)
 ### [Поиск проектов с помощью Project Finder Mobile](find-next-project-finder-mobile-app.md)
