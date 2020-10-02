@@ -1,0 +1,39 @@
+---
+title: Скорректированные счета
+description: В этом разделе представлена информация о скорректированных счетах.
+author: rumant
+manager: AnnBe
+ms.date: 09/18/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-customerservice
+ms.technology: ''
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: e14da1c07d5b697de6caf1b9041c30581ecff102
+ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3898097"
+---
+# <a name="corrected-invoices"></a><span data-ttu-id="8514a-103">Скорректированные счета</span><span class="sxs-lookup"><span data-stu-id="8514a-103">Corrected invoices</span></span>
+
+<span data-ttu-id="8514a-104">_**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_</span><span class="sxs-lookup"><span data-stu-id="8514a-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="8514a-105">Утвержденные счета можно редактировать.</span><span class="sxs-lookup"><span data-stu-id="8514a-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="8514a-106">При редактировании утвержденного счета создается черновик скорректированного счета.</span><span class="sxs-lookup"><span data-stu-id="8514a-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="8514a-107">Поскольку предполагается, что требуется реверсировать все транзакции и количества из первоначального счетов, этот скорректированный счет включает все транзакции из первоначального счета, и все количества в нем равны нулю (0).</span><span class="sxs-lookup"><span data-stu-id="8514a-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
+
+<span data-ttu-id="8514a-108">Когда какие-либо транзакции не требуют исправления, можно удалить их из черновика корректирующего счета.</span><span class="sxs-lookup"><span data-stu-id="8514a-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="8514a-109">Чтобы реверсировать или вернуть только часть количества, можно изменить поле "Количество" в сведениях строки.</span><span class="sxs-lookup"><span data-stu-id="8514a-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="8514a-110">Если открыть сведения строки счета, можно просмотреть первоначальное количество по счету.</span><span class="sxs-lookup"><span data-stu-id="8514a-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="8514a-111">Затем можно изменить текущее количество по счету, чтобы оно было меньше или больше количества по первоначальному счету.</span><span class="sxs-lookup"><span data-stu-id="8514a-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
+
+<span data-ttu-id="8514a-112">При утверждении корректирующего счета фактические значения исходных выставленных продаж реверсируется, и создаются новые фактические данные продаж, за которые выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="8514a-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="8514a-113">Если количество было уменьшено, разница вызовет также создание новых фактических данных продаж, за которые не выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="8514a-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="8514a-114">Например, если исходный выставленный счет продажи был за восемь часов, а в сведениях по строке скорректированного счета количество уменьшено до шести часов, исходная строка счета продаж обращается и создаются два новых фактических значения:</span><span class="sxs-lookup"><span data-stu-id="8514a-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
+
+- <span data-ttu-id="8514a-115">Фактические данные выставленного счета продаж на 6 часов.</span><span class="sxs-lookup"><span data-stu-id="8514a-115">A billed sales actual for six hours.</span></span>
+- <span data-ttu-id="8514a-116">Фактические данные продаж на остальные 2 часа, за которые счет не выставлен.</span><span class="sxs-lookup"><span data-stu-id="8514a-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="8514a-117">За эту транзакцию можно выставить счет позднее или ее можно пометить как не подлежащую оплате, в зависимости от переговоров с клиентом.</span><span class="sxs-lookup"><span data-stu-id="8514a-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>
