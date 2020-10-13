@@ -1,0 +1,835 @@
+---
+title: Строки предложения с расценками на основе проектов (Pro)
+description: Эта тема предоставляет информацию об использовании строк предложения с расценками на основе проекта для работы по проекту. (Pro)
+author: rumant
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
+ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3908519"
+---
+# <a name="project-based-quote-lines-pro"></a><span data-ttu-id="744d2-104">Строки предложения с расценками на основе проектов (Pro)</span><span class="sxs-lookup"><span data-stu-id="744d2-104">Project-based quote lines (Pro)</span></span>
+
+<span data-ttu-id="744d2-105">_**Относится к:** развертывание Lite — от сделки до счетов-проформ_</span><span class="sxs-lookup"><span data-stu-id="744d2-105">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="744d2-106">Строки предложений с расценками на основе проекта предназначены для помощи в оценке проектной работы по заданию.</span><span class="sxs-lookup"><span data-stu-id="744d2-106">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="744d2-107">Структура строки предложения с расценками по проекту расширена для оценок проекта за счет следующих понятий:</span><span class="sxs-lookup"><span data-stu-id="744d2-107">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
+
+- <span data-ttu-id="744d2-108">Метод выставления счета</span><span class="sxs-lookup"><span data-stu-id="744d2-108">Billing Method</span></span>
+- <span data-ttu-id="744d2-109">Сопоставление проектов и задач</span><span class="sxs-lookup"><span data-stu-id="744d2-109">Project and Task Mapping</span></span>
+- <span data-ttu-id="744d2-110">Включенные классы транзакций</span><span class="sxs-lookup"><span data-stu-id="744d2-110">Included Transaction classes</span></span>
+- <span data-ttu-id="744d2-111">Максимальный лимит</span><span class="sxs-lookup"><span data-stu-id="744d2-111">Not-to-Exceed Limit</span></span>
+- <span data-ttu-id="744d2-112">Настройка возможности оплаты</span><span class="sxs-lookup"><span data-stu-id="744d2-112">Chargeability setup</span></span>
+- <span data-ttu-id="744d2-113">Оценка с использованием сведений строки предложения с расценками</span><span class="sxs-lookup"><span data-stu-id="744d2-113">Estimation using Quote Line Details</span></span>
+- <span data-ttu-id="744d2-114">Клиенты строки предложения с расценками</span><span class="sxs-lookup"><span data-stu-id="744d2-114">Quote line Customers</span></span>
+
+<span data-ttu-id="744d2-115">В следующей таблице представлена информация о полях на вкладке **Общее** строки предложения с расценками по проекту.</span><span class="sxs-lookup"><span data-stu-id="744d2-115">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="744d2-116">Эти поля помогают настроить основу для подробной, основательной оценки проектной работы.</span><span class="sxs-lookup"><span data-stu-id="744d2-116">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
+
+| <span data-ttu-id="744d2-117">**Поле**</span><span class="sxs-lookup"><span data-stu-id="744d2-117">**Field**</span></span> | <span data-ttu-id="744d2-118">**Релевантность, цель и руководство**</span><span class="sxs-lookup"><span data-stu-id="744d2-118">**Relevance, purpose, and guidance**</span></span> | <span data-ttu-id="744d2-119">**Воздействие на последующие элементы**</span><span class="sxs-lookup"><span data-stu-id="744d2-119">**Downstream impact**</span></span> |
+| --- | --- | --- |
+| <span data-ttu-id="744d2-120">Название</span><span class="sxs-lookup"><span data-stu-id="744d2-120">Name</span></span> | <span data-ttu-id="744d2-121">Название строки предложения с расценками, которое должна помочь вам идентифицировать дискретный компонент оцениваемого предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-121">The name of quote line which should help you identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="744d2-122">Копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-122">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-123">Метод выставления счета</span><span class="sxs-lookup"><span data-stu-id="744d2-123">Billing Method</span></span> | <span data-ttu-id="744d2-124">В предложении с расценками, созданном на основе возможной сделки, это значение копируется из соответствующего поля в строке возможной сделки.</span><span class="sxs-lookup"><span data-stu-id="744d2-124">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="744d2-125">Это поле включает две основные модели контрактов, поддерживаемые Dynamics 365 Project Operations:</span><span class="sxs-lookup"><span data-stu-id="744d2-125">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="744d2-126">- Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="744d2-126">- Fixed price</span></span></br><span data-ttu-id="744d2-127">- Время и материал.</span><span class="sxs-lookup"><span data-stu-id="744d2-127">- Time and material.</span></span>| <span data-ttu-id="744d2-128">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-128">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-129">Project</span><span class="sxs-lookup"><span data-stu-id="744d2-129">Project</span></span> | <span data-ttu-id="744d2-130">Используйте это необязательное поле, чтобы определить проект, который будет использоваться для выполнения работы по данному заданию.</span><span class="sxs-lookup"><span data-stu-id="744d2-130">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="744d2-131">Когда проект сопоставляется со строкой предложения с расценками, это помогает с настройкой оплачиваемых задач, а также с внесением оценки на основе проекта в строку предложения с расценками в качестве сведений строки предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-131">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="744d2-132">Если проект не сопоставлен со строкой предложения с расценками по проекту, оценку следует создать вручную, создав сведения каждой строки предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-132">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="744d2-133">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-133">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span>|
+| <span data-ttu-id="744d2-134">Включенные задачи</span><span class="sxs-lookup"><span data-stu-id="744d2-134">Included Tasks</span></span> | <span data-ttu-id="744d2-135">Указывает, используется ли эта строка предложения с расценками для всех или некоторых задач проекта для выбранного проекта.</span><span class="sxs-lookup"><span data-stu-id="744d2-135">Indicates if this quote line is used for all or some of the project tasks for the selected project.</span></span> <span data-ttu-id="744d2-136">Это поле имеет следующие возможные значения:</span><span class="sxs-lookup"><span data-stu-id="744d2-136">This field has the following possible values:</span></span></br><span data-ttu-id="744d2-137">- Все задачи проекта</span><span class="sxs-lookup"><span data-stu-id="744d2-137">- All project tasks</span></span></br><span data-ttu-id="744d2-138">- Только выбранные задачи проекта</span><span class="sxs-lookup"><span data-stu-id="744d2-138">- Selected project tasks only</span></span></br><span data-ttu-id="744d2-139">Пустое значение в этом поле эквивалентно варианту **Все задачи проекта**.</span><span class="sxs-lookup"><span data-stu-id="744d2-139">A blank value in this field is equivalent to the **All project tasks** option.</span></span> | <span data-ttu-id="744d2-140">Когда выбран вариант **Только выбранные задачи проекта**, то на странице проекта на вкладке **Настройка выставления счетов по задачам** можно выбрать определенные задачи, чтобы связать их с этой строкой предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-140">When **Selected project tasks only** is selected then on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line.</span></span> <span data-ttu-id="744d2-141">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-141">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-142">Включить время</span><span class="sxs-lookup"><span data-stu-id="744d2-142">Include Time</span></span> | <span data-ttu-id="744d2-143">Флаг **Да**/**Нет** указывает, будут ли включены транзакции времени или трудозатраты по выбранному проекту в оценку в этой строке предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-143">A **Yes**/**No** flag indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="744d2-144">Значение **Нет** указывает, что транзакции времени или трудозатраты не будут включены в оценку в этой строке предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-144">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="744d2-145">Значение **Да** указывает, что транзакции времени или трудозатраты будут включены в оценку в этой строке предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-145">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="744d2-146">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-146">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-147">Включить расход</span><span class="sxs-lookup"><span data-stu-id="744d2-147">Include Expense</span></span> | <span data-ttu-id="744d2-148">Флаг **Да**/**Нет** указывает, будут ли включены расходы по выбранному проекту в оценку в этой строке предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-148">A **Yes**/**No** flag indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="744d2-149">Значение **Нет** указывает, что затраты не будут включены в оценку в этой строке предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-149">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="744d2-150">Значение **Да** указывает, что затраты будут включены в оценку в этой строке предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-150">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="744d2-151">Значение этого поля копируется далее в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-151">This field value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-152">Включить сбор</span><span class="sxs-lookup"><span data-stu-id="744d2-152">Include Fee</span></span> | <span data-ttu-id="744d2-153">Флаг **Да**/**Нет** указывает, будут ли включены сборы по выбранному проекту в оценку в этой строке предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-153">A **Yes**/**No** flag indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="744d2-154">Значение **Нет** указывает, что сборы не будут включены в оценку в этой строке предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-154">A **No** value indicates that the Fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="744d2-155">Значение **Да** указывает, что сборы будут включены в оценку в этой строке предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-155">A **Yes** value indicates that the Fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="744d2-156">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-156">This field value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-157">Сумма по предложению</span><span class="sxs-lookup"><span data-stu-id="744d2-157">Quoted Amount</span></span> | <span data-ttu-id="744d2-158">Это сумма, которая будет указана заказчику за все работы, прогнозируемые в этой строке предложения с расценками на основе проекта.</span><span class="sxs-lookup"><span data-stu-id="744d2-158">This is amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="744d2-159">В предложении с расценками, созданном на основе возможной сделки, это значение копируется из поля **Бюджет клиента** в строке возможной сделки.</span><span class="sxs-lookup"><span data-stu-id="744d2-159">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="744d2-160">Если в строке предложения с расценками по проекту есть сведения о строке, это поле заблокировано для редактирования и суммируется из суммы в сведениях строки предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-160">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="744d2-161">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-161">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-162">Ожидаемый налог</span><span class="sxs-lookup"><span data-stu-id="744d2-162">Estimated Tax</span></span> | <span data-ttu-id="744d2-163">Это редактируемое поле, в котором пользователь может добавить расчетную сумму налога в строку предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-163">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="744d2-164">Если в строке предложения с расценками по проекту есть сведения о строке, это поле заблокировано для редактирования и суммируется из суммы налога в сведениях строки предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-164">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="744d2-165">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-165">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-166">Сумма по предложению с расценками после налогообложения</span><span class="sxs-lookup"><span data-stu-id="744d2-166">Quoted Amount after Tax</span></span> | <span data-ttu-id="744d2-167">Это поле является суммой строки предложения с расценками после уплаты налогов и предназначено только для чтения.</span><span class="sxs-lookup"><span data-stu-id="744d2-167">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="744d2-168">Сумма в этом поле рассчитывается как *Сумма по предложению с расценками + Налог*.</span><span class="sxs-lookup"><span data-stu-id="744d2-168">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="744d2-169">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-169">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-170">Максимальный лимит</span><span class="sxs-lookup"><span data-stu-id="744d2-170">Not-to-exceed Limit</span></span> | <span data-ttu-id="744d2-171">Это поле доступно для редактирования и доступно только в строках предложения с расценками на основе проекта, в которых есть способ выставления счетов **Время и материал**.</span><span class="sxs-lookup"><span data-stu-id="744d2-171">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="744d2-172">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-172">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="744d2-173">Бюджет клиента</span><span class="sxs-lookup"><span data-stu-id="744d2-173">Customer Budget</span></span> | <span data-ttu-id="744d2-174">Это поле доступно для редактирования и копируется из соответствующего поля в строке возможной сделки, если предложение с расценками было создано из возможной сделки.</span><span class="sxs-lookup"><span data-stu-id="744d2-174">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="744d2-175">Значение этого поля копируется в строку контракта по проекту, которая создается из этой строки предложения с расценками, когда предложение с расценками выиграно.</span><span class="sxs-lookup"><span data-stu-id="744d2-175">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+
+
+## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="744d2-176">Правила проверки для полей на вкладке "Общие" строк предложения с расценками на основе проекта</span><span class="sxs-lookup"><span data-stu-id="744d2-176">Validation rules for fields on the General tab of project-based quote lines</span></span>
+
+<span data-ttu-id="744d2-177">**Правило 1**: если поле **Включенные задачи** пустое, или если для него установлено **Все задачи проекта**, проект включается в строку предложения с расценками.</span><span class="sxs-lookup"><span data-stu-id="744d2-177">**Rule 1**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project is included in the quote line.</span></span>
+
+<span data-ttu-id="744d2-178">**Правило 2**: если поле **Включенные задачи** пустое или если для него установлено значение **Все задачи проекта**, проект и определенный класс транзакций могут быть включены только в одну строку предложения с расценками на основе проекта.</span><span class="sxs-lookup"><span data-stu-id="744d2-178">**Rule 2**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project and a certain transaction class can only be included on one project-based quote line of a quote.</span></span>
+
+<span data-ttu-id="744d2-179">**Правило 3**: если поле **Включенные задачи** пустое или если для него установлено значение **Только выбранные задачи проекта**, проект и определенный класс транзакций могут быть включены в несколько строк предложения с расценками на основе проекта.</span><span class="sxs-lookup"><span data-stu-id="744d2-179">**Rule 3**: If the **Included Tasks** field is set to **Selected project tasks only**, a project and a certain transaction class can be included on multiple project-based quote lines of a quote.</span></span>
+
+<span data-ttu-id="744d2-180">**Правило 4**: если у возможной сделки есть несколько предложений с расценками, могут быть строки предложения с расценками из разных предложений с расценками, которые все ссылаются на один и тот же проект и включают один и тот же класс транзакций.</span><span class="sxs-lookup"><span data-stu-id="744d2-180">**Rule 4**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
+
+<span data-ttu-id="744d2-181">**Правило 5**: если предложения с расценками не относятся к одной и той же возможной сделке, они не могут включать один и тот же проект и класс транзакций.</span><span class="sxs-lookup"><span data-stu-id="744d2-181">**Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="61" valign="top">
+                <p><span data-ttu-id="744d2-182">
+                    <strong>Возможная сделка</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-182">
+                    <strong>Opportunity</strong>
+                </span></span></p>
+            </td>
+            <td width="41" valign="top">
+                <p><span data-ttu-id="744d2-183">
+                    <strong>Предложение с расценками</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-183">
+                    <strong>Quote</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="744d2-184">
+                    <strong>Строка предложения с расценками</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-184">
+                    <strong>Quote line</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="744d2-185">
+                    <strong>Project</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-185">
+                    <strong>Project</strong>
+                </span></span></p>
+            </td>
+            <td width="90" valign="top">
+                <p><span data-ttu-id="744d2-186">
+                    <strong>Включенные задачи</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-186">
+                    <strong>Included tasks</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="744d2-187">
+                    <strong>Включить время</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-187">
+                    <strong>Include Time</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="744d2-188">
+                    <strong>Включить расход</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-188">
+                    <strong>Include Expense</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="744d2-189">
+                    <strong>Включить</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-189">
+                    <strong>Include</strong>
+                </span></span></p>
+                <p><span data-ttu-id="744d2-190">
+                    <strong>Сбор</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-190">
+                    <strong>Fee</strong>
+                </span></span></p>
+            </td>
+            <td width="54" valign="top">
+                <p><span data-ttu-id="744d2-191">
+                    <strong>Действителен/Недействителен</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-191">
+                    <strong>Valid/ Not valid</strong>
+                </span></span></p>
+            </td>
+            <td width="308" valign="top">
+                <p><span data-ttu-id="744d2-192">
+                    <strong>Причина</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="744d2-192">
+                    <strong>Reason</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-193">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-193">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-194">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-194">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-195">QL1</span><span class="sxs-lookup"><span data-stu-id="744d2-195">QL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-196">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-196">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-197">ПУСТО</span><span class="sxs-lookup"><span data-stu-id="744d2-197">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-198">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-198">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-199">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-199">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-200">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-200">Yes</span></span> </p>
+            </td>
+            <td width="54" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-201">Недействительный</span><span class="sxs-lookup"><span data-stu-id="744d2-201">Not valid</span></span> </p>
+            </td>
+            <td width="308" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-202">Нарушение правила №2.</span><span class="sxs-lookup"><span data-stu-id="744d2-202">Violation of Rule #2.</span></span> <span data-ttu-id="744d2-203">Время, расходы и сборы по проекту P1 включены в строки предложения с расценками, QL1 и QL2.</span><span class="sxs-lookup"><span data-stu-id="744d2-203">Time, Expense, and Fees on P1 project are included on quote lines QL1 and QL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-204">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-204">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-205">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-205">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-206">QL2</span><span class="sxs-lookup"><span data-stu-id="744d2-206">QL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-207">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-207">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-208">ПУСТО</span><span class="sxs-lookup"><span data-stu-id="744d2-208">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-209">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-209">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-210">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-210">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-211">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-211">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="90" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="54" valign="top">
+            </td>
+            <td width="308" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-212">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-212">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-213">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-213">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-214">QL1</span><span class="sxs-lookup"><span data-stu-id="744d2-214">QL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-215">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-215">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-216">ПУСТО</span><span class="sxs-lookup"><span data-stu-id="744d2-216">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-217">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-217">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-218">No</span><span class="sxs-lookup"><span data-stu-id="744d2-218">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-219">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-219">Yes</span></span> </p>
+            </td>
+            <td width="54" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-220">Недействительный</span><span class="sxs-lookup"><span data-stu-id="744d2-220">Not valid</span></span> </p>
+            </td>
+            <td width="308" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-221">Нарушение правила №2.</span><span class="sxs-lookup"><span data-stu-id="744d2-221">Violation of Rule #2.</span></span> <span data-ttu-id="744d2-222">Время и сборы по проекту P1 включены в строки предложения с расценками QL1 и QL2.</span><span class="sxs-lookup"><span data-stu-id="744d2-222">Time and Fees on P1 project are included on quote lines QL1 and QL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-223">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-223">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-224">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-224">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-225">QL2</span><span class="sxs-lookup"><span data-stu-id="744d2-225">QL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-226">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-226">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-227">ПУСТО</span><span class="sxs-lookup"><span data-stu-id="744d2-227">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-228">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-228">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-229">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-229">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-230">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-230">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="90" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="54" valign="top">
+            </td>
+            <td width="108" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-231">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-231">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-232">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-232">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-233">QL1</span><span class="sxs-lookup"><span data-stu-id="744d2-233">QL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-234">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-234">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-235">ПУСТО</span><span class="sxs-lookup"><span data-stu-id="744d2-235">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-236">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-236">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-237">No</span><span class="sxs-lookup"><span data-stu-id="744d2-237">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-238">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-238">Yes</span></span> </p>
+            </td>
+            <td width="54" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-239">Действителен</span><span class="sxs-lookup"><span data-stu-id="744d2-239">Valid</span></span> </p>
+            </td>
+            <td width="308" rowspan="2" valign="top">
+                  <p>
+<span data-ttu-id="744d2-240">Время и сборы по проекту P1 включены в QL1.</span><span class="sxs-lookup"><span data-stu-id="744d2-240">Time and Fees on P1 project are included on QL1.</span></span>
+<span data-ttu-id="744d2-241">Расходы по проекту P1 включены в QL2.</span><span class="sxs-lookup"><span data-stu-id="744d2-241">Expense on P1 project is included on QL2.</span></span>
+<span data-ttu-id="744d2-242">То, что включается в каждую строку предложения с расценками, не перекрывается и допустимо.</span><span class="sxs-lookup"><span data-stu-id="744d2-242">There is no overlap in what is being included on each quote line and is valid.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-243">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-243">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-244">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-244">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-245">QL2</span><span class="sxs-lookup"><span data-stu-id="744d2-245">QL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-246">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-246">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-247">ПУСТО</span><span class="sxs-lookup"><span data-stu-id="744d2-247">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-248">No</span><span class="sxs-lookup"><span data-stu-id="744d2-248">No</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-249">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-249">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-250">No</span><span class="sxs-lookup"><span data-stu-id="744d2-250">No</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="90" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="54" valign="top">
+            </td>
+            <td width="308" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-251">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-251">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-252">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-252">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-253">QL1</span><span class="sxs-lookup"><span data-stu-id="744d2-253">QL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-254">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-254">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-255">Только выбранные задачи</span><span class="sxs-lookup"><span data-stu-id="744d2-255">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-256">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-256">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-257">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-257">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-258">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-258">Yes</span></span> </p>
+            </td>
+            <td width="54" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-259">Недействительный</span><span class="sxs-lookup"><span data-stu-id="744d2-259">Not valid</span></span> </p>
+            </td>
+            <td width="308" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-260">Нарушение правила №2 выше</span><span class="sxs-lookup"><span data-stu-id="744d2-260">Violation of Rule #2 above</span></span> </p>
+                <p>
+<span data-ttu-id="744d2-261">Q1 включает время, расходы и сборы на подмножество задач по проекту P1.</span><span class="sxs-lookup"><span data-stu-id="744d2-261">Q1 includes Time, Expenses, and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="744d2-262">QL2 включает время, расходы и сборы для всего проекта P1 и частично перекрывается с тем, что включено в Q1.</span><span class="sxs-lookup"><span data-stu-id="744d2-262">QL2 includes Time, Expenses, and Fees for the whole project P1 and overlaps with what is included on Q1.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-263">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-263">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-264">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-264">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-265">QL2</span><span class="sxs-lookup"><span data-stu-id="744d2-265">QL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-266">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-266">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-267">ПУСТО</span><span class="sxs-lookup"><span data-stu-id="744d2-267">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-268">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-268">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-269">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-269">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-270">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-270">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="90" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="54" valign="top">
+            </td>
+            <td width="108" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-271">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-271">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-272">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-272">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-273">QL1</span><span class="sxs-lookup"><span data-stu-id="744d2-273">QL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-274">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-274">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-275">Только выбранные задачи</span><span class="sxs-lookup"><span data-stu-id="744d2-275">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-276">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-276">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-277">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-277">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-278">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-278">Yes</span></span> </p>
+            </td>
+            <td width="54" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-279">Действителен</span><span class="sxs-lookup"><span data-stu-id="744d2-279">Valid</span></span> </p>
+            </td>
+            <td width="308" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-280">Согласно правилу № 3 выше,</span><span class="sxs-lookup"><span data-stu-id="744d2-280">Per Rule #3 above,</span></span> </p>
+                <p>
+<span data-ttu-id="744d2-281">Q1 включает время, расходы и сборы на подмножество задач по проекту P1.</span><span class="sxs-lookup"><span data-stu-id="744d2-281">Q1 includes Time, Expenses, and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="744d2-282">QL2 включает время, расходы и сборы для подмножества задач по проекту P1.</span><span class="sxs-lookup"><span data-stu-id="744d2-282">QL2 includes Time, Expenses, and Fees for a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="744d2-283">Единственная дополнительная проверка касается подмножества задач в QL1, которые отличаются от подмножества задач в QL2.</span><span class="sxs-lookup"><span data-stu-id="744d2-283">The only additional validation is around the subset of tasks on QL1 which are different from the subset of tasks on QL2.</span></span> <span data-ttu-id="744d2-284">Это гарантирует отсутствие перекрытий.</span><span class="sxs-lookup"><span data-stu-id="744d2-284">This ensures that there are no overlaps.</span></span> <span data-ttu-id="744d2-285">Это выполняется системой, когда задачи связаны.</span><span class="sxs-lookup"><span data-stu-id="744d2-285">This is done by the system when tasks are associated.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-286">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-286">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-287">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-287">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-288">QL2</span><span class="sxs-lookup"><span data-stu-id="744d2-288">QL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-289">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-289">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-290">Только выбранные задачи</span><span class="sxs-lookup"><span data-stu-id="744d2-290">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-291">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-291">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-292">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-292">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-293">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-293">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="90" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="54" valign="top">
+            </td>
+            <td width="308" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-294">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-294">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-295">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-295">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-296">QL1</span><span class="sxs-lookup"><span data-stu-id="744d2-296">QL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-297">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-297">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-298">Все задачи проекта или пусто</span><span class="sxs-lookup"><span data-stu-id="744d2-298">All project tasks or blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-299">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-299">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-300">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-300">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-301">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-301">Yes</span></span> </p>
+            </td>
+            <td width="54" valign="top">
+                <p>
+<span data-ttu-id="744d2-302">Действителен</span><span class="sxs-lookup"><span data-stu-id="744d2-302">Valid</span></span> </p>
+            </td>
+            <td width="308" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-303">В соответствии с правилом № 5, Q1 и Q2 — это два предложения с расценками по одной и той же возможной сделке, поэтому они оба могут оценивать одни и те же компоненты проекта.</span><span class="sxs-lookup"><span data-stu-id="744d2-303">Based on Rule #5, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-304">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-304">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-305">К2</span><span class="sxs-lookup"><span data-stu-id="744d2-305">Q2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-306">QL1</span><span class="sxs-lookup"><span data-stu-id="744d2-306">QL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-307">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-307">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-308">Все задачи проекта или пусто</span><span class="sxs-lookup"><span data-stu-id="744d2-308">All project tasks or blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-309">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-309">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-310">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-310">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-311">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-311">Yes</span></span> </p>
+            </td>
+            <td width="54" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="90" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="54" valign="top">
+            </td>
+            <td width="308" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-312">O1</span><span class="sxs-lookup"><span data-stu-id="744d2-312">O1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-313">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-313">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-314">QL1</span><span class="sxs-lookup"><span data-stu-id="744d2-314">QL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-315">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-315">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-316">Все задачи проекта или пусто</span><span class="sxs-lookup"><span data-stu-id="744d2-316">All project tasks or blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-317">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-317">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-318">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-318">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-319">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-319">Yes</span></span> </p>
+            </td>
+            <td width="54" valign="top">
+                <p>
+<span data-ttu-id="744d2-320">Действителен</span><span class="sxs-lookup"><span data-stu-id="744d2-320">Valid</span></span> </p>
+            </td>
+            <td width="308" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="744d2-321">В соответствии с правилом № 4, Q1 и Q2 — это два предложения с расценками для разных возможных сделок, поэтому они не могут оценивать одни и те же компоненты одного проекта.</span><span class="sxs-lookup"><span data-stu-id="744d2-321">Based on Rule #4, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of the same project.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="61" valign="top">
+                <p>
+<span data-ttu-id="744d2-322">O2</span><span class="sxs-lookup"><span data-stu-id="744d2-322">O2</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="744d2-323">К1</span><span class="sxs-lookup"><span data-stu-id="744d2-323">Q1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-324">QL1</span><span class="sxs-lookup"><span data-stu-id="744d2-324">QL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-325">П1</span><span class="sxs-lookup"><span data-stu-id="744d2-325">P1</span></span> </p>
+            </td>
+            <td width="90" valign="top">
+                <p>
+<span data-ttu-id="744d2-326">Все задачи проекта или пусто</span><span class="sxs-lookup"><span data-stu-id="744d2-326">All project tasks or blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-327">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-327">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="744d2-328">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-328">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="744d2-329">Да</span><span class="sxs-lookup"><span data-stu-id="744d2-329">Yes</span></span> </p>
+            </td>
+            <td width="54" valign="top">
+                <p>
+<span data-ttu-id="744d2-330">Недействительный</span><span class="sxs-lookup"><span data-stu-id="744d2-330">Not Valid</span></span> </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
