@@ -1,0 +1,25 @@
+---
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070137"
+---
+<span data-ttu-id="97e9e-101">Включая мобильное приложение Project Finder, вы предоставляете пользователям в организации доступ к работам по проекту и даете им возможность регистрироваться для работы.</span><span class="sxs-lookup"><span data-stu-id="97e9e-101">By enabling the Project Finder mobile app, you provide users in the organization with visibility into project work and the ability to sign up for work.</span></span> <span data-ttu-id="97e9e-102">Пользователи также могут использовать приложение Project Finder для просмотра и обновления своих навыков.</span><span class="sxs-lookup"><span data-stu-id="97e9e-102">Users can also work with the Project Finder app to view and update their skills.</span></span> <span data-ttu-id="97e9e-103">Чтобы включить мобильное приложение Project Finder, перейдите в раздел "Управление проектом" > "Параметры" и задайте для атрибутов "Требования к ресурсам видны для ресурсов" и "Разрешить ресурсу изменять навык" значение "Да".</span><span class="sxs-lookup"><span data-stu-id="97e9e-103">The Project Finder mobile app is enabled via the Project Service Parameters Setting, by setting the value of the Resource requirements visible to resources and Allow skill update by resource attributes to Yes.</span></span> <span data-ttu-id="97e9e-104">Изменение значения этих атрибутов на "Нет" приведет к отключению этой функции.</span><span class="sxs-lookup"><span data-stu-id="97e9e-104">Changing the value of these attributes to No disables this functionality.</span></span>  
+  
+ <span data-ttu-id="97e9e-105">При использовании этой функции учитывайте следующие ключевые моменты:</span><span class="sxs-lookup"><span data-stu-id="97e9e-105">When using this feature, be sure to consider the following key points:</span></span>  
+  
+-   <span data-ttu-id="97e9e-106">Требования к ресурсам видны для ресурсов.</span><span class="sxs-lookup"><span data-stu-id="97e9e-106">Resource requirements visible to resources.</span></span> <span data-ttu-id="97e9e-107">Если задать для этого атрибута значение "Да", пользователи смогут просматривать работы по проекту и получат доступ к следующим сведениям о проекте:</span><span class="sxs-lookup"><span data-stu-id="97e9e-107">Setting this attribute to Yes provides users with visibility into project work exposes the following information about a project:</span></span>  
+  
+    -   <span data-ttu-id="97e9e-108">Имя проекта</span><span class="sxs-lookup"><span data-stu-id="97e9e-108">Project name</span></span>  
+  
+    -   <span data-ttu-id="97e9e-109">Название роли</span><span class="sxs-lookup"><span data-stu-id="97e9e-109">Role name</span></span>  
+  
+    -   <span data-ttu-id="97e9e-110">Имя клиента</span><span class="sxs-lookup"><span data-stu-id="97e9e-110">Customer name</span></span>  
+  
+    -   <span data-ttu-id="97e9e-111">Адрес клиента</span><span class="sxs-lookup"><span data-stu-id="97e9e-111">Customer address</span></span>  
+  
+    -   <span data-ttu-id="97e9e-112">Длительность работы</span><span class="sxs-lookup"><span data-stu-id="97e9e-112">Work duration</span></span>  
+  
+-   <span data-ttu-id="97e9e-113">Разрешить ресурсу изменять навык.</span><span class="sxs-lookup"><span data-stu-id="97e9e-113">Allow skill update by resource.</span></span> <span data-ttu-id="97e9e-114">Если задать для этого атрибута значение "Да", пользователи смогут добавлять навыки в свои профили и указывать уровень квалификации для этих навыков.</span><span class="sxs-lookup"><span data-stu-id="97e9e-114">Setting this attribute to Yes provides users with the ability to add skills to their profiles and to set their level of proficiency for the skills they add.</span></span>
