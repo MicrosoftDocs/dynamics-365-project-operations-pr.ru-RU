@@ -1,0 +1,69 @@
+---
+title: Применение демонстрационных данных настройки и конфигурации
+description: Эта тема предоставляет информацию о том, как применить демонстрационные данные настройки и конфигурации для Project Operations.
+author: sigitac
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083053"
+---
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a><span data-ttu-id="edc75-103">Применение демонстрационных данных настройки и конфигурации для развертывания Project Operations Lite — от сделки до счетов-проформ</span><span class="sxs-lookup"><span data-stu-id="edc75-103">Apply demo setup and configuration data for Project Operations lite deployment - deal to proforma invoicing</span></span>
+
+<span data-ttu-id="edc75-104">_\*\*Облегченное развертывание — от сделки до счетов-проформ_</span><span class="sxs-lookup"><span data-stu-id="edc75-104">_\*\*Lite deployment - deal to proforma invoicing_</span></span>
+
+1. <span data-ttu-id="edc75-105">Загрузите [пакет основных данных](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip).</span><span class="sxs-lookup"><span data-stu-id="edc75-105">Download the [Master Data Package](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip).</span></span> 
+2. <span data-ttu-id="edc75-106">Перейдите в папку *ProjOpsDemoDataSetupAndMaster — интегрированный CMT* и запустите исполняемый файл, *DataMigrationUtility*.</span><span class="sxs-lookup"><span data-stu-id="edc75-106">Navigate to the folder *ProjOpsDemoDataSetupAndMaster - Integrated CMT* and run the executable file, *DataMigrationUtility*.</span></span>
+3. <span data-ttu-id="edc75-107">На странице 1 мастера настройки Common Data Service (CMT) выберите **Импортировать данные** , затем выберите **Продолжить**.</span><span class="sxs-lookup"><span data-stu-id="edc75-107">On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.</span></span>
+
+![Миграция конфигурации](./media/1ConfigurationMigration.png)
+
+4. <span data-ttu-id="edc75-109">На странице 2 мастера CMT выберите **Microsoft 365** как **Тип развертывания**.</span><span class="sxs-lookup"><span data-stu-id="edc75-109">On Page 2 of the CMT Wizard, select **Microsoft 365** as the **Deployment Type**.</span></span>
+5. <span data-ttu-id="edc75-110">Установите флажки **Показать список доступных организаций** и **Показать расширенный**.</span><span class="sxs-lookup"><span data-stu-id="edc75-110">Select the **Display a list of available organizations** and **Show Advanced** check boxes.</span></span>
+6. <span data-ttu-id="edc75-111">Выберите регион своего клиента, введите свои учетные данные, затем выберите **Войти**.</span><span class="sxs-lookup"><span data-stu-id="edc75-111">Select the region of your tenant, enter your credentials, and then select **Login**.</span></span>
+
+![Вход в конфигурацию](./media/2ConfigurationSignin.png)
+
+7. <span data-ttu-id="edc75-113">На странице 3 из списка организаций в клиенте выберите организацию, в которую вы хотите импортировать демонстрационные данные, затем выберите **Войти**.</span><span class="sxs-lookup"><span data-stu-id="edc75-113">On page 3, from the list of Organizations on the Tenant, select which organization you want to import the demo data into and then select **Login**.</span></span>
+8. <span data-ttu-id="edc75-114">На странице 4 выберите ZIP-файл *MasterAndSetupData* из распакованной папки, *ProjOpsDemoDataSetupAndMaster — интегрированный CMT*.</span><span class="sxs-lookup"><span data-stu-id="edc75-114">On page 4, select the zip file, *MasterAndSetupData* from the unpacked folder, *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.</span></span>
+
+![ZIP-файл](./media/3ZipFile.png)
+
+![Выберите файл](./media/4SelectAFile.png)
+
+9. <span data-ttu-id="edc75-117">После выбора ZIP-файла выберите **Импортировать данные**.</span><span class="sxs-lookup"><span data-stu-id="edc75-117">After the zip file is selected, select **Import Data**.</span></span>
+
+![Импортировать данные](./media/5ImportData.png)
+
+10. <span data-ttu-id="edc75-119">Импорт будет выполняться примерно от двух до десяти минут в зависимости от скорости вашей сети.</span><span class="sxs-lookup"><span data-stu-id="edc75-119">Import will run for approximately two-ten minutes depending on your network speed.</span></span> <span data-ttu-id="edc75-120">После его завершения выйдите из мастера CMT.</span><span class="sxs-lookup"><span data-stu-id="edc75-120">After it completes, exit the CMT Wizard.</span></span> 
+11. <span data-ttu-id="edc75-121">Проверьте свою организацию на наличие данных по следующим 20 сущностям:</span><span class="sxs-lookup"><span data-stu-id="edc75-121">Check your organization for data in the following 20 entities:</span></span>
+
+- <span data-ttu-id="edc75-122">Валюта</span><span class="sxs-lookup"><span data-stu-id="edc75-122">Currency</span></span>
+- <span data-ttu-id="edc75-123">Подразделение</span><span class="sxs-lookup"><span data-stu-id="edc75-123">Organizational Unit</span></span>
+- <span data-ttu-id="edc75-124">Контактные сведения</span><span class="sxs-lookup"><span data-stu-id="edc75-124">Contact</span></span>
+- <span data-ttu-id="edc75-125">Налоговая группа</span><span class="sxs-lookup"><span data-stu-id="edc75-125">Tax Group</span></span>
+- <span data-ttu-id="edc75-126">Группа клиентов</span><span class="sxs-lookup"><span data-stu-id="edc75-126">Customer Group</span></span>
+- <span data-ttu-id="edc75-127">Единица</span><span class="sxs-lookup"><span data-stu-id="edc75-127">Unit</span></span>
+- <span data-ttu-id="edc75-128">Группа единиц измерения</span><span class="sxs-lookup"><span data-stu-id="edc75-128">Unit Group</span></span>
+- <span data-ttu-id="edc75-129">Прайс-лист</span><span class="sxs-lookup"><span data-stu-id="edc75-129">Price List</span></span>
+- <span data-ttu-id="edc75-130">Прайс-лист параметров проекта</span><span class="sxs-lookup"><span data-stu-id="edc75-130">Project Parameter Price List</span></span>
+- <span data-ttu-id="edc75-131">Периодичность выставления счетов</span><span class="sxs-lookup"><span data-stu-id="edc75-131">Invoice Frequency</span></span>
+- <span data-ttu-id="edc75-132">Сведения периодичности выставления счета</span><span class="sxs-lookup"><span data-stu-id="edc75-132">Invoice Frequency Detail</span></span>
+- <span data-ttu-id="edc75-133">Категория резервируемого ресурса</span><span class="sxs-lookup"><span data-stu-id="edc75-133">Bookable Resource Category</span></span>
+- <span data-ttu-id="edc75-134">Категория проводки</span><span class="sxs-lookup"><span data-stu-id="edc75-134">Transaction Category</span></span>
+- <span data-ttu-id="edc75-135">Категория расходов</span><span class="sxs-lookup"><span data-stu-id="edc75-135">Expense Category</span></span>
+- <span data-ttu-id="edc75-136">Цена роли</span><span class="sxs-lookup"><span data-stu-id="edc75-136">Role Price</span></span>
+- <span data-ttu-id="edc75-137">Цена категории проводки</span><span class="sxs-lookup"><span data-stu-id="edc75-137">Transaction Category Price</span></span>
+- <span data-ttu-id="edc75-138">Характеристика</span><span class="sxs-lookup"><span data-stu-id="edc75-138">Characteristic</span></span>
+- <span data-ttu-id="edc75-139">Резервируемый ресурс</span><span class="sxs-lookup"><span data-stu-id="edc75-139">Bookable Resource</span></span>
+- <span data-ttu-id="edc75-140">Назначение категории резервируемого ресурса</span><span class="sxs-lookup"><span data-stu-id="edc75-140">Bookable resource category Assn</span></span>
+- <span data-ttu-id="edc75-141">Характеристика резервируемого ресурса</span><span class="sxs-lookup"><span data-stu-id="edc75-141">Bookable Resource Characteristic</span></span>
+
+![Завершите импорт](./media/6CompleteImport.png)

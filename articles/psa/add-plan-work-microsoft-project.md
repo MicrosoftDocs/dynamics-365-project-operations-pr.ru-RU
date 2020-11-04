@@ -1,0 +1,178 @@
+---
+title: Использование надстройки Project Service для планирования работы в Microsoft Project | MicrosoftDocs
+description: В этом разделе представлена информация о том, как добавить, настроить и использовать надстройку Microsoft Project для Microsoft Project Service.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 04/06/2019
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083318"
+---
+# <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a><span data-ttu-id="10f42-103">Использование надстройки Project Service Automation для планирования работы в Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="10f42-103">Use the Project Service Automation Add-in to plan your work in Microsoft Project</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] <span data-ttu-id="10f42-104">упрощает планирование проектов, включая оценки.</span><span class="sxs-lookup"><span data-stu-id="10f42-104">makes it easier for you to do your project planning, including estimates.</span></span> <span data-ttu-id="10f42-105">Вы можете определить работу, чтобы затраты, усилие и значение продаж были четкими при отправке окончательного предложения.</span><span class="sxs-lookup"><span data-stu-id="10f42-105">You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.</span></span>  
+
+ <span data-ttu-id="10f42-106">Теперь вы можете установить [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] и выполнять планирование работы в знакомой среде [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-106">Now you can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] and do your planning work in the familiar environment of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span> <span data-ttu-id="10f42-107">Используйте надежные возможности планирования и управления [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], а затем обновите план проекта в Project Service Automation.</span><span class="sxs-lookup"><span data-stu-id="10f42-107">Use the robust planning and management capabilities of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and then update your project plan in Project Service Automation.</span></span>  
+
+> [!IMPORTANT]
+> - <span data-ttu-id="10f42-108">Чтобы вы могли использовать функцию управления документами SharePoint для хранения файлов [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] для проектов [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], администратор [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] должен включить управление документами.</span><span class="sxs-lookup"><span data-stu-id="10f42-108">To use SharePoint document management to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin will need to turn on document management.</span></span> 
+> - <span data-ttu-id="10f42-109">Приложение [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] совместимо только с [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.</span><span class="sxs-lookup"><span data-stu-id="10f42-109">The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.</span></span>  
+
+## <a name="download-and-install-the-add-in"></a><span data-ttu-id="10f42-110">Загрузка и установка надстройки</span><span class="sxs-lookup"><span data-stu-id="10f42-110">Download and install the add-in</span></span>  
+ <span data-ttu-id="10f42-111">Подготовьте сведения о входе в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-111">Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready.</span></span> <span data-ttu-id="10f42-112">Они вам потребуются для подключения из [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] к [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-112">You will need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+
+1.  <span data-ttu-id="10f42-113">В центре загрузки загрузите надстройку для поддерживаемой версии Project Service, [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) или [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).</span><span class="sxs-lookup"><span data-stu-id="10f42-113">From the Download Center, download the add-in for your supported version of Project Service, either [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) or [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).</span></span>  
+
+2.  <span data-ttu-id="10f42-114">Щелкните ссылку загрузки.</span><span class="sxs-lookup"><span data-stu-id="10f42-114">Click the download link.</span></span>  
+
+3.  <span data-ttu-id="10f42-115">При завершении загрузки нажмите кнопку **Да** для установки надстройки.</span><span class="sxs-lookup"><span data-stu-id="10f42-115">When the download is complete, click **Yes** to install the add-in.</span></span>  
+
+## <a name="configure-the-add-in"></a><span data-ttu-id="10f42-116">Настройка надстройки</span><span class="sxs-lookup"><span data-stu-id="10f42-116">Configure the add-in</span></span>  
+
+1. <span data-ttu-id="10f42-117">Откройте [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и перейдите на вкладку **Project Service**.</span><span class="sxs-lookup"><span data-stu-id="10f42-117">Open [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and click the **Project Service** tab.</span></span>  
+
+2. <span data-ttu-id="10f42-118">Щелкните **Подключить**.</span><span class="sxs-lookup"><span data-stu-id="10f42-118">Click **Connect**.</span></span>  
+
+3. <span data-ttu-id="10f42-119">Введите сведения для входа и щелкните **Войти**.</span><span class="sxs-lookup"><span data-stu-id="10f42-119">Enter your sign-in information and then click **Sign in**.</span></span>  
+
+   <span data-ttu-id="10f42-120">Теперь вы можете начать использовать надстройку.</span><span class="sxs-lookup"><span data-stu-id="10f42-120">Now you can start using the add-in.</span></span>  
+
+## <a name="read-from-a-template"></a><span data-ttu-id="10f42-121">Чтение из шаблона</span><span class="sxs-lookup"><span data-stu-id="10f42-121">Read from a template</span></span>  
+ <span data-ttu-id="10f42-122">Выполните чтение из шаблона, который вы создали в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] и скопировали в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], чтобы начать планирование проекта.</span><span class="sxs-lookup"><span data-stu-id="10f42-122">Read from a template that you created in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] and copied into [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to start your project planning.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="10f42-123">[Создание шаблона проекта (Project Service Automation)](../psa/create-project-template.md)</span><span class="sxs-lookup"><span data-stu-id="10f42-123">[Create a project template (Project Service Automation)](../psa/create-project-template.md)</span></span>  
+
+1.  <span data-ttu-id="10f42-124">На вкладке **Project Service** щелкните **Чтение** > **Шаблон проекта Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="10f42-124">From the **Project Service** tab, click **Read** > **Project Service Automation Project Template**.</span></span>  
+
+2.  <span data-ttu-id="10f42-125">Выберите шаблон проекта в списке и нажмите кнопку **Открыть**.</span><span class="sxs-lookup"><span data-stu-id="10f42-125">Choose a project template from the list and then click **Open**.</span></span>  
+
+    > [!NOTE]
+    >  <span data-ttu-id="10f42-126">По умолчанию задачи, которые копируются из шаблона в Project, задаются для планирования вручную.</span><span class="sxs-lookup"><span data-stu-id="10f42-126">By default, the tasks that are copied from the template into Project are set as manually scheduled.</span></span>  
+
+## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a><span data-ttu-id="10f42-127">Назначение ролей [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ресурсам проекта</span><span class="sxs-lookup"><span data-stu-id="10f42-127">Assign [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] roles to project resources</span></span>  
+
+1.  <span data-ttu-id="10f42-128">Откройте проект и щелкните ленту **Задача**.</span><span class="sxs-lookup"><span data-stu-id="10f42-128">Open a project and click the **Task** ribbon.</span></span>  
+
+2.  <span data-ttu-id="10f42-129">Щелкните меню **Диаграмма Ганта** и выберите **Ведомость ресурсов**.</span><span class="sxs-lookup"><span data-stu-id="10f42-129">Click the **Gantt Chart** menu and then choose **Resource Sheet**.</span></span>  
+
+3.  <span data-ttu-id="10f42-130">В ведомости ресурсов щелкните раскрывающееся меню **Роль ресурса Project Service** и выберите роль Project Service Automation.</span><span class="sxs-lookup"><span data-stu-id="10f42-130">On the Resource Sheet, click the **Project Service Resource Role** drop-down menu and choose a Project Service Automation role.</span></span>  
+
+## <a name="staff-your-project-with-resources"></a><span data-ttu-id="10f42-131">Комплектация проекта ресурсами</span><span class="sxs-lookup"><span data-stu-id="10f42-131">Staff your project with resources</span></span>  
+
+1.  <span data-ttu-id="10f42-132">На вкладке Project Service выберите строку и щелкните **Найти ресурсы**.</span><span class="sxs-lookup"><span data-stu-id="10f42-132">From the Project Service tab, select a row and click **Find Resources**.</span></span>  
+
+2.  <span data-ttu-id="10f42-133">На экране **Зарезервировать ресурс** выберите ресурс, который вы хотите использовать для проекта.</span><span class="sxs-lookup"><span data-stu-id="10f42-133">On the **Book Resource** screen, select the resource that you want to use for the project.</span></span>  
+
+3.  <span data-ttu-id="10f42-134">Щелкните **Зарезервировать** , затем нажмите кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="10f42-134">Click **Book** and then click **OK**.</span></span>  
+
+## <a name="publish-your-project"></a><span data-ttu-id="10f42-135">Публикация проекта</span><span class="sxs-lookup"><span data-stu-id="10f42-135">Publish your project</span></span>  
+<span data-ttu-id="10f42-136">По завершении планирования проекта следующим шагом будет импорт и публикация проекта в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-136">When your project planning is complete, the next step is to import and publish the project in to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+
+<span data-ttu-id="10f42-137">Проект импортируется в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-137">The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span> <span data-ttu-id="10f42-138">Будут применены цены и процесс создания рабочих групп.</span><span class="sxs-lookup"><span data-stu-id="10f42-138">The pricing and team generation process are applied.</span></span> <span data-ttu-id="10f42-139">Откройте проект в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], чтобы просмотреть рабочую группу, оценки проекта и структурную декомпозицию работ.</span><span class="sxs-lookup"><span data-stu-id="10f42-139">Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure has been generated.</span></span> <span data-ttu-id="10f42-140">В следующей таблице показано, где можно найти результаты:</span><span class="sxs-lookup"><span data-stu-id="10f42-140">The following table shows where to find the results:</span></span>
+
+
+|                                                                                          |                                                                                                                                   |
+|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] <span data-ttu-id="10f42-141">**Диаграмма Ганта**</span><span class="sxs-lookup"><span data-stu-id="10f42-141">**Gantt Chart**</span></span>   | <span data-ttu-id="10f42-142">Импорт на экран [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Структурная декомпозиция работ**.</span><span class="sxs-lookup"><span data-stu-id="10f42-142">Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Work Breakdown Structure** screen.</span></span> |
+| [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] <span data-ttu-id="10f42-143">**Лист ресурсов**</span><span class="sxs-lookup"><span data-stu-id="10f42-143">**Resource Sheet**</span></span> |   <span data-ttu-id="10f42-144">Импорт на экран [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Участники рабочей группы проекта**.</span><span class="sxs-lookup"><span data-stu-id="10f42-144">Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Team Members** screen.</span></span>   |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] <span data-ttu-id="10f42-145">**Использование использования**</span><span class="sxs-lookup"><span data-stu-id="10f42-145">**Use Usage**</span></span>    |    <span data-ttu-id="10f42-146">Импорт на экран [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Оценки проекта**.</span><span class="sxs-lookup"><span data-stu-id="10f42-146">Omports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Estimates** screen.</span></span>     |
+
+<span data-ttu-id="10f42-147">**Импорт и публикация проекта**</span><span class="sxs-lookup"><span data-stu-id="10f42-147">**To import and publish your project**</span></span>  
+1. <span data-ttu-id="10f42-148">На вкладке **Project Service** щелкните **Опубликовать** > **Новый проект Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="10f42-148">From the **Project Service** tab, click **Publish** > **New Project Service Automation Project**.</span></span>  
+
+2. <span data-ttu-id="10f42-149">В диалоговом окне **Опубликовать в новом проекте Project Service** введите **Имя проекта** и выберите **Клиент**.</span><span class="sxs-lookup"><span data-stu-id="10f42-149">On **Publish to a new project in Project Service** dialog box, enter the **Project Name** and select the **Customer**.</span></span>  
+
+3. <span data-ttu-id="10f42-150">Дополнительно установите флажок **Связать план проекта с Project Service Automation** , чтобы связать файл Project плана с Project Service Automation.</span><span class="sxs-lookup"><span data-stu-id="10f42-150">Optionally check the **Link project plan to Project Service Automation** to link the plan Project file to Project Service Automation.</span></span>  
+
+4. <span data-ttu-id="10f42-151">Нажмите кнопку **Опубликовать**.</span><span class="sxs-lookup"><span data-stu-id="10f42-151">Click **Publish**.</span></span>  
+
+   <span data-ttu-id="10f42-152">В результате связи файла Project с [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] файл Project становится шаблоном и задает структурную декомпозицию работ в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] как доступную только для чтения.</span><span class="sxs-lookup"><span data-stu-id="10f42-152">Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to read-only.</span></span>  <span data-ttu-id="10f42-153">Чтобы внести изменения в план проекта, вам нужно внести их в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и опубликовать как обновления в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-153">In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+
+## <a name="edit-a-project-thats-been-imported"></a><span data-ttu-id="10f42-154">Изменение импортированного проекта</span><span class="sxs-lookup"><span data-stu-id="10f42-154">Edit a project that’s been imported</span></span>  
+ <span data-ttu-id="10f42-155">Для внесения изменений в план проекта, который был импортирован в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], доступно два варианта:</span><span class="sxs-lookup"><span data-stu-id="10f42-155">To make changes to a project plan that's been imported into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you have two options:</span></span>  
+
+- <span data-ttu-id="10f42-156">Откройте файл шаблона и отредактируйте его в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-156">Open the master file and edit it in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span>  
+
+- <span data-ttu-id="10f42-157">Отмените связь файла и отредактируйте его прямо в Project Service.</span><span class="sxs-lookup"><span data-stu-id="10f42-157">Unlink the file and edit it directly in Project Service.</span></span> <span data-ttu-id="10f42-158">По умолчанию проект, который был отправлен из [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], блокируется, и его можно отредактировать только в Project.</span><span class="sxs-lookup"><span data-stu-id="10f42-158">By default, a project that’s been uploaded from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] is locked and can only be edited in Project.</span></span> <span data-ttu-id="10f42-159">Чтобы отредактировать файл в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], необходимо удалить связь файла.</span><span class="sxs-lookup"><span data-stu-id="10f42-159">To edit the file in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], the file has to be unlinked.</span></span>  
+
+### <a name="edit-in-pn_microsoft_project"></a><span data-ttu-id="10f42-160">Изменение в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]</span><span class="sxs-lookup"><span data-stu-id="10f42-160">Edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]</span></span>  
+
+1. <span data-ttu-id="10f42-161">В основном меню щелкните **Project Service** > **Проекты**.</span><span class="sxs-lookup"><span data-stu-id="10f42-161">From the main menu, click **Project Service** > **Projects**.</span></span>  
+
+2. <span data-ttu-id="10f42-162">В списке проектов откройте проект, созданный в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-162">From the list of projects, open the one you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span>  
+
+3. <span data-ttu-id="10f42-163">Щелкните **Открыть в MS Project** в ленте.</span><span class="sxs-lookup"><span data-stu-id="10f42-163">Click **Open in MS Project** from the ribbon.</span></span> <span data-ttu-id="10f42-164">В результате откроется связанный файл шаблона в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-164">This will open the linked master file in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span>  
+
+### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a><span data-ttu-id="10f42-165">Отмена связи файла и его редактирование в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service</span><span class="sxs-lookup"><span data-stu-id="10f42-165">Unlink a file and edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service</span></span>  
+
+1. <span data-ttu-id="10f42-166">В основном меню щелкните **Project Service** > **Проекты**.</span><span class="sxs-lookup"><span data-stu-id="10f42-166">From the main menu, click **Project Service** > **Projects**.</span></span>  
+
+2. <span data-ttu-id="10f42-167">В списке проектов откройте проект, созданный в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-167">From the list of projects, open the one you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span>  
+
+3. <span data-ttu-id="10f42-168">Щелкните **Отменить связь из MS Project** в ленте.</span><span class="sxs-lookup"><span data-stu-id="10f42-168">Click **Unlink from MS Project** from the ribbon.</span></span>  
+
+## <a name="upload-a-project-file-to-sharepoint-or-office-groups"></a><span data-ttu-id="10f42-169">Отправка файла Project в SharePoint или группы Office</span><span class="sxs-lookup"><span data-stu-id="10f42-169">Upload a Project file to SharePoint or Office Groups</span></span>  
+ <span data-ttu-id="10f42-170">Вы можете отправить файл Project в SharePoint и найти его в разделе "Связанные документы" для проекта [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-170">You can upload your Project file to SharePoint and find it under the Associated Documents for your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.</span></span>  <span data-ttu-id="10f42-171">Ваш администратор должен настроить управление документами SharePoint и включить его для сущности Project.</span><span class="sxs-lookup"><span data-stu-id="10f42-171">You need to have your administrator configure SharePoint document management and turn it on for the Project entity.</span></span> 
+
+ <span data-ttu-id="10f42-172">Вы также можете отправить файл Project в [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)], если у вас настроены группы Office Groups.</span><span class="sxs-lookup"><span data-stu-id="10f42-172">You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] if you have Office Groups set up.</span></span>
+
+### <a name="upload-a-file-for-sharepoint"></a><span data-ttu-id="10f42-173">Отправка файла в SharePoint</span><span class="sxs-lookup"><span data-stu-id="10f42-173">Upload a file for SharePoint</span></span>  
+
+1. <span data-ttu-id="10f42-174">В основном меню щелкните **Project Service** > **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="10f42-174">From the main menu, click **Project Service** > **Upload**.</span></span>  
+
+2. <span data-ttu-id="10f42-175">Выберите **В документы проекта Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="10f42-175">Select **To Project Service Automation Project Documents**.</span></span>  
+
+3. <span data-ttu-id="10f42-176">В диалоговом окне **Включить открытие в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** выберите **Да** или **Нет**.</span><span class="sxs-lookup"><span data-stu-id="10f42-176">On the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog, select **Yes** or **No**.</span></span>  
+
+   - <span data-ttu-id="10f42-177">Если щелкнуть **Да** , вы сможете нажать кнопку **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** в Project Service Automation, запустить [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и отправить файл Project из библиотеки документов SharePoint.</span><span class="sxs-lookup"><span data-stu-id="10f42-177">If you click **Yes** , you'll be able select the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.</span></span>  
+
+   - <span data-ttu-id="10f42-178">Если щелкнуть **Нет** , ссылка для кнопки **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не будет работать.</span><span class="sxs-lookup"><span data-stu-id="10f42-178">If you click **No** , the link for the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button won't work.</span></span>  
+
+4. <span data-ttu-id="10f42-179">Файл [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] находится в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] в разделе **Документы** для определенного проекта [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-179">The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.</span></span>  
+
+### <a name="upload-a-file-for-office-groups"></a><span data-ttu-id="10f42-180">Отправка файла для групп Office</span><span class="sxs-lookup"><span data-stu-id="10f42-180">Upload a file for Office Groups</span></span>  
+
+1. <span data-ttu-id="10f42-181">В основном меню щелкните **Project Service** > **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="10f42-181">From the main menu, click **Project Service** > **Upload**.</span></span>  
+
+2. <span data-ttu-id="10f42-182">Выберите **В документы проекта Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="10f42-182">Select **To Project Service Automation Project Documents**.</span></span>  
+
+3. <span data-ttu-id="10f42-183">В диалоговом окне **Включить открытие в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** выберите **Да** или **Нет**.</span><span class="sxs-lookup"><span data-stu-id="10f42-183">On the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog, select **Yes** or **No**.</span></span>  
+
+   - <span data-ttu-id="10f42-184">Если щелкнуть **Да** , вы сможете нажать кнопку **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** в Project Service Automation, запустить [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и отправить файл Project из библиотеки документов SharePoint.</span><span class="sxs-lookup"><span data-stu-id="10f42-184">If you click **Yes** , you'll be able to select the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.</span></span>  
+
+   - <span data-ttu-id="10f42-185">Если щелкнуть **Нет** , ссылка для кнопки **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не будет работать.</span><span class="sxs-lookup"><span data-stu-id="10f42-185">If you click **No** , the link for the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button won't work.</span></span>  
+
+4. <span data-ttu-id="10f42-186">Файл [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] находится в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] в разделе **Документы** для определенного проекта [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-186">The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.</span></span>  
+
+## <a name="publish--your-project-as-a-template"></a><span data-ttu-id="10f42-187">Публикация проекта как шаблона</span><span class="sxs-lookup"><span data-stu-id="10f42-187">Publish  your project as a template</span></span>  
+ <span data-ttu-id="10f42-188">Вы можете сохранить проект и повторно использовать его, сохранив проект как шаблон проекта в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-188">You can save your project and reuse it by saving it as a project template in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  <span data-ttu-id="10f42-189">Шаблоны проекта — это многоразовые планы проектов в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-189">Project templates are reusable project plans in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="10f42-190">[Создание шаблона проекта (Project Service Automation)](../psa/create-project-template.md)</span><span class="sxs-lookup"><span data-stu-id="10f42-190">[Create a project template (Project Service Automation)](../psa/create-project-template.md)</span></span>  
+
+1. <span data-ttu-id="10f42-191">На вкладке **Project Service** щелкните **Опубликовать** > **Новый шаблон проекта Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="10f42-191">From the **Project Service** tab, click **Publish** > **New Project Service Automation Project Template**.</span></span>  
+
+2. <span data-ttu-id="10f42-192">В диалоговом окне **Опубликовать в новом проекте в шаблоне Project Service** введите **Имя шаблона проекта**.</span><span class="sxs-lookup"><span data-stu-id="10f42-192">On the **Publish to a new project in Project Service template** dialog box, enter the **Project template name**.</span></span>  
+
+3. <span data-ttu-id="10f42-193">При желании установите флажок **Связать план проекта с Project Service Automation** , чтобы связать файл Project с [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-193">Optionally, check the **Link project plan to Project Service Automation** to link the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+
+4. <span data-ttu-id="10f42-194">Нажмите кнопку **Опубликовать**.</span><span class="sxs-lookup"><span data-stu-id="10f42-194">Click **Publish**.</span></span>  
+
+<span data-ttu-id="10f42-195">В результате связи файла Project с [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] файл Project становится шаблоном и задает структурную декомпозицию работ в шаблоне [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] как доступную только для чтения.</span><span class="sxs-lookup"><span data-stu-id="10f42-195">Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] template to read-only.</span></span>  <span data-ttu-id="10f42-196">Чтобы внести изменения в план проекта, вам нужно внести их в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и опубликовать как обновления в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="10f42-196">In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>
+
+### <a name="see-also"></a><span data-ttu-id="10f42-197">См. также</span><span class="sxs-lookup"><span data-stu-id="10f42-197">See Also</span></span>  
+ [<span data-ttu-id="10f42-198">Руководство менеджера по проектам</span><span class="sxs-lookup"><span data-stu-id="10f42-198">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
