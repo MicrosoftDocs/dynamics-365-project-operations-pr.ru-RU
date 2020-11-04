@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083120"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Управление сложными единицами измерения, такими как по пользователям и по месяцам для строк предложения с расценками на основе продуктов
 
@@ -29,8 +29,8 @@ Project Operations проверяет, что только численные с
 
 Например, Dynamics 365 Sales может иметь следующие свойства:
 
-- **Кол-во пользователей**: количество пользователей
-- **Кол-во месяцев**: количество месяцев подписки
+- **Кол-во пользователей** : количество пользователей
+- **Кол-во месяцев** : количество месяцев подписки
 - **SKU продукта**
 
 Вы можете отметить свойства **Кол-во пользователей** и **Кол-во месяцев** как факторы количества путем редактирования этих свойств в строке продукта.

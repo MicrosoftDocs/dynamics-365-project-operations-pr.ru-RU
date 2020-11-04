@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961932"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083036"
 ---
 # <a name="define-resource-calendars"></a>Определение календарей ресурсов
 
@@ -41,5 +41,5 @@ _**Относится к:** Project Operations для сценариев на о
 
 1. В меню **Ресурсы** выберите **Ресурсы**.
 2. В виде сетки выберите до 25 **Резервируемых ресурсов** для обновления.
-3. Выберите **Задать календарь**, и диалоговое окно предложит вам список доступных шаблонов рабочего времени.
+3. Выберите **Задать календарь** , и диалоговое окно предложит вам список доступных шаблонов рабочего времени.
 4. Выберите шаблон, который хотите использовать, затем выберите **Применить**.

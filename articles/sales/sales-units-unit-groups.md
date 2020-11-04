@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea5399368214a293ca7c10fabf21d82407b5c76f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898772"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083311"
 ---
 # <a name="units-and-unit-groups"></a>Единицы измерения и группы единиц измерения
 
@@ -46,4 +45,4 @@ _**Относится к:** Project Operations для сценариев на о
 2. Выберите **Добавить новую единицу измерения** и на странице **Быстрое создание: единица измерения** в поле **Имя** введите название единицы измерения.
 3. В поле **Количество** введите количество, которое будет содержать единица измерения. Например, если в коробке находится две штуки, введите "2". 
 4. В поле **Базовая единица измерения** выберите базовую единицу измерения, чтобы установить наименьшую единицу измерения для данной единицы измерения. Например, вы можете выбрать "Штука".
-5. Выберите **Сохранить**:
+5. Выберите **Сохранить** :

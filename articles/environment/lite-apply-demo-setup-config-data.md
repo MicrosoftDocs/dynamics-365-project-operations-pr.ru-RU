@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949037"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083053"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Применение демонстрационных данных настройки и конфигурации для развертывания Project Operations Lite — от сделки до счетов-проформ
 
@@ -21,11 +21,11 @@ _**Облегченное развертывание — от сделки до 
 
 1. Загрузите [пакет основных данных](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Перейдите в папку *ProjOpsDemoDataSetupAndMaster — интегрированный CMT* и запустите исполняемый файл, *DataMigrationUtility*.
-3. На странице 1 мастера настройки Common Data Service (CMT) выберите **Импортировать данные**, затем выберите **Продолжить**.
+3. На странице 1 мастера настройки Common Data Service (CMT) выберите **Импортировать данные** , затем выберите **Продолжить**.
 
 ![Миграция конфигурации](./media/1ConfigurationMigration.png)
 
-4. На странице 2 мастера CMT выберите **Office 365** как **Тип развертывания**.
+4. На странице 2 мастера CMT выберите **Microsoft 365** как **Тип развертывания**.
 5. Установите флажки **Показать список доступных организаций** и **Показать расширенный**.
 6. Выберите регион своего клиента, введите свои учетные данные, затем выберите **Войти**.
 

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898503"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083216"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Создание оценок в строке предложения с расценками
 
@@ -84,8 +83,8 @@ _**Относится к:** Project Operations для сценариев на о
 2. Выбор **Поиск** и выполните поиск подключаемого модуля для обновления.
 3. Выберите подключаемый модуль, затем, на главной странице, выберите **Выбрать**.
 4. Выберите шаг подключаемого модуля для обновления, щелкните правой кнопкой мыши, затем выберите **Обновить**.
-5. В диалоговом окне **Обновить существующий шаг** в поле **Атрибуты фильтрации** выберите кнопку с многоточием (**...**):
+5. В диалоговом окне **Обновить существующий шаг** в поле **Атрибуты фильтрации** выберите кнопку с многоточием ( **...** ):
 6. В диалоговом окне **Выберите атрибуты** установите флажки для настраиваемых атрибутов.
-7. Выберите **ОК**, чтобы закрыть диалоговое окно, затем выберите **Обновить шаг**.
+7. Выберите **ОК** , чтобы закрыть диалоговое окно, затем выберите **Обновить шаг**.
 8. Повторите шаги с 1 по 7 для второго подключаемого модуля.
 9. Закройте PluginRegistrationTool.
