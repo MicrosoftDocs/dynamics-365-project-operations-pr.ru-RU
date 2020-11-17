@@ -4,12 +4,18 @@
   items:
     - name: Определение типа развертывания
       href: environment/determine-deployment-type.md
+    - name: Обновления Project Operations
+      href: whats-new/project-operations-updates.md
 - name: Project Operations для сценариев на основе ресурсов/без запасов
   items:
     - name: Начало работы
       items:
-        - name: Регистрация на подписку на предварительную версию (на основе ресурсов/без запасов)
+        - name: Обзор развертывания Project Operations для сценариев на основе ресурсов/без запасов
+          href: environment/project-operations-integrated-deployment-overview.md
+        - name: Регистрация на подписку на предварительную версию
           href: environment/resource-sign-up-preview-subscription.md
+        - name: Навигация по Project Operations
+          href: environment/navigate-project-operations.md
         - name: Настройка обязательных компонентов
           items:
             - name: Запуск нового проекта LCS
@@ -18,9 +24,9 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Применение демонстрационных данных
           items:
-            - name: Применение демонстрационных данных Project Operations к размещенной в облаке среде Finance
+            - name: Применение демонстрационных данных к размещенной в облаке среде Finance
               href: environment/resource-apply-finance-demo-data.md
-            - name: Применение данных конфигурации в Common Data Service для Project Operations
+            - name: Применение данных конфигурации в Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Развертывание сред
           items:
@@ -30,9 +36,13 @@
               href: environment/security-model.md
             - name: Настройка интеграции Project Operations для каждого юридического лица
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: Процесс продаж
+    - name: Новые возможности
       items:
-        - name: Обзор продаж
+        - name: "Ноябрь 2020\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-nov-2020-resource-based.md
+    - name: Процесс продаж по проекту
+      items:
+        - name: Обзор процесса продаж по проекту
           href: sales/sales-overview.md
         - name: Настройка
           items:
@@ -42,94 +52,104 @@
               href: sales/sales-units-unit-groups.md
             - name: Валюта
               href: sales/sales-currency.md
-        - name: Управление интересами
+        - name: Управление интересами по проектам
           href: sales/manage-leads.md
-        - name: Управление возможными сделками
+        - name: Управление возможными сделками по проектам
           items:
-            - name: Управление возможными сделками на основе проектов
+            - name: Обзор управления возможными сделками по проектам
               href: sales/manage-project-based-opportunities.md
-            - name: Заголовок возможной сделки
+            - name: Параметры возможной сделки на основе проекта
               href: sales/opportunity-header.md
-            - name: Строки на основе проектов
+            - name: Строки возможной сделки на основе проекта
               href: sales/project-based-lines.md
-            - name: Копирование возможных сделок на основе проекта
-              href: sales/copy-project-based-opportunity.md
             - name: Создание предложений с расценками по проектам на основе возможных сделок
               href: sales/link-quotes-opportunities.md
-            - name: Закрытие возможной сделки
+            - name: Копирование возможных сделок на основе проекта
+              href: sales/copy-project-based-opportunity.md
+            - name: Закрытие возможной сделки по проекту
               href: sales/close-opportunity.md
-        - name: Управление предложениями с расценками
+        - name: Управление предложениями с расценками по проекту
           items:
-            - name: Основные понятия
+            - name: Обзор управления предложениями с расценками по проектам
+              href: pro/sales/manage-quotes-sales.md
+            - name: 'Понятия, связанные с предложениями с расценками по проекту'
               href: sales/quotes-key-concepts.md
-            - name: Сводная информация о предложении с расценками по проекту
+            - name: Параметры предложений с расценками по проекту
               href: sales/quote-values-budget-limits-contract.md
-            - name: Управление несколькими клиентами в предложении с расценками
+            - name: Управление несколькими клиентами в предложении с расценками по проекту
               href: sales/manage-multiple-customers-quote.md
-            - name: Строки предложения с расценками на основе продуктов
-              item:
-                - name: Определение строк предложения с расценками на основе продуктов
-                  href: sales/costing-product-based-quote-lines.md
-                - name: Управление сложными единицами измерения для строк предложения с расценками на основе продуктов
-                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Управление прайс-листами проекта в предложении с расценками
+              href: sales/managing-project-price-lists.md
             - name: Строки предложения с расценками на основе проектов
               items:
-                - name: Управление прайс-листами проектов
-                  href: sales/managing-project-price-lists.md
+                - name: Обзор строк предложения с расценками на основе проекта
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Управление несколькими клиентами в строках предложения с расценками на основе проекта
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Настройка подлежащих оплате компонентов строки предложения с расценками по проекту
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Создание оценок в строке предложения с расценками
                   href: sales/create-estimate-quote-line.md
-                - name: Импорт оценок проекта в строку предложения с расценками на основе проекта
+                - name: Импорт оценок из проекта в строку предложения с расценками на основе проекта
                   href: sales/import-estimate-quote-line.md
-                - name: Управление суммами предложений с расценками и бюджетами клиентов в пределах лимитов
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Графики счетов в строках предложения с расценками на основе проекта
                   href: sales/invoice-schedule-quote-line.md
-            - name: Копирование предложений с расценками на основе проектов
+            - name: Копирование предложений с расценками по проекту
               href: sales/lose-quote.md
-            - name: Закрытие предложения с расценками
+            - name: Закрытие предложений с расценками по проекту
               href: sales/win-quote.md
-        - name: Управление контрактами
+        - name: Управление контрактами по проекту
           items:
-            - name: "Основные понятия\_— контракты по проектам"
+            - name: Обзор управления контрактами по проекту
+              href: pro/sales/manage-contracts-sales.md
+            - name: Понятия контрактов по проектам
               href: sales/contracts-key-concepts.md
             - name: Параметры контракта по проекту
               href: sales/project-contract-settings.md
+            - name: Управление прайс-листами проекта в контрактах по проекту
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Управление несколькими клиентами в контрактах по проекту
+              href: sales/contracts-manage-project-price-lists.md
             - name: Строки контракта на основе проектов
               items:
+                - name: Обзор строк контракта на основе проекта
+                  href: sales/manage-contract-values-project-based.md
+                - name: Управление несколькими клиентами в строках контракта на основе проекта
+                  href: sales/manage-multiple-customers-contract-line.md
                 - name: Настройка подлежащих оплате компонентов строки контракта на основе проекта
                   href: sales/configure-chargeable-contract-line.md
-                - name: Импорт оценки в строку контракта на основе проекта
+                - name: Оценка строки контракта на основе проекта
+                  href: sales/create-estimate-contract-line.md
+                - name: Импорт оценок из проекта в строку контракта на основе проекта
                   href: sales/import-estimate-project-contract-line.md
-                - name: Создание графика счетов по строке контракта на основе проекта
+                - name: Создание графиков счетов по строкам контракта на основе проекта
                   href: sales/invoice-schedules-contract-line.md
             - name: Подтверждение контракта по проекту
               href: pro/sales/confirm-contract-sales.md
+            - name: Копирование контракта по проекту
+              href: pro/sales/copy-project-contracts-sales.md
     - name: Определение цен и себестоимости
       items:
-        - name: Настройка прайс-листов
-          href: pricing-costing/price-list-setup.md
-        - name: Прайс-листы продуктов
-          href: pricing-costing/product-price-list.md
-        - name: Прайс-листы проектов
+        - name: Настройка прайс-листа
           items:
-            - name: Настройка прайс-листа для продаж
-              items:
-                - name: Настройка прайс-листа продаж
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Настройка ставок оплаты трудозатрат
-                  href: pricing-costing/set-up-labor-bill-rate.md
-                - name: Настройка ставок себестоимости трудозатрат
-                  href: pricing-costing/set-up-labor-cost-rate.md
-                - name: Настройка ставок себестоимости и продаж для расходов
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Прайс-листы по умолчанию
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Разрешение значений себестоимости для оценок и фактических значений
-                  href: pricing-costing/cost-price-resolution.md
+            - name: Настройка прайс-листов
+              href: pricing-costing/price-list-setup.md
+            - name: Прайс-листы продуктов
+              href: pricing-costing/product-price-list.md
+            - name: Настройка ставок оплаты трудозатрат
+              href: pricing-costing/set-up-labor-bill-rate.md
+            - name: Настройка ставок себестоимости трудозатрат
+              href: pricing-costing/set-up-labor-cost-rate.md
+            - name: Настройка ставок себестоимости и продаж для расходов
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Значения по умолчанию и переопределения
           items:
+            - name: Прайс-листы по умолчанию
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Переопределение прайс-листов продаж по проекту
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Разрешение значений себестоимости для оценок и фактических значений
+              href: pricing-costing/cost-price-resolution.md
             - name: Разрешение значений цены продажи для оценок и фактических значений
               href: pricing-costing/sales-price-resolution.md
             - name: Копирование прайс-листов
@@ -138,8 +158,10 @@
           items:
             - name: Обзор измерений цен
               href: pricing-costing/pricing-dimensions-overview.md
-            - name: Использование существующего поля в качестве измерения цен
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Использование существующих полей в качестве измерений цен
+              items:
+                - name: Поля Project Operations в качестве измерений цен
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: Настраиваемые поля в качестве измерений цен
               items:
                 - name: Создание настраиваемых полей и сущностей в качестве измерений цен
@@ -156,7 +178,7 @@
           href: project-management/project-management-overview.md
         - name: Стадии проекта
           href: project-management/project-stages.md
-        - name: Навигация в пользовательском интерфейсе
+        - name: Навигация по интерфейсу пользователя
           href: project-management/navigate-ui.md
         - name: Состояние проекта
           href: project-management/understand-project-status.md
@@ -242,13 +264,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Управление часовыми поясами
               href: resource-management/manage-multiple-time-zones.md
+        - name: Загруженность ресурсов
+          items:
+            - name: Обзор загруженности ресурсов
+              href: resource-management/resource-utilization-overview.md
     - name: Время
       items:
         - name: Обзор времени
           href: time/time-entry-overview.md
         - name: Создание записей времени
           items:
-            - name: Поведение пользовательского интерфейса записи времени
+            - name: Пользовательский интерфейс записи времени
               href: time/ui-behavior-time.md
         - name: Примечания разработчика
           items:
@@ -306,6 +332,10 @@
       items:
         - name: Обзор утверждений
           href: approvals/approvals-overview.md
+        - name: Примечания разработчика
+          items:
+            - name: Заметки разработчика для утверждений
+              href: approvals/dev-notes-approvals.md
     - name: Фактические значения
       items:
         - name: Обзор фактических значений
@@ -316,38 +346,52 @@
               href: actuals/create-confirm-correction-journals.md
     - name: Счет-проформа
       items:
-        - name: Управление невыполненной работой по выставлению счетов
+        - name: Управление невыполненной работой по выставлению счетов по проекту
           href: proforma-invoicing/manage-billing-backlog.md
-        - name: Создание счета-проформы вручную
+        - name: Управление состоянием и проверка соблюдения лимитов
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Создание счета-проформы по проекту вручную
           href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Подтверждение счета-проформы
+        - name: Управление счетом-проформой по проекту
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Подтверждение счета-проформы по проекту
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Скорректированные счета
-          href: proforma-invoicing/corrective-invoices.md
-        - name: Настройка автоматического создания счетов
+        - name: Настройка автоматизации счетов по проекту
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Учет по проекту
       items:
+        - name: Финансовые измерения по умолчанию
+          href: project-accounting/financial-dimension-defaults.md
         - name: Настройка категорий проектов
           href: project-accounting/configure-project-categories.md
         - name: Настройка учета для внутренних проектов
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Настройка учета для тарифицируемых проектов
           href: project-accounting/configure-accounting-billable-projects.md
+        - name: Журнал интеграции в Project Operations
+          href: project-accounting/project-operations-integration-journal.md
 - name: "Облегченное развертывание\_— от сделки до счетов-проформ"
   items:
     - name: Начало работы
       items:
-        - name: Регистрация на подписку на предварительную версию (lite)
+        - name: Обзор облегченного развертывания
+          href: pro/project-operations-overview-lite.md
+        - name: "Регистрация на подписку на предварительную версию\_— облегченное развертывание"
           href: environment/lite-preview-subscription-sign-up.md
-        - name: "Развертывание Project Operations Lite\_— от сделки до счетов-проформ"
+        - name: "Развертывание Project Operations\_— облегченное"
           href: environment/lite-deployment.md
-        - name: Применение демонстрационных данных настройки и конфигурации
+        - name: "Применение демонстрационных данных настройки и конфигурации\_— облегченное развертывание"
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Модель безопасности
           href: environment/security-model.md
-    - name: Процесс продаж
+    - name: Новые возможности
       items:
+        - name: "Новые возможности в ноябре 2020 года\_— облегченное развертывание\_— от сделки до счетов-проформ"
+          href: pro/whats-new/whats-new-nov-2020-lite.md
+    - name: Процесс продаж по проекту
+      items:
+        - name: Обзор процесса продаж по проекту
+          href: sales/sales-overview.md
         - name: Настройка
           items:
             - name: Продукты
@@ -356,119 +400,149 @@
               href: sales/sales-units-unit-groups.md
             - name: Валюта
               href: sales/sales-currency.md
-        - name: Управление интересами
+        - name: Управление интересами по проектам
           href: pro/sales/managing-leads-sales.md
-        - name: Управление возможными сделками
+        - name: Управление возможными сделками по проектам
           items:
-            - name: Управление возможными сделками на основе проектов
+            - name: Обзор возможных сделок по проектам
               href: sales/manage-project-based-opportunities.md
-            - name: Заголовок возможной сделки
+            - name: Параметры возможной сделки по проекту
               href: pro/sales/opportunity-header-sales.md
-            - name: Строки на основе проектов
+            - name: Управление стоками возможной сделки на основе продуктов
+              href: pro/sales/product-based-lines-sales.md
+            - name: Управление стоками возможной сделки на основе проектов
               href: pro/sales/project-based-lines-sales.md
+            - name: Создание предложений с расценками на основе возможных сделок по проектам
+              href: sales/link-quotes-opportunities.md
             - name: Копирование возможных сделок на основе проекта
               href: sales/copy-project-based-opportunity.md
-            - name: Создание предложений с расценками по проектам на основе возможных сделок
-              href: sales/link-quotes-opportunities.md
-            - name: Строки возможной сделки на основе продуктов
-              href: pro/sales/product-based-lines-sales.md
-            - name: Закрытие возможной сделки
+            - name: Закрытие возможной сделки по проекту
               href: sales/close-opportunity.md
-        - name: Управление предложениями с расценками
+        - name: Управление предложениями с расценками на основе проектов
           items:
-            - name: 'Основные понятия, связанные с предложениями с расценками по проекту'
+            - name: Обзор предложений с расценками на основе проекта
+              href: pro/sales/manage-quotes-sales.md
+            - name: 'Понятия, связанные с предложениями с расценками по проекту'
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Сводная информация о предложении с расценками по проекту (продажи)
+            - name: Параметры предложения с расценками по проекту
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Управление несколькими клиентами в предложениях с расценками по проекту
+            - name: Несколько клиентов в предложениях с расценками по проекту
               href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Прайс-листы проекта в предложениях с расценками по проекту
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Строки предложения с расценками на основе продуктов
               items:
+                - name: Обзор строк предложения с расценками на основе продуктов
+                  href: pro/sales/product-based-quote-lines-sales.md
                 - name: Определение строк предложения с расценками на основе продуктов
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: 'Управление сложными единицами измерения, такими как по пользователям и по месяцам для строк предложения с расценками на основе продуктов'
+                - name: Управление сложными единицами измерения для строк предложения с расценками на основе продуктов
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
             - name: Строки предложения с расценками на основе проектов
               items:
-                - name: Управление прайс-листами проекта в предложениях с расценками по проекту
-                  href: pro/sales/manage-project-price-lists-sales.md
-                - name: Управление несколькими клиентами в строках предложения с расценками на основе проекта
+                - name: Обзор строк предложения с расценками на основе проекта
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Управление несколькими клиентами
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Сопоставление проектов и задач со строкой предложения с расценками на основе проекта
+                - name: Сопоставление проектов и задач
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Настройка подлежащих оплате компонентов
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Оценка строки предложения с расценками на основе проекта
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Строки предложения с расценками на основе проекта (продажи)
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Импорт оценок проекта в строку предложения с расценками на основе проекта
+                - name: Импорт оценки из проекта
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Графики счетов в строках предложения с расценками на основе проекта
+                - name: Управление расписаниями счетов
                   href: sales/invoice-schedule-quote-line.md
-                - name: Настройка подлежащих оплате компонентов строки предложения с расценками
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Копирование предложений с расценками на основе проектов
-          href: sales/lose-quote.md
-        - name: Закрытие предложения с расценками
-          href: pro/sales/win-quote-sales.md
-    - name: Управление контрактами
-      items:
-        - name: Основные понятия контрактов по проектам
-          href: pro/sales/contracts-key-concepts-sales.md
-        - name: Поля и сведения контракта по проекту
-          href: pro/sales/project-contract-settings-sales.md
-        - name: Строки контракта на основе продуктов
+            - name: Копирование предложений с расценками на основе проектов
+              href: sales/lose-quote.md
+            - name: Закрытие предложений с расценками на основе проектов
+              href: pro/sales/win-quote-sales.md
+        - name: Управление контрактами на основе проектов
           items:
-            - name: Обзор строк контракта на основе продуктов
-              href: pro/sales/product-based-contract-lines-overview-sales.md
-            - name: Определение строк контракта на основе продуктов
-              href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: Строки контракта на основе проектов
-          items:
-            - name: Настройка подлежащих оплате компонентов строки контракта на основе проекта
-              href: pro/sales/configure-chargeable-components-contract-line.md
-            - name: Импорт оценки в строку контракта на основе проекта
-              href: pro/sales/import-estimate-project-contract-line-sales.md
-            - name: Создание графиков счетов по строке контракта на основе проекта
-              href: pro/sales/invoice-schedules-contract-line-sales.md
-        - name: Копирование контрактов по проектам
-          href: pro/sales/copy-project-contracts-sales.md
-        - name: Подтверждение контракта по проекту
-          href: pro/sales/confirm-contract-sales.md
-        - name: Авансы и контракты с предоплатой
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+            - name: Обзор контрактов на основе проекта
+              href: pro/sales/manage-contracts-sales.md
+            - name: Понятия контракта по проектам
+              href: pro/sales/contracts-key-concepts-sales.md
+            - name: Параметры контракта по проекту
+              href: pro/sales/project-contract-settings-sales.md
+            - name: Несколько клиентов в контрактах по проекту
+              href: pro/sales/manage-multiple-customers-contract-sales.md
+            - name: Прайс-листы проекта по контрактам по проектам
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Строки контракта на основе продуктов
+              items:
+                - name: Обзор строк контракта на основе продуктов
+                  href: pro/sales/product-based-contract-lines-overview-sales.md
+                - name: Расчет себестоимости строк контракта на основе продуктов
+                  href: pro/sales/cost-product-based-contract-lines-sales.md
+                - name: Управление сложными единицами измерения для строк контракта на основе продуктов
+                  href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+            - name: Строки контракта на основе проектов
+              items:
+                - name: Обзор строк контракта на основе проекта
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: Управление несколькими клиентами в контракте
+                  href: pro/sales/manage-multiple-customers-contract-line-sales.md
+                - name: Сопоставление проектов и задач со строкой контракта по проекту
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Настройка подлежащих оплате компонентов в строке контракта по проекту
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Оценка строки контракта на основе проекта
+                  href: pro/sales/create-estimate-project-contract-line-sales.md
+                - name: Импорт оценок из проекта в строку контракта по проекту
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Управление расписаниями счетов в строке контракта по проекту
+                  href: pro/sales/invoice-schedules-contract-line-sales.md
+            - name: Копирование контрактов по проектам
+              href: pro/sales/copy-project-contracts-sales.md
+            - name: Подтверждение контракта по проекту
+              href: pro/sales/confirm-contract-sales.md
+            - name: Авансы и гонорары
+              items:
+                - name: "Авансы и контракты с предоплатой\_— облегченное развертывание"
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: "Настройка графика предоплаты\_— облегченное развертывание"
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: "Создание специального аванса по контракту\_— облегченное развертывание"
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Определение цен и себестоимости
       items:
-        - name: Настройка прайс-листов
-          href: pricing-costing/price-list-setup.md
-        - name: Прайс-листы проектов
+        - name: Настройка прайс-листа
           items:
-            - name: Настройка прайс-листа для продаж
-              items:
-                - name: Настройка прайс-листа продаж
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Настройка ставок оплаты трудозатрат
-                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-                - name: Настройка ставок себестоимости трудозатрат
-                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-                - name: Настройка ставок себестоимости и продаж для продуктов из каталога
-                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-                - name: Настройка ставок себестоимости и продаж для расходов
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Прайс-листы по умолчанию
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Разрешение значений себестоимости по оценкам и фактическим значениям
-                  href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: Настройка прайс-листов
+              href: pricing-costing/price-list-setup.md
+            - name: Настройка прайс-листа продаж
+              href: pricing-costing/sales-price-list-setup.md
+            - name: "Настройка ставок оплаты трудозатрат\_— облегченное развертывание"
+              href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+            - name: "Настройка ставок себестоимости трудозатрат\_— облегченное развертывание"
+              href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: "Настройка ставок себестоимости и продаж для продуктов из каталога\_— облегченное развертывание"
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+            - name: Настройка ставок себестоимости и продаж для расходов
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Значения по умолчанию и переопределения
           items:
-            - name: Разрешение значений цены продажи для оценок и фактических значений
+            - name: Прайс-листы по умолчанию
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Переопределение прайс-листов продаж по проекту
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: "Разрешение значений себестоимости по оценкам и фактическим значениям\_— облегченное развертывание"
+              href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: "Разрешение значений цены продажи для оценок и фактических значений\_— облегченное развертывание"
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Копирование прайс-листов
               href: pricing-costing/copy-price-lists.md
         - name: Измерения цен
           items:
-            - name: Использование существующего поля в качестве измерения цен
-              href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Настраиваемые поля в качестве измерения цен
+            - name: Обзор измерений цен
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Использование существующих полей в качестве измерений цен
+              items:
+                - name: Использование существующего поля в качестве измерения цен
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Настраиваемые поля в качестве измерений цен
               items:
                 - name: Создание настраиваемых полей и сущностей в качестве измерений цен
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
@@ -566,13 +640,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Управление часовыми поясами
               href: resource-management/manage-multiple-time-zones.md
+        - name: Загруженность ресурсов
+          items:
+            - name: Обзор загруженности ресурсов
+              href: resource-management/resource-utilization-overview.md
     - name: Время
       items:
         - name: Обзор времени
           href: time/time-entry-overview.md
         - name: Создание записей времени
           items:
-            - name: Поведение пользовательского интерфейса записи времени
+            - name: Пользовательский интерфейс записи времени
               href: time/ui-behavior-time.md
         - name: Примечания разработчика
           items:
@@ -582,12 +660,16 @@
       items:
         - name: Обзор расходов
           href: expense/expense-overview.md
-        - name: Запись расходов (lite)
+        - name: Запись расходов (облегченное развертывание)
           href: expense/basic-expense.md
     - name: Утверждения
       items:
         - name: Обзор утверждений
           href: approvals/approvals-overview.md
+        - name: Примечания разработчика
+          items:
+            - name: Заметки разработчика для утверждений
+              href: approvals/dev-notes-approvals.md
     - name: Фактические значения
       items:
         - name: Обзор фактических значений
@@ -596,20 +678,32 @@
           items:
             - name: Создание и подтверждение журналов корректировок
               href: actuals/create-confirm-correction-journals.md
-        - name: Счет-проформа
-          items:
-            - name: Управление невыполненной работой по выставлению счетов
-              href: proforma-invoicing/manage-billing-backlog.md
-            - name: Создание счета-проформы вручную
-              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-            - name: Выставление счета на предоплату или аванс
-              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Скорректированные счета
-              href: proforma-invoicing/corrective-invoices.md
-            - name: Настройка автоматического создания счетов
-              href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Счет-проформа
+      items:
+        - name: Управление невыполненной работой по выставлению счетов по проекту
+          href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+        - name: Управление состоянием и проверка соблюдения лимитов
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Создание счета-проформы по проекту вручную
+          href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+        - name: Управление счетом-проформой по проекту
+          href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+        - name: Выставление счета на предоплату или аванс
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+        - name: Подтверждение счета-проформы по проекту
+          href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+        - name: Создание корректирующих счетов по проекту
+          href: pro/proforma-invoicing/corrective-invoices-sales.md
+        - name: Настройка автоматизации счетов по проекту
+          href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations для сценариев на основе запасов/производственных заказов
   items:
+    - name: Новые возможности
+      items:
+        - name: "Новые возможности в ноябре 2020 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+    - name: Обзор развертывания Project Operations для сценариев на основе запасов/производственных заказов
+      href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Обзор управления и учета для проектов
       href: prod-pma/overview-project-management-accounting.md
     - name: Внутрихолдинговое выставление счетов
@@ -734,12 +828,14 @@
       href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: Обзор Project Service Automation
+    - name: Project Service Automation
       href: psa/overview.md
     - name: Новые возможности
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 25, V3'
+          href: psa/whats-new-ur-25.md
         - name: 'Новые возможности и изменения в выпуске обновления 24, V3'
           href: psa/whats-new-ur-24.md
         - name: 'Новые возможности и изменения в выпуске обновления 23, V3'
@@ -770,76 +866,88 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Новые возможно и изменения в Project Service Automation V3
           href: psa/whats-new-changed-v3.md
-    - name: Внедрение Project Service Automation 3.x
+    - name: Планирование реализации (версия приложения 3.x)
       items:
-        - name: Обзор внедрения
+        - name: Установка демонстрационных данных
           href: psa/install-sample-data-3-x.md
-    - name: Обновление
+        - name: Руководство по планированию и отслеживанию проектов
+          href: psa/implementation-guides/project-planning-tracking.md
+        - name: 'Базовое руководство по предложениям с расценками, ценообразованию и выставлению счетов.'
+          href: psa/implementation-guides/begin-quoting-pricing-billing.md
+        - name: 'Расширенное руководство по предложениям с расценками, ценообразованию и выставлению счетов'
+          href: psa/implementation-guides/adv-quoting-pricing-billing.md
+        - name: Руководство по управлению ресурсами
+          href: psa/implementation-guides/resource-management-guide.md
+        - name: Руководство по отчетам
+          href: psa/implementation-guides/reporting-guide.md
+    - name: Обновление Project Service Automation (версия приложения 3.x)
       items:
-        - name: Обновление Project Service Automation (3.x)
+        - name: Обновление Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: "Рекомендации по обновлению версии\_2.x или 1.x до версии\_3"
           href: psa/upgrade-v3.md
         - name: Разработка (3.x)
-          href: psa/developer-guides/overview-dev-notes-v3.x.md
-        - name: Изменения сущностей
-          href: psa/developer-guides/entity-changes-v3.x.md
-        - name: Время и расходы
-          href: psa/developer-guides/time-expense-changes-v3.x.md
-        - name: Управление ресурсами
-          href: psa/developer-guides/resource-management-changes-v3.x.md
-        - name: Устаревшие веб-ресурсы в Project Service Automation версии 3.x
-          href: psa/developer-guides/web-resources-deprecated-v3.x.md
-    - name: Планирование проектов
-      items:
-        - name: Обзор планирования проектов
-          href: psa/project-planning.md
-        - name: Расписания проектов
-          href: psa/project-creating.md
-        - name: Расходы и доходы проектов
-          href: psa/project-estimating.md
-        - name: Оценки продаж и проекты
-          href: psa/project-leveraging.md
-        - name: Ход выполнения и использование стоимости проекта
-          href: psa/project-tracking.md
-        - name: Шаблоны проектов
-          href: psa/project-templates.md
-        - name: Стадии проекта
-          href: psa/project-stages.md
-        - name: Параметры проектов
-          href: psa/project-settings.md
-    - name: Измерения цен и себестоимости
-      items:
-        - name: Обзор измерений цен и себестоимости
-          href: psa/pricing-costing-dimensions.md
-        - name: Создание решения для настраиваемых измерений ценообразования
-          href: psa/custompricingdimensionssolution.md
-        - name: Создание настраиваемых полей и сущностей
-          href: psa/create-custom-fields-entities.md
-        - name: Добавление настраиваемых полей в сущности транзакций и настройки цен
-          href: psa/field-references.md
-        - name: Создание настраиваемых полей в качестве измерений цен
-          href: psa/set-up-pricing-dimensions.md
-        - name: Обновление атрибутов подключаемых модулей для включения новые измерения цен
-          href: psa/update-plug-in-attributes.md
-        - name: Повторное использование элементов в качестве измерений цены
           items:
-            - name: Использование существующего поля в Project Service в качестве измерения цен
-              href: psa/use-existing-field.md
-            - name: Использование резервируемого ресурса в качестве измерения цен
-              href: psa/bookable-resource-pricing-dimension.md
-            - name: Использование категории транзакции в качестве измерения цен
-              href: psa/transaction-category-pricing-dimension.md
-        - name: Резервируемый ресурс с несколькими ролями в проекте
-          href: psa/bookable-resource-multiple-roles.md
-        - name: Отключение измерения цен
-          href: psa/turn-off-pricing-dimension.md
-    - name: 'Предложения с расценками, ценообразование и выставление счетов'
+            - name: Разработка (приложение версии 3.x)
+              href: psa/developer-guides/overview-dev-notes-v3.x.md
+            - name: Изменения сущностей
+              href: psa/developer-guides/entity-changes-v3.x.md
+            - name: Время и расходы
+              href: psa/developer-guides/time-expense-changes-v3.x.md
+            - name: Управление ресурсами
+              href: psa/developer-guides/resource-management-changes-v3.x.md
+            - name: Устаревшие веб-ресурсы в Project Service Automation версии 3.x
+              href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation (3.x)
       items:
-        - name: 'Обзор предложений с расценками, ценообразования и выставления счетов'
-          href: psa/quote-bill-price.md
-        - name: Предложения с расценками
+        - name: Планирование проектов
           items:
+            - name: Домашняя страница планирования проектов
+              href: psa/project-planning.md
+            - name: Расписания проектов
+              href: psa/project-creating.md
+            - name: Расходы и доходы проектов
+              href: psa/project-estimating.md
+            - name: Оценки продаж и проекты
+              href: psa/project-leveraging.md
+            - name: Ход выполнения и использование стоимости проекта
+              href: psa/project-tracking.md
+            - name: Шаблоны проектов
+              href: psa/project-templates.md
+            - name: Стадии проекта
+              href: psa/project-stages.md
+            - name: Параметры проектов
+              href: psa/project-settings.md
+        - name: Измерения цен и себестоимости
+          items:
+            - name: Домашняя страница измерений цен и себестоимости
+              href: psa/pricing-costing-dimensions.md
+            - name: Создание решения для настраиваемых измерений ценообразования
+              href: psa/custompricingdimensionssolution.md
+            - name: Создание настраиваемых полей и сущностей
+              href: psa/create-custom-fields-entities.md
+            - name: Добавление настраиваемых полей в сущности транзакций и настройки цен
+              href: psa/field-references.md
+            - name: Создание настраиваемых полей в качестве измерений цен
+              href: psa/set-up-pricing-dimensions.md
+            - name: Обновление атрибутов подключаемых модулей для включения новые измерения цен
+              href: psa/update-plug-in-attributes.md
+            - name: Использование существующего поля в качестве измерения цен
+              items:
+                - name: Использование существующего поля в Project Service в качестве измерения цен
+                  href: psa/use-existing-field.md
+                - name: Использование резервируемого ресурса в качестве измерения цен
+                  href: psa/bookable-resource-pricing-dimension.md
+                - name: Использование категории транзакции в качестве измерения цен
+                  href: psa/transaction-category-pricing-dimension.md
+            - name: Резервируемый ресурс с несколькими ролями в проекте
+              href: psa/bookable-resource-multiple-roles.md
+            - name: Отключение измерения цен
+              href: psa/turn-off-pricing-dimension.md
+        - name: 'Предложения с расценками, ценообразование и выставление счетов'
+          items:
+            - name: 'Домашняя страница предложений с расценками, ценообразования и выставления счетов'
+              href: psa/quote-bill-price.md
             - name: Процессы продаж
               href: psa/basic-sales-process.md
             - name: Группы единиц измерения и единицы измерения
@@ -850,20 +958,14 @@
               href: psa/basic-quote-lines.md
             - name: Строки предложения с расценками на основе продуктов
               href: psa/product-based-quote-lines.md
-            - name: Анализ предложений с расценками по проекту
-              href: psa/basic-analyzing-quotes.md
-        - name: Ценообразование
-          items:
             - name: Ценообразование для проекта
               href: psa/basic-pricing.md
             - name: Ценообразование для каталога продукции
-              hreF: psa/product-catalog-pricing.md
+              href: psa/product-catalog-pricing.md
             - name: Бизнес-транзакции
               href: psa/basic-business-transactions.md
             - name: Оценки
               href: psa/estimates.md
-        - name: Выставление счетов
-          items:
             - name: Анализ предложений с расценками по проекту
               href: psa/basic-analyzing-quotes.md
             - name: Отзыв ранее одобренных записей времени или расходов
@@ -880,71 +982,71 @@
               href: psa/invoicing.md
             - name: Сценарии с несколькими валютами
               href: psa/advanced-currency.md
-    - name: Выделение ресурсов проектам
-      items:
-        - name: Обзор выделения ресурсов проектам
-          href: psa/resource-management.md
-        - name: Назначение универсальных резервируемых ресурсов задаче и создание требований ресурсов
-          href: psa/assign-generic-bookable-resource.md
-        - name: Резервирование именованных резервируемых ресурсов для проектной группы и назначение задачи
-          href: psa/assign-named-bookable-resource.md
-        - name: Назначение ресурса задаче
-          href: psa/FAQ-assign-resources-to-tasks.md
-        - name: Резервирование именованных ресурсов из требований ресурсов
-          href: psa/book-named-resource.md
-        - name: Резервирования ресурсов и их связь с назначением задач
-          href: psa/FAQ-bookings-and-assignments.md
-        - name: Отправка запроса ресурса
-          href: psa/submit-resource-request.md
-        - name: Подтверждение или отклонение предложенного ресурса
-          href: psa/accept-reject-proposed-resource.md
-        - name: Просмотр оплачиваемой загруженности для ресурсов
-          href: psa/FAQ-utilization-view.md
+        - name: Выделение ресурсов проектам
+          items:
+            - name: Домашняя страница выделения ресурсов проектам
+              href: psa/resource-management.md
+            - name: Назначение универсальных резервируемых ресурсов задаче и создание требований ресурсов
+              href: psa/assign-generic-bookable-resource.md
+            - name: Резервирование именованных резервируемых ресурсов для проектной группы и назначение задачи
+              href: psa/assign-named-bookable-resource.md
+            - name: Назначение ресурса задаче
+              href: psa/FAQ-assign-resources-to-tasks.md
+            - name: Резервирование именованных ресурсов из требований ресурсов
+              href: psa/book-named-resource.md
+            - name: Резервирования ресурсов и их связь с назначением задач
+              href: psa/FAQ-bookings-and-assignments.md
+            - name: Отправка запроса ресурса
+              href: psa/submit-resource-request.md
+            - name: Подтверждение или отклонение предложенного ресурса
+              href: psa/accept-reject-proposed-resource.md
+            - name: Просмотр оплачиваемой загруженности для ресурсов
+              href: psa/FAQ-utilization-view.md
         - name: Выверка резервирований и назначений
           href: psa/reconcile-booking-assignment.md
-    - name: Управление ресурсами
-      items:
-        - name: Домашняя страница управления ресурсами
-          href: psa/resource-management-home-page.md
         - name: Управление ресурсами
-          href: psa/manage-resources.md
-        - name: Основные понятия
-          href: psa/reports-key-concepts.md
-        - name: Выполнение запросов ресурсов
-          href: psa/resource-management-fulfill-requests.md
-        - name: Предложение ресурсов
-          href: psa/resource-management-propose-resources.md
-        - name: Резервирование ресурсов
-          href: psa/resource-management-book-resources-scheduleboard.md
-        - name: Способы распределения при резервировании
-          href: psa/FAQ-allocation-methods.md
-        - name: Предварительное резервирование требований
-          href: psa/resource-management-softbook-requirements.md
-        - name: Предварительное резервирование ресурса
-          href: psa/FAQ-soft-book.md
-        - name: Создание резервирования для проекта из таблицы расписаний
-          href: psa/FAQ-project-booking-schedule-board.md
-        - name: Модели навыков и квалификации
-          href: psa/resource-management-skills-proficiency.md
-        - name: Вопросы и ответы по управлению ресурсами
-          href: psa/resource-management-faq.md
-    - name: Отчетность
-      items:
-        - name: Обзор отчетности
-          href: psa/reports-reporting-dynamics-365-project-service.md
-        - name: Панели мониторинга
-          href: psa/reports-dashboards.md
-        - name: Работа с моделью данных Project Service Automation
-          href: psa/reports-working-project-service-data-model.md
-    - name: Запись времени
-      items:
-        - name: Создание записей времени
-          href: psa/time-entries.md
-        - name: Календарь записи времени
-          href: psa/time-entry-calendar.md
-        - name: Настройка еженедельной записи времени
-          href: psa/time-entry-extensibility-v3.md
-    - name: Вопросы и ответы и устранение неполадок
+          items:
+            - name: Домашняя страница управления ресурсами
+              href: psa/resource-management-home-page.md
+            - name: Управление ресурсами
+              href: psa/manage-resources.md
+            - name: Основные понятия
+              href: psa/reports-key-concepts.md
+            - name: Выполнение запросов ресурсов
+              href: psa/resource-management-fulfill-requests.md
+            - name: Предложение ресурсов
+              href: psa/resource-management-propose-resources.md
+            - name: Резервирование ресурсов
+              href: psa/resource-management-book-resources-scheduleboard.md
+            - name: Способы распределения при резервировании
+              href: psa/FAQ-allocation-methods.md
+            - name: Предварительное резервирование требований
+              href: psa/resource-management-softbook-requirements.md
+            - name: Предварительное резервирование ресурса
+              href: psa/FAQ-soft-book.md
+            - name: Создание резервирования для проекта из таблицы расписаний
+              href: psa/FAQ-project-booking-schedule-board.md
+            - name: Модели навыков и квалификации
+              href: psa/resource-management-skills-proficiency.md
+            - name: Вопросы и ответы по управлению ресурсами
+              href: psa/resource-management-faq.md
+        - name: Отчетность
+          items:
+            - name: Домашняя страница отчетности
+              href: psa/reports-reporting-dynamics-365-project-service.md
+            - name: Панели мониторинга
+              href: psa/reports-dashboards.md
+            - name: Модель данных Project Service Automation
+              href: psa/reports-working-project-service-data-model.md
+        - name: Записи времени
+          items:
+            - name: Создание записей времени
+              href: psa/time-entries.md
+            - name: Календарь записи времени
+              href: psa/time-entry-calendar.md
+            - name: Настройка еженедельной записи времени
+              href: psa/time-entry-extensibility-v3.md
+    - name: Вопросы и ответы и устранение неполадок (3.x)
       items:
         - name: Почему цена в фактических данных стоимости расходов по умолчанию принимает нулевое значение?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -971,60 +1073,62 @@
         - name: Технические документы
           href: psa/white-papers.md
         - name: Руководство администратора
-          href: psa/admin-guide.md
-        - name: Установка и настройка
-          href: psa/install-customize.md
-        - name: Использование демонстрационных данных
-          href: psa/use-demo-data.md
-        - name: Настройка Project Service Automation
           items:
-            - name: Настройка приложения Project Service Automation
-              href: psa/configure.md
-            - name: Настройка единиц времени
-              href: psa/set-up-time-units.md
-            - name: Настройка валют и обменных курсов
-              href: psa/set-up-currencies-exchange-rates.md
-            - name: Создание подразделений
-              href: psa/create-organizational-units.md
-            - name: Настройка периодичности выставления счетов
-              href: psa/set-up-invoice-frequencies.md
-            - name: Настройка категорий транзакций
-              href: psa/configure-transaction-categories.md
-            - name: Настройка категорий расходов
-              href: psa/configure-expense-categories.md
-            - name: Создание элементов каталога продукции
-              href: psa/create-product-catalog-items.md
-            - name: Создание прайс-листа
-              href: psa/create-price-list.md
-        - name: Ресурсы
-          items:
+            - name: Руководство администратора (Project Service)
+              href: psa/admin-guide.md
+            - name: Установка и настройка
+              href: psa/install-customize.md
+            - name: Использование демонстрационных данных
+              href: psa/use-demo-data.md
+            - name: Настройка приложения Project Service
+              items:
+                - name: Настройка Project Service
+                  href: psa/configure.md
+                - name: Настройка единиц времени
+                  href: psa/set-up-time-units.md
+                - name: Настройка валют и обменных курсов
+                  href: psa/set-up-currencies-exchange-rates.md
+                - name: Создание подразделений
+                  href: psa/create-organizational-units.md
+                - name: Настройка периодичности выставления счетов
+                  href: psa/set-up-invoice-frequencies.md
+                - name: Настройка категорий транзакций
+                  href: psa/configure-transaction-categories.md
+                - name: Настройка категорий расходов
+                  href: psa/configure-expense-categories.md
+                - name: Создание элементов каталога продукции
+                  href: psa/create-product-catalog-items.md
+                - name: Создание прайс-листа
+                  href: psa/create-price-list.md
             - name: Настройка ресурсов
-              href: psa/set-up-resources.md
-            - name: Добавление ресурсов
-              href: psa/add-resources.md
-            - name: Добавление навыков ресурсов
-              href: psa/add-resource-skills.md
-            - name: Настройка моделей квалификации
-              href: psa/set-up-proficiency-models.md
-            - name: Добавление ролей ресурсов
-              href: psa/add-resource-roles.md
-            - name: Настройка ролей ресурсов
-              href: psa/configure-resource-roles.md
-            - name: Связывание навыков с ресурсами
-              href: psa/associate-skills-with-resources.md
-            - name: Связывание навыков с ролями ресурсов
-              href: psa/associate-skills-with-resource-roles.md
-            - name: Создание шаблона рабочих часов
-              href: psa/create-work-hours-template.md
-            - name: Применение календаря к ресурсу
-              href: psa/apply-calendar-resource.md
-            - name: Настройка дополнительных параметров
-              href: psa/configure-additional-parameters-settings.md
-            - name: Включение Project Finder Mobile
-              href: psa/enable-project-finder-mobile-app-features.md
-        - name: Управление ресурсами
+              items:
+                - name: Настройка ресурсов (Project Service)
+                  href: psa/set-up-resources.md
+                - name: Добавление ресурсов
+                  href: psa/add-resources.md
+                - name: Добавление навыков ресурсов
+                  href: psa/add-resource-skills.md
+                - name: Настройка моделей квалификации
+                  href: psa/set-up-proficiency-models.md
+                - name: Добавление ролей ресурсов
+                  href: psa/add-resource-roles.md
+                - name: Настройка ролей ресурсов
+                  href: psa/configure-resource-roles.md
+                - name: Связывание навыков с ресурсами
+                  href: psa/associate-skills-with-resources.md
+                - name: Связывание навыков с ролями ресурсов
+                  href: psa/associate-skills-with-resource-roles.md
+                - name: Создание шаблона рабочих часов
+                  href: psa/create-work-hours-template.md
+                - name: Применение календаря к ресурсу
+                  href: psa/apply-calendar-resource.md
+                - name: Настройка дополнительных параметров
+                  href: psa/configure-additional-parameters-settings.md
+                - name: Включение Project Finder Mobile
+                  href: psa/enable-project-finder-mobile-app-features.md
+        - name: Руководство по диспетчеру ресурсов
           items:
-            - name: Руководство по диспетчеру ресурсов
+            - name: Руководство по диспетчеру ресурсов (Project Service)
               href: psa/resource-manager-guide.md
             - name: Управление запросами ресурсов
               href: psa/manage-resource-requests.md
@@ -1032,13 +1136,13 @@
               href: psa/schedule-resources-project.md
             - name: Просмотр доступности ресурса
               href: psa/view-resource-availability.md
-            - name: Просмотр загруженности ресурса
+            - name: Просмотр загруженности ресурсов
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
               href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
-        - name: Управление проектами
+        - name: Руководство менеджера по проектам
           items:
-            - name: Руководство менеджера по проектам
+            - name: Руководство менеджера по проектам (Project Service)
               href: psa/project-manager-guide.md
             - name: Подготовка оценки работ
               href: psa/provide-estimates-project-during-sales-process.md
@@ -1074,9 +1178,9 @@
               href: psa/view-dashboards-reports.md
             - name: Использование надстройки для планирования работы в Microsoft Project
               href: psa/add-plan-work-microsoft-project.md
-        - name: Управление организациями
+        - name: Руководство для менеджера по работе с клиентами
           items:
-            - name: Руководство для менеджера по работе с клиентами
+            - name: Руководство для менеджера по работе с клиентами (Project Service)
               href: psa/account-manager-guide.md
             - name: Создание организации клиента
               href: psa/create-customer-account.md
@@ -1086,11 +1190,11 @@
               href: psa/create-project-quote.md
             - name: Создание контракта по проекту
               href: psa/create-project-contract.md
-        - name: Время и расходы
+        - name: 'Время, расходы и сотрудничество'
           items:
-            - name: 'Время, расходы и сотрудничество'
+            - name: 'Руководство по времени, расходам и сотрудничеству (Project Service)'
               href: psa/time-expense-collaboration-guide.md
-            - name: Загрузка приложений
+            - name: Получение приложений
               href: psa/get-apps.md
             - name: Вход
               href: psa/sign-in.md
@@ -1106,12 +1210,13 @@
               href: psa/allow-someone-else-enter-time-entry-expense.md
             - name: Планирование выходных
               href: psa/schedule-time-off.md
-            - name: 'Совместная работа с использованием групп Office 365](collaborate-project-team-members-office-365-groups.md'
+            - name: Совместная работа с использованием групп Office 365
+              href: psa/collaborate-project-team-members-office-365-groups.md
             - name: Поиск проектов с помощью Project Finder Mobile
               href: psa/find-next-project-finder-mobile-app.md
             - name: Руководство по Центру ресурсов проекта
               href: psa/project-resource-hub-users-guide.md
-        - name: Примечания разработчика
+        - name: Примечания для разработчиков (приложение версии 2.x)
           items:
             - name: Добавление пользовательских форм для сущностей
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
