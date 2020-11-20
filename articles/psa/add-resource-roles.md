@@ -3,7 +3,7 @@ title: Добавление ролей ресурсов
 description: Как назначить роль ресурсам Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083384"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129604"
 ---
 # <a name="add-resource-roles-project-service"></a>Добавление ролей ресурсов (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4083384"
 
 Задайте целевые коэффициенты использования для каждой роли. Эти параметры определяют доступность и степень задействования ресурсов при комплектации штата проектов и анализе фактических данных.  
   
-1.  Перейдите к роли ресурса, для которой требуется настроить использование ( **Project Service > Роль ресурса** ).  
+1.  Перейдите к роли ресурса, для которой требуется настроить использование (**Project Service > Роль ресурса**).  
   
 2.  Щелкните стрелку вниз рядом с ролью ресурса в верхней части экрана.  
   

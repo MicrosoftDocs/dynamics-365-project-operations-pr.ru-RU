@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083105"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128884"
 ---
 # <a name="skills-and-certifications"></a>Навыки и сертификаты
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
@@ -30,7 +30,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="assign-characteristics-to-resources"></a>Назначение характеристик ресурсам
 
-1. В основном меню выберите **Ресурсы** > **Резервируемые ресурсы**. Открывается страница **Активные резервируемые ресурсы** , на которой вы можете просмотреть список всех доступных ресурсов в системе.
+1. В основном меню выберите **Ресурсы** > **Резервируемые ресурсы**. Открывается страница **Активные резервируемые ресурсы**, на которой вы можете просмотреть список всех доступных ресурсов в системе.
 2. В списке выберите имя резервируемого ресурса.
 3. В разделе **Project Service** выберите **+Добавить запись характеристик резервируемого ресурса**.
 4. В открывшемся всплывающем окне найдите и выберите требуемые характеристики и добавьте **Значение оценки** для этого ресурса.

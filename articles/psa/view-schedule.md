@@ -3,7 +3,7 @@ title: Просмотр собственного расписания
 description: Порядок просмотра собственного расписания в Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c3f85a8502439322af68a90d8a46bfd0fbe4b65
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35054a46251cbc4a91c7c37405e22287de4a9389
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083259"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125824"
 ---
 # <a name="view-your-schedule-project-service"></a>Просмотр собственного расписания (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4083259"
   
 1.  Перейдите к разделу **Project Service > Резервирования и задачи**. Отобразится представление календаря с вашим расписанием.  
   
-2.  Для просмотра расписания предыдущей или следующей недели щелкните **Предыдущий** или **Следующий**. Щелкните **Сегодня** , чтобы вернуться к текущей неделе. При необходимости можно щелкнуть задачу, чтобы обновить ее.  
+2.  Для просмотра расписания предыдущей или следующей недели щелкните **Предыдущий** или **Следующий**. Щелкните **Сегодня**, чтобы вернуться к текущей неделе. При необходимости можно щелкнуть задачу, чтобы обновить ее.  
   
 3.  Если вы хотите отобразить состав ваших текущих работ в виде списка, щелкните **Сетка**. При необходимости задачи можно редактировать непосредственно из расписания.  
   
