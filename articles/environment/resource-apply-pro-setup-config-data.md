@@ -1,29 +1,39 @@
 ---
-title: Настройка и применение данных конфигурации в Common Data Service для Project Operations
+title: Настройка и применение демонстрационных данных в Common Data Service
 description: Эта тема предоставляет информацию о настройке и применении данных конфигурации в Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083061"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401144"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Настройка и применение данных конфигурации в Common Data Service для Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Настройка и применение демонстрационных данных в Common Data Service 
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
+
+## <a name="prerequisites"></a>Предварительные условия
+
+Прежде чем приступить к настройке данных в Common Data Service (CDS), должны быть выполнены следующие предварительные условия:
+
+1.  Подготовьте среду CDS и среду Dynamics 365 Finance для Project Operations.
+2.  Информация о юридических лицах от Dynamics 365 Finance является общей в среде CDS. Это означает, что сущность **Компания** в CDS имеет следующие записи компаний:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Установка данных настройки и конфигурации
 
 1. Загрузите, разблокируйте и разархивируйте [Пакет данных настройки и конфигурации](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Перейдите в распакованную папку и запустите исполняемый файл, *DataMigrationUtility*.
-3. На странице 1 мастера настройки Common Data Service (CMT) выберите **Импортировать данные** , затем выберите **Продолжить**.
+3. На странице 1 мастера настройки Common Data Service (CMT) выберите **Импортировать данные**, затем выберите **Продолжить**.
 
 ![Миграция конфигурации](./media/1ConfigurationMigration.png)
 
@@ -75,7 +85,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ![Открыть среду](./media/7OpenEnvironment.png)
 
-2. Выберите **Проекты** > **Ресурсы** , затем выберите **Создать** , чтобы создать доступный для резервирования ресурс для вашего пользователя.
+2. Выберите **Проекты** > **Ресурсы**, затем выберите **Создать**, чтобы создать доступный для резервирования ресурс для вашего пользователя.
 
 ![Резервируемые ресурсы](./media/8BookableResources.png)
 
@@ -83,7 +93,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ![Создание резервируемого ресурса](./media/9NewBookableResource.png)
 
-4. На вкладке **Планирование** в поле **Компания** выберите компанию **USPM** , затем выберите **Сохранить**. 
+4. На вкладке **Планирование** в поле **Компания** выберите компанию **USPM**, затем выберите **Сохранить**. 
 
 ![Вкладка планирования](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Относится к:** Project Operations для сценариев на о
  
 12. Обновите следующие поля:
 
- - **Компания по умолчанию** : USPM
- - **Подразделение по умолчанию** : Contoso Robotics Global
- - **Частота выставления счетов** : седьмой и последний день
- - **Шаблон рабочего времени** : измените на созданный вами шаблон.
+ - **Компания по умолчанию**: USPM
+ - **Подразделение по умолчанию**: Contoso Robotics Global
+ - **Частота выставления счетов**: седьмой и последний день
+ - **Шаблон рабочего времени**: измените на созданный вами шаблон.
 
 13. Нажмите кнопку **Сохранить**. 
 

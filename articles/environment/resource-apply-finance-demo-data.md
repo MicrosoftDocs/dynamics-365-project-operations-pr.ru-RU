@@ -1,21 +1,21 @@
 ---
-title: Применение демонстрационных данных Project Operations к размещенной в облаке среде Finance
+title: Применение демонстрационных данных к размещенной в облаке среде Finance
 description: В этой теме объясняется, как применить демонстрационные данные из Project Operations к размещенной в облаке среде Dynamics 365 Finance.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096638"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365254"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Применение демонстрационных данных Project Operations к размещенной в облаке среде Finance
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Применение демонстрационных данных к размещенной в облаке среде Finance
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
@@ -46,7 +46,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 6. В обозревателе объектов **Базы данных** и найдите **AXDB**. Вы замените базу данных новой базой данных, которая находится в [Центре загрузок](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Скопируйте ZIP-файл на виртуальную машину, к которой вы удаленно подключены, и извлеките ZIP-файл.
-8. В SQL Server Management Studio щелкните правой кнопкой мыши **AxDB** , затем выберите **Задачи** > **Восстановить** > **База данных**.
+8. В SQL Server Management Studio щелкните правой кнопкой мыши **AxDB**, затем выберите **Задачи** > **Восстановить** > **База данных**.
 
 ![Восстановление базы данных](./media/5RestoreDatabase.png)
 
@@ -54,7 +54,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ![Исходные устройства](./media/6SourceDevice.png)
 
-10. Выберите **Параметры** , затем выберите **Перезаписать существующую базу данных** и **Закрыть существующие подключения к целевой базе данных**. 
+10. Выберите **Параметры**, затем выберите **Перезаписать существующую базу данных** и **Закрыть существующие подключения к целевой базе данных**. 
 11. Нажмите **ОК**.
 
 ![Восстановление параметров](./media/7RestoreSetting.png)
@@ -76,6 +76,6 @@ _**Относится к:** Project Operations для сценариев на о
 
 ![Сброс IIS](./media/9IISReset.png)
 
-18. Закройте сеанс удаленного рабочего стола и используйте страницу LCS **Сведения о среде** , чтобы войти в среду и убедиться, что она работает должным образом.
+18. Закройте сеанс удаленного рабочего стола и используйте страницу LCS **Сведения о среде**, чтобы войти в среду и убедиться, что она работает должным образом.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
