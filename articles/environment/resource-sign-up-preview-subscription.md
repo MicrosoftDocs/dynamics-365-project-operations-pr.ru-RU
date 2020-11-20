@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083074"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121144"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Регистрация на подписки на предварительную версию Project Operations для сценариев ресурсов/отсутствия запасов
 
@@ -42,7 +42,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 Прежде чем начать, убедитесь, что вы вошли в браузер с рабочей учетной записью пользователя в клиенте, где вы хотите получить предварительную версию Project Operations.
 
-1. Активируйте код первого предложения **Dynamics 365 Project Operations (CRM) — пробная предварительная версия** , вставив его в URL-адрес браузера.
+1. Активируйте код первого предложения **Dynamics 365 Project Operations (CRM) — пробная предварительная версия**, вставив его в URL-адрес браузера.
 
 ![Активировать предложение](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +75,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ![Назначение лицензий](./media/15AssignLicenses.png)
 
-3. Убедитесь, что выбраны лицензии **Предварительная версия Dynamics 365 Project Operations (CRM)** и **Office 365 Project Operations — предварительная версия** , и выберите **Сохранить изменения**.
+3. Убедитесь, что выбраны лицензии **Предварительная версия Dynamics 365 Project Operations (CRM)** и **Office 365 Project Operations — предварительная версия**, и выберите **Сохранить изменения**.
 
 > [!NOTE]
 > Пробное предложение Finance не нужно назначать пользователю.

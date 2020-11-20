@@ -3,7 +3,7 @@ title: Шаблоны проектов
 description: В этом разделе представлена информация о том, как использовать шаблоны проектов для быстрой настройки проекта.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bb82a312114e9814f5ce65a1698455582fd252e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4fd618e15524c5cef5b6da9b282f449e3dfb7973
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083350"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123046"
 ---
 # <a name="project-templates"></a>Шаблоны проектов 
 
@@ -49,7 +49,7 @@ ms.locfileid: "4083350"
 
 > ![Диалоговое окно "Быстрое создание: проект"](media/project-11.png)
 
-- При создании нового проекта путем выбора пункта **Создать проект** , страница **Проект** отображается перед сохранением записи. В поле **Выберите шаблон** выберите один из предопределенных шаблонов проекта в организации.
+- При создании нового проекта путем выбора пункта **Создать проект**, страница **Проект** отображается перед сохранением записи. В поле **Выберите шаблон** выберите один из предопределенных шаблонов проекта в организации.
 - Используйте **Создание проекта из шаблона** на странице **Сущность шаблона**.
 
 ## <a name="copying-components-of-template-to-project"></a>Копирование компонентов шаблона в проект

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083189"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122719"
 ---
 # <a name="manage-delegation"></a>Управление делегированием
 Представитель по расходам может создавать отчеты о расходах для другого сотрудника и управлять ими.
@@ -29,7 +29,7 @@ ms.locfileid: "4083189"
 
 Чтобы настроить пользователя в качестве делегата по расходам, выполните следующие действия. 
 1. Выберите **Управление расходами** > **Настройка** > **Общее** > **Делегаты**. 
-2. На странице **Делегаты** выберите **Создать** , затем выберите сотрудника, для которого будет определен делегат. 
+2. На странице **Делегаты** выберите **Создать**, затем выберите сотрудника, для которого будет определен делегат. 
 3. Введите псевдоним пользователя-делегата, а также дату начала и окончания периода делегирования.
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>Управление расходами от имени другого сотрудника
