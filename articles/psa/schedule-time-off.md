@@ -3,7 +3,7 @@ title: Планирование на выходные
 description: Порядок планирования нерабочего времени в Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083413"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132214"
 ---
 # <a name="schedule-time-off-project-service"></a>Планирование нерабочего времени (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4083413"
   
 1.  Перейдите к разделу **Project Service > Записи времени**. Откроется календарь.  
   
-2.  Для просмотра предыдущей или следующей недели в календаре щелкните **Предыдущий** или **Следующий**. Щелкните **Сегодня** , чтобы вернуться к текущей неделе.  
+2.  Для просмотра предыдущей или следующей недели в календаре щелкните **Предыдущий** или **Следующий**. Щелкните **Сегодня**, чтобы вернуться к текущей неделе.  
   
 3.  Чтобы ввести время, щелкните **Создать** или дважды щелкните в календаре под днем, для которого требуется ввести время.  
   

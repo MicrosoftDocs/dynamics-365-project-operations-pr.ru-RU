@@ -3,7 +3,7 @@ title: Применить календарь к ресурсу
 description: Как применить календарь к ресурсу в Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 69427581f606783ed2b159dd6627481a2229a707
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4878d806dc2633bd2585b943133128bc8485587e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083388"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130144"
 ---
 # <a name="apply-a-calendar-to-a-resource-project-service"></a>Применить календарь к ресурсу (Project Service)
 

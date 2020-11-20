@@ -1,21 +1,21 @@
 ---
-title: Регистрация на подписку на предварительную версию
+title: Регистрация на подписку на предварительную версию — облегченное развертывание
 description: Эта тема предоставляет информацию о том, как подписаться на развертывание и развернуть развертывание Project Operations Lite — от сделки до счетов-проформ.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083051"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175907"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Подпишитесь на подписку на предварительную версию облегченного развертывания — от сделки до счетов-проформ
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Регистрация на подписку на предварительную версию — облегченное развертывание 
 
 Эта тема объясняет, как подписаться на предварительную версию партнерского предложения и развернуть развертывание Dynamics 365 Project Operations Lite — от сделки до счетов-проформ.
 
@@ -42,7 +42,7 @@ ms.locfileid: "4083051"
 
 Прежде чем начать, убедитесь, что вы вошли в браузер с рабочей учетной записью пользователя в клиенте, где вы хотите получить предварительную версию Project Operations.
 
-1. Активируйте код первого предложения **Dynamics 365 Project Operations (CRM) — пробная предварительная версия** , вставив его в URL-адрес браузера.
+1. Активируйте код первого предложения **Dynamics 365 Project Operations (CRM) — пробная предварительная версия**, вставив его в URL-адрес браузера.
 
 ![Активировать предложение](./media/16RedeemFirstOfferNew.png)
 
@@ -80,7 +80,7 @@ ms.locfileid: "4083051"
 ![Создать окружение](./media/19CreateEnvironment.png)
 
 2. Выберите параметр **Включение приложений Dynamics 365** и оставьте поле **Автоматически развернуть эти приложения** пустым.  
-3. Выберите **Сохранить** , чтобы создать среду.
+3. Выберите **Сохранить**, чтобы создать среду.
 
 ![Добавить базу данных](./media/20CreateEnvironment1.png)
 

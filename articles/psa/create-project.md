@@ -3,7 +3,7 @@ title: Создание проекта
 description: Как создать проект в Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083200"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133114"
 ---
 # <a name="create-a-project-project-service"></a>Создание проекта (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4083200"
   
 3.  В области **Сводка** введите имя проекта, а затем введите как можно больше других сведений. Элементы, отмеченные красной звездочкой (*), обязательны.  
   
-4.  Щелкните **Сохранить** , чтобы создать проект и продолжить его редактирование.  
+4.  Щелкните **Сохранить**, чтобы создать проект и продолжить его редактирование.  
   
 Затем создается структурная декомпозиция работ для проекта, позволяющая определить задачи, сроки и роли ресурсов, необходимые для проекта.  
 

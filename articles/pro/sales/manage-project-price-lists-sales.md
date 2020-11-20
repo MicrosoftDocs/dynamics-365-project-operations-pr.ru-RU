@@ -1,21 +1,21 @@
 ---
-title: Управление прайс-листами проекта в предложениях с расценками по проекту
+title: Управление прайс-листами проекта в предложениях с расценками по проекту — облегченное развертывание
 description: В этой теме предоставлена информация о работе с прайс-листами проекта в предложениях с расценками. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083111"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175997"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Управление прайс-листами проекта в предложениях с расценками по проекту (Sales)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Управление прайс-листами проекта в предложениях с расценками по проекту — облегченное развертывание
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
