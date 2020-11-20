@@ -1,81 +1,81 @@
 ---
-title: Применение демонстрационных данных Project Operations к размещенной в облаке среде Finance
+title: Применение демонстрационных данных к размещенной в облаке среде Finance
 description: В этой теме объясняется, как применить демонстрационные данные из Project Operations к размещенной в облаке среде Dynamics 365 Finance.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096638"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365254"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a><span data-ttu-id="711c6-103">Применение демонстрационных данных Project Operations к размещенной в облаке среде Finance</span><span class="sxs-lookup"><span data-stu-id="711c6-103">Apply Project Operations demo data to a Finance Cloud-hosted environment</span></span>
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a><span data-ttu-id="4d111-103">Применение демонстрационных данных к размещенной в облаке среде Finance</span><span class="sxs-lookup"><span data-stu-id="4d111-103">Apply demo data to a Finance Cloud-hosted environment</span></span>
 
-<span data-ttu-id="711c6-104">_**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_</span><span class="sxs-lookup"><span data-stu-id="711c6-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="4d111-104">_**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_</span><span class="sxs-lookup"><span data-stu-id="4d111-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="711c6-105">Эта тема применима только к Microsoft Dynamics 365 Finance версии 10.0.13 и может выполняться только в облачной среде.</span><span class="sxs-lookup"><span data-stu-id="711c6-105">This topic is only applicable only Microsoft Dynamics 365 Finance version 10.0.13 and can be performed only on a Cloud-hosted environment.</span></span> <span data-ttu-id="711c6-106">Выполните действия, описанные в этой теме, **ПЕРЕД** применением обновлений качества к среде.</span><span class="sxs-lookup"><span data-stu-id="711c6-106">Complete the steps in this topic **BEFORE** you apply quality updates to the environment.</span></span>
+> <span data-ttu-id="4d111-105">Эта тема применима только к Microsoft Dynamics 365 Finance версии 10.0.13 и может выполняться только в облачной среде.</span><span class="sxs-lookup"><span data-stu-id="4d111-105">This topic is only applicable only Microsoft Dynamics 365 Finance version 10.0.13 and can be performed only on a Cloud-hosted environment.</span></span> <span data-ttu-id="4d111-106">Выполните действия, описанные в этой теме, **ПЕРЕД** применением обновлений качества к среде.</span><span class="sxs-lookup"><span data-stu-id="4d111-106">Complete the steps in this topic **BEFORE** you apply quality updates to the environment.</span></span>
 
-1. <span data-ttu-id="711c6-107">В своем проекте LCS откройте страницу **Сведения о среде**.</span><span class="sxs-lookup"><span data-stu-id="711c6-107">In your LCS project, open the **Environment details** page.</span></span> <span data-ttu-id="711c6-108">Обратите внимание, что она включает сведения, необходимые для подключения к среде с помощью протокола удаленного рабочего стола (RDP).</span><span class="sxs-lookup"><span data-stu-id="711c6-108">Notice that it includes the details needed to connect to the environment by using Remote Desktop Protocol (RDP).</span></span>
+1. <span data-ttu-id="4d111-107">В своем проекте LCS откройте страницу **Сведения о среде**.</span><span class="sxs-lookup"><span data-stu-id="4d111-107">In your LCS project, open the **Environment details** page.</span></span> <span data-ttu-id="4d111-108">Обратите внимание, что она включает сведения, необходимые для подключения к среде с помощью протокола удаленного рабочего стола (RDP).</span><span class="sxs-lookup"><span data-stu-id="4d111-108">Notice that it includes the details needed to connect to the environment by using Remote Desktop Protocol (RDP).</span></span>
 
 ![Сведения о среде ](./media/1EnvironmentDetails.png)
 
-<span data-ttu-id="711c6-110">Первый набор выделенных учетных данных — это учетные данные локальной учетной записи, которые содержат гиперссылку на подключение к удаленному рабочему столу.</span><span class="sxs-lookup"><span data-stu-id="711c6-110">The first set of highlighted credentials are the local account credentials and contain a hyperlink to the remote desktop connection.</span></span> <span data-ttu-id="711c6-111">Учетные данные включают имя пользователя и пароль администратора среды.</span><span class="sxs-lookup"><span data-stu-id="711c6-111">The credentials include the environment admin username and password.</span></span> <span data-ttu-id="711c6-112">Второй набор учетных данных используется для входа в сервер SQL Server в этой среде.</span><span class="sxs-lookup"><span data-stu-id="711c6-112">The second set of credentials are used to log in to SQL Server in this environment.</span></span>
+<span data-ttu-id="4d111-110">Первый набор выделенных учетных данных — это учетные данные локальной учетной записи, которые содержат гиперссылку на подключение к удаленному рабочему столу.</span><span class="sxs-lookup"><span data-stu-id="4d111-110">The first set of highlighted credentials are the local account credentials and contain a hyperlink to the remote desktop connection.</span></span> <span data-ttu-id="4d111-111">Учетные данные включают имя пользователя и пароль администратора среды.</span><span class="sxs-lookup"><span data-stu-id="4d111-111">The credentials include the environment admin username and password.</span></span> <span data-ttu-id="4d111-112">Второй набор учетных данных используется для входа в сервер SQL Server в этой среде.</span><span class="sxs-lookup"><span data-stu-id="4d111-112">The second set of credentials are used to log in to SQL Server in this environment.</span></span>
 
-2. <span data-ttu-id="711c6-113">Удаленно подключитесь к среде по гиперссылке в пункте **Локальные учетные записи** и используйте **Учетные данные локальной учетной записи** для аутентификации.</span><span class="sxs-lookup"><span data-stu-id="711c6-113">Remote to the environment by the hyperlink in **Local Accounts** , and use the **Local Account credentials** to authenticate.</span></span>
-3. <span data-ttu-id="711c6-114">Выберите **Службы IIS** > **Пулы приложений** > **AOSService** и остановите эту службу.</span><span class="sxs-lookup"><span data-stu-id="711c6-114">Go to **Internet Information Services** > **Application Pools** > **AOSService** and stop the service.</span></span> <span data-ttu-id="711c6-115">На этом этапе вы останавливаете службу, чтобы продолжить замену базы данных SQL.</span><span class="sxs-lookup"><span data-stu-id="711c6-115">You are stopping the service at this point so that you can continue to replace the SQL database.</span></span>
+2. <span data-ttu-id="4d111-113">Удаленно подключитесь к среде по гиперссылке в пункте **Локальные учетные записи** и используйте **Учетные данные локальной учетной записи** для аутентификации.</span><span class="sxs-lookup"><span data-stu-id="4d111-113">Remote to the environment by the hyperlink in **Local Accounts**, and use the **Local Account credentials** to authenticate.</span></span>
+3. <span data-ttu-id="4d111-114">Выберите **Службы IIS** > **Пулы приложений** > **AOSService** и остановите эту службу.</span><span class="sxs-lookup"><span data-stu-id="4d111-114">Go to **Internet Information Services** > **Application Pools** > **AOSService** and stop the service.</span></span> <span data-ttu-id="4d111-115">На этом этапе вы останавливаете службу, чтобы продолжить замену базы данных SQL.</span><span class="sxs-lookup"><span data-stu-id="4d111-115">You are stopping the service at this point so that you can continue to replace the SQL database.</span></span>
 
 ![Остановка AOS](./media/2StopAOS.png)
 
-4. <span data-ttu-id="711c6-117">Выберите **Службы** и остановите следующие два пункта:</span><span class="sxs-lookup"><span data-stu-id="711c6-117">Go to **Services** and stop the following two items:</span></span>
+4. <span data-ttu-id="4d111-117">Выберите **Службы** и остановите следующие два пункта:</span><span class="sxs-lookup"><span data-stu-id="4d111-117">Go to **Services** and stop the following two items:</span></span>
 
-- <span data-ttu-id="711c6-118">Microsoft Dynamics 365 Unified Operations: служба управления пакетными заданиями</span><span class="sxs-lookup"><span data-stu-id="711c6-118">Microsoft Dynamics 365 Unified Operations: Batch Management Service</span></span>
-- <span data-ttu-id="711c6-119">Microsoft Dynamics 365 Unified Operations: структура импорта и экспорта данных</span><span class="sxs-lookup"><span data-stu-id="711c6-119">Microsoft Dynamics 365 Unified Operations: Data Import Export Framework</span></span>
+- <span data-ttu-id="4d111-118">Microsoft Dynamics 365 Unified Operations: служба управления пакетными заданиями</span><span class="sxs-lookup"><span data-stu-id="4d111-118">Microsoft Dynamics 365 Unified Operations: Batch Management Service</span></span>
+- <span data-ttu-id="4d111-119">Microsoft Dynamics 365 Unified Operations: структура импорта и экспорта данных</span><span class="sxs-lookup"><span data-stu-id="4d111-119">Microsoft Dynamics 365 Unified Operations: Data Import Export Framework</span></span>
 
 ![Остановка служб](./media/3StopServices.png)
 
-5. <span data-ttu-id="711c6-121">Откройте Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="711c6-121">Open Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="711c6-122">Войдите с учетными данными SQL-сервера и используйте пользователя и пароль axdbadmin со страницы LCS **Сведения о средах**.</span><span class="sxs-lookup"><span data-stu-id="711c6-122">Log in with SQL server credentials and use the axdbadmin user and password from the LCS **Environments details** page.</span></span>
+5. <span data-ttu-id="4d111-121">Откройте Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="4d111-121">Open Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="4d111-122">Войдите с учетными данными SQL-сервера и используйте пользователя и пароль axdbadmin со страницы LCS **Сведения о средах**.</span><span class="sxs-lookup"><span data-stu-id="4d111-122">Log in with SQL server credentials and use the axdbadmin user and password from the LCS **Environments details** page.</span></span>
 
 ![SQL Server Management Studio](./media/4SSMS.png)
 
-6. <span data-ttu-id="711c6-124">В обозревателе объектов **Базы данных** и найдите **AXDB**.</span><span class="sxs-lookup"><span data-stu-id="711c6-124">In Object Explorer, **Databases** and locate **AXDB**.</span></span> <span data-ttu-id="711c6-125">Вы замените базу данных новой базой данных, которая находится в [Центре загрузок](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span><span class="sxs-lookup"><span data-stu-id="711c6-125">You will replace database with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span></span> 
-7. <span data-ttu-id="711c6-126">Скопируйте ZIP-файл на виртуальную машину, к которой вы удаленно подключены, и извлеките ZIP-файл.</span><span class="sxs-lookup"><span data-stu-id="711c6-126">Copy the zip file to the VM you are remoted into and extract zip contents.</span></span>
-8. <span data-ttu-id="711c6-127">В SQL Server Management Studio щелкните правой кнопкой мыши **AxDB** , затем выберите **Задачи** > **Восстановить** > **База данных**.</span><span class="sxs-lookup"><span data-stu-id="711c6-127">In SQL Server Management Studio, right-click **AxDB** , and then select **Tasks** > **Restore** > **Database**.</span></span>
+6. <span data-ttu-id="4d111-124">В обозревателе объектов **Базы данных** и найдите **AXDB**.</span><span class="sxs-lookup"><span data-stu-id="4d111-124">In Object Explorer, **Databases** and locate **AXDB**.</span></span> <span data-ttu-id="4d111-125">Вы замените базу данных новой базой данных, которая находится в [Центре загрузок](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span><span class="sxs-lookup"><span data-stu-id="4d111-125">You will replace database with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span></span> 
+7. <span data-ttu-id="4d111-126">Скопируйте ZIP-файл на виртуальную машину, к которой вы удаленно подключены, и извлеките ZIP-файл.</span><span class="sxs-lookup"><span data-stu-id="4d111-126">Copy the zip file to the VM you are remoted into and extract zip contents.</span></span>
+8. <span data-ttu-id="4d111-127">В SQL Server Management Studio щелкните правой кнопкой мыши **AxDB**, затем выберите **Задачи** > **Восстановить** > **База данных**.</span><span class="sxs-lookup"><span data-stu-id="4d111-127">In SQL Server Management Studio, right-click **AxDB**, and then select **Tasks** > **Restore** > **Database**.</span></span>
 
 ![Восстановление базы данных](./media/5RestoreDatabase.png)
 
-9. <span data-ttu-id="711c6-129">Выберите **Исходное устройство** и перейдите к файлу, извлеченному из скопированного вами ZIP-архива.</span><span class="sxs-lookup"><span data-stu-id="711c6-129">Select **Source Device** and navigate to the file extracted from zip you copied.</span></span>
+9. <span data-ttu-id="4d111-129">Выберите **Исходное устройство** и перейдите к файлу, извлеченному из скопированного вами ZIP-архива.</span><span class="sxs-lookup"><span data-stu-id="4d111-129">Select **Source Device** and navigate to the file extracted from zip you copied.</span></span>
 
 ![Исходные устройства](./media/6SourceDevice.png)
 
-10. <span data-ttu-id="711c6-131">Выберите **Параметры** , затем выберите **Перезаписать существующую базу данных** и **Закрыть существующие подключения к целевой базе данных**.</span><span class="sxs-lookup"><span data-stu-id="711c6-131">Select **Options** , and then select **Overwrite the existing database** and **Close existing connections to destination database**.</span></span> 
-11. <span data-ttu-id="711c6-132">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="711c6-132">Select **OK**.</span></span>
+10. <span data-ttu-id="4d111-131">Выберите **Параметры**, затем выберите **Перезаписать существующую базу данных** и **Закрыть существующие подключения к целевой базе данных**.</span><span class="sxs-lookup"><span data-stu-id="4d111-131">Select **Options**, and then select **Overwrite the existing database** and **Close existing connections to destination database**.</span></span> 
+11. <span data-ttu-id="4d111-132">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="4d111-132">Select **OK**.</span></span>
 
 ![Восстановление параметров](./media/7RestoreSetting.png)
 
-<span data-ttu-id="711c6-134">Вы получите подтверждение, что восстановление AXDB прошло успешно.</span><span class="sxs-lookup"><span data-stu-id="711c6-134">You will receive confirmation that the AXDB restore was successful.</span></span> <span data-ttu-id="711c6-135">Получив это подтверждение, вы можете закрыть SQL Services Management Studio.</span><span class="sxs-lookup"><span data-stu-id="711c6-135">After you receive this confirmation, you can close SQL Services Management Studio.</span></span>
+<span data-ttu-id="4d111-134">Вы получите подтверждение, что восстановление AXDB прошло успешно.</span><span class="sxs-lookup"><span data-stu-id="4d111-134">You will receive confirmation that the AXDB restore was successful.</span></span> <span data-ttu-id="4d111-135">Получив это подтверждение, вы можете закрыть SQL Services Management Studio.</span><span class="sxs-lookup"><span data-stu-id="4d111-135">After you receive this confirmation, you can close SQL Services Management Studio.</span></span>
 
-12. <span data-ttu-id="711c6-136">Вернитесь в раздел **Службы IIS** > **Пулы приложений** > **AOSService** и запустите службу AOSService.</span><span class="sxs-lookup"><span data-stu-id="711c6-136">Go back to **Internet Information Services** > **Application Pools** > **AOSService** and start the AOSService.</span></span>
-13. <span data-ttu-id="711c6-137">Перейдите в раздел **Службы** и запустите две службы, которые вы остановили ранее.</span><span class="sxs-lookup"><span data-stu-id="711c6-137">Go to **Services** and start the two services you stopped earlier.</span></span>
+12. <span data-ttu-id="4d111-136">Вернитесь в раздел **Службы IIS** > **Пулы приложений** > **AOSService** и запустите службу AOSService.</span><span class="sxs-lookup"><span data-stu-id="4d111-136">Go back to **Internet Information Services** > **Application Pools** > **AOSService** and start the AOSService.</span></span>
+13. <span data-ttu-id="4d111-137">Перейдите в раздел **Службы** и запустите две службы, которые вы остановили ранее.</span><span class="sxs-lookup"><span data-stu-id="4d111-137">Go to **Services** and start the two services you stopped earlier.</span></span>
 
-14. <span data-ttu-id="711c6-138">Найдите на этой виртуальной машине инструмент AdminUserProvisioning.</span><span class="sxs-lookup"><span data-stu-id="711c6-138">Locate the AdminUserProvisioning tool on this VM.</span></span> <span data-ttu-id="711c6-139">Ищите K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span><span class="sxs-lookup"><span data-stu-id="711c6-139">Look under, K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span></span>
-15. <span data-ttu-id="711c6-140">Запустите файл .ext, используя свой адрес пользователя в поле **Адрес электронной почты**.</span><span class="sxs-lookup"><span data-stu-id="711c6-140">Run the .ext file using your user address in the **Email Address** field.</span></span> 
-16. <span data-ttu-id="711c6-141">Выберите **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="711c6-141">Select **Submit**.</span></span>
+14. <span data-ttu-id="4d111-138">Найдите на этой виртуальной машине инструмент AdminUserProvisioning.</span><span class="sxs-lookup"><span data-stu-id="4d111-138">Locate the AdminUserProvisioning tool on this VM.</span></span> <span data-ttu-id="4d111-139">Ищите K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span><span class="sxs-lookup"><span data-stu-id="4d111-139">Look under, K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span></span>
+15. <span data-ttu-id="4d111-140">Запустите файл .ext, используя свой адрес пользователя в поле **Адрес электронной почты**.</span><span class="sxs-lookup"><span data-stu-id="4d111-140">Run the .ext file using your user address in the **Email Address** field.</span></span> 
+16. <span data-ttu-id="4d111-141">Выберите **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="4d111-141">Select **Submit**.</span></span>
 
 ![Подготовка пользователя-администратора](./media/8AdminUserProvisioning.png)
 
-<span data-ttu-id="711c6-143">Это займет пару минут.</span><span class="sxs-lookup"><span data-stu-id="711c6-143">This takes a couple of minutes to complete.</span></span> <span data-ttu-id="711c6-144">Вы должны получить подтверждающее сообщение об успешном обновлении пользователя-администратора.</span><span class="sxs-lookup"><span data-stu-id="711c6-144">You should receive a confirmation message that the Admin user was successfully updated.</span></span>
+<span data-ttu-id="4d111-143">Это займет пару минут.</span><span class="sxs-lookup"><span data-stu-id="4d111-143">This takes a couple of minutes to complete.</span></span> <span data-ttu-id="4d111-144">Вы должны получить подтверждающее сообщение об успешном обновлении пользователя-администратора.</span><span class="sxs-lookup"><span data-stu-id="4d111-144">You should receive a confirmation message that the Admin user was successfully updated.</span></span>
 
-17. <span data-ttu-id="711c6-145">Наконец, запустите командную строку от имени администратора и выполните команду iisreset</span><span class="sxs-lookup"><span data-stu-id="711c6-145">Lastly, run Command Prompt as Administrator and perform iisreset</span></span>
+17. <span data-ttu-id="4d111-145">Наконец, запустите командную строку от имени администратора и выполните команду iisreset</span><span class="sxs-lookup"><span data-stu-id="4d111-145">Lastly, run Command Prompt as Administrator and perform iisreset</span></span>
 
 ![Сброс IIS](./media/9IISReset.png)
 
-18. <span data-ttu-id="711c6-147">Закройте сеанс удаленного рабочего стола и используйте страницу LCS **Сведения о среде** , чтобы войти в среду и убедиться, что она работает должным образом.</span><span class="sxs-lookup"><span data-stu-id="711c6-147">Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.</span></span>
+18. <span data-ttu-id="4d111-147">Закройте сеанс удаленного рабочего стола и используйте страницу LCS **Сведения о среде**, чтобы войти в среду и убедиться, что она работает должным образом.</span><span class="sxs-lookup"><span data-stu-id="4d111-147">Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.</span></span>
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
