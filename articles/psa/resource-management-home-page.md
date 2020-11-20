@@ -3,7 +3,7 @@ title: Домашняя страница управления ресурсами
 description: В этом разделе представлена информация о том, как управлять ресурсами.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,24 +18,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1a48dc3c814cfaaa08ba8c00834b0b37d6fbc5a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f4289d838c087f81e221ef736cd8ff24846009fa
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083409"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124159"
 ---
-# <a name="resource-management-home-page"></a><span data-ttu-id="362ef-103">Домашняя страница управления ресурсами</span><span class="sxs-lookup"><span data-stu-id="362ef-103">Resource management home page</span></span>
+# <a name="resource-management-home-page"></a><span data-ttu-id="91211-103">Домашняя страница управления ресурсами</span><span class="sxs-lookup"><span data-stu-id="91211-103">Resource management home page</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="362ef-104">Ресурсы — самый важный актив организаций, основанных на сервисе.</span><span class="sxs-lookup"><span data-stu-id="362ef-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="362ef-105">Возможность находить и резервировать правильные ресурсы, когда они требуются, и поддерживать их загрузку помогает организации достигать целевого дохода и целей по удовлетворенности клиентов.</span><span class="sxs-lookup"><span data-stu-id="362ef-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="362ef-106">Следующие разделы сфокусированы на возможностях управления ресурсами в Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="362ef-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
+<span data-ttu-id="91211-104">Ресурсы — самый важный актив организаций, основанных на сервисе.</span><span class="sxs-lookup"><span data-stu-id="91211-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="91211-105">Возможность находить и резервировать правильные ресурсы, когда они требуются, и поддерживать их загрузку помогает организации достигать целевого дохода и целей по удовлетворенности клиентов.</span><span class="sxs-lookup"><span data-stu-id="91211-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="91211-106">Следующие разделы сфокусированы на возможностях управления ресурсами в Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="91211-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
 
-- [<span data-ttu-id="362ef-107">Управление ресурсами</span><span class="sxs-lookup"><span data-stu-id="362ef-107">Manage resources</span></span>](manage-resources.md)
-- [<span data-ttu-id="362ef-108">Основные понятия</span><span class="sxs-lookup"><span data-stu-id="362ef-108">Key concepts</span></span>](reports-key-concepts.md)
-- [<span data-ttu-id="362ef-109">Выполнение запросов ресурсов</span><span class="sxs-lookup"><span data-stu-id="362ef-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
-- [<span data-ttu-id="362ef-110">Предложение ресурсов</span><span class="sxs-lookup"><span data-stu-id="362ef-110">Proposing resources</span></span>](resource-management-propose-resources.md)
-- [<span data-ttu-id="362ef-111">Резервирование ресурсов</span><span class="sxs-lookup"><span data-stu-id="362ef-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="362ef-112">Предварительное резервирование требований</span><span class="sxs-lookup"><span data-stu-id="362ef-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
-- [<span data-ttu-id="362ef-113">Навыки и модели квалификации</span><span class="sxs-lookup"><span data-stu-id="362ef-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
-- [<span data-ttu-id="362ef-114">Вопросы и ответы по управлению ресурсами</span><span class="sxs-lookup"><span data-stu-id="362ef-114">Resource management FAQ</span></span>](resource-management-faq.md)
+- [<span data-ttu-id="91211-107">Управление ресурсами</span><span class="sxs-lookup"><span data-stu-id="91211-107">Manage resources</span></span>](manage-resources.md)
+- [<span data-ttu-id="91211-108">Основные понятия</span><span class="sxs-lookup"><span data-stu-id="91211-108">Key concepts</span></span>](reports-key-concepts.md)
+- [<span data-ttu-id="91211-109">Выполнение запросов ресурсов</span><span class="sxs-lookup"><span data-stu-id="91211-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
+- [<span data-ttu-id="91211-110">Предложение ресурсов</span><span class="sxs-lookup"><span data-stu-id="91211-110">Proposing resources</span></span>](resource-management-propose-resources.md)
+- [<span data-ttu-id="91211-111">Резервирование ресурсов</span><span class="sxs-lookup"><span data-stu-id="91211-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="91211-112">Предварительное резервирование требований</span><span class="sxs-lookup"><span data-stu-id="91211-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
+- [<span data-ttu-id="91211-113">Навыки и модели квалификации</span><span class="sxs-lookup"><span data-stu-id="91211-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
+- [<span data-ttu-id="91211-114">Вопросы и ответы по управлению ресурсами</span><span class="sxs-lookup"><span data-stu-id="91211-114">Resource management FAQ</span></span>](resource-management-faq.md)

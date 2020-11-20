@@ -3,7 +3,7 @@ title: Домашняя страница планирования проекта
 description: В этом разделе представлена информация о планировании проекта.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,35 +18,35 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1c3e0e1e0314d915bce4fb840b444b79edd4ac0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 645f9f1009bb52f6584bbce7f8ef07a033e450e9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083156"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123304"
 ---
-# <a name="project-planning-home-page"></a><span data-ttu-id="ecfd2-103">Домашняя страница планирования проекта</span><span class="sxs-lookup"><span data-stu-id="ecfd2-103">Project planning home page</span></span>
+# <a name="project-planning-home-page"></a><span data-ttu-id="31b9a-103">Домашняя страница планирования проекта</span><span class="sxs-lookup"><span data-stu-id="31b9a-103">Project planning home page</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="ecfd2-104">Dynamics 365 Project Service Automation предлагает сквозную поддержку для организаций по обслуживанию, предоставляя инструменты для управления процессом продажи и поставки.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-104">Dynamics 365 Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process.</span></span> <span data-ttu-id="ecfd2-105">Это помогает этим организациям выявлять возможные сделки, отправлять предложения, заключать контрактные соглашения, управлять ресурсами, выполнять проекты вовремя и в рамках бюджета, записывать время и расходы и выставлять счета клиенту.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-105">It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer.</span></span> <span data-ttu-id="ecfd2-106">Участники рабочей группы могут совместно работать в проектах, и они могут поддерживать текущую точную информацию о состоянии проекта, чтобы руководители проекта могли выявлять риски проекта и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-106">Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks.</span></span> <span data-ttu-id="ecfd2-107">Эти расширенные задачи обычно выполняются в крупных организациях, которые имеют отдельные подразделения, работающие вместе.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-107">These advanced tasks are typically performed in larger organizations that have separate divisions that work together.</span></span>
+<span data-ttu-id="31b9a-104">Dynamics 365 Project Service Automation предлагает сквозную поддержку для организаций по обслуживанию, предоставляя инструменты для управления процессом продажи и поставки.</span><span class="sxs-lookup"><span data-stu-id="31b9a-104">Dynamics 365 Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process.</span></span> <span data-ttu-id="31b9a-105">Это помогает этим организациям выявлять возможные сделки, отправлять предложения, заключать контрактные соглашения, управлять ресурсами, выполнять проекты вовремя и в рамках бюджета, записывать время и расходы и выставлять счета клиенту.</span><span class="sxs-lookup"><span data-stu-id="31b9a-105">It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer.</span></span> <span data-ttu-id="31b9a-106">Участники рабочей группы могут совместно работать в проектах, и они могут поддерживать текущую точную информацию о состоянии проекта, чтобы руководители проекта могли выявлять риски проекта и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="31b9a-106">Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks.</span></span> <span data-ttu-id="31b9a-107">Эти расширенные задачи обычно выполняются в крупных организациях, которые имеют отдельные подразделения, работающие вместе.</span><span class="sxs-lookup"><span data-stu-id="31b9a-107">These advanced tasks are typically performed in larger organizations that have separate divisions that work together.</span></span>
 
-## <a name="project-management-tools"></a><span data-ttu-id="ecfd2-108">Средства управления проектами</span><span class="sxs-lookup"><span data-stu-id="ecfd2-108">Project management tools</span></span>
+## <a name="project-management-tools"></a><span data-ttu-id="31b9a-108">Средства управления проектами</span><span class="sxs-lookup"><span data-stu-id="31b9a-108">Project management tools</span></span>
 
-<span data-ttu-id="ecfd2-109">Средства управления проектами в PSA помогают легко выполнять проекты.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-109">The project management tools in PSA help you easily run projects.</span></span> <span data-ttu-id="ecfd2-110">Встроенные шаблоны а средства планирования помогают руководителям проектов рабочим группам поддерживать производительность.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-110">Built-in templates and scheduling tools help project managers and teams stay productive.</span></span> <span data-ttu-id="ecfd2-111">Ниже приведены некоторые задачи, с которыми могут помочь эти средства:</span><span class="sxs-lookup"><span data-stu-id="ecfd2-111">Here are some of the tasks that the tools help with:</span></span>
+<span data-ttu-id="31b9a-109">Средства управления проектами в PSA помогают легко выполнять проекты.</span><span class="sxs-lookup"><span data-stu-id="31b9a-109">The project management tools in PSA help you easily run projects.</span></span> <span data-ttu-id="31b9a-110">Встроенные шаблоны а средства планирования помогают руководителям проектов рабочим группам поддерживать производительность.</span><span class="sxs-lookup"><span data-stu-id="31b9a-110">Built-in templates and scheduling tools help project managers and teams stay productive.</span></span> <span data-ttu-id="31b9a-111">Ниже приведены некоторые задачи, с которыми могут помочь эти средства:</span><span class="sxs-lookup"><span data-stu-id="31b9a-111">Here are some of the tasks that the tools help with:</span></span>
 
-- <span data-ttu-id="ecfd2-112">Планирование проектов с помощью расписания работ и оценок.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-112">Plan projects by using a work schedule and estimates.</span></span>
-- <span data-ttu-id="ecfd2-113">Оценка и отслеживание затрат и выручки для проекта.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-113">Estimate and track project costs and revenue.</span></span>
-- <span data-ttu-id="ecfd2-114">Использование оценок проекта в процессе продаж.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-114">Use project estimates during the sales process.</span></span>
-- <span data-ttu-id="ecfd2-115">Прогнозирование потребностей в ресурсах для проектов, которые находятся в воронке продаж.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-115">Forecast resource requirements for projects that are in the pipeline.</span></span>
-- <span data-ttu-id="ecfd2-116">Успешно доставлять проекты путем отслеживания хода выполнения и потребления стоимости.</span><span class="sxs-lookup"><span data-stu-id="ecfd2-116">Successfully deliver projects by tracking progress and cost consumption.</span></span>
+- <span data-ttu-id="31b9a-112">Планирование проектов с помощью расписания работ и оценок.</span><span class="sxs-lookup"><span data-stu-id="31b9a-112">Plan projects by using a work schedule and estimates.</span></span>
+- <span data-ttu-id="31b9a-113">Оценка и отслеживание затрат и выручки для проекта.</span><span class="sxs-lookup"><span data-stu-id="31b9a-113">Estimate and track project costs and revenue.</span></span>
+- <span data-ttu-id="31b9a-114">Использование оценок проекта в процессе продаж.</span><span class="sxs-lookup"><span data-stu-id="31b9a-114">Use project estimates during the sales process.</span></span>
+- <span data-ttu-id="31b9a-115">Прогнозирование потребностей в ресурсах для проектов, которые находятся в воронке продаж.</span><span class="sxs-lookup"><span data-stu-id="31b9a-115">Forecast resource requirements for projects that are in the pipeline.</span></span>
+- <span data-ttu-id="31b9a-116">Успешно доставлять проекты путем отслеживания хода выполнения и потребления стоимости.</span><span class="sxs-lookup"><span data-stu-id="31b9a-116">Successfully deliver projects by tracking progress and cost consumption.</span></span>
 
-<span data-ttu-id="ecfd2-117">Следующие разделы содержат сведения, которые помогут руководителям проектов оценивать работу, оценивать затраты на проект и прогнозировать потребность в ресурсах с помощью средств, которые содержатся в PSA:</span><span class="sxs-lookup"><span data-stu-id="ecfd2-117">The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:</span></span>
+<span data-ttu-id="31b9a-117">Следующие разделы содержат сведения, которые помогут руководителям проектов оценивать работу, оценивать затраты на проект и прогнозировать потребность в ресурсах с помощью средств, которые содержатся в PSA:</span><span class="sxs-lookup"><span data-stu-id="31b9a-117">The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:</span></span>
 
-- [<span data-ttu-id="ecfd2-118">Создание расписания</span><span class="sxs-lookup"><span data-stu-id="ecfd2-118">Creating a schedule</span></span>](project-creating.md)
-- [<span data-ttu-id="ecfd2-119">Оценка затрат и выручки для проекта</span><span class="sxs-lookup"><span data-stu-id="ecfd2-119">Estimating project cost and revenue</span></span>](project-estimating.md)
-- [<span data-ttu-id="ecfd2-120">Использование расписания и оценок</span><span class="sxs-lookup"><span data-stu-id="ecfd2-120">Leveraging the schedule and estimates</span></span>](project-leveraging.md)
-- [<span data-ttu-id="ecfd2-121">Отслеживание хода выполнение проекта и освоения затрат</span><span class="sxs-lookup"><span data-stu-id="ecfd2-121">Tracking project progress and cost consumption</span></span>](project-tracking.md)
-- [<span data-ttu-id="ecfd2-122">Шаблоны проектов</span><span class="sxs-lookup"><span data-stu-id="ecfd2-122">Project templates</span></span>](project-templates.md)
-- [<span data-ttu-id="ecfd2-123">Стадии проекта</span><span class="sxs-lookup"><span data-stu-id="ecfd2-123">Project stages</span></span>](project-stages.md)
-- [<span data-ttu-id="ecfd2-124">Параметры проекта</span><span class="sxs-lookup"><span data-stu-id="ecfd2-124">Project settings</span></span>](project-settings.md)
+- [<span data-ttu-id="31b9a-118">Создание расписания</span><span class="sxs-lookup"><span data-stu-id="31b9a-118">Creating a schedule</span></span>](project-creating.md)
+- [<span data-ttu-id="31b9a-119">Оценка затрат и выручки для проекта</span><span class="sxs-lookup"><span data-stu-id="31b9a-119">Estimating project cost and revenue</span></span>](project-estimating.md)
+- [<span data-ttu-id="31b9a-120">Использование расписания и оценок</span><span class="sxs-lookup"><span data-stu-id="31b9a-120">Leveraging the schedule and estimates</span></span>](project-leveraging.md)
+- [<span data-ttu-id="31b9a-121">Отслеживание хода выполнение проекта и освоения затрат</span><span class="sxs-lookup"><span data-stu-id="31b9a-121">Tracking project progress and cost consumption</span></span>](project-tracking.md)
+- [<span data-ttu-id="31b9a-122">Шаблоны проектов</span><span class="sxs-lookup"><span data-stu-id="31b9a-122">Project templates</span></span>](project-templates.md)
+- [<span data-ttu-id="31b9a-123">Стадии проекта</span><span class="sxs-lookup"><span data-stu-id="31b9a-123">Project stages</span></span>](project-stages.md)
+- [<span data-ttu-id="31b9a-124">Параметры проекта</span><span class="sxs-lookup"><span data-stu-id="31b9a-124">Project settings</span></span>](project-settings.md)
