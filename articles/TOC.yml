@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Новые возможности
       items:
+        - name: "Декабрь 2020\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: "Ноябрь 2020\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Процесс продаж по проекту
@@ -87,7 +89,7 @@
                 - name: Управление несколькими клиентами в строках предложения с расценками на основе проекта
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Настройка подлежащих оплате компонентов строки предложения с расценками по проекту
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Создание оценок в строке предложения с расценками
                   href: sales/create-estimate-quote-line.md
                 - name: Импорт оценок из проекта в строку предложения с расценками на основе проекта
@@ -109,7 +111,7 @@
             - name: Управление прайс-листами проекта в контрактах по проекту
               href: sales/contracts-manage-project-price-lists.md
             - name: Управление несколькими клиентами в контрактах по проекту
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Строки контракта на основе проектов
               items:
                 - name: Обзор строк контракта на основе проекта
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Копирование контракта по проекту
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Авансы и гонорары
+              items:
+                - name: "Авансы и контракты с предоплатой\_— облегченное развертывание"
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: "Настройка графика предоплаты\_— облегченное развертывание"
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: "Создание специального аванса по контракту\_— облегченное развертывание"
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Определение цен и себестоимости
       items:
         - name: Настройка прайс-листа
@@ -158,10 +168,18 @@
           items:
             - name: Обзор измерений цен
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Создание решения для настраиваемых измерений цен
+              href: sales/create-solution-custompd.md
             - name: Использование существующих полей в качестве измерений цен
               items:
                 - name: Поля Project Operations в качестве измерений цен
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Использование резервируемого ресурса в качестве измерения цен
+                  href: sales/use-br-as-pd.md
+                - name: Использование категории транзакции в качестве измерения цен
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Резервируемый ресурс с несколькими ролями в проекте
+                  href: sales/br-playing-multiple-roles.md
             - name: Настраиваемые поля в качестве измерений цен
               items:
                 - name: Создание настраиваемых полей и сущностей в качестве измерений цен
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Создание настраиваемых полей в качестве измерений цен
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Обновление атрибутов подключаемых модулей для включения новых измерений цен
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Отключение измерения цен
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Управление проектами
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Администрирование ресурсов
           items:
+            - name: Создание ресурсов
+              href: resource-management/create-resources.md
             - name: Определение навыков и квалификаций
               href: resource-management/define-skills-proficiencies.md
+            - name: Определение ролей
+              href: resource-management/define-roles.md
             - name: Определение календарей ресурсов
               href: resource-management/define-resource-calendars.md
         - name: Способы распределения при резервировании
           href: resource-management/booking-allocation-methods.md
+        - name: Состояния резервирования
+          href: resource-management/booking-status.md
         - name: Модели навыков и квалификации
           href: resource-management/skills-proficiency-models.md
         - name: Выверка ресурсов
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Управление счетом-проформой по проекту
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Выставление счета на предоплату или аванс
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Подтверждение счета-проформы по проекту
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Настройка автоматизации счетов по проекту
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Журнал интеграции в Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Внутрихолдинговое выставление счетов
+          items:
+            - name: Обзор внутрихолдингового выставления счетов
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Настройка внутрихолдингового выставления счетов
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Создание внутрихолдинговых счетов для клиентов и поставщиков
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Создание внутрихолдинговых транзакций
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Признание выручки
+      items:
+        - name: Обзор признания выручки
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Настройка признания выручки
+          items:
+            - name: Настройка типов периодов
+              href: project-accounting/period-types.md
+            - name: Настройка шаблонов стоимости
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Управление оценками выручки
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Проекты оценки выручки с фиксированной ценой
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Методы вычисления стоимости для завершения
+          href: revenue-recognition/cost-complete-methods.md
 - name: "Облегченное развертывание\_— от сделки до счетов-проформ"
   items:
     - name: Начало работы
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Новые возможности
       items:
+        - name: "Новые возможности в декабре 2020 года\_— облегченное развертывание\_— от сделки до счетов-проформ"
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: "Новые возможности в ноябре 2020 года\_— облегченное развертывание\_— от сделки до счетов-проформ"
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Процесс продаж по проекту
@@ -538,10 +594,18 @@
           items:
             - name: Обзор измерений цен
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Создание решения для настраиваемых измерений цен
+              href: sales/create-solution-custompd.md
             - name: Использование существующих полей в качестве измерений цен
               items:
-                - name: Использование существующего поля в качестве измерения цен
+                - name: Поля Project Operations в качестве измерений цен
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Использование резервируемого ресурса в качестве измерения цен
+                  href: sales/use-br-as-pd.md
+                - name: Использование категории транзакции в качестве измерения цен
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Резервируемый ресурс с несколькими ролями в проекте
+                  href: sales/br-playing-multiple-roles.md
             - name: Настраиваемые поля в качестве измерений цен
               items:
                 - name: Создание настраиваемых полей и сущностей в качестве измерений цен
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Создание настраиваемых полей в качестве измерений цен
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Обновление атрибутов подключаемых модулей для включения новых измерений цен
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Отключение измерения цен
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Управление проектами
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Администрирование ресурсов
           items:
+            - name: Создание ресурсов
+              href: resource-management/create-resources.md
             - name: Определение навыков и квалификаций
               href: resource-management/define-skills-proficiencies.md
+            - name: Определение ролей
+              href: resource-management/define-roles.md
             - name: Определение календарей ресурсов
               href: resource-management/define-resource-calendars.md
         - name: Способы распределения при резервировании
           href: resource-management/booking-allocation-methods.md
+        - name: Состояния резервирования
+          href: resource-management/booking-status.md
         - name: Модели навыков и квалификации
           href: resource-management/skills-proficiency-models.md
         - name: Выверка ресурсов
@@ -834,6 +906,8 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Новые возможности и изменения в выпуске обновления 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Новые возможности и изменения в выпуске обновления 24, V3'
@@ -922,7 +996,7 @@
           items:
             - name: Домашняя страница измерений цен и себестоимости
               href: psa/pricing-costing-dimensions.md
-            - name: Создание решения для настраиваемых измерений ценообразования
+            - name: Создание решения для настраиваемых измерений цен
               href: psa/custompricingdimensionssolution.md
             - name: Создание настраиваемых полей и сущностей
               href: psa/create-custom-fields-entities.md
