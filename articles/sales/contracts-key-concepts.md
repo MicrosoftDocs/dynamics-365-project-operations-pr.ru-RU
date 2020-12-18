@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175547"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642154"
 ---
 # <a name="project-contracts---key-concepts"></a>Контракты по проектам — основные понятия
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-В этой теме рассматриваются основные понятия, которые необходимо знать, прежде чем использовать контракты по проектам в Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+В этом разделе представлены ключевые концепции, о которых следует знать, прежде чем вы начнете использовать контракты по проекту в Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Ответственная компания
 

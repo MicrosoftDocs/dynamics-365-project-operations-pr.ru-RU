@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121189"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643003"
 ---
 # <a name="provision-a-new-environment"></a>Подготовка новой среды
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-Эта тема предоставляет информацию о том, как подготовить новую среду Dynamics 365 Project Operations для сценариев на основе ресурсов/отсутствия запасов.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+В этом разделе представлена информация о том, как подготовить новую среду Dynamics 365 Project Operations для сценариев на основе ресурсов/без запасов.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Включение автоматической подготовки Project Operations в проекте LCS
 
@@ -120,7 +122,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ![Применение решений](./media/13ApplySolutions.png)
 
-5. Выберите оба решения, **Сопоставление сущностей двойной записи Dynamics 365 Finance and Operations** и **Сопоставления сущностей двойной записи Dynamics 365 Project Operations**, затем выберите **Применить**.
+5. Выберите оба решения, **Сопоставление сущностей с двойной записью Dynamics 365 Finance and Operations**, а также **Сопоставления сущностей с двойной записью Dynamics 365 Project Operations**, а затем выберите **Применить**.
 
 ![Подтверждение решений](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ _**Относится к:** Project Operations для сценариев на о
 | --- | --- | --- | --- | --- | --- |
 | **Роли ресурсов проекта для всех компаний (bookableresourcecategories)** | No | Да | Common Data Service | No | Неприменимо |
 | **Юридические лица (cdm\_companies)** | No | Да | Приложения Finance and Operations | No | Неприменимо |
+| **Книга учета (msdyn_ledgers)** | No | Да | Приложения Finance and Operations | Да | Да, приложения Finance and Operations |
 | **Фактические данные интеграции Project Operations (msdyn\_actuals)** | No | No | Неприменимо | Да | No |
 | **Строки контракта по проекту (salesorderdetails)** | No | No | Неприменимо | No | No |
 | **Сущность интеграции для отношений транзакций проекта (msdyn\_transactionconnections)** | No | No | Неприменимо | No | Неприменимо |

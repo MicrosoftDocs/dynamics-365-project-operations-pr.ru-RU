@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121144"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642990"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Регистрация на подписки на предварительную версию Project Operations для сценариев ресурсов/отсутствия запасов
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме объясняется, как подписаться на предварительную версию/предложение партнера и развернуть среду Project Operations для сценариев на основе ресурсов/отсутствия запасов.
 
@@ -31,18 +33,18 @@ _**Относится к:** Project Operations для сценариев на о
 
 Когда ваш [запрос на предварительную версию](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) будет утвержден, вы получите три предложения от Microsoft по электронной почте. Эти предложения позволяют развернуть предварительную версию Project Operations:
 
-- Dynamics 365 Project Operations (CRM) — пробная предварительная версия
+- Пробная предварительная версия Dynamics 365 Project Operations (CRM)
 - Office 365 Project Operations — пробная предварительная версия
 - Dynamics 365 Finance — Пробная предварительная версия
 
 > [!IMPORTANT]
 > Только один человек, администратор клиента, в организации должен выполнять эту задачу. Если вы не являетесь подписчиком этого выпуска, подождите, пока ваша организация не будет зарегистрирована и вы не получите свои учетные данные.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) — пробная предварительная версия 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Пробная предварительная версия Dynamics 365 Project Operations (CRM) 
 
 Прежде чем начать, убедитесь, что вы вошли в браузер с рабочей учетной записью пользователя в клиенте, где вы хотите получить предварительную версию Project Operations.
 
-1. Активируйте код первого предложения **Dynamics 365 Project Operations (CRM) — пробная предварительная версия**, вставив его в URL-адрес браузера.
+1. Активируйте код первого предложения **Dynamics 365 Project Operations (CRM) — Пробная предварительная версия**, вставив его в URL-адрес браузера.
 
 ![Активировать предложение](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ![Назначение лицензий](./media/15AssignLicenses.png)
 
-3. Убедитесь, что выбраны лицензии **Предварительная версия Dynamics 365 Project Operations (CRM)** и **Office 365 Project Operations — предварительная версия**, и выберите **Сохранить изменения**.
+3. Убедитесь, что лицензия **Dynamics 365 Project Operations (CRM) Предварительная версия**, а также **Office 365 Project Operations — предварительная версия** выбрана и выберите **Сохранить изменения**.
 
 > [!NOTE]
 > Пробное предложение Finance не нужно назначать пользователю.
