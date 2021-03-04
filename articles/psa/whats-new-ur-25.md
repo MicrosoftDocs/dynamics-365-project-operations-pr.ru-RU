@@ -17,54 +17,56 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5a81893c4a804deb09cf33e0ac3f1a25b8bca36
-ms.sourcegitcommit: a2b810219d381716d3eedb14c4eb6cdefb5b5845
+ms.openlocfilehash: aabee3fe755e33d2c0f01a96b6f53a68957bc041
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4183559"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143797"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a><span data-ttu-id="eefcb-103">Что нового или измененного в выпуске-обновлении 25 для Project Service Automation версии V3</span><span class="sxs-lookup"><span data-stu-id="eefcb-103">What's new or changed in Project Service Automation Update Release 25, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a><span data-ttu-id="77ba2-103">Что нового или измененного в выпуске-обновлении 25 для Project Service Automation версии V3</span><span class="sxs-lookup"><span data-stu-id="77ba2-103">What's new or changed in Project Service Automation Update Release 25, V3</span></span>
 
-<span data-ttu-id="eefcb-104">Мы рады объявить о последнем обновлении приложения Project Service Automation для Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="eefcb-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="eefcb-105">Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования.</span><span class="sxs-lookup"><span data-stu-id="eefcb-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="eefcb-106">Этот выпуск совместим с Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="eefcb-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="eefcb-107">Чтобы обновить приложение до этого выпуска, посетите страницу решений Центра администрирования Dynamics 365 Online и установите обновление.</span><span class="sxs-lookup"><span data-stu-id="eefcb-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="eefcb-108">Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="eefcb-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="eefcb-109">В этой теме перечислены новые или измененные функции и исправления для Project Service Automation V3, выпуск-обновление 25. Эта версия имеет номер сборки V 3.10.43.76 и она общедоступна через самообновление в октябре 2020 года.</span><span class="sxs-lookup"><span data-stu-id="eefcb-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 25 This version has a build number of V 3.10.43.76 and is generally available through a self-update in October 2020.</span></span>
+<span data-ttu-id="77ba2-104">Мы рады объявить о последнем обновлении приложения Project Service Automation для Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="77ba2-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="77ba2-105">Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования.</span><span class="sxs-lookup"><span data-stu-id="77ba2-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="77ba2-106">Этот выпуск совместим с Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="77ba2-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="77ba2-107">Чтобы обновить приложение до этого выпуска, посетите страницу решений Центра администрирования Dynamics 365 Online и установите обновление.</span><span class="sxs-lookup"><span data-stu-id="77ba2-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="77ba2-108">Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="77ba2-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-## <a name="update-release-25"></a><span data-ttu-id="eefcb-110">Выпуск-обновление 25</span><span class="sxs-lookup"><span data-stu-id="eefcb-110">Update Release 25</span></span>
+<span data-ttu-id="77ba2-109">В этой теме перечислены новые или измененные функции и исправления для Project Service Automation V3, выпуск-обновление 25. Эта версия имеет номер сборки V 3.10.43.76 и она общедоступна через самообновление в октябре 2020 года.</span><span class="sxs-lookup"><span data-stu-id="77ba2-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 25 This version has a build number of V 3.10.43.76 and is generally available through a self-update in October 2020.</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="eefcb-111">Исправленные ошибки</span><span class="sxs-lookup"><span data-stu-id="eefcb-111">Bug fixes</span></span>
+## <a name="update-release-25"></a><span data-ttu-id="77ba2-110">Выпуск-обновление 25</span><span class="sxs-lookup"><span data-stu-id="77ba2-110">Update Release 25</span></span>
 
-<span data-ttu-id="eefcb-112">**Время и расходы**</span><span class="sxs-lookup"><span data-stu-id="eefcb-112">**Time and Expense**</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="77ba2-111">Исправленные ошибки</span><span class="sxs-lookup"><span data-stu-id="77ba2-111">Bug fixes</span></span>
 
-<span data-ttu-id="eefcb-113">Следующая ошибка была исправлена:</span><span class="sxs-lookup"><span data-stu-id="eefcb-113">The following issue has been fixed:</span></span>
+<span data-ttu-id="77ba2-112">**Время и расходы**</span><span class="sxs-lookup"><span data-stu-id="77ba2-112">**Time and Expense**</span></span>
 
-- <span data-ttu-id="eefcb-114">Диаграмма ввода времени, показывающая дополнительные данные, основанные на извлечении слишком большого интервала.</span><span class="sxs-lookup"><span data-stu-id="eefcb-114">Time entry chart showing additional data based on too large of an interval being retrieved.</span></span>
+<span data-ttu-id="77ba2-113">Следующая ошибка была исправлена:</span><span class="sxs-lookup"><span data-stu-id="77ba2-113">The following issue has been fixed:</span></span>
 
-<span data-ttu-id="eefcb-115">**Управление ресурсами**</span><span class="sxs-lookup"><span data-stu-id="eefcb-115">**Resource Management**</span></span>
+- <span data-ttu-id="77ba2-114">Диаграмма ввода времени, показывающая дополнительные данные, основанные на извлечении слишком большого интервала.</span><span class="sxs-lookup"><span data-stu-id="77ba2-114">Time entry chart showing additional data based on too large of an interval being retrieved.</span></span>
 
-<span data-ttu-id="eefcb-116">Следующая ошибка была исправлена:</span><span class="sxs-lookup"><span data-stu-id="eefcb-116">The following issue has been fixed:</span></span>
+<span data-ttu-id="77ba2-115">**Управление ресурсами**</span><span class="sxs-lookup"><span data-stu-id="77ba2-115">**Resource Management**</span></span>
 
-- <span data-ttu-id="eefcb-117">Добавлен код Package Deployer, чтобы пропустить импорт исправления Universal Resource Scheduling, если уже существует исправление более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="eefcb-117">Added package deployer code to skip the Universal Resource Scheduling patch import if a higher version patch already exists.</span></span>
+<span data-ttu-id="77ba2-116">Следующая ошибка была исправлена:</span><span class="sxs-lookup"><span data-stu-id="77ba2-116">The following issue has been fixed:</span></span>
 
-<span data-ttu-id="eefcb-118">**Управление проектами**</span><span class="sxs-lookup"><span data-stu-id="eefcb-118">**Project Management**</span></span>
+- <span data-ttu-id="77ba2-117">Добавлен код Package Deployer, чтобы пропустить импорт исправления Universal Resource Scheduling, если уже существует исправление более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="77ba2-117">Added package deployer code to skip the Universal Resource Scheduling patch import if a higher version patch already exists.</span></span>
 
-<span data-ttu-id="eefcb-119">Следующие проблемы были исправлены:</span><span class="sxs-lookup"><span data-stu-id="eefcb-119">The following issues have been fixed:</span></span>
+<span data-ttu-id="77ba2-118">**Управление проектами**</span><span class="sxs-lookup"><span data-stu-id="77ba2-118">**Project Management**</span></span>
 
-- <span data-ttu-id="eefcb-120">Исправлены расхождения в округлении и обменном курсе, приводящие к неправильной плановой себестоимости в сетке отслеживания проекта.</span><span class="sxs-lookup"><span data-stu-id="eefcb-120">Corrected rounding and exchange rate discrepancies resulting in incorrect planned cost in the project tracking grid.</span></span>
-- <span data-ttu-id="eefcb-121">Поддержка возможности отображения двух или более сеток реагирования в форме **Проект**.</span><span class="sxs-lookup"><span data-stu-id="eefcb-121">Support the ability to display two or more react grids on the **Project** form.</span></span>
-- <span data-ttu-id="eefcb-122">Предоставляется проверка для исправления возможности назначать задачу после даты окончания календаря, что приводит к сбою назначения ресурсов.</span><span class="sxs-lookup"><span data-stu-id="eefcb-122">Provided validation to address the ability to assign a task past the calendar end date, which results in a failed resource assignment.</span></span>
-- <span data-ttu-id="eefcb-123">Улучшена обработка ошибок для устранения исключения ссылки NULL, созданного из следующих мест:</span><span class="sxs-lookup"><span data-stu-id="eefcb-123">Improved error handling to address Null Reference Exception generated from the following:</span></span>
+<span data-ttu-id="77ba2-119">Следующие проблемы были исправлены:</span><span class="sxs-lookup"><span data-stu-id="77ba2-119">The following issues have been fixed:</span></span>
 
-    - <span data-ttu-id="eefcb-124">Подключаемый модуль **PreValidateProjectTeamMemberCreate**</span><span class="sxs-lookup"><span data-stu-id="eefcb-124">**PreValidateProjectTeamMemberCreate** plug-in</span></span>
-    - <span data-ttu-id="eefcb-125">**PreValidateProjectTaskCreate**, когда задача проекта создается без связанного проекта</span><span class="sxs-lookup"><span data-stu-id="eefcb-125">**PreValidateProjectTaskCreate** when a project task is created without an associated project</span></span>
-    - <span data-ttu-id="eefcb-126">Подключаемый модуль **PreProjectTeamMemberCreate**</span><span class="sxs-lookup"><span data-stu-id="eefcb-126">**PreProjectTeamMemberCreate** plug-in</span></span>
-    - <span data-ttu-id="eefcb-127">Подключаемый модуль **PostProjectTeamMemberDelete**</span><span class="sxs-lookup"><span data-stu-id="eefcb-127">**PostProjectTeamMemberDelete** plug-in</span></span>
-    - <span data-ttu-id="eefcb-128">Подключаемый модуль **PreValidateProjectTaskDelete**</span><span class="sxs-lookup"><span data-stu-id="eefcb-128">**PreValidateProjectTaskDelete** plug-in</span></span>
+- <span data-ttu-id="77ba2-120">Исправлены расхождения в округлении и обменном курсе, приводящие к неправильной плановой себестоимости в сетке отслеживания проекта.</span><span class="sxs-lookup"><span data-stu-id="77ba2-120">Corrected rounding and exchange rate discrepancies resulting in incorrect planned cost in the project tracking grid.</span></span>
+- <span data-ttu-id="77ba2-121">Поддержка возможности отображения двух или более сеток реагирования в форме **Проект**.</span><span class="sxs-lookup"><span data-stu-id="77ba2-121">Support the ability to display two or more react grids on the **Project** form.</span></span>
+- <span data-ttu-id="77ba2-122">Предоставляется проверка для исправления возможности назначать задачу после даты окончания календаря, что приводит к сбою назначения ресурсов.</span><span class="sxs-lookup"><span data-stu-id="77ba2-122">Provided validation to address the ability to assign a task past the calendar end date, which results in a failed resource assignment.</span></span>
+- <span data-ttu-id="77ba2-123">Улучшена обработка ошибок для устранения исключения ссылки NULL, созданного из следующих мест:</span><span class="sxs-lookup"><span data-stu-id="77ba2-123">Improved error handling to address Null Reference Exception generated from the following:</span></span>
 
-<span data-ttu-id="eefcb-129">**Sales**</span><span class="sxs-lookup"><span data-stu-id="eefcb-129">**Sales**</span></span>
+    - <span data-ttu-id="77ba2-124">Подключаемый модуль **PreValidateProjectTeamMemberCreate**</span><span class="sxs-lookup"><span data-stu-id="77ba2-124">**PreValidateProjectTeamMemberCreate** plug-in</span></span>
+    - <span data-ttu-id="77ba2-125">**PreValidateProjectTaskCreate**, когда задача проекта создается без связанного проекта</span><span class="sxs-lookup"><span data-stu-id="77ba2-125">**PreValidateProjectTaskCreate** when a project task is created without an associated project</span></span>
+    - <span data-ttu-id="77ba2-126">Подключаемый модуль **PreProjectTeamMemberCreate**</span><span class="sxs-lookup"><span data-stu-id="77ba2-126">**PreProjectTeamMemberCreate** plug-in</span></span>
+    - <span data-ttu-id="77ba2-127">Подключаемый модуль **PostProjectTeamMemberDelete**</span><span class="sxs-lookup"><span data-stu-id="77ba2-127">**PostProjectTeamMemberDelete** plug-in</span></span>
+    - <span data-ttu-id="77ba2-128">Подключаемый модуль **PreValidateProjectTaskDelete**</span><span class="sxs-lookup"><span data-stu-id="77ba2-128">**PreValidateProjectTaskDelete** plug-in</span></span>
 
-<span data-ttu-id="eefcb-130">Следующие проблемы были исправлены:</span><span class="sxs-lookup"><span data-stu-id="eefcb-130">The following issues have been fixed:</span></span>
+<span data-ttu-id="77ba2-129">**Sales**</span><span class="sxs-lookup"><span data-stu-id="77ba2-129">**Sales**</span></span>
 
-- <span data-ttu-id="eefcb-131">Улучшена обработка ошибок для устранений исключений ссылки NULL, сгенерированных из **Копирование проекта: оценки управления HelperResource**.</span><span class="sxs-lookup"><span data-stu-id="eefcb-131">Improved error handling to address Null Reference Exceptions generated from **Copy Project: Estimates HelperResource Management**.</span></span>
-- <span data-ttu-id="eefcb-132">**Не готово к выставлению счета** в пункте **Задолженность по выставлению счетов по времени и материалам** не очищает статус выставления счета.</span><span class="sxs-lookup"><span data-stu-id="eefcb-132">**Not ready to Invoice** on a **Time and Material Billing Backlog** doesn't clear the billing status.</span></span>
-- <span data-ttu-id="eefcb-133">Исправлена неправильная подпись кнопок **Цены** на вкладках **Цена роли** и **Каталог номенклатур**.</span><span class="sxs-lookup"><span data-stu-id="eefcb-133">Corrected mislabeled **Prices** buttons on the **Role Price** and **Catalog Items** tab.</span></span>
+<span data-ttu-id="77ba2-130">Следующие проблемы были исправлены:</span><span class="sxs-lookup"><span data-stu-id="77ba2-130">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="77ba2-131">Улучшена обработка ошибок для устранений исключений ссылки NULL, сгенерированных из **Копирование проекта: оценки управления HelperResource**.</span><span class="sxs-lookup"><span data-stu-id="77ba2-131">Improved error handling to address Null Reference Exceptions generated from **Copy Project: Estimates HelperResource Management**.</span></span>
+- <span data-ttu-id="77ba2-132">**Не готово к выставлению счета** в пункте **Задолженность по выставлению счетов по времени и материалам** не очищает статус выставления счета.</span><span class="sxs-lookup"><span data-stu-id="77ba2-132">**Not ready to Invoice** on a **Time and Material Billing Backlog** doesn't clear the billing status.</span></span>
+- <span data-ttu-id="77ba2-133">Исправлена неправильная подпись кнопок **Цены** на вкладках **Цена роли** и **Каталог номенклатур**.</span><span class="sxs-lookup"><span data-stu-id="77ba2-133">Corrected mislabeled **Prices** buttons on the **Role Price** and **Catalog Items** tab.</span></span>
