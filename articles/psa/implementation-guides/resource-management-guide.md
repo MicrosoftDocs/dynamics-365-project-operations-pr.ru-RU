@@ -44,3 +44,6 @@ ms.locfileid: "5149064"
 
 > [!NOTE]
 > Этот раздел будет удален в будущем при обновлении документации. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

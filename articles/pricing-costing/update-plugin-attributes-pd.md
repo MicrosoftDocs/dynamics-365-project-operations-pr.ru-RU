@@ -52,3 +52,6 @@ ms.locfileid: "4643234"
 7. Нажмите **ОК**, чтобы закрыть страницу, затем выберите **Обновить шаг**.
 8. Повторите шаги 2-7 для второго подключаемого модуля, **PreOperationQuoteLineDetail**. Для этого подключаемого модуля необходимо обновить шаг **Update of msdyn_quotelinetransaction**.
 9. Закройте **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

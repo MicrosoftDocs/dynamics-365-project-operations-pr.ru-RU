@@ -273,3 +273,6 @@ _**Относится к:** развертывание Lite — от сделк�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

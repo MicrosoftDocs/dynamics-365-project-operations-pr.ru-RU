@@ -59,3 +59,6 @@ _**Относится к:** Project Operations для сценариев на о
 3. Нажмите кнопку **Сохранить**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

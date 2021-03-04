@@ -44,3 +44,6 @@ Project Operations поддерживает несколько моделей р
 2. Установите **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365. Дополнительные сведения см. в статье [Управление приложениями Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

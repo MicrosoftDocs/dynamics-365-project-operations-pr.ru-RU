@@ -51,3 +51,6 @@ ms.locfileid: "5149874"
   
 ### <a name="see-also"></a>См. также  
  [Руководство по диспетчеру ресурсов](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

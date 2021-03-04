@@ -107,3 +107,6 @@ ms.locfileid: "5147865"
 На следующей иллюстрации показаны изменения, которые происходят для утвержденных записей расходов в случае их отзыва.
 
 ![Переходы статуса записи расходов](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

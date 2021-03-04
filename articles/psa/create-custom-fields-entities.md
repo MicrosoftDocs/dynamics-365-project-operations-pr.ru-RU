@@ -73,3 +73,6 @@ ms.locfileid: "5144879"
 > ![Демонстрационные данные для сущности стандартного заголовка ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

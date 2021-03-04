@@ -57,3 +57,6 @@ ms.locfileid: "5143766"
 - Исправлено: когда класс проводки **Время**, **UnitGroup** недоступна для редактирования для всех сущностей, включая **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** и **ContractLineDetails**. Однако поле **Единица измерения** недоступно для редактирования только для **JournalLine** и **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

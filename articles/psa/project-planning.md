@@ -52,3 +52,6 @@ Dynamics 365 Project Service Automation предлагает сквозную п
 - [Шаблоны проектов](project-templates.md)
 - [Стадии проекта](project-stages.md)
 - [Параметры проекта](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

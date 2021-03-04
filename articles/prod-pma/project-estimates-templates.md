@@ -170,3 +170,6 @@ ms.locfileid: "4083316"
 [![Сопоставление шаблонов транзакций сметы расходов](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Сопоставление шаблонов оценок расходов](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

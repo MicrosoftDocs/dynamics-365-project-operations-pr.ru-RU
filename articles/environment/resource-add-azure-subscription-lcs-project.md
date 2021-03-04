@@ -70,3 +70,6 @@ _**Относится к:** Project Operations для сценариев на о
 Вы успешно подключили свою подписку Azure. Теперь вы можете развернуть развернутые в облаке среды Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

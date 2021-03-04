@@ -41,3 +41,6 @@ ms.locfileid: "5147579"
 - [Предварительное резервирование требований](resource-management-softbook-requirements.md)
 - [Навыки и модели квалификации](resource-management-skills-proficiency.md)
 - [Вопросы и ответы по управлению ресурсами](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

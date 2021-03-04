@@ -76,3 +76,6 @@ ms.locfileid: "5145014"
 5. Добавьте **msdyn_projectteam** в поле **Логическое имя сущности** и **msdyn_bookableresourceid** в поле **Имя поля**. Сохранить запись.
 
  ![Форма создания имени поля измерения цен](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ _**Относится к:** Project Operations для сценариев на о
 ## <a name="regulatory-updates"></a>Нормативные обновления
 
 Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Еще один способ узнать о нормативных обновлениях — войти в Lifecycle Services (LCS) и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

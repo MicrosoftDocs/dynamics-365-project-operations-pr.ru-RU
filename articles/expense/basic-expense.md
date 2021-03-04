@@ -55,3 +55,6 @@ _**Относится к:** развертывание Lite — от сделк�
 ## <a name="see-also"></a>См. также
 
 - [Обзор утверждений](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

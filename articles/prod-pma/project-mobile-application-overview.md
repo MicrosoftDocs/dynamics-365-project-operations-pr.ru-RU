@@ -49,3 +49,6 @@ ms.locfileid: "4083177"
 - [Регистрация времени проекта]( project-time-entry-mobile-workspace.md)
 - [Расписания проекта на мобильном устройстве](Mobile-timesheets.md)
 - [Реализация настраиваемых полей для мобильного приложения Microsoft Dynamics 365 Project Timesheet iOS и Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -330,3 +330,6 @@ PSA записывает финансовые транзакции, которы
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

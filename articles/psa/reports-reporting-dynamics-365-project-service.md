@@ -52,3 +52,6 @@ Microsoft Dynamics 365 Project Service Automation позволяет орган�
 - [Работа с моделью данных Project Service](reports-working-project-service-data-model.md)
 - [Панели мониторинга](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

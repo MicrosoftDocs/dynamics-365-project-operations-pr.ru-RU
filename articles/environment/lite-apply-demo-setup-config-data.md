@@ -74,3 +74,6 @@ _**Облегченное развертывание — от сделки до 
     -   Характеристика резервируемого ресурса
 
     ![Завершите импорт](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

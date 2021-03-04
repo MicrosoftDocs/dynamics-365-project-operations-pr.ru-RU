@@ -44,3 +44,6 @@ Dynamics 365 Project Operations поддерживает возможность 
 
 ## <a name="determine-your-expense-deployment"></a>Определение развертывания расходов
 Чтобы определить, используете ли вы базовое развертывание управления расходами, убедитесь, что URL-адрес заканчивается на **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

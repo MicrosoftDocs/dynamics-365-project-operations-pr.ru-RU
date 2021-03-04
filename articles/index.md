@@ -42,3 +42,6 @@ Project Operations сам по себе мощный, но может быть �
 - [Обзор Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Обзор волны 1 выпуска Dynamics 365 Project Operations 2020 года](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

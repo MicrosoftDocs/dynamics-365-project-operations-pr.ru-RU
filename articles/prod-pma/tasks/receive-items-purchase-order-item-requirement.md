@@ -56,3 +56,6 @@ ms.locfileid: "4083355"
 21. В поле **Получение продукта** введите значение.
 22. Нажмите **ОК**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

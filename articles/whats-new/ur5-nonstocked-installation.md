@@ -125,3 +125,6 @@ _**Относится к:** Project Operations для сценариев на о
  
  ![Синхронизация сопоставления реестра](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

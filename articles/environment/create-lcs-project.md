@@ -36,3 +36,6 @@ _**Относится к:** Project Operations для сценариев на о
 
 Используйте этот проект LCS для развертывания вашей среды Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

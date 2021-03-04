@@ -153,3 +153,6 @@ ms.locfileid: "4764835"
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Сопоставление вех строк контракта по проекту в Projects and Contracts (PSA 3.x в Dynamics) — шаблон v2:
 
 [![Сопоставление вех строк контракта по проекту с шаблоном второй версии](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

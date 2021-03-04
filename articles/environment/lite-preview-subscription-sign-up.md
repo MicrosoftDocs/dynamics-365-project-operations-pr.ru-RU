@@ -91,3 +91,6 @@ ms.locfileid: "4175907"
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Установка демонстрационных данных конфигурации и настройки CDS
 
 Установите демонстрационные данные конфигурации и настройки CDS, следуя инструкциям в теме [Применение демонстрационных данных настройки и конфигурации](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

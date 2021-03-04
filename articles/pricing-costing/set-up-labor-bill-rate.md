@@ -55,3 +55,6 @@ ms.locfileid: "4180725"
     | Developer | Fabrikam US | Fabrikam US - Robotics | 150 долларов США |
 
 3. Прикрепите прайс-лист продаж **Ставки выставления счетов Fabrikam US** к прайс-листу проекта контракта по проекту или к определенному счету.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

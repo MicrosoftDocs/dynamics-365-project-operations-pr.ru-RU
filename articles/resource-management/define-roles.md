@@ -20,3 +20,6 @@ ms.locfileid: "4514577"
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 Вы можете использовать функции, представленные в Dynamics 365 Field Service, чтобы определить роли в вашей среде Dynamics 365 Project Operations. Чтобы завершить эту настройку, см. [Настройка категорий резервируемых ресурсов](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

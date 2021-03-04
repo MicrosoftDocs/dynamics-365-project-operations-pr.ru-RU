@@ -42,3 +42,6 @@ ms.locfileid: "5146634"
 
 - Запланировать снижение производительности поиска помощи
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Dynamics 365 Project Operations использует следующий пото
 - [Настройка внутрихолдингового выставления счетов](configure-intercompany-invoicing.md)
 - [Запись внутрихолдинговых транзакций](create-intercompany-transactions.md)
 - [Создание внутрихолдинговых счетов для клиентов и поставщиков](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

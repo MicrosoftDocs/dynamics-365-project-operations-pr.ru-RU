@@ -79,3 +79,6 @@ _**Относится к:** Project Operations для сценариев на о
 18. Закройте сеанс удаленного рабочего стола и используйте страницу LCS **Сведения о среде**, чтобы войти в среду и убедиться, что она работает должным образом.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -134,3 +134,6 @@ _**Относится к:** Project Operations для сценариев на о
 13. Нажмите кнопку **Сохранить**. 
 
 ![Обновление параметров проекта](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ _**Относится к:** Project Operations для сценариев на о
 
 Установите данные настройки и конфигурации CDS, как описано в теме [Настройка и применение данных конфигурации в Common Data Service](resource-apply-pro-setup-config-data.md).
 Выполняйте этот шаг только после того, как демонстрационная среда Finance будет развернута и демонстрационные данные в FO будут готовы.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

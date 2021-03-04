@@ -113,3 +113,6 @@ ms.locfileid: "5147534"
 Для просмотра подробных сведений об отдельном ресурсе щелкните правой кнопкой мыши для открытия карточки ресурса.
 
 ![Карточка ресурса](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

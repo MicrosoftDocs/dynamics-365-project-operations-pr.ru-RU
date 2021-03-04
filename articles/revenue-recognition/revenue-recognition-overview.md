@@ -60,3 +60,6 @@ _**Относится к:** Project Operations для сценариев на о
 [Управление оценками выручки](rev-rec-completed-contract-method.md)
 
 [Методы вычисления стоимости для завершения](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ _**Относится к:** Project Operations для сценариев на о
 
 
 Теперь ваша среда Project Operations подготовлена и настроена. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

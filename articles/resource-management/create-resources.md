@@ -20,3 +20,6 @@ ms.locfileid: "4514575"
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 Вы можете использовать Dynamics 365 Field Service для создания резервируемых ресурсов для использования в среде Dynamics 365 Project Operations. Чтобы создать эти ресурсы, см. [Настройка резервируемых ресурсов](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

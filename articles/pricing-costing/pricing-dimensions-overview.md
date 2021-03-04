@@ -71,3 +71,6 @@ Dynamics 365 Project Operations поставляется с набором по 
 | ----------------|-------------|----------|----------:|----------|
 | Моя компания_Диапазон1 | Contoso US  |Hour | 145|Доллар США     |
 | Моя компания_Диапазон2 | Contoso India |Hour|   67|Доллар США     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ ms.locfileid: "4083247"
 32. В поле **Цены** введите число.
 33. Нажмите кнопку **Сохранить**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

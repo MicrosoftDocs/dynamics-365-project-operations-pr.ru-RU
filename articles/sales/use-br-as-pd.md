@@ -78,3 +78,6 @@ ms.locfileid: "4643099"
 5. Добавить **msdyn_bookableresourceid** к **Имя поля**.
 
  ![Форма создания имени поля измерения цен](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

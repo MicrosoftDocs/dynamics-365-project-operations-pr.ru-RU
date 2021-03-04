@@ -104,3 +104,6 @@ ms.locfileid: "4083323"
 
 3. Выберите **Сохранить** и закройте страницу.
 4. На вкладке **Компетенции** добавьте навык **ProjectMgmt** и сертификат **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

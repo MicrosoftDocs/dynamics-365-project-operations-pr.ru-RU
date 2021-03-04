@@ -124,3 +124,6 @@ ms.locfileid: "4083327"
 > В сопоставлении отображается информация о полях, которые будут синхронизированы из Project Service Automation в Finance.
 
 [![Сопоставление Project Service Automation с шаблоном Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

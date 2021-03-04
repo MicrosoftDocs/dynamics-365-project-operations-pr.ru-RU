@@ -77,3 +77,6 @@ Dynamics 365 Project Operations состоит из двух компонент�
 | --- | --- |
 | 10.0.17 | 19 марта 2021 г. |
 | 10.0.18 | 16 апреля 2021 г. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

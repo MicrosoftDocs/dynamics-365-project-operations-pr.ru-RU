@@ -57,3 +57,6 @@ _**Относится к:** Project Operations для сценариев на о
 -   Компания распределения ресурсов
 -   Типы ресурсов
 -   Предпочитаемые ресурсы
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

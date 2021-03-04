@@ -55,3 +55,6 @@ ms.locfileid: "5146904"
   
 ### <a name="see-also"></a>См. также  
  [Руководство для менеджера по работе с клиентами](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

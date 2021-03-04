@@ -37,3 +37,6 @@ ms.locfileid: "4960758"
 |Отель         |725 евро              |557 евро                        |168 евро                          |
 |Питание         |346 евро              |284 евро                        |62 евро                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

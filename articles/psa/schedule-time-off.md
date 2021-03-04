@@ -57,3 +57,6 @@ ms.locfileid: "5144339"
   
 ### <a name="see-also"></a>См. также  
  [Руководство по совместной работе и вводу данных о времени и расходах](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

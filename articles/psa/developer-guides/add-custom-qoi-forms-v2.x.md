@@ -96,3 +96,6 @@ Dynamics 365 Project Service Automation использует поле **Тип**
     ```
 
 6. Сохраните и затем опубликуйте настройки.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

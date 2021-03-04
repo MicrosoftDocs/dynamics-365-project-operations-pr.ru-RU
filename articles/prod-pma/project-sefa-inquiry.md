@@ -104,3 +104,6 @@ ms.locfileid: "4083172"
 - Каталог федеральной внутренней помощи
 - Получения
 - Расходы
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ ms.locfileid: "5147084"
 
 9. Закройте инструмент регистрации подключаемого модуля.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ ms.locfileid: "4083176"
 
 Для получения дополнительной информации см. [Получение номенклатур по заказу на покупку из требования номенклатуры](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

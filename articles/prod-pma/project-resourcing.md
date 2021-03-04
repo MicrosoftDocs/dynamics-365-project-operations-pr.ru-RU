@@ -55,3 +55,6 @@ ms.locfileid: "4083174"
 - [Производительность планирования ресурсов проекта](project-scheduling-performance.md)
 - [Настройка ролей в шаблонах структурной декомпозиции работ](set-up-roles-wbs-template.md)
 - [Выполнение ресурсов для запланированных ресурсов](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

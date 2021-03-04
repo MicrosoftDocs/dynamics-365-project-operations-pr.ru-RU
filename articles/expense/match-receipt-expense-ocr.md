@@ -94,3 +94,6 @@ _**Относится к:** Project Operations для сценариев на о
 Приложение Finance обращается в Cognitive Services для извлечения данных из полей. Службы Cognitive Services хранят копию вашей квитанции до 24 часов, пока происходит обработка. После завершения обработки службы Cognitive Services удалят квитанцию. Квитанции по-прежнему хранятся в Finance.
 
 Дополнительные сведения см. в разделе [Включение распознавания чеков с помощью новой возможности распознавателя документов](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. Приложение пытается поместить категорию по умолчанию из ресурса проекта. Эта категория по умолчанию установлена в методах **getCurrentUserResource** и **getDelegatedResourcesForCurrentUser** в классе **TSTimesheetSettingsService**.
 2. Если категория по умолчанию не указана на уровне ресурсов проекта, приложение пытается извлечь ее из операции проекта. Эта категория по умолчанию установлена в методе **getActivitiesForProject** в классе **TSTimesheetProjectService**.
 3. Если категория по умолчанию не указана на уровне действий проекта, категория по умолчанию берется из параметров проекта. Эта категория по умолчанию установлена в методе **getProjectDetailsbyRule** в классе **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

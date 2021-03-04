@@ -53,3 +53,6 @@ ms.locfileid: "5147444"
 - [Резервирование именованных ресурсов из требований ресурсов](book-named-resource.md)
 - [Отправка запроса ресурса](submit-resource-request.md)
 - [Подтверждение или отклонение предложенного ресурса проекта из запроса ресурса](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

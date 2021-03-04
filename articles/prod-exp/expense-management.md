@@ -58,3 +58,6 @@ ms.locfileid: "4083348"
 ### <a name="videos"></a>Видеоролики
 
 Посмотрите обучающие видео, которые теперь доступны на [канале YouTube по Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

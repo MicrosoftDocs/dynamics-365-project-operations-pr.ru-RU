@@ -91,3 +91,6 @@ ms.locfileid: "5146544"
 
 4. Теперь, когда ресурс зарезервирован, необходимо назначить задачи вручную.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ ms.locfileid: "5143574"
 - При выборе строки на основании проекта в предложении с расценками или контракте кнопка **Предложение** должна быть видна только при выборе линейки продуктов, связанных с существующим продуктом.
 - Разделить привилегию **Create_Product** с привилегией **Create_ProjectContract**.
 - Удаление строки счета вызывает ошибку нулевой ссылки на **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

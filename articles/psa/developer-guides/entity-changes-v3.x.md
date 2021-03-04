@@ -84,3 +84,6 @@ SalesOrderDetail (Строка заказа) | msdyn_quotelineid | msdyn_quoteli
 > Полный список устаревших ресурсов см. в разделе [Устаревшие веб-ресурсы в Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

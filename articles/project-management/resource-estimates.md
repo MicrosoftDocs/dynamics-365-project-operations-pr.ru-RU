@@ -34,3 +34,6 @@ _**Относится к:** Project Operations для сценариев на о
 1. Предприятие
 2. Клиент
 3. Предложение с расценками/контракт
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

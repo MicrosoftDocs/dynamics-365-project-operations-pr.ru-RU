@@ -73,3 +73,6 @@ ms.locfileid: "5150144"
  [Руководство для менеджера по работе с клиентами](../psa/account-manager-guide.md)   
  [Руководство менеджера по проектам](../psa/project-manager-guide.md)   
  [Руководство по диспетчеру ресурсов](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

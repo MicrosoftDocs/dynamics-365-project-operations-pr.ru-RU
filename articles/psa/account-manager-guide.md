@@ -48,3 +48,6 @@ ms.locfileid: "5146095"
  [Руководство менеджера по проектам](../psa/project-manager-guide.md)   
  [Руководство менеджера по ресурсам](../psa/resource-manager-guide.md)   
  [Руководство по совместной работе и вводу данных о времени и расходах](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
