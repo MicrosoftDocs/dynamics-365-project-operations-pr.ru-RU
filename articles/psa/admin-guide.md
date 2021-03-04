@@ -18,35 +18,37 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bce13430f56b4c72453c90a259e3ffb3a63d8a3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 90b66560e64d0aad32f3c18e71858537263267ef
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129558"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145779"
 ---
-# <a name="administrator-guide-project-service"></a><span data-ttu-id="ad2c8-103">Руководство администратора (Project Service)</span><span class="sxs-lookup"><span data-stu-id="ad2c8-103">Administrator guide (Project Service)</span></span>
+# <a name="administrator-guide-project-service"></a><span data-ttu-id="e1bce-103">Руководство администратора (Project Service)</span><span class="sxs-lookup"><span data-stu-id="e1bce-103">Administrator guide (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="ad2c8-104">В этом руководстве рассматривается процесс установки и настройки:</span><span class="sxs-lookup"><span data-stu-id="ad2c8-104">This guide takes you through the process of installing and configuing :</span></span>  
+<span data-ttu-id="e1bce-104">В этом руководстве рассматривается процесс установки и настройки:</span><span class="sxs-lookup"><span data-stu-id="e1bce-104">This guide takes you through the process of installing and configuing :</span></span>  
   
-- [<span data-ttu-id="ad2c8-105">Установка и настройка</span><span class="sxs-lookup"><span data-stu-id="ad2c8-105">Install and customize</span></span>](install-customize.md)
-- [<span data-ttu-id="ad2c8-106">Экспериментирование с демонстрационными данными</span><span class="sxs-lookup"><span data-stu-id="ad2c8-106">Experiment with demo data</span></span>](use-demo-data.md)
-- [<span data-ttu-id="ad2c8-107">Настройка Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="ad2c8-107">Configure Project Service Automation</span></span>](configure.md)
-- [<span data-ttu-id="ad2c8-108">Настройка единиц времени</span><span class="sxs-lookup"><span data-stu-id="ad2c8-108">Set up time units</span></span>](set-up-time-units.md)
-- [<span data-ttu-id="ad2c8-109">Настройка валют и курса обмена</span><span class="sxs-lookup"><span data-stu-id="ad2c8-109">Set up currencies and exchange rates</span></span>](set-up-currencies-exchange-rates.md)
-- [<span data-ttu-id="ad2c8-110">Создание подразделений</span><span class="sxs-lookup"><span data-stu-id="ad2c8-110">Create organizational units</span></span>](create-organizational-units.md)
-- [<span data-ttu-id="ad2c8-111">Настройка периодичности выставления счетов</span><span class="sxs-lookup"><span data-stu-id="ad2c8-111">Set up invoice frequencies</span></span>](set-up-invoice-frequencies.md)
-- [<span data-ttu-id="ad2c8-112">Настройка категорий транзакций</span><span class="sxs-lookup"><span data-stu-id="ad2c8-112">Configure transaction categories</span></span>](configure-transaction-categories.md)
-- [<span data-ttu-id="ad2c8-113">Настройка категорий расходов</span><span class="sxs-lookup"><span data-stu-id="ad2c8-113">Configure expense categories</span></span>](configure-expense-categories.md)
-- [<span data-ttu-id="ad2c8-114">Создание позиций каталога продукции</span><span class="sxs-lookup"><span data-stu-id="ad2c8-114">Create product catalog items</span></span>](create-product-catalog-items.md)
-- [<span data-ttu-id="ad2c8-115">Создание прайс-листа</span><span class="sxs-lookup"><span data-stu-id="ad2c8-115">Create a price list</span></span>](create-price-list.md)
-- [<span data-ttu-id="ad2c8-116">Настройка ресурсов</span><span class="sxs-lookup"><span data-stu-id="ad2c8-116">Set up resources</span></span>](set-up-resources.md)
-- [<span data-ttu-id="ad2c8-117">Технические документы</span><span class="sxs-lookup"><span data-stu-id="ad2c8-117">White papers</span></span>](white-papers.md)
+- [<span data-ttu-id="e1bce-105">Установка и настройка</span><span class="sxs-lookup"><span data-stu-id="e1bce-105">Install and customize</span></span>](install-customize.md)
+- [<span data-ttu-id="e1bce-106">Экспериментирование с демонстрационными данными</span><span class="sxs-lookup"><span data-stu-id="e1bce-106">Experiment with demo data</span></span>](use-demo-data.md)
+- [<span data-ttu-id="e1bce-107">Настройка Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="e1bce-107">Configure Project Service Automation</span></span>](configure.md)
+- [<span data-ttu-id="e1bce-108">Настройка единиц времени</span><span class="sxs-lookup"><span data-stu-id="e1bce-108">Set up time units</span></span>](set-up-time-units.md)
+- [<span data-ttu-id="e1bce-109">Настройка валют и курса обмена</span><span class="sxs-lookup"><span data-stu-id="e1bce-109">Set up currencies and exchange rates</span></span>](set-up-currencies-exchange-rates.md)
+- [<span data-ttu-id="e1bce-110">Создание подразделений</span><span class="sxs-lookup"><span data-stu-id="e1bce-110">Create organizational units</span></span>](create-organizational-units.md)
+- [<span data-ttu-id="e1bce-111">Настройка периодичности выставления счетов</span><span class="sxs-lookup"><span data-stu-id="e1bce-111">Set up invoice frequencies</span></span>](set-up-invoice-frequencies.md)
+- [<span data-ttu-id="e1bce-112">Настройка категорий транзакций</span><span class="sxs-lookup"><span data-stu-id="e1bce-112">Configure transaction categories</span></span>](configure-transaction-categories.md)
+- [<span data-ttu-id="e1bce-113">Настройка категорий расходов</span><span class="sxs-lookup"><span data-stu-id="e1bce-113">Configure expense categories</span></span>](configure-expense-categories.md)
+- [<span data-ttu-id="e1bce-114">Создание позиций каталога продукции</span><span class="sxs-lookup"><span data-stu-id="e1bce-114">Create product catalog items</span></span>](create-product-catalog-items.md)
+- [<span data-ttu-id="e1bce-115">Создание прайс-листа</span><span class="sxs-lookup"><span data-stu-id="e1bce-115">Create a price list</span></span>](create-price-list.md)
+- [<span data-ttu-id="e1bce-116">Настройка ресурсов</span><span class="sxs-lookup"><span data-stu-id="e1bce-116">Set up resources</span></span>](set-up-resources.md)
+- [<span data-ttu-id="e1bce-117">Технические документы</span><span class="sxs-lookup"><span data-stu-id="e1bce-117">White papers</span></span>](white-papers.md)
   
-### <a name="see-also"></a><span data-ttu-id="ad2c8-118">См. также</span><span class="sxs-lookup"><span data-stu-id="ad2c8-118">See Also</span></span>  
- <span data-ttu-id="ad2c8-119">[Обзор Project Service Automation](../psa/overview.md)  </span><span class="sxs-lookup"><span data-stu-id="ad2c8-119">[Overview of Project Service Automation](../psa/overview.md)  </span></span>  
- <span data-ttu-id="ad2c8-120">[Руководство для менеджера по работе с клиентами](../psa/account-manager-guide.md) [Руководство менеджера по проектам](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ad2c8-120">[Account Manager Guide](../psa/account-manager-guide.md) [Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
- <span data-ttu-id="ad2c8-121">[Руководство менеджера по ресурсам](../psa/resource-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ad2c8-121">[Resource Manager Guide](../psa/resource-manager-guide.md) </span></span>  
- [<span data-ttu-id="ad2c8-122">Руководство по совместной работе и вводу данных о времени и расходах</span><span class="sxs-lookup"><span data-stu-id="ad2c8-122">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="e1bce-118">См. также</span><span class="sxs-lookup"><span data-stu-id="e1bce-118">See Also</span></span>  
+ <span data-ttu-id="e1bce-119">[Обзор Project Service Automation](../psa/overview.md)  </span><span class="sxs-lookup"><span data-stu-id="e1bce-119">[Overview of Project Service Automation](../psa/overview.md)  </span></span>  
+ <span data-ttu-id="e1bce-120">[Руководство для менеджера по работе с клиентами](../psa/account-manager-guide.md) [Руководство менеджера по проектам](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="e1bce-120">[Account Manager Guide](../psa/account-manager-guide.md) [Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
+ <span data-ttu-id="e1bce-121">[Руководство менеджера по ресурсам](../psa/resource-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="e1bce-121">[Resource Manager Guide](../psa/resource-manager-guide.md) </span></span>  
+ [<span data-ttu-id="e1bce-122">Руководство по совместной работе и вводу данных о времени и расходах</span><span class="sxs-lookup"><span data-stu-id="e1bce-122">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)

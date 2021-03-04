@@ -18,31 +18,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124204"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147489"
 ---
-# <a name="skills-and-proficiency-models"></a><span data-ttu-id="d37c9-103">Навыки и модели квалификации</span><span class="sxs-lookup"><span data-stu-id="d37c9-103">Skills and proficiency models</span></span>
+# <a name="skills-and-proficiency-models"></a><span data-ttu-id="e6130-103">Навыки и модели квалификации</span><span class="sxs-lookup"><span data-stu-id="e6130-103">Skills and proficiency models</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="d37c9-104">Навыки — это характеристики ресурса, которые являются общими между Dynamics 365 Project Service Automation и, при наличии, Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="d37c9-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
+<span data-ttu-id="e6130-104">Навыки — это характеристики ресурса, которые являются общими между Dynamics 365 Project Service Automation и, при наличии, Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="e6130-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
 
-<span data-ttu-id="d37c9-105">Для обслуживания репозитория навыков в Project Service Automation перейдите в раздел **Ресурсы** \> **Навыки ресурса**.</span><span class="sxs-lookup"><span data-stu-id="d37c9-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
+<span data-ttu-id="e6130-105">Для обслуживания репозитория навыков в Project Service Automation перейдите в раздел **Ресурсы** \> **Навыки ресурса**.</span><span class="sxs-lookup"><span data-stu-id="e6130-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
 
 > ![Навыки ресурса](media/Resource-Management-image84.png)
 
-## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="d37c9-107">Использование моделей квалификации для оценки ресурсов</span><span class="sxs-lookup"><span data-stu-id="d37c9-107">Use proficiency models to rate resources</span></span>
+## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="e6130-107">Использование моделей квалификации для оценки ресурсов</span><span class="sxs-lookup"><span data-stu-id="e6130-107">Use proficiency models to rate resources</span></span>
 
-<span data-ttu-id="d37c9-108">Навыки для ресурсов оцениваются моделями квалификации.</span><span class="sxs-lookup"><span data-stu-id="d37c9-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="d37c9-109">Отдельные оценки находятся в модели квалификации.</span><span class="sxs-lookup"><span data-stu-id="d37c9-109">The individual ratings are in a proficiency model.</span></span> 
+<span data-ttu-id="e6130-108">Навыки для ресурсов оцениваются моделями квалификации.</span><span class="sxs-lookup"><span data-stu-id="e6130-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="e6130-109">Отдельные оценки находятся в модели квалификации.</span><span class="sxs-lookup"><span data-stu-id="e6130-109">The individual ratings are in a proficiency model.</span></span> 
 
-1. <span data-ttu-id="d37c9-110">Чтобы создать модель квалификации, выберите **Ресурсы** \> **Модели квалификации**, затем выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="d37c9-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
-2. <span data-ttu-id="d37c9-111">В новой модели оценки укажите минимальное значение оценки, максимальное значение оценки и сущность, которая оценивается.</span><span class="sxs-lookup"><span data-stu-id="d37c9-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
-3. <span data-ttu-id="d37c9-112">Во вложенной сетке **Значения оценок** можно определить различные значения оценки, от минимальной до максимальной.</span><span class="sxs-lookup"><span data-stu-id="d37c9-112">In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.</span></span>
+1. <span data-ttu-id="e6130-110">Чтобы создать модель квалификации, выберите **Ресурсы** \> **Модели квалификации**, затем выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="e6130-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
+2. <span data-ttu-id="e6130-111">В новой модели оценки укажите минимальное значение оценки, максимальное значение оценки и сущность, которая оценивается.</span><span class="sxs-lookup"><span data-stu-id="e6130-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
+3. <span data-ttu-id="e6130-112">Во вложенной сетке **Значения оценок** можно определить различные значения оценки, от минимальной до максимальной.</span><span class="sxs-lookup"><span data-stu-id="e6130-112">In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.</span></span>
 
 > ![Определенные минимальные и максимальные оценки](media/Resource-Management-image85.png)
 
-<span data-ttu-id="d37c9-114">Эти значения оценок отображаются в фильтрах **Требования ресурсов**, **Таблица расписаний** и **Помощник по расписанию**.</span><span class="sxs-lookup"><span data-stu-id="d37c9-114">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
+<span data-ttu-id="e6130-114">Эти значения оценок отображаются в фильтрах **Требования ресурсов**, **Таблица расписаний** и **Помощник по расписанию**.</span><span class="sxs-lookup"><span data-stu-id="e6130-114">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
