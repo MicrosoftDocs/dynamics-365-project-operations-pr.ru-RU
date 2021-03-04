@@ -1,12 +1,12 @@
 ---
-title: Использование надстройки Project Service для планирования работы в Microsoft Project | MicrosoftDocs
-description: В этом разделе представлена информация о том, как добавить, настроить и использовать надстройку Microsoft Project для Microsoft Project Service.
+title: Планируйте работу в Microsoft Project с помощью надстройки Project Service
+description: В этом разделе представлена информация о том, как использовать надстройку Microsoft Project для Microsoft Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-ms.date: 04/06/2019
+ms.date: 01/07/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -18,22 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
 ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146004"
+ms.locfileid: "5145959"
 ---
-# <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Использование надстройки Project Service Automation для планирования работы в Microsoft Project
+# <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Планируйте работу в Microsoft Project с помощью надстройки Project Service
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] упрощает планирование проектов, включая оценки. Вы можете определить работу, чтобы затраты, усилие и значение продаж были четкими при отправке окончательного предложения.  
 
- Теперь вы можете установить [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] и выполнять планирование работы в знакомой среде [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Используйте надежные возможности планирования и управления [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], а затем обновите план проекта в Project Service Automation.  
+Вы можете установить [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] и выполнять планирование работы в знакомой среде [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Используйте надежные возможности планирования и управления [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], а затем обновите план проекта в Project Service Automation.  
 
 > [!IMPORTANT]
 > - Чтобы вы могли использовать функцию управления документами SharePoint для хранения файлов [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] для проектов [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], администратор [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] должен включить управление документами. 
@@ -44,66 +44,66 @@ ms.locfileid: "5146004"
 
 1.  В центре загрузки загрузите надстройку для поддерживаемой версии Project Service, [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) или [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
-2.  Щелкните ссылку загрузки.  
+2.  Выберите ссылку загрузки.  
 
-3.  При завершении загрузки нажмите кнопку **Да** для установки надстройки.  
+3.  При завершении загрузки выберите кнопку **Да** для установки надстройки.  
 
 ## <a name="configure-the-add-in"></a>Настройка надстройки  
 
-1. Откройте [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и перейдите на вкладку **Project Service**.  
+1. Откройте [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и выберите вкладку **Project Service**.  
 
-2. Щелкните **Подключить**.  
+2. Нажмите **Подключиться**.  
 
-3. Введите сведения для входа и щелкните **Войти**.  
+3. Введите сведения для входа и выберите **Войти**.  
 
    Теперь вы можете начать использовать надстройку.  
 
 ## <a name="read-from-a-template"></a>Чтение из шаблона  
  Выполните чтение из шаблона, который вы создали в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] и скопировали в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], чтобы начать планирование проекта. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Создание шаблона проекта (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  На вкладке **Project Service** щелкните **Чтение** > **Шаблон проекта Project Service Automation**.  
+1.  На вкладке **Project Service** выберите **Чтение** > **Шаблон проекта Project Service Automation**.  
 
-2.  Выберите шаблон проекта в списке и нажмите кнопку **Открыть**.  
+2.  Выберите шаблон проекта в списке и выберите **Открыть**.  
 
     > [!NOTE]
     >  По умолчанию задачи, которые копируются из шаблона в Project, задаются для планирования вручную.  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>Назначение ролей [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ресурсам проекта  
 
-1.  Откройте проект и щелкните ленту **Задача**.  
+1.  Откройте проект и выберите ленту **Задача**.  
 
-2.  Щелкните меню **Диаграмма Ганта** и выберите **Ведомость ресурсов**.  
+2. Выберите меню **Диаграмма Ганта** и выберите **Ведомость ресурсов**.  
 
-3.  В ведомости ресурсов щелкните раскрывающееся меню **Роль ресурса Project Service** и выберите роль Project Service Automation.  
+3. В ведомости ресурсов выберите раскрывающееся меню **Роль ресурса Project Service** и выберите роль Project Service Automation.  
 
 ## <a name="staff-your-project-with-resources"></a>Комплектация проекта ресурсами  
 
-1.  На вкладке Project Service выберите строку и щелкните **Найти ресурсы**.  
+1.  На вкладке Project Service выберите строку и выберите **Найти ресурсы**.  
 
 2.  На экране **Зарезервировать ресурс** выберите ресурс, который вы хотите использовать для проекта.  
 
-3.  Щелкните **Зарезервировать**, затем нажмите кнопку **OK**.  
+3.  Выберите **Резервировать**, затем выберите **ОК**.  
 
 ## <a name="publish-your-project"></a>Публикация проекта  
 По завершении планирования проекта следующим шагом будет импорт и публикация проекта в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-Проект импортируется в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Будут применены цены и процесс создания рабочих групп. Откройте проект в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], чтобы просмотреть рабочую группу, оценки проекта и структурную декомпозицию работ. В следующей таблице показано, где можно найти результаты:
+Проект импортируется в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Будут применены цены и процесс создания рабочих групп. Откройте проект в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], чтобы просмотреть рабочую группу, оценки проекта и структурную декомпозицию работ. В следующей таблице показано, где можно найти результаты.
 
 
-|                                                                                          |                                                                                                                                   |
+|              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Диаграмма Ганта**   | Импорт на экран [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Структурная декомпозиция работ**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Лист ресурсов** |   Импорт на экран [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Участники рабочей группы проекта**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Использование использования**    |    Импорт на экран [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Оценки проекта**.     |
 
 **Импорт и публикация проекта**  
-1. На вкладке **Project Service** щелкните **Опубликовать** > **Новый проект Project Service Automation**.  
+1. На вкладке **Project Service** перейдите к **Опубликовать** > **Новый проект Project Service Automation**.  
 
 2. В диалоговом окне **Опубликовать в новом проекте Project Service** введите **Имя проекта** и выберите **Клиент**.  
 
-3. Дополнительно установите флажок **Связать план проекта с Project Service Automation**, чтобы связать файл Project плана с Project Service Automation.  
+3. Дополнительно выберите **Связать план проекта с Project Service Automation**, чтобы связать файл Project плана с Project Service Automation.  
 
-4. Нажмите кнопку **Опубликовать**.  
+4. Выберите **Опубликовать**.  
 
    В результате связи файла Project с [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] файл Project становится шаблоном и задает структурную декомпозицию работ в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] как доступную только для чтения.  Чтобы внести изменения в план проекта, вам нужно внести их в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и опубликовать как обновления в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -114,21 +114,21 @@ ms.locfileid: "5146004"
 
 - Отмените связь файла и отредактируйте его прямо в Project Service. По умолчанию проект, который был отправлен из [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], блокируется, и его можно отредактировать только в Project. Чтобы отредактировать файл в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], необходимо удалить связь файла.  
 
-### <a name="edit-in-pn_microsoft_project"></a>Изменение в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
+### <a name="edit-in-pn_microsoft_project"></a>Изменить в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
 
-1. В основном меню щелкните **Project Service** > **Проекты**.  
+1. В основном меню перейдите к **Project Service** > **Проекты**.  
 
 2. В списке проектов откройте проект, созданный в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
-3. Щелкните **Открыть в MS Project** в ленте. В результате откроется связанный файл шаблона в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
+3. Выберите **Открыть в MS Project** в ленте. В результате откроется связанный файл шаблона в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
 ### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a>Отмена связи файла и его редактирование в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service  
 
-1. В основном меню щелкните **Project Service** > **Проекты**.  
+1. В основном меню перейдите к **Project Service** > **Проекты**.  
 
 2. В списке проектов откройте проект, созданный в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
-3. Щелкните **Отменить связь из MS Project** в ленте.  
+3. Выберите **Отменить связь из MS Project** в ленте.  
 
 ## <a name="upload-a-project-file-to-sharepoint-or-office-groups"></a>Отправка файла Project в SharePoint или группы Office  
  Вы можете отправить файл Project в SharePoint и найти его в разделе "Связанные документы" для проекта [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Ваш администратор должен настроить управление документами SharePoint и включить его для сущности Project. 
@@ -137,42 +137,42 @@ ms.locfileid: "5146004"
 
 ### <a name="upload-a-file-for-sharepoint"></a>Отправка файла в SharePoint  
 
-1. В основном меню щелкните **Project Service** > **Отправить**.  
+1. В основном меню перейдите к **Project Service** > **Отправить**.  
 
 2. Выберите **В документы проекта Project Service Automation**.  
 
 3. В диалоговом окне **Включить открытие в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** выберите **Да** или **Нет**.  
 
-   - Если щелкнуть **Да**, вы сможете нажать кнопку **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** в Project Service Automation, запустить [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и отправить файл Project из библиотеки документов SharePoint.  
+   - Если выбрать **Да**, вы сможете выбрать **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** в Project Service Automation, запустить [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и отправить файл Project из библиотеки документов SharePoint.  
 
-   - Если щелкнуть **Нет**, ссылка для кнопки **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не будет работать.  
+   - Если вы выберете **Нет**, ссылка для **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не сработает.  
 
 4. Файл [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] находится в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] в разделе **Документы** для определенного проекта [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ### <a name="upload-a-file-for-office-groups"></a>Отправка файла для групп Office  
 
-1. В основном меню щелкните **Project Service** > **Отправить**.  
+1. В основном меню перейдите к **Project Service** > **Отправить**.  
 
 2. Выберите **В документы проекта Project Service Automation**.  
 
 3. В диалоговом окне **Включить открытие в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** выберите **Да** или **Нет**.  
 
-   - Если щелкнуть **Да**, вы сможете нажать кнопку **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** в Project Service Automation, запустить [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и отправить файл Project из библиотеки документов SharePoint.  
+   - Если выбрать **Да**, вы сможете выбрать **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** в Project Service Automation, запустить [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и отправить файл Project из библиотеки документов SharePoint.  
 
-   - Если щелкнуть **Нет**, ссылка для кнопки **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не будет работать.  
+   - Если вы выберете **Нет**, ссылка для **Открыть в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не сработает.  
 
 4. Файл [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] находится в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] в разделе **Документы** для определенного проекта [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ## <a name="publish--your-project-as-a-template"></a>Публикация проекта как шаблона  
- Вы можете сохранить проект и повторно использовать его, сохранив проект как шаблон проекта в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Шаблоны проекта — это многоразовые планы проектов в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Создание шаблона проекта (Project Service Automation)](../psa/create-project-template.md)  
+ Вы можете сохранить проект и повторно использовать его, сохранив проект как шаблон проекта в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Шаблоны проекта — это многоразовые планы проектов в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Для получения дополнительной информации см. [Создайте шаблон проекта (Project Service Automation)](../psa/create-project-template.md). 
 
-1. На вкладке **Project Service** щелкните **Опубликовать** > **Новый шаблон проекта Project Service Automation**.  
+1. На вкладке **Project Service** перейдите к **Опубликовать** > **Новый шаблон проекта Project Service Automation**.  
 
 2. В диалоговом окне **Опубликовать в новом проекте в шаблоне Project Service** введите **Имя шаблона проекта**.  
 
-3. При желании установите флажок **Связать план проекта с Project Service Automation**, чтобы связать файл Project с [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Дополнительно выберите **Связать план проекта с Project Service Automation**, чтобы связать файл Project с [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-4. Нажмите кнопку **Опубликовать**.  
+4. Выберите **Опубликовать**.  
 
 В результате связи файла Project с [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] файл Project становится шаблоном и задает структурную декомпозицию работ в шаблоне [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] как доступную только для чтения.  Чтобы внести изменения в план проекта, вам нужно внести их в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и опубликовать как обновления в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
@@ -182,52 +182,63 @@ ms.locfileid: "5146004"
 
 
 ## <a name="data-synchronization"></a>Синхронизация данных
+Таблицы в этом разделе предоставляют информацию о синхронизации данных сущности между Project Service Automation и надстройкой рабочего стола Microsoft Project.
 
-В следующей таблице показано, как данные синхронизируются между Project Service Automation и надстройкой Microsoft Project для настольных компьютеров.
-
-| **Сущность** | **Поле** | **Microsoft Project к Project Service Automation** | **Project Service Automation к Microsoft Project** |
-| --- | --- | --- | --- |
-| Задача проекта | Срок выполнения | ● | - |
-| Задача проекта | Оценка трудозатрат | ● | - |
-| Задача проекта | Код клиента MS Project | ● | - |
-| Задача проекта | Родительская задача | ● | - |
-| Задача проекта | Project | ● | - |
-| Задача проекта | Задача проекта | ● | - |
-| Задача проекта | Название задачи проекта | ● | - |
-| Задача проекта | Единица распределения ресурсов (устарело в 3.0) | ● | - |
-| Задача проекта | Запланированная длительность | ● | - |
-| Задача проекта | Дата начала | ● | - |
-| Задача проекта | Идентификатор WBS | ● | - |
+### <a name="project-task-entity-table"></a>Таблица сущностей задач проекта
+В следующей таблице показано, как данные сущности задач проекта синхронизируются между Project Service Automation и надстройкой рабочего стола Microsoft Project.
 
 | **Сущность** | **Поле** | **Microsoft Project к Project Service Automation** | **Project Service Automation к Microsoft Project** |
 | --- | --- | --- | --- |
-| Участник команды | Код клиента MS Project | ● | - |
-| Участник команды | Название должности | ● | - |
-| Участник команды | проект | ● | ● |
-| Участник команды | Проектная группа | ● | ● |
-| Участник команды | Единица распределения ресурсов | - | ● |
-| Участник команды | Роль | - | ● |
-| Участник команды | Рабочие часы | Не синхронизировано | Не синхронизировано |
+| Задача проекта | Срок выполнения | Synchronized | Не синхронизировано |
+| Задача проекта | Ожидаемые усилия | Synchronized | Не синхронизировано |
+| Задача проекта | Код клиента MS Project | Synchronized | Не синхронизировано |
+| Задача проекта | Родительская задача | Synchronized | Не синхронизировано |
+| Задача проекта | Project | Synchronized | Не синхронизировано |
+| Задача проекта | Задача проекта | Synchronized | Не синхронизировано |
+| Задача проекта | Название задачи проекта | Synchronized | Не синхронизировано |
+| Задача проекта | Единица распределения ресурсов (устарело в 3.0) | Synchronized | Не синхронизировано |
+| Задача проекта | Запланированная длительность | Synchronized | Не синхронизировано |
+| Задача проекта | Дата начала | Synchronized | Не синхронизировано |
+| Задача проекта | Идентификатор WBS | Synchronized | Не синхронизировано |
+
+### <a name="team-member-entity-table"></a>Таблица сущностей участника рабочей группы
+В следующей таблице показано, как данные сущности участника рабочей группы синхронизируются между Project Service Automation и Micros
 
 | **Сущность** | **Поле** | **Microsoft Project к Project Service Automation** | **Project Service Automation к Microsoft Project** |
 | --- | --- | --- | --- |
-| Назначение ресурса | С даты | ● | - |
-| Назначение ресурса | часов | ● | - |
-| Назначение ресурса | Код клиента MS Project | ● | - |
-| Назначение ресурса | Запланированная работа | ● | - |
-| Назначение ресурса | Project | ● | - |
-| Назначение ресурса | Проектная группа | ● | - |
-| Назначение ресурса | Назначение ресурса | ● | - |
-| Назначение ресурса | Задача | ● | - |
-| Назначение ресурса | Дата окончания | ● | - |
+| Участник рабочей группы | Код клиента MS Project | Synchronized | Не синхронизировано |
+| Участник рабочей группы | Название должности | Synchronized | Не синхронизировано |
+| Участник рабочей группы | проект | Synchronized | Synchronized |
+| Участник рабочей группы | Проектная группа | Synchronized | Synchronized |
+| Участник рабочей группы | Единица распределения ресурсов | Не синхронизировано | Synchronized |
+| Участник рабочей группы | Роль | Не синхронизировано | Synchronized |
+| Участник рабочей группы | Рабочие часы | Не синхронизировано | Не синхронизировано |
+
+### <a name="resource-assignment-entity-table"></a>Таблица сущностей назначения ресурсов
+В следующей таблице показано, как данные сущности назначения ресурсов синхронизируются между Project Service Automation и Micros
 
 | **Сущность** | **Поле** | **Microsoft Project к Project Service Automation** | **Project Service Automation к Microsoft Project** |
 | --- | --- | --- | --- |
-| Зависимости задач проекта | Зависимость задач проекта | ● | - |
-| Зависимости задач проекта | Тип ссылки | ● | - |
-| Зависимости задач проекта | Задача-предшественник | ● | - |
-| Зависимости задач проекта | Project | ● | - |
-| Зависимости задач проекта | Задача-последователь | ● | - |
+| Назначение ресурса | С даты | Synchronized | Не синхронизировано |
+| Назначение ресурса | часов | Synchronized | Не синхронизировано |
+| Назначение ресурса | Код клиента MS Project | Synchronized | Не синхронизировано |
+| Назначение ресурса | Запланированная работа | Synchronized | Не синхронизировано |
+| Назначение ресурса | Project | Synchronized | Не синхронизировано |
+| Назначение ресурса | Проектная группа | Synchronized | Не синхронизировано |
+| Назначение ресурса | Назначение ресурса | Synchronized | Не синхронизировано |
+| Назначение ресурса | Задача | Synchronized | Не синхронизировано |
+| Назначение ресурса | Дата окончания | Synchronized | Не синхронизировано |
 
-### <a name="see-also"></a>См. также  
+### <a name="project-task-dependencies-entity-table"></a>Таблица сущностей зависимости задач проекта
+В следующей таблице показано, как данные сущности зависимостей задач проекта синхронизируются между Project Service Automation и Micros
+
+| **Сущность** | **Поле** | **Microsoft Project к Project Service Automation** | **Project Service Automation к Microsoft Project** |
+| --- | --- | --- | --- |
+| Зависимости задач проекта | Зависимость задач проекта | Synchronized | Не синхронизировано |
+| Зависимости задач проекта | Тип ссылки | Synchronized | Не синхронизировано |
+| Зависимости задач проекта | Задача-предшественник | Synchronized | Не синхронизировано |
+| Зависимости задач проекта | Project | Synchronized | Не синхронизировано |
+| Зависимости задач проекта | Задача-последователь | Synchronized | Не синхронизировано |
+
+### <a name="additional-resources"></a>Дополнительные ресурсы
  [Руководство менеджера по проектам](../psa/project-manager-guide.md)
