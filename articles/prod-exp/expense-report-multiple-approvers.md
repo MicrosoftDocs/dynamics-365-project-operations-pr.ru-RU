@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083344"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960623"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Несколько утверждающих для отчета о расходах
-
-[!include [banner](../includes/banner.md)]
 
 В зависимости от политик утверждения расходов в вашей организации может потребоваться, чтобы несколько человек утверждали отчет о расходах, отправленный сотрудником. Когда вы настраиваете рабочий процесс для утверждения отчета о расходах, вы можете добавить элементы рабочего процесса, которые включают задачи или шаги для одного или нескольких утверждающих отчетов о расходах. Например, вы можете потребовать, чтобы все отчеты о расходах утверждались сначала руководителем сотрудника, который представил отчет, и затем координатором по расчетам с поставщиками.
 
