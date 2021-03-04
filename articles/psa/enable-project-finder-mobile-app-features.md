@@ -3,6 +3,7 @@ title: Включение функций мобильного приложени
 description: Как включить функций мобильного приложения Project Finder Mobile для Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132979"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144564"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Включение функций мобильного приложения Project Finder Mobile (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Ваши ресурсы могут использовать мобильное приложение Project Finder Mobile на телефоне с [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], чтобы находить новые проекты для работы и обновлять свои наборы навыков.  
   
  Приложение доступно для [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], телефонов [!INCLUDE[tn_android](../includes/tn-android.md)] и [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Необходимо задать пару параметров в разделе настроек для вашего организационного подразделения, чтобы разрешить пользователям просматривать требования к ресурсам проекта и обновлять свои навыки.  
+    
+ Чтобы пользователи могли просматривать требования к ресурсам проекта и обновлять свои навыки, необходимо выбрать параметры в настройках параметров для вашего подразделения.
   
 > [!NOTE]
 >  Приложение Project Finder Mobile работает только с [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], но не с локальными установками.  
@@ -58,7 +61,7 @@ ms.locfileid: "4132979"
 |Получатель|Мероприятие|  
 |---------------|-----------|  
 |Руководитель проекта|- Когда ресурс регистрируется на проект с помощью приложения Project Finder Mobile.|  
-|Ресурс|- Когда работа над проектом, на который зарегистрировался ресурс, уже выполнена другим ресурсом.<br />- Когда запрос на утверждение навыков обработан (положительно или отрицательно).<br />- Когда запрос на регистрацию в проекте обработан (положительно или отрицательно).|  
+|Ресурс|- Работа над проектом, на который зарегистрировался ресурс, уже выполнена другим ресурсом.<br />- Запрос на утверждение навыков обработан (положительно или отрицательно).<br />- Запрос на регистрацию в проекте обработан (положительно или отрицательно).|  
   
 ## <a name="privacy-notice"></a>Уведомление о конфиденциальности  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
