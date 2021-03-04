@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083379"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148659"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Изменения управления ресурсами (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Разделы этой темы содержат сведения об изменениях, которые были сделаны в области управления ресурсами Dynamics 365 Project Service Automation версии 3.x.
 
 ## <a name="project-estimates"></a>Оценки проекта
 
-Вместо сущности **msdyn\_projecttask** ( **Задача проекта** ), оценки проекта основаны на сущности **msdyn\_resourceassignment** ( **Назначение ресурса** ). Назначения ресурсов стали "источником истины" для планирования и цен задач.
+Вместо сущности **msdyn\_projecttask** (**Задача проекта**), оценки проекта основаны на сущности **msdyn\_resourceassignment** (**Назначение ресурса**). Назначения ресурсов стали "источником истины" для планирования и цен задач.
 
 ## <a name="line-tasks"></a>Задачи строки
 
@@ -65,7 +67,7 @@ ms.locfileid: "4083379"
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Поля планирования в сущности задачи проекта
 
-Поля в сущности **msdyn\_projecttask** стали нерекомендуемыми или были перемещены в сущность **msdyn\_resourceassignment** , или на них теперь имеются ссылки из сущности **msdyn\_projectteam** ( **Участник проектной группы** ).
+Поля в сущности **msdyn\_projecttask** стали нерекомендуемыми или были перемещены в сущность **msdyn\_resourceassignment**, или на них теперь имеются ссылки из сущности **msdyn\_projectteam** (**Участник проектной группы**).
 
 | Нерекомендуемое поле в msdyn\_projecttask (Задача проекта) | Новое поле в msdyn\_resourceassignment (Назначение ресурса) | Комментарии |
 |---|---|---|
@@ -77,7 +79,7 @@ ms.locfileid: "4083379"
 
 ## <a name="schedule-contour"></a>Контур расписания
 
-Контур расписания хранится в поле **Запланированная работа** ( **msdyn\_plannedwork** ) каждой сущности **Resource Assignment** ( **msdyn\_resourceassignment** ).
+Контур расписания хранится в поле **Запланированная работа** (**msdyn\_plannedwork**) каждой сущности **Resource Assignment** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Структура
 
@@ -139,7 +141,7 @@ ms.locfileid: "4083379"
 
 ## <a name="pricing-dimensions"></a>Измерения цен
 
-В PSA 3.x специфичные для ресурсов поля измерения цен (такие как **Роль** и **Подразделение** ) были удалены из сущности **msdyn\_projecttask**. Эти поля теперь можно извлечь из соответствующего участника рабочей группы проекта ( **msdyn\_projectteam** ) назначения ресурса ( **msdyn\_resourceassignment** ) при создании оценок проекта. Новое поле **msdyn\_organizationalunit** было добавлено в сущность **msdyn\_projectteam**.
+В PSA 3.x специфичные для ресурсов поля измерения цен (такие как **Роль** и **Подразделение**) были удалены из сущности **msdyn\_projecttask**. Эти поля теперь можно извлечь из соответствующего участника рабочей группы проекта (**msdyn\_projectteam**) назначения ресурса (**msdyn\_resourceassignment**) при создании оценок проекта. Новое поле **msdyn\_organizationalunit** было добавлено в сущность **msdyn\_projectteam**.
 
 | Нерекомендуемое поле в msdyn\_projecttask (Задача проекта) | Поле из msdyn\_projectteam (Участник проектной группы), которое используется взамен |
 |---|---|
@@ -155,12 +157,12 @@ ms.locfileid: "4083379"
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Следующие поля добавлены в сущность **msdyn\_resourceassignment** :
+Следующие поля добавлены в сущность **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Следующие поля для плановой, фактической и оставшейся стоимости и продажам не изменились в сущности **msdyn\_projecttask** :
+Следующие поля для плановой, фактической и оставшейся стоимости и продажам не изменились в сущности **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

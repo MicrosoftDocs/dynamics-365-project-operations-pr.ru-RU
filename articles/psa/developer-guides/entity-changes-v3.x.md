@@ -16,14 +16,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d93e5eaae7cff302be1cb2e96e3f45c24739b0c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 48062eda1f524dd3ca0d5feccf11fd5577521275
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083383"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148749"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Изменение сущностей, элементов управления и интерфейса пользователя (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
+
 В выпуске Microsoft Dynamics Project Service Automation (PSA) 3.x сделано много изменений сущностей, элементов управления, представлений и интерфейса пользователя. В этом разделе содержатся сведения об этих важных изменениях.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Отношения "родительское-дочернее" для сущностей документа продаж, строки документа продаж и сведений строки документа продаж
