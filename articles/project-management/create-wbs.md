@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841391"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287029"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Создание структурной декомпозиции работ (WBS)
 
@@ -92,6 +92,8 @@ ms.locfileid: "4841391"
 | По левому краю | Дата и время начала. |
 | Полное имя | Имя задачи. |
 | ИД | Идентификатор задачи в структурной декомпозиции работ. |
+
+В качестве администратор вы можете определить пользовательские поля в сущности задачи. Однако поля не могут отображаться в сетке расписания. Чтобы увидеть свои пользовательские поля, добавьте их на страницу сведений **Задача проекта**.
 
 ## <a name="staffing-attributes"></a>Атрибуты персонала
 
