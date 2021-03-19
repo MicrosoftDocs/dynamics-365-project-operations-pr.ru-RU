@@ -1,5 +1,5 @@
 ---
-title: Распознавание текста для сопоставления чеков с расходами
+title: Сканирование чеков с распознаванием текста
 description: Эта тема предоставляет информацию об оптическом распознавании символов (OCR) для квитанций.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124339"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499867"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Распознавание текста для сопоставления чеков с расходами
+# <a name="capture-a-receipt-using-ocr"></a>Сканирование чеков с распознаванием текста
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 

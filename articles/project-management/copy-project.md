@@ -1,27 +1,27 @@
 ---
 title: Копирование проекта
-description: В этой теме предоставлена информация о копировании проектов в Dynamics 365 Project Operations.
+description: В этом разделе представлена информация о копировании проектов в Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131809"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479535"
 ---
 # <a name="copy-a-project"></a>Копирование проекта
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
-С Dynamics 365 Project Operations вы можете быстро создавать новые проекты, выбрав **Копировать проект** в форме **Проекты**. Чтобы скопировать проект, откройте проект, который вы хотите скопировать, затем выберите **Копировать проект**. Действие скопирует:
+С Dynamics 365 Project Operations вы можете быстро создавать новые проекты, выбирая **Копировать проект** в форме **Проекты**. Чтобы скопировать проект, откройте проект, который вы хотите скопировать, затем выберите **Копировать проект**. Действие скопирует:
 
-- Свойства проекта
+- Свойства проекта (предполагаемая дата начала копируется из исходного проекта)
 - Структурную декомпозицию работ
 - Участники проектной группы
 - Оценки проекта
