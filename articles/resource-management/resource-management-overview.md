@@ -17,11 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 73ba4e2b79b41a94bfea225240555319531ac896
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bbac96ebffae9c3fa1e7a91fd23511e5a3a4e6be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119794"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279424"
 ---
-# <a name="resource-management-overview"></a><span data-ttu-id="41726-103">Обзор управления ресурсами</span><span class="sxs-lookup"><span data-stu-id="41726-103">Resource management overview</span></span>
+# <a name="resource-management-overview"></a><span data-ttu-id="aac2c-103">Обзор управления ресурсами</span><span class="sxs-lookup"><span data-stu-id="aac2c-103">Resource management overview</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
