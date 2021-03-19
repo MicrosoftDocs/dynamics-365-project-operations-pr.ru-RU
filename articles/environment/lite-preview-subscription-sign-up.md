@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175907"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290060"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Регистрация на подписку на предварительную версию — облегченное развертывание 
 
-Эта тема объясняет, как подписаться на предварительную версию партнерского предложения и развернуть развертывание Dynamics 365 Project Operations Lite — от сделки до счетов-проформ.
+В этом разделе объясняется, как подписаться на предварительное предложение партнера и выполнить облегченное развертывание Dynamics 365 Project Operations — от сделки до счетов-проформ.
 
 > [!NOTE]
 > Этот процесс изменится в следующих выпусках Project Operations.
@@ -32,17 +32,17 @@ ms.locfileid: "4175907"
 
 Когда вы получите утверждение [запроса на предварительную версию](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), вы получите два предложения от Microsoft по электронной почте. Эти предложения позволяют развернуть предварительную версию Project Operations:
 
-- Dynamics 365 Project Operations (CRM) — пробная предварительная версия
+- Пробная предварительная версия Dynamics 365 Project Operations (CRM)
 - Office 365 Project Operations — пробная предварительная версия
 
 > [!IMPORTANT]
 > Только один человек, администратор клиента, в организации должен выполнять эту задачу. Если вы не являетесь подписчиком этого выпуска, подождите, пока ваша организация не будет зарегистрирована и вы не получите свои учетные данные.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) — пробная предварительная версия 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Пробная предварительная версия Dynamics 365 Project Operations (CRM) 
 
 Прежде чем начать, убедитесь, что вы вошли в браузер с рабочей учетной записью пользователя в клиенте, где вы хотите получить предварительную версию Project Operations.
 
-1. Активируйте код первого предложения **Dynamics 365 Project Operations (CRM) — пробная предварительная версия**, вставив его в URL-адрес браузера.
+1. Активируйте код первого предложения **Dynamics 365 Project Operations (CRM) — Пробная предварительная версия**, вставив его в URL-адрес браузера.
 
 ![Активировать предложение](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "4175907"
 
 ![Назначение лицензий](./media/15AssignLicenses.png)
 
-3. Убедитесь, что выбраны лицензии **Предварительная версия Dynamics 365 Project Operations (CRM)** и **Office 365 Project Operations — предварительная версия**. 
+3. Убедитесь, что выбраны лицензии **Предварительная версия Dynamics 365 Project Operations (CRM)** и **Предварительная версия Office 365 Project Operations**. 
 4. Выберите **Сохранить изменения**.
 
 ## <a name="create-a-new-cds-environment"></a>Создание новой среды CDS
