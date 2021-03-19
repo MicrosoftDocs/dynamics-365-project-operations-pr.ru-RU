@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177887"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272674"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Обзор строк контракта на основе продуктов — облегченное развертывание
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
-Вы можете создавать строки контрактов на основе продуктов в Dynamics 365 Project Operations. Строки контракта на основе продукта могут быть вручную созданными строками или они могут быть номенклатурами из каталога продуктов.
+Можно создать строки контракта на основе продукта в Dynamics 365 Project Operations. Строки контракта на основе продукта могут быть вручную созданными строками или они могут быть номенклатурами из каталога продуктов.
 
 ## <a name="product-catalog"></a>Каталог продукции
 

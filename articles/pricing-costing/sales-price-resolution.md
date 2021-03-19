@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119569"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274969"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Разрешение значений цены продажи для оценок и фактических значений
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-Когда цены продаж по оценкам и фактическим значениям разрешаются в Dynamics 365 Project Operations, система сначала использует дату и валюту соответствующего предложения с расценками по проекту или контракта для разрешения прайс-листа продаж. После того, как прайс-лист продаж разрешен, система разрешает ставку продажи или выставления счета.
+Когда цены продаж по оценкам и фактам разрешаются в Dynamics 365 Project Operations, система сначала использует дату и валюту соответствующего предложения по проекту или контракта для разрешения прайс-листа продаж. После того, как прайс-лист продаж разрешен, система разрешает ставку продажи или выставления счета.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Разрешение ставок продаж по фактическим и сметным строкам для времени
 

@@ -1,6 +1,6 @@
 ---
 title: Переработанные отчеты о расходах
-description: Этот тема предоставляет информацию о переработанном и переосмысленном интерфейсе ввода отчета о расходах в Microsoft Dynamics 365 Finance. Новый интерфейс упрощает процесс заполнения отчетов о расходах и сокращает необходимое время.
+description: Этот тема предоставляет информацию о переработанном и переосмысленном интерфейсе ввода отчета о расходах.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960263"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271999"
 ---
 # <a name="redesigned-expense-reports"></a>Переработанные отчеты о расходах
 
@@ -41,15 +41,9 @@ ms.locfileid: "4960263"
 - Никакие существующие пункты меню для отчетов о расходах (существующая страница) или поля отчета о расходах не удаляются.
 - Рабочие процессы и любые утверждения по-прежнему переносят вас на существующую страницу отчетов о расходах.
 
-## <a name="getting-started-video-for-new-users"></a>Видео по началу работы для новых пользователей
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Видео [Работа с расходами в Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (показанное выше) включено в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
-
 ## <a name="new-features"></a>Новые возможности
 
-| Новая функция | Описание: |
+| Новая функция | Описание |
 |---|----|
 | Видимость полей расходов | На новой странице настройки вы можете указать, какие поля следует отключить для организации, какие поля должны быть обязательными, а какие рекомендуемыми. |
 | Обязательные поля | Новая простая конфигурация позволяет сделать некоторые поля обязательными без использования структуры политик. |

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124699"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277264"
 ---
 # <a name="close-a-quote"></a>Закрытие предложения с расценками
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-Предложение с расценками по проекту может быть закрыто как выигранное или потерянное. Поскольку функции активации и пересмотра предложений с расценками не поддерживаются в Microsoft Dynamics 365 Project Operations, вы можете закрыть черновое предложение с расценками.
+Предложение с расценками по проекту может быть закрыто как выигранное или потерянное. Поскольку функции «Активировать» и «Пересмотреть» для предложений с расценками не поддерживаются в Microsoft Dynamics 365 Project Operations, черновик предложения с расценками можно закрыть.
 
 ## <a name="close-a-quote-as-won"></a>Закрытие предложения с расценками как реализованного
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181154"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277624"
 ---
 # <a name="project-contract-settings"></a>Параметры контракта по проекту
 
@@ -21,7 +21,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 Эта тема предоставляет информацию о полях, которые применяются ко всему контракту проекта, включая настройки, которые влияют на все строки контракта. Также включена информация о контракте, которая обобщена по всем позициям для управления ключевыми показателями эффективности контракта по проекту.
 
-В следующей таблице перечислены поля контракта по проекту, которые являются уникальными для Dynamics 365 Project Operations или имеют некоторые важные изменения в поведении по сравнению с заказами на продажу в Dynamics 365 Sales.
+В следующей таблице перечислены поля контракта по проекту, которые уникальны для Dynamics 365 Project Operations или содержат важные изменения в поведении по сравнению с заказами на продажу в Dynamics 365 Sales.
 
 | Поле | Размещение | Описание: | Воздействие на последующие элементы |
 | --- | --- | --- | --- |

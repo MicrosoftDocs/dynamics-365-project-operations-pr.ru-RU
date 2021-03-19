@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083330"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271144"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Расписания проекта на мобильном устройстве
 
@@ -49,7 +49,7 @@ Android будет совместимо с обновлением платфор
 
 7.  Нажмите кнопку **ОК**.
 
-8.  Щелкните **+** , чтобы добавить новую строку.
+8.  Щелкните **+**, чтобы добавить новую строку.
 
 9.  Выберите информацию о клиенте и проекте для строки расписания.
 
@@ -61,7 +61,7 @@ Android будет совместимо с обновлением платфор
 
 13. Необязательно: введите дополнительные строки расписания.
 
-14. После того, как вы закончите ввод строк расписания, выберите действие **Рабочий процесс** \> **Отправить** , чтобы отправить расписание в процесс утверждения рабочего процесса.
+14. После того, как вы закончите ввод строк расписания, выберите действие **Рабочий процесс** \> **Отправить**, чтобы отправить расписание в процесс утверждения рабочего процесса.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
