@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288109"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>Перенос предложения с расценками в проект
 
 [!include [banner](../includes/banner.md)]
 
-Когда предложение с расценками по проекту имеет статус **Подтверждено** , вы можете перенести некоторые или все строки предложения с расценками в новый или существующий проект с помощью мастера **Перенос проекта**. 
+Когда предложение с расценками по проекту имеет статус **Подтверждено**, вы можете перенести некоторые или все строки предложения с расценками в новый или существующий проект с помощью мастера **Перенос проекта**. 
 
 Чтобы использовать мастер, выполните следующие действия.
 

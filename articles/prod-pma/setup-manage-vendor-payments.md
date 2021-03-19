@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083167"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288619"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Настройка и использование платежей поставщикам с оплатой после получения оплаты от клиентов
 
@@ -49,7 +49,7 @@ ms.locfileid: "4083167"
 
 1. Перейдите в раздел **Управление проектами и учет** \> **Проекты** \> **Все проекты**.
 2. Найдите и откройте проект, для которого вы хотите настроить условия PWP.
-3. На экспресс-вкладке **Договора с поставщиками** , выберите **Добавить строку**.
+3. На экспресс-вкладке **Договора с поставщиками**, выберите **Добавить строку**.
 3. В поле **Код счета** выберите один из следующих вариантов:
 
     - **Таблица** — условия PWP распространяются на одного поставщика.
