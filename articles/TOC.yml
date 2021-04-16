@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Новые возможности
       items:
+        - name: "Апрель 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: "Март 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: "Февраль 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
@@ -64,7 +66,7 @@
           items:
             - name: Обзор управления возможными сделками по проектам
               href: sales/manage-project-based-opportunities.md
-            - name: Параметры возможной сделки на основе проекта
+            - name: Сведения о заголовке для возможных сделок на основе проекта
               href: sales/opportunity-header.md
             - name: Строки возможной сделки на основе проекта
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Обзор управления предложениями с расценками по проектам
               href: pro/sales/manage-quotes-sales.md
-            - name: 'Понятия, связанные с предложениями с расценками по проекту'
+            - name: Уникальные понятия для предложений с расценками на основе проектов
               href: sales/quotes-key-concepts.md
-            - name: Параметры предложений с расценками по проекту
+            - name: Сведения о заголовке для предложений с расценками на основе проектов
               href: sales/quote-values-budget-limits-contract.md
             - name: Управление несколькими клиентами в предложении с расценками по проекту
               href: sales/manage-multiple-customers-quote.md
             - name: Управление прайс-листами проекта в предложении с расценками
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Строки предложения с расценками на основе проектов
               items:
                 - name: Обзор строк предложения с расценками на основе проекта
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Управление несколькими клиентами в строках предложения с расценками на основе проекта
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Сопоставление проектов и задач со строками предложения с расценками на основе проекта
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Настройка подлежащих оплате компонентов для строк предложения с расценками по проекту
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Настройка подлежащих оплате компонентов строки предложения с расценками по проекту
                   href: sales/configure-chargeable-quoteline.md
-                - name: Создание оценок в строке предложения с расценками
+                - name: Оценка строки предложения с расценками проекта
                   href: sales/create-estimate-quote-line.md
                 - name: Импорт оценок из проекта в строку предложения с расценками на основе проекта
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Обзор управления контрактами по проекту
               href: pro/sales/manage-contracts-sales.md
-            - name: Понятия контрактов по проектам
+            - name: Уникальные понятия для контрактов на основе проектов
               href: sales/contracts-key-concepts.md
-            - name: Параметры контракта по проекту
+            - name: Сведения о заголовке для контрактов на основе проектов
               href: sales/project-contract-settings.md
             - name: Управление прайс-листами проекта в контрактах по проекту
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Строки контракта на основе проектов
               items:
                 - name: Обзор строк контракта на основе проекта
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Управление несколькими клиентами в строках контракта на основе проекта
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Настройка подлежащих оплате компонентов строки контракта на основе проекта
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Оценка строки контракта на основе проекта
+                - name: Сопоставление проектов и задач в строке контракта по проекту
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Настройка подлежащих оплате компонентов для строки контракта по проекту
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Оценка строки контракта проекта
                   href: sales/create-estimate-contract-line.md
                 - name: Импорт оценок из проекта в строку контракта на основе проекта
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Подтверждение контракта по проекту
               href: pro/sales/confirm-contract-sales.md
-            - name: Копирование контракта по проекту
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Авансы и гонорары
               items:
                 - name: Авансы и контракты с гонораром
@@ -146,16 +152,16 @@
       items:
         - name: Настройка прайс-листа
           items:
-            - name: Настройка прайс-листов
+            - name: Определение прайс-листа
               href: pricing-costing/price-list-setup.md
-            - name: Прайс-листы продуктов
-              href: pricing-costing/product-price-list.md
             - name: Настройка ставок оплаты трудозатрат
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Настройка ставок себестоимости трудозатрат
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Настройка ставок себестоимости и продаж для расходов
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Настройка ставок себестоимости и продаж для материалов
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Значения по умолчанию и переопределения
           items:
             - name: Прайс-листы по умолчанию
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: Копирование прайс-листов
               href: pricing-costing/copy-price-lists.md
+            - name: Деактивация прайс-листов
+              href: pricing-costing/deactivatepricelists.md
         - name: Измерения цен
           items:
             - name: Обзор измерений цен
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Создание назначений
               href: project-management/create-assignments.md
-        - name: Оценка проектов
+        - name: Финансовые оценки по проектам
           items:
-            - name: Обзор оценок проектов
+            - name: Понятия финансовой оценки
               href: project-management/estimating-projects-overview.md
-            - name: Оценка ресурсов
+            - name: Финансовые оценки времени ресурса по проектам
               href: project-management/resource-estimates.md
-            - name: Создание оценки расходов
+            - name: Финансовые оценки для расходов по проектам
               href: project-management/create-expense-estimates.md
+            - name: Финансовые оценки для материалов по проектам
+              href: project-management/create-material-estimate.md
         - name: Отслеживание проектов
           items:
-            - name: Обзор отслеживания проектов
+            - name: Отслеживание усилий по проектам
               href: project-management/project-tracking-overview.md
+            - name: Отслеживание стоимости трудозатрат по проектам
+              href: project-management/project-cost-tracking.md
+            - name: Отслеживание выручки от трудозатрат по проектам
+              href: project-management/project-sales-tracking.md
             - name: Обновление предварительной оценки по завершении
               href: project-management/update-completed-estimate.md
         - name: Участники проектной группы
@@ -248,6 +262,8 @@
           items:
             - name: Разработка шаблонов проектов с помощью копирования проектов
               href: project-management/dev-copy-project.md
+            - name: Использование API расписания (общедоступная предварительная версия)
+              href: project-management/schedule-api-preview.md
     - name: Управление ресурсами
       items:
         - name: Основные понятия
@@ -366,6 +382,10 @@
           items:
             - name: Возврат НДС
               href: expense/vat-recovery.md
+    - name: Использование материала
+      items:
+        - name: Запись использования материалов по проектам и задачам проекта
+          href: material/material-usage-log.md
     - name: Утверждения
       items:
         - name: Обзор утверждений
@@ -378,6 +398,8 @@
       items:
         - name: Обзор фактических значений
           href: actuals/actuals-overview.md
+        - name: Связь фактических данных с исходными записями
+          href: actuals/linkingactuals.md
         - name: Журналы корректировок
           items:
             - name: Создание и подтверждение журналов корректировок
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Счет-проформа
           items:
-            - name: Управление невыполненной работой по выставлению счетов по проекту
+            - name: Управление невыполненной работой по выставлению счетов на основе проектов
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Управление состоянием и проверка соблюдения лимитов
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Создание счета-проформы по проекту вручную
+            - name: Счета-проформы на основе проектов
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Управление счетом-проформой по проекту
+            - name: Управление счетом-проформой на основе проектов
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Выставление счета на предоплату или аванс
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Подтверждение счета-проформы по проекту
+            - name: Подтверждение счета-проформы на основе проектов
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Настройка автоматизации счетов по проекту
+            - name: Создание корректирующих счетов на основе проектов
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Настройка автоматизации счетов на основе проектов
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Учет по проекту
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Новые возможности
       items:
+        - name: "Новые возможности в апреле 2021\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "Новые возможности в марте 2021\_— облегченное развертывание"
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: "Новые возможности в феврале 2021\_— облегченное развертывание"
@@ -486,7 +512,7 @@
           items:
             - name: Обзор возможных сделок по проектам
               href: sales/manage-project-based-opportunities.md
-            - name: Параметры возможной сделки по проекту
+            - name: Сведения о заголовке для возможных сделок по проекту
               href: pro/sales/opportunity-header-sales.md
             - name: Управление стоками возможной сделки на основе продуктов
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Обзор предложений с расценками на основе проекта
               href: pro/sales/manage-quotes-sales.md
-            - name: 'Понятия, связанные с предложениями с расценками по проекту'
+            - name: Уникальные понятия для предложений с расценками по проекту
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Параметры предложения с расценками по проекту
+            - name: Сведения о заголовке для предложений с расценками по проекту
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Несколько клиентов в предложениях с расценками по проекту
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: Обзор контрактов на основе проекта
               href: pro/sales/manage-contracts-sales.md
-            - name: Понятия контракта по проектам
+            - name: Уникальные понятия для контрактов по проекту
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Параметры контракта по проекту
+            - name: Сведения о заголовке для контрактов по проекту
               href: pro/sales/project-contract-settings-sales.md
             - name: Несколько клиентов в контрактах по проекту
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Настройка прайс-листа
           items:
-            - name: Настройка прайс-листов
+            - name: Определение прайс-листа
               href: pricing-costing/price-list-setup.md
-            - name: Настройка прайс-листа продаж
-              href: pricing-costing/sales-price-list-setup.md
-            - name: "Настройка ставок оплаты трудозатрат\_— облегченное развертывание"
+            - name: Настройка прайс-листов продуктов
+              href: pricing-costing/product-price-list.md
+            - name: Настройка ставок оплаты трудозатрат
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: "Настройка ставок себестоимости трудозатрат\_— облегченное развертывание"
+            - name: Настройка ставок себестоимости трудозатрат
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: "Настройка ставок себестоимости и продаж для продуктов из каталога\_— облегченное развертывание"
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Настройка ставок себестоимости и продаж для расходов
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Настройка ставок себестоимости и продаж для материалов
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Значения по умолчанию и переопределения
           items:
             - name: Прайс-листы по умолчанию
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Переопределение прайс-листов продаж по проекту
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: "Разрешение значений себестоимости по оценкам и фактическим значениям\_— облегченное развертывание"
+            - name: Разрешение значений себестоимости по оценкам и фактическим значениям по проекту
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: "Разрешение значений цены продажи для оценок и фактических значений\_— облегченное развертывание"
+            - name: Разрешение значений цены продажи для оценок и фактических значений по проекту
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Копирование прайс-листов
               href: pricing-costing/copy-price-lists.md
+            - name: Деактивация прайс-листов проекта
+              href: pricing-costing/deactivatepricelists.md
         - name: Измерения цен
           items:
             - name: Обзор измерений цен
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Создание назначений
               href: project-management/create-assignments.md
-        - name: Оценка проектов
+        - name: Финансовые оценки по проектам
           items:
-            - name: Обзор оценок проектов
+            - name: Понятия финансовой оценки
               href: project-management/estimating-projects-overview.md
-            - name: Оценка ресурсов
+            - name: Финансовые оценки времени ресурса по проектам
               href: project-management/resource-estimates.md
-            - name: Создание оценки расходов
+            - name: Финансовые оценки для расходов по проектам
               href: project-management/create-expense-estimates.md
+            - name: Финансовые оценки для материалов по проектам
+              href: project-management/create-material-estimate.md
         - name: Отслеживание проектов
           items:
-            - name: Обзор отслеживания проектов
+            - name: Отслеживание усилий по проектам
               href: project-management/project-tracking-overview.md
+            - name: Отслеживание стоимости трудозатрат по проектам
+              href: project-management/project-cost-tracking.md
+            - name: Отслеживание выручки от трудозатрат по проектам
+              href: project-management/project-sales-tracking.md
             - name: Обновление предварительной оценки по завершении
               href: project-management/update-completed-estimate.md
         - name: Участники проектной группы
@@ -694,6 +728,8 @@
           items:
             - name: Разработка шаблонов проектов с помощью копирования проектов
               href: project-management/dev-copy-project.md
+            - name: Использование API расписания (общедоступная предварительная версия)
+              href: project-management/schedule-api-preview.md
     - name: Управление ресурсами
       items:
         - name: Основные понятия
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Запись расходов (облегченное развертывание)
           href: expense/basic-expense.md
+    - name: Использование материала
+      items:
+        - name: Запись использования материалов по проектам и задачам проекта
+          href: material/material-usage-log.md
     - name: Утверждения
       items:
         - name: Обзор утверждений
@@ -780,6 +820,8 @@
       items:
         - name: Обзор фактических значений
           href: actuals/actuals-overview.md
+        - name: Связь фактических данных с исходными записями
+          href: actuals/linkingactuals.md
         - name: Журналы корректировок
           items:
             - name: Создание и подтверждение журналов корректировок
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: Управление состоянием и проверка соблюдения лимитов
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Создание счета-проформы по проекту вручную
+        - name: Счета-проформы по проекту
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Управление счетом-проформой по проекту
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Новые возможности
       items:
+        - name: "Новые возможности в марте 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: "Новые возможности в январе 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: "Новые возможности в декабре 2020 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Выставление счетов по проектам
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Выполнение предложения по счетам по проекту
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Контракты по проектам
       href: prod-pma/project-contracts.md
     - name: Создание расширенных контрактов для выставления счетов на основе хода выполнения
@@ -952,6 +998,10 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 30, V3'
+          href: psa/whats-new-ur-30.md
+        - name: 'Новые возможности и изменения в выпуске обновления 29.5, исправление V3'
+          href: psa/whats-new-ur-29-5.md
         - name: 'Новые возможности и изменения в выпуске обновления 29, V3'
           href: psa/whats-new-ur-29.md
         - name: 'Новые возможности и изменения в выпуске обновления 28.6, исправление V3'
