@@ -1,41 +1,264 @@
 ---
-title: Скорректированные счета
-description: В этом разделе представлена информация о скорректированных счетах.
+title: Корректирующие счетов на основе проектов
+description: В этой теме содержится информация о создании и подтверждении корректирующих счетов на основе проектов в Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 734dc01e15339a31ac21f92bb3fb20d634a075ad
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287839"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867057"
 ---
-# <a name="corrected-invoices"></a><span data-ttu-id="ddd26-103">Скорректированные счета</span><span class="sxs-lookup"><span data-stu-id="ddd26-103">Corrected invoices</span></span>
+# <a name="corrective-project-based-invoices"></a><span data-ttu-id="d2456-103">Корректирующие счетов на основе проектов</span><span class="sxs-lookup"><span data-stu-id="d2456-103">Corrective project-based invoices</span></span>
 
-<span data-ttu-id="ddd26-104">_**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_</span><span class="sxs-lookup"><span data-stu-id="ddd26-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="d2456-104">_**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_</span><span class="sxs-lookup"><span data-stu-id="d2456-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="ddd26-105">Утвержденные счета можно редактировать.</span><span class="sxs-lookup"><span data-stu-id="ddd26-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="ddd26-106">При редактировании утвержденного счета создается черновик скорректированного счета.</span><span class="sxs-lookup"><span data-stu-id="ddd26-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="ddd26-107">Поскольку предполагается, что требуется реверсировать все транзакции и количества из первоначального счетов, этот скорректированный счет включает все транзакции из первоначального счета, и все количества в нем равны нулю (0).</span><span class="sxs-lookup"><span data-stu-id="ddd26-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
+<span data-ttu-id="d2456-105">Подтвержденный счет по проекту может быть скорректирован для обработки изменений или кредитов по согласованию с заказчиком и менеджером проекта.</span><span class="sxs-lookup"><span data-stu-id="d2456-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
 
-<span data-ttu-id="ddd26-108">Когда какие-либо транзакции не требуют исправления, можно удалить их из черновика корректирующего счета.</span><span class="sxs-lookup"><span data-stu-id="ddd26-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="ddd26-109">Чтобы реверсировать или вернуть только часть количества, можно изменить поле "Количество" в сведениях строки.</span><span class="sxs-lookup"><span data-stu-id="ddd26-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="ddd26-110">Если открыть сведения строки счета, можно просмотреть первоначальное количество по счету.</span><span class="sxs-lookup"><span data-stu-id="ddd26-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="ddd26-111">Затем можно изменить текущее количество по счету, чтобы оно было меньше или больше количества по первоначальному счету.</span><span class="sxs-lookup"><span data-stu-id="ddd26-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
+<span data-ttu-id="d2456-106">Чтобы внести изменения в подтвержденный счет, откройте подтвержденный счет и выберите **Исправить этот счет**.</span><span class="sxs-lookup"><span data-stu-id="d2456-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
 
-<span data-ttu-id="ddd26-112">При утверждении корректирующего счета фактические значения исходных выставленных продаж реверсируется, и создаются новые фактические данные продаж, за которые выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="ddd26-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="ddd26-113">Если количество было уменьшено, разница вызовет также создание новых фактических данных продаж, за которые не выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="ddd26-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="ddd26-114">Например, если исходный выставленный счет продажи был за восемь часов, а в сведениях по строке скорректированного счета количество уменьшено до шести часов, исходная строка счета продаж обращается и создаются два новых фактических значения:</span><span class="sxs-lookup"><span data-stu-id="ddd26-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
+> [!NOTE]
+> <span data-ttu-id="d2456-107">Этот выбор недоступен, пока счет проекта не подтвержден или в счете на основе проектов есть авансы или гонорары, или выверка авансов или гонораров.</span><span class="sxs-lookup"><span data-stu-id="d2456-107">This selection isn't available unless a project invoice is confirmed or the project-based invoice has advances or retainers or reconciliations of advances or retainers.</span></span>
 
-- <span data-ttu-id="ddd26-115">Фактические данные выставленного счета продаж на 6 часов.</span><span class="sxs-lookup"><span data-stu-id="ddd26-115">A billed sales actual for six hours.</span></span>
-- <span data-ttu-id="ddd26-116">Фактические данные продаж на остальные 2 часа, за которые счет не выставлен.</span><span class="sxs-lookup"><span data-stu-id="ddd26-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="ddd26-117">За эту транзакцию можно выставить счет позднее или ее можно пометить как не подлежащую оплате, в зависимости от переговоров с клиентом.</span><span class="sxs-lookup"><span data-stu-id="ddd26-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>
+<span data-ttu-id="d2456-108">Новый черновик счета создается из подтвержденного счета.</span><span class="sxs-lookup"><span data-stu-id="d2456-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="d2456-109">Все детали строк счета из ранее подтвержденного счета копируются в новый черновик.</span><span class="sxs-lookup"><span data-stu-id="d2456-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="d2456-110">Ниже приведены некоторые из ключевых моментов, которые нужно знать о деталях строк в новом исправленном счете:</span><span class="sxs-lookup"><span data-stu-id="d2456-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
+
+- <span data-ttu-id="d2456-111">Все количества обновляются до нуля.</span><span class="sxs-lookup"><span data-stu-id="d2456-111">All quantities are updated to zero.</span></span> <span data-ttu-id="d2456-112">Dynamics 365 Project Operations предполагает, что все номенклатуры с выставленными счетами, полностью кредитуются.</span><span class="sxs-lookup"><span data-stu-id="d2456-112">Dynamics 365 Project Operations assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="d2456-113">При необходимости вы можете вручную обновить эти количества, чтобы отразить количество, по которому выставляется счет, а не количество, которое кредитуется.</span><span class="sxs-lookup"><span data-stu-id="d2456-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="d2456-114">На основе введенного количества приложение рассчитывает кредитуемое количество.</span><span class="sxs-lookup"><span data-stu-id="d2456-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="d2456-115">Эта сумма отражается в фактических данных, которые создаются при подтверждении исправленного счета.</span><span class="sxs-lookup"><span data-stu-id="d2456-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="d2456-116">Если вы вносите изменения в сумму налога, вы должны ввести правильную сумму налога, а не сумму налога, которая кредитуется.</span><span class="sxs-lookup"><span data-stu-id="d2456-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
+- <span data-ttu-id="d2456-117">Исправления вех всегда обрабатываются как полные кредиты.</span><span class="sxs-lookup"><span data-stu-id="d2456-117">Milestone corrections are always processed as full credits.</span></span>
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="d2456-118">Для сведений строки счета, которые являются исправлением других платежей с уже выставленными счетами, поле **Исправление** задано как **Да**.</span><span class="sxs-lookup"><span data-stu-id="d2456-118">For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**.</span></span> <span data-ttu-id="d2456-119">Для счетов, у которых есть исправленные сведения строки счета поле **Содержит корректировки** задано как **Да**.</span><span class="sxs-lookup"><span data-stu-id="d2456-119">For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.</span></span>
+
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a><span data-ttu-id="d2456-120">Фактические данные, созданные при подтверждении корректирующего счета</span><span class="sxs-lookup"><span data-stu-id="d2456-120">Actuals created when a corrective invoice is confirmed</span></span>
+
+<span data-ttu-id="d2456-121">В следующей таблице перечислены фактические данные, которые создаются при подтверждении корректирующего счета.</span><span class="sxs-lookup"><span data-stu-id="d2456-121">The following table lists the actuals that are created when a corrective invoice is confirmed.</span></span>
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="216" valign="top">
+                <p><span data-ttu-id="d2456-122">
+                    <strong>Сценарий</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="d2456-122">
+                    <strong>Scenario</strong>
+                </span></span></p>
+            </td>
+            <td width="808" valign="top">
+                <p><span data-ttu-id="d2456-123">
+                    <strong>Фактические данные, созданные при подтверждении</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="d2456-123">
+                    <strong>Actuals created on confirmation</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="d2456-124">Выставление счета на полную сумму транзакции по ранее выставленному счету за время.</span><span class="sxs-lookup"><span data-stu-id="d2456-124">Invoicing the full credit of a previously invoiced time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-125">Сторнирование продаж с выставленным счетом по часам и сумме в сведениях исходной строки счета за время.</span><span class="sxs-lookup"><span data-stu-id="d2456-125">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-126">Новая фактическая сумма продаж с невыставленным счетом за часы и сумму в сведениях исходной строки счета за время.</span><span class="sxs-lookup"><span data-stu-id="d2456-126">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="d2456-127">Выставление счета на частичный кредит по транзакции за время.</span><span class="sxs-lookup"><span data-stu-id="d2456-127">Invoicing the partial credit on a time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-128">Сторнирование продаж с выставленным счетом по часам и сумме, выставленным в сведениях исходной строки счета за время.</span><span class="sxs-lookup"><span data-stu-id="d2456-128">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-129">Новая фактическая сумма продаж, по которой не выставлен счет, которая оплачивается по часам и сумме в отредактированных сведениях строки счета, сторнирование этого и эквивалентная фактическая сумма продаж, по которым выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="d2456-129">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-130">Новый фактический объем продаж, по которому не выставлены счета, который подлежит оплате за оставшиеся часы и сумму после вычета исправленных цифр в сведениях строки счета.</span><span class="sxs-lookup"><span data-stu-id="d2456-130">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="d2456-131">Выставление счета на полную сумму транзакции по ранее выставленному счету за расходы.</span><span class="sxs-lookup"><span data-stu-id="d2456-131">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-132">Сторнирование продаж с выставленным счетом по количеству и сумме в сведениях исходной строки счета за расходы.</span><span class="sxs-lookup"><span data-stu-id="d2456-132">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-133">Новая фактическая сумма продаж, за которые не выставлены счета, по количеству и сумме в сведениях исходной строки счета за расходы.</span><span class="sxs-lookup"><span data-stu-id="d2456-133">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="d2456-134">Выставление счета на частичную сумму транзакции по ранее выставленному счету за расходы.</span><span class="sxs-lookup"><span data-stu-id="d2456-134">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-135">Сторнирование продаж с выставленным счетом по выставленным количеству и сумме в сведениях исходной строки счета за расходы.</span><span class="sxs-lookup"><span data-stu-id="d2456-135">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-136">Новая фактическая сумма продаж, по которой не выставлен счет, которая оплачивается по количестве и сумме в скорректированных сведениях строки счета, сторнирование этого и эквивалентная фактическая сумма продаж, по которым выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="d2456-136">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-137">Новый фактический объем продаж, по которому не выставлены счета, который подлежит оплате за оставшееся количество и сумму после вычета исправленных цифр в сведениях строки счета.</span><span class="sxs-lookup"><span data-stu-id="d2456-137">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+                <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="d2456-138">Выставление счета на полный кредит проводки материала с ранее выставленным счетом.</span><span class="sxs-lookup"><span data-stu-id="d2456-138">Invoicing the full credit of a previously invoiced material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-139">Сторнирование продаж с выставленными счетами для количества и суммы в исходных сведениях строки счета для материала.</span><span class="sxs-lookup"><span data-stu-id="d2456-139">A billed sales reversal for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-140">Фактические новые продажи без выставленных счетов для количества и суммы в исходных сведениях строки счета для материала.</span><span class="sxs-lookup"><span data-stu-id="d2456-140">A new unbilled sales actual for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="d2456-141">Выставление счета на частичный кредит в проводке материала.</span><span class="sxs-lookup"><span data-stu-id="d2456-141">Invoicing the partial credit on a material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-142">Сторнирование продаж с выставленными счетами для количества и суммы с выставленным счетом в исходных сведениях строки счета для материала.</span><span class="sxs-lookup"><span data-stu-id="d2456-142">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-143">Новые фактические продажи без выставленных счетов, которые подлежат оплате за количество и сумму в отредактированных сведениях строки счета, сторнирование этого и эквивалент фактических продаж, по которым выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="d2456-143">A new unbilled sales actual that is chargeable for the quantity and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-144">Новый фактический объем продаж, по которому не выставлены счета, который подлежит оплате за оставшееся количество и сумму после вычета исправленных цифр в сведениях строки счета.</span><span class="sxs-lookup"><span data-stu-id="d2456-144">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="d2456-145">Выставление счета на полную сумму транзакции по ранее выставленному счету за вознаграждение.</span><span class="sxs-lookup"><span data-stu-id="d2456-145">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-146">Сторнирование продаж с выставленным счетом по количеству и сумме в сведениях исходной строки счета за вознаграждение.</span><span class="sxs-lookup"><span data-stu-id="d2456-146">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-147">Новая фактическая сумма продаж, за которые не выставлены счета, по количеству и сумме в сведениях исходной строки счета за вознаграждение.</span><span class="sxs-lookup"><span data-stu-id="d2456-147">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="d2456-148">Выставление счета на частичную сумму транзакции по ранее выставленному счету за вознаграждение.</span><span class="sxs-lookup"><span data-stu-id="d2456-148">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-149">Сторнирование продаж с выставленным счетом по количеству и выставленной сумме в сведениях исходной строки счета за вознаграждение.</span><span class="sxs-lookup"><span data-stu-id="d2456-149">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-150">Новая фактическая сумма продаж, по которой не выставлен счет, которая оплачивается по количестве и сумме в отредактированных корректирующих сведениях строки счета, сторнирование этого и эквивалентная фактическая сумма продаж, по которым выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="d2456-150">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="d2456-151">Выставление счета на полную сумму транзакции по ранее выставленному счету за веху.</span><span class="sxs-lookup"><span data-stu-id="d2456-151">Invoicing the full credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-152">Сторнирование продаж с выставленным счетом по сумме в сведениях исходной строки счета за веху.</span><span class="sxs-lookup"><span data-stu-id="d2456-152">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="d2456-153">Статус счета вехи обновляется с <b>Счет клиента разнесен</b> на <b>Готово к выставлению счета</b>.</span><span class="sxs-lookup"><span data-stu-id="d2456-153">The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="d2456-154">Выставление счета на частичную сумму транзакции по ранее выставленному счету за веху.</span><span class="sxs-lookup"><span data-stu-id="d2456-154">Invoicing the partial credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="d2456-155">Этот сценарий не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="d2456-155">This scenario isn't supported.</span></span>
+                </p>
+            </td>
+        </tr>       
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

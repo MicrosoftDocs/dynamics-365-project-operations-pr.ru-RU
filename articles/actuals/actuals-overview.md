@@ -3,7 +3,7 @@ title: Фактические значения
 description: Этот раздел содержит информацию о том, как работать с фактическими значениями в Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,329 +16,347 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291815"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852560"
 ---
-# <a name="actuals"></a><span data-ttu-id="1ecb2-103">Фактические значения</span><span class="sxs-lookup"><span data-stu-id="1ecb2-103">Actuals</span></span> 
+# <a name="actuals"></a><span data-ttu-id="f3ce5-103">Фактические значения</span><span class="sxs-lookup"><span data-stu-id="f3ce5-103">Actuals</span></span> 
 
-<span data-ttu-id="1ecb2-104">_**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_</span><span class="sxs-lookup"><span data-stu-id="1ecb2-104">_**Applies to:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="f3ce5-104">_**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_</span><span class="sxs-lookup"><span data-stu-id="f3ce5-104">_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="1ecb2-105">Фактические значения — это сумма работы, которая была выполнена по проекту.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-105">Actuals are the amount of work that has been completed on a project.</span></span> <span data-ttu-id="1ecb2-106">Они создаются на основе записей о времени и расходах, а также журнальных записей и счетов-фактур.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-106">They are created as a result of time and expense entries, and journal entries and invoices.</span></span>
+<span data-ttu-id="f3ce5-105">Фактические данные представляют собой проанализированный и утвержденный финансовый и календарный прогресс по проекту.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-105">Actuals represent the reviewed and approved financial and schedule progress on a project.</span></span> <span data-ttu-id="f3ce5-106">Они создаются в результате утверждения записей о времени, расходах, использовании материалов, а также записей журналов и счетов.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-106">They are created as a result of approval of time, expense, material usage entries, and journal entries and invoices.</span></span>
 
-## <a name="journal-lines-and-time-submission"></a><span data-ttu-id="1ecb2-107">Отправка строк журналов и времени</span><span class="sxs-lookup"><span data-stu-id="1ecb2-107">Journal lines and time submission</span></span>
+## <a name="journal-lines-and-time-submission"></a><span data-ttu-id="f3ce5-107">Отправка строк журналов и времени</span><span class="sxs-lookup"><span data-stu-id="f3ce5-107">Journal lines and time submission</span></span>
 
-<span data-ttu-id="1ecb2-108">Для получения дополнительной информации о записи времени см. тему [Обзор записи времени](../time/time-entry-overview.md).</span><span class="sxs-lookup"><span data-stu-id="1ecb2-108">For more information about time entry, see [Time entry overview](../time/time-entry-overview.md).</span></span>
+<span data-ttu-id="f3ce5-108">Для получения дополнительной информации о записи времени см. тему [Обзор записи времени](../time/time-entry-overview.md).</span><span class="sxs-lookup"><span data-stu-id="f3ce5-108">For more information about time entry, see [Time entry overview](../time/time-entry-overview.md).</span></span>
 
-### <a name="time-and-materials"></a><span data-ttu-id="1ecb2-109">Время и материалы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-109">Time and materials</span></span>
+### <a name="time-and-materials"></a><span data-ttu-id="f3ce5-109">Время и материалы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-109">Time and materials</span></span>
 
-<span data-ttu-id="1ecb2-110">Когда отправляемая запись времени связана с проектом, который сопоставлен со строкой контракта на время и материалы, система создает две строки журнала: одну для затрат и одну для продаж, за которые не выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-110">When a time entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
+<span data-ttu-id="f3ce5-110">Когда отправляемая запись времени связана с проектом, который сопоставлен со строкой контракта на время и материалы, система создает две строки журнала: одну для затрат и одну для продаж, за которые не выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-110">When a time entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
 
-### <a name="fixed-price"></a><span data-ttu-id="1ecb2-111">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="1ecb2-111">Fixed price</span></span>
+### <a name="fixed-price"></a><span data-ttu-id="f3ce5-111">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="f3ce5-111">Fixed price</span></span>
 
-<span data-ttu-id="1ecb2-112">Когда отправляемая запись времени связана с проектом, который сопоставляется со строкой контракта с фиксированной ценой, система создает одну строку журнала для стоимости.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-112">When a time entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
+<span data-ttu-id="f3ce5-112">Когда отправляемая запись времени связана с проектом, который сопоставляется со строкой контракта с фиксированной ценой, система создает одну строку журнала для стоимости.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-112">When a time entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
 
-### <a name="default-pricing"></a><span data-ttu-id="1ecb2-113">Цены по умолчанию</span><span class="sxs-lookup"><span data-stu-id="1ecb2-113">Default pricing</span></span>
+### <a name="default-pricing"></a><span data-ttu-id="f3ce5-113">Цены по умолчанию</span><span class="sxs-lookup"><span data-stu-id="f3ce5-113">Default pricing</span></span>
 
-<span data-ttu-id="1ecb2-114">Логика создания цен по умолчанию находится в строке журнала.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-114">The logic for creating default prices resides on the journal line.</span></span> <span data-ttu-id="1ecb2-115">Значения полей из записи времени копируются в строку журнала.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-115">The field values from the time entry are copied to the journal line.</span></span> <span data-ttu-id="1ecb2-116">Эти значения включают дату транзакции, строку контракта, с которой сопоставлен проект, и результат валюты в соответствующем прайс-листе.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-116">These values include the transaction date, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span>
+<span data-ttu-id="f3ce5-114">Логика создания цен по умолчанию находится в строке журнала.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-114">The logic for creating default prices resides on the journal line.</span></span> <span data-ttu-id="f3ce5-115">Значения полей из записи времени копируются в строку журнала.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-115">The field values from the time entry are copied to the journal line.</span></span> <span data-ttu-id="f3ce5-116">Эти значения включают дату транзакции, строку контракта, с которой сопоставлен проект, и результат валюты в соответствующем прайс-листе.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-116">These values include the transaction date, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span>
 
-<span data-ttu-id="1ecb2-117">Поля, которые влияют на цены по умолчанию, например **Роль** и **Подразделение**, используются для определения соответствующей цены в строке журнала.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-117">The fields that affect default pricing, such as **Role** and **Org Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="1ecb2-118">Вы можете добавить настраиваемое поле к записи времени.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-118">You can add a custom field on the time entry.</span></span> <span data-ttu-id="1ecb2-119">Если вы хотите, чтобы значение поля распространялось на фактические данные, создайте это поле в сущности фактических данных и используйте сопоставления полей для копирования поля из записи времени в фактические данные.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-119">If you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.</span></span>
+<span data-ttu-id="f3ce5-117">Поля, которые влияют на цены по умолчанию, например **Роль** и **Единица распределения ресурсов** используются для определения соответствующей цены в строке журнала.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-117">The fields that affect default pricing, such as **Role** and **Resourcing Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="f3ce5-118">Вы можете добавить настраиваемое поле к записи времени.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-118">You can add a custom field on the time entry.</span></span> <span data-ttu-id="f3ce5-119">Если вы хотите, чтобы значение поля распространялось на фактические значения, создайте поле в таблицах **Фактические значения** и **Строка журнала**.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-119">If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables.</span></span> <span data-ttu-id="f3ce5-120">Используйте настраиваемый код для распространения значения выбранного поля из "Запись времени" в "Фактические значения" по строке журнала с помощью источников транзакции.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-120">Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins.</span></span> <span data-ttu-id="f3ce5-121">Для получения дополнительной информации об источниках транзакций и подключениях см. [Связь фактических данных с исходными записями](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span><span class="sxs-lookup"><span data-stu-id="f3ce5-121">For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span></span>
 
-## <a name="journal-lines-and-basic-expense-submission"></a><span data-ttu-id="1ecb2-120">Строки журнала и базовая отправка расходов</span><span class="sxs-lookup"><span data-stu-id="1ecb2-120">Journal lines and basic expense submission</span></span>
+## <a name="journal-lines-and-basic-expense-submission"></a><span data-ttu-id="f3ce5-122">Строки журнала и базовая отправка расходов</span><span class="sxs-lookup"><span data-stu-id="f3ce5-122">Journal lines and basic expense submission</span></span>
 
-<span data-ttu-id="1ecb2-121">Дополнительные сведения о записи расходов см. в теме [Обзор расходов](../expense/expense-overview.md).</span><span class="sxs-lookup"><span data-stu-id="1ecb2-121">For more information about expense entry, see [Expense overview](../expense/expense-overview.md).</span></span>
+<span data-ttu-id="f3ce5-123">Дополнительные сведения о записи расходов см. в теме [Обзор расходов](../expense/expense-overview.md).</span><span class="sxs-lookup"><span data-stu-id="f3ce5-123">For more information about expense entry, see [Expense overview](../expense/expense-overview.md).</span></span>
 
-### <a name="time-and-materials"></a><span data-ttu-id="1ecb2-122">Время и материалы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-122">Time and materials</span></span>
+### <a name="time-and-materials"></a><span data-ttu-id="f3ce5-124">Время и материалы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-124">Time and materials</span></span>
 
-<span data-ttu-id="1ecb2-123">Когда отправляемая базовая запись затрат связана с проектом, который сопоставлен со строкой контракта на время и материалы, система создает две строки журнала: одну для затрат и одну для продаж, за которые не выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-123">When a basic expense entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
+<span data-ttu-id="f3ce5-125">Когда отправляемая базовая запись затрат связана с проектом, который сопоставлен со строкой контракта на время и материалы, система создает две строки журнала: одну для затрат и одну для продаж, за которые не выставлен счет.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-125">When a basic expense entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
 
-### <a name="fixed-price"></a><span data-ttu-id="1ecb2-124">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="1ecb2-124">Fixed price</span></span>
+### <a name="fixed-price"></a><span data-ttu-id="f3ce5-126">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="f3ce5-126">Fixed price</span></span>
 
-<span data-ttu-id="1ecb2-125">Когда отправляемая базовая запись расходов связана с проектом, который сопоставляется со строкой контракта с фиксированной ценой, система создает одну строку журнала для стоимости.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-125">When a basic expense entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
+<span data-ttu-id="f3ce5-127">Когда отправленная базовая запись расхода связана с проектом, который сопоставляется со строкой контракта с фиксированной ценой, система создает одну строку журнала для стоимости.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-127">When a submitted basic expense entry is linked to a project that's mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
 
-### <a name="default-pricing"></a><span data-ttu-id="1ecb2-126">Цены по умолчанию</span><span class="sxs-lookup"><span data-stu-id="1ecb2-126">Default pricing</span></span>
+### <a name="default-pricing"></a><span data-ttu-id="f3ce5-128">Цены по умолчанию</span><span class="sxs-lookup"><span data-stu-id="f3ce5-128">Default pricing</span></span>
 
-<span data-ttu-id="1ecb2-127">Логика ввода цен по умолчанию для расходов основана на категории расходов.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-127">The logic for entering default prices for expenses is based on the expense category.</span></span> <span data-ttu-id="1ecb2-128">Дата транзакции, строка контракта, с которой сопоставлен проект, и валюта все используются для определения соответствующего прайс-листа.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-128">The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list.</span></span> <span data-ttu-id="1ecb2-129">Однако по умолчанию сумма, которая введена для самой цены, задается непосредственно в связанных строках журнала расходов для стоимости и продаж.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-129">However, by default, the amount that is entered for the price itself is set directly on the related expense journal lines for cost and sales.</span></span>
+<span data-ttu-id="f3ce5-129">Логика ввода цен по умолчанию для расходов основана на категории расходов.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-129">The logic for entering default prices for expenses is based on the expense category.</span></span> <span data-ttu-id="f3ce5-130">Дата транзакции, строка контракта, с которой сопоставлен проект, и валюта все используются для определения соответствующего прайс-листа.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-130">The transaction date, the contract line that the project is mapped to, and the currency, are all used to determine the appropriate price list.</span></span> <span data-ttu-id="f3ce5-131">Поля, которые влияют на цены по умолчанию, например **Категория проводки** и **Единица распределения ресурсов** используются для определения соответствующей цены в строке журнала.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-131">The fields that affect default pricing, such as **Transaction Category** and **Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="f3ce5-132">Однако это работает только в том случае, если в прайс-листе указан метод ценообразования **Цена за единицу**.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-132">However, this only works when the pricing method in the price list is **Price per unit**.</span></span> <span data-ttu-id="f3ce5-133">Если метод ценообразования — **По себестоимости** или **Наценка по стоимости**, цена, введенная при создании записи расхода, используется для стоимости, а цена в строке журнала продаж рассчитывается на основе метода ценообразования.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-133">If pricing method is **At cost** or **Markup over cost**, the price entered when the expense entry is created is used for cost and the price on the sales journal line is calculated based on the pricing method.</span></span> 
 
-<span data-ttu-id="1ecb2-130">Основанная на категории запись цен по умолчанию за единицу в записях расходов недоступна.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-130">Category-based entry of per-unit default prices on expense entries isn't available.</span></span>
+<span data-ttu-id="f3ce5-134">Вы можете добавить настраиваемое поле в запись расхода.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-134">You can add a custom field on the expense entry.</span></span> <span data-ttu-id="f3ce5-135">Если вы хотите, чтобы значение поля распространялось на фактические значения, создайте поле в таблицах **Фактические значения** и **Строка журнала**.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-135">If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables.</span></span> <span data-ttu-id="f3ce5-136">Используйте настраиваемый код для распространения значения выбранного поля из "Запись времени" в "Фактические значения" по строке журнала с помощью источников транзакции.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-136">Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins.</span></span> <span data-ttu-id="f3ce5-137">Для получения дополнительной информации об источниках транзакций и подключениях см. [Связь фактических данных с исходными записями](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span><span class="sxs-lookup"><span data-stu-id="f3ce5-137">For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span></span>
 
-## <a name="use-entry-journals-to-record-costs"></a><span data-ttu-id="1ecb2-131">Использование журналов записей для записи стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-131">Use entry journals to record costs</span></span>
+## <a name="journal-lines-and-material-usage-log-submission"></a><span data-ttu-id="f3ce5-138">Отправка строк журнала и журнала использования материалов</span><span class="sxs-lookup"><span data-stu-id="f3ce5-138">Journal lines and material usage log submission</span></span>
 
-<span data-ttu-id="1ecb2-132">Журналы можно использовать для записи стоимости или дохода в классах проводок по материалам, сборам, времени, расходам и налогам.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-132">You can use entry journals to record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="1ecb2-133">Журналы могут использоваться для следующих целей:</span><span class="sxs-lookup"><span data-stu-id="1ecb2-133">Journals can be used for the following purposes:</span></span>
+<span data-ttu-id="f3ce5-139">Для получения дополнительной информации о записи расходов см. [Журнал использования материалов](../material/material-usage-log.md).</span><span class="sxs-lookup"><span data-stu-id="f3ce5-139">For more information about expense entry, see [Material Usage Log](../material/material-usage-log.md).</span></span>
 
-- <span data-ttu-id="1ecb2-134">Запись фактических затрат на материалы и продажи в проекте.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-134">Record the actual cost of materials and sales on a project.</span></span>
-- <span data-ttu-id="1ecb2-135">Перемещение фактических данных транзакций из другой системы в Microsoft Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-135">Move transaction actuals from another system to Microsoft Dynamics 365 Project Operations.</span></span>
-- <span data-ttu-id="1ecb2-136">Запись затрат, которые произошли в другой системе.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-136">Record costs that occurred in another system.</span></span> <span data-ttu-id="1ecb2-137">Эти затраты могут включать затраты на закупку или субподряд.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-137">These costs can include procurement or subcontracting costs.</span></span>
+### <a name="time-and-materials"></a><span data-ttu-id="f3ce5-140">Время и материалы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-140">Time and materials</span></span>
+
+<span data-ttu-id="f3ce5-141">Когда отправленная запись журнала использования материалов связана с проектом, который сопоставлен со строкой контракта на время и материалы, система создает две строки журнала: одну для стоимости и одну для продаж без выставления счета.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-141">When a submitted material usage log entry is linked to a project that is mapped to a time and materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
+
+### <a name="fixed-price"></a><span data-ttu-id="f3ce5-142">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="f3ce5-142">Fixed price</span></span>
+
+<span data-ttu-id="f3ce5-143">Когда отправленная запись журнала использования материала связана с проектом, который сопоставляется со строкой контракта с фиксированной ценой, система создает одну строку журнала для стоимости.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-143">When a submitted material usage log entry is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
+
+### <a name="default-pricing"></a><span data-ttu-id="f3ce5-144">Цены по умолчанию</span><span class="sxs-lookup"><span data-stu-id="f3ce5-144">Default pricing</span></span>
+
+<span data-ttu-id="f3ce5-145">Логика ввода цен по умолчанию для материала основана на комбинации продукта и единицы.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-145">The logic for entering default prices for material is based on the product and unit combination.</span></span> <span data-ttu-id="f3ce5-146">Дата транзакции, строка контракта, с которой сопоставлен проект, и валюта все используются для определения соответствующего прайс-листа.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-146">The transaction date, the contract line that the project is mapped to, and the currency, are all used to determine the appropriate price list.</span></span> <span data-ttu-id="f3ce5-147">Поля, которые влияют на цены по умолчанию, например **Артикул** и **Единица** используются для определения соответствующей цены в строке журнала.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-147">The fields that affect default pricing, such as **Product ID** and **Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="f3ce5-148">Однако это работает только для продуктов из каталога.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-148">However, this only works for catalog products.</span></span> <span data-ttu-id="f3ce5-149">Для вписанных продуктов цена, введенная при создании записи в журнале использования материала, используется для стоимости и цены продажи в строках журнала.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-149">For write-in products, the price entered when the material usage log entry is created is used for cost and sales price on the journal lines.</span></span> 
+
+<span data-ttu-id="f3ce5-150">Вы можете добавить настраиваемое поле в запись **Журнал использования материалов**.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-150">You can add a custom field on the **Material Usage Log** entry.</span></span> <span data-ttu-id="f3ce5-151">Если вы хотите, чтобы значение поля распространялось на фактические значения, создайте поле в таблицах **Фактические значения** и **Строка журнала**.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-151">If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables.</span></span> <span data-ttu-id="f3ce5-152">Используйте настраиваемый код для распространения значения выбранного поля из "Запись времени" в "Фактические значения" по строке журнала с помощью источников транзакции.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-152">Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins.</span></span> <span data-ttu-id="f3ce5-153">Для получения дополнительной информации об источниках транзакций и подключениях см. [Связь фактических данных с исходными записями](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span><span class="sxs-lookup"><span data-stu-id="f3ce5-153">For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span></span>
+
+## <a name="use-entry-journals-to-record-costs"></a><span data-ttu-id="f3ce5-154">Использование журналов записей для записи стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-154">Use entry journals to record costs</span></span>
+
+<span data-ttu-id="f3ce5-155">Журналы можно использовать для записи стоимости или дохода в классах проводок по материалам, сборам, времени, расходам и налогам.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-155">You can use entry journals to record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="f3ce5-156">Журналы могут использоваться для следующих целей:</span><span class="sxs-lookup"><span data-stu-id="f3ce5-156">Journals can be used for the following purposes:</span></span>
+
+- <span data-ttu-id="f3ce5-157">Перемещение фактических данных транзакций из другой системы в Microsoft Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-157">Move transaction actuals from another system to Microsoft Dynamics 365 Project Operations.</span></span>
+- <span data-ttu-id="f3ce5-158">Запись затрат, которые произошли в другой системе.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-158">Record costs that occurred in another system.</span></span> <span data-ttu-id="f3ce5-159">Эти затраты могут включать затраты на закупку или субподряд.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-159">These costs can include procurement or subcontracting costs.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="1ecb2-138">Приложение не проверяет тип строки журнала или соответствующие цены, введенные в строке журнала.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-138">The application doesn't validate the journal line type or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="1ecb2-139">Следовательно, только пользователь, который полностью осознает влияние на учет от фактических данных по проекту должен использовать журналы записей для создания фактических данных.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-139">Therefore, only a user who is fully aware of the accounting impact that actuals have on the project should use entry journals to create actuals.</span></span> <span data-ttu-id="1ecb2-140">Из-за влияния этого типа журнала вам следует тщательно выбирать, у кого есть доступ для создания журналов входа.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-140">Because of the impact of this journal type, you should carefully choose who has access to create entry journals.</span></span>
-## <a name="record-actuals-based-on-project-events"></a><span data-ttu-id="1ecb2-141">Запись фактических данных по событиям проекта</span><span class="sxs-lookup"><span data-stu-id="1ecb2-141">Record actuals based on project events</span></span>
+> <span data-ttu-id="f3ce5-160">Приложение не проверяет тип строки журнала или соответствующие цены, введенные в строке журнала.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-160">The application doesn't validate the journal line type or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="f3ce5-161">Следовательно, только пользователь, который полностью осознает влияние на учет от фактических данных по проекту должен использовать журналы записей для создания фактических данных.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-161">Therefore, only a user who is fully aware of the accounting impact that actuals have on the project should use entry journals to create actuals.</span></span> <span data-ttu-id="f3ce5-162">Из-за влияния этого типа журнала вам следует тщательно выбирать, у кого есть доступ для создания журналов входа.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-162">Because of the impact of this journal type, you should carefully choose who has access to create entry journals.</span></span>
 
-<span data-ttu-id="1ecb2-142">Project Operations записывает финансовые транзакции, которые происходят в ходе проекта.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-142">Project Operations records the financial transactions that occur during a project.</span></span> <span data-ttu-id="1ecb2-143">Эти транзакции записываются как фактические значения.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-143">These transactions are recorded as actuals.</span></span> <span data-ttu-id="1ecb2-144">В следующих таблицах отображаются различные типы созданных фактических данных, в зависимости от того, является ли проект проектом "время и материалы" или проектом с фиксированной ценой.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-144">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
+## <a name="record-actuals-based-on-project-events"></a><span data-ttu-id="f3ce5-163">Запись фактических данных по событиям проекта</span><span class="sxs-lookup"><span data-stu-id="f3ce5-163">Record actuals based on project events</span></span>
 
-### <a name="the-resource-belongs-to-same-organizational-unit-as-the-projects-contracting-unit"></a><span data-ttu-id="1ecb2-145">Ресурс принадлежит к тому же подразделению, что и контрактная единица по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-145">The resource belongs to same organizational unit as the project's contracting unit</span></span>
+<span data-ttu-id="f3ce5-164">Project Operations записывает финансовые транзакции, которые происходят в ходе проекта.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-164">Project Operations records the financial transactions that occur during a project.</span></span> <span data-ttu-id="f3ce5-165">Эти транзакции записываются как фактические значения.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-165">These transactions are recorded as actuals.</span></span> <span data-ttu-id="f3ce5-166">В следующих таблицах отображаются различные типы созданных фактических данных, в зависимости от того, является ли проект проектом "время и материалы" или проектом с фиксированной ценой.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-166">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
+
+### <a name="the-resource-belongs-to-same-organizational-unit-as-the-projects-contracting-unit"></a><span data-ttu-id="f3ce5-167">Ресурс принадлежит к тому же подразделению, что и контрактная единица по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-167">The resource belongs to same organizational unit as the project's contracting unit</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="1ecb2-146">Событие</span><span class="sxs-lookup"><span data-stu-id="1ecb2-146">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="1ecb2-147">Оплачиваемый или проданный проект</span><span class="sxs-lookup"><span data-stu-id="1ecb2-147">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="1ecb2-148">Проект на стадии предварительных продаж</span><span class="sxs-lookup"><span data-stu-id="1ecb2-148">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="1ecb2-149">Внутренний проект</span><span class="sxs-lookup"><span data-stu-id="1ecb2-149">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="f3ce5-168">Событие</span><span class="sxs-lookup"><span data-stu-id="f3ce5-168">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="f3ce5-169">Оплачиваемый или проданный проект</span><span class="sxs-lookup"><span data-stu-id="f3ce5-169">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="f3ce5-170">Проект на стадии предварительных продаж</span><span class="sxs-lookup"><span data-stu-id="f3ce5-170">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="f3ce5-171">Внутренний проект</span><span class="sxs-lookup"><span data-stu-id="f3ce5-171">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="1ecb2-150">Время и материалы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-150">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="1ecb2-151">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="1ecb2-151">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="f3ce5-172">Время и материалы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-172">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="f3ce5-173">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="f3ce5-173">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="1ecb2-152">Фактические</span><span class="sxs-lookup"><span data-stu-id="1ecb2-152">Actuals</span></span></th>
-<th><span data-ttu-id="1ecb2-153">Валюта транзакции</span><span class="sxs-lookup"><span data-stu-id="1ecb2-153">Transaction currency</span></span></th>
-<th><span data-ttu-id="1ecb2-154">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="1ecb2-154">Fixed price</span></span></th>
-<th><span data-ttu-id="1ecb2-155">Валюта транзакции</span><span class="sxs-lookup"><span data-stu-id="1ecb2-155">Transaction currency</span></span></th>
+<th><span data-ttu-id="f3ce5-174">Фактические</span><span class="sxs-lookup"><span data-stu-id="f3ce5-174">Actuals</span></span></th>
+<th><span data-ttu-id="f3ce5-175">Валюта транзакции</span><span class="sxs-lookup"><span data-stu-id="f3ce5-175">Transaction currency</span></span></th>
+<th><span data-ttu-id="f3ce5-176">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="f3ce5-176">Fixed price</span></span></th>
+<th><span data-ttu-id="f3ce5-177">Валюта транзакции</span><span class="sxs-lookup"><span data-stu-id="f3ce5-177">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="1ecb2-156">Создана запись времени.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-156">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="1ecb2-157">Нет действий в сущности фактических данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-157">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="f3ce5-178">Создана запись времени.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-178">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="f3ce5-179">Нет действий в сущности фактических данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-179">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-158">Запись времени отправлена.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-158">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="1ecb2-159">Нет действий в сущности фактических данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-159">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="f3ce5-180">Запись времени отправлена.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-180">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="f3ce5-181">Нет действий в сущности фактических данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-181">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="1ecb2-160">Время одобрено, и нет изменений или увеличения оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-160">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="1ecb2-161">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-161">Cost actual</span></span></td>
-<td><span data-ttu-id="1ecb2-162">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-162">Contracting unit currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-163">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-163">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-164">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-164">Contracting unit currency</span></span>
-<td rowspan="2"><span data-ttu-id="1ecb2-165">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-165">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-166">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-166">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-182">Время одобрено, и нет изменений или увеличения оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-182">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="f3ce5-183">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-183">Cost actual</span></span></td>
+<td><span data-ttu-id="f3ce5-184">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-184">Contracting unit currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-185">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-185">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-186">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-186">Contracting unit currency</span></span>
+<td rowspan="2"><span data-ttu-id="f3ce5-187">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-187">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-188">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-188">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-167">Фактическая сумма продаж с невыставленными счетами — оплачиваемые</span><span class="sxs-lookup"><span data-stu-id="1ecb2-167">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="1ecb2-168">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-168">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-189">Фактическая сумма продаж с невыставленными счетами — оплачиваемые</span><span class="sxs-lookup"><span data-stu-id="f3ce5-189">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="f3ce5-190">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-190">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="1ecb2-169">Время одобрено, и имеется уменьшение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-169">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="1ecb2-170">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-170">Cost actual</span></span></td>
-<td><span data-ttu-id="1ecb2-171">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-171">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-172">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-172">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-173">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-173">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-174">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-174">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-175">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-175">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-191">Время одобрено, и имеется уменьшение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-191">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="f3ce5-192">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-192">Cost actual</span></span></td>
+<td><span data-ttu-id="f3ce5-193">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-193">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-194">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-194">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-195">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-195">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-196">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-196">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-197">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-197">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-176">Фактическое количество продаж без выставления счета — оплачивается для нового количества</span><span class="sxs-lookup"><span data-stu-id="1ecb2-176">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="1ecb2-177">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-177">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-198">Фактическое количество продаж без выставления счета — оплачивается для нового количества</span><span class="sxs-lookup"><span data-stu-id="f3ce5-198">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="f3ce5-199">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-199">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-178">Фактическое количество продаж без выставления счета — не оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-178">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="1ecb2-179">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-179">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-200">Фактическое количество продаж без выставления счета — не оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-200">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="f3ce5-201">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-201">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="1ecb2-180">Счет одобрен, и нет изменения или происходит увеличение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-180">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="1ecb2-181">Обращение продаж без выставления счета</span><span class="sxs-lookup"><span data-stu-id="1ecb2-181">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="1ecb2-182">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-182">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-183">Продажи с выставленными счетами для вехи</span><span class="sxs-lookup"><span data-stu-id="1ecb2-183">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-184">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-184">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-185">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-185">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-186">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-186">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-202">Счет одобрен, и нет изменения или происходит увеличение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-202">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="f3ce5-203">Обращение продаж без выставления счета</span><span class="sxs-lookup"><span data-stu-id="f3ce5-203">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="f3ce5-204">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-204">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-205">Продажи с выставленными счетами для вехи</span><span class="sxs-lookup"><span data-stu-id="f3ce5-205">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-206">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-206">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-207">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-207">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-208">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-208">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-187">Продажи с выставлением счета</span><span class="sxs-lookup"><span data-stu-id="1ecb2-187">Billed sales</span></span></td>
-<td><span data-ttu-id="1ecb2-188">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-188">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-209">Продажи с выставлением счета</span><span class="sxs-lookup"><span data-stu-id="f3ce5-209">Billed sales</span></span></td>
+<td><span data-ttu-id="f3ce5-210">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-210">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="1ecb2-189">Счет одобрен, и имеется уменьшение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-189">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="1ecb2-190">Обращение продаж без выставления счета</span><span class="sxs-lookup"><span data-stu-id="1ecb2-190">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="1ecb2-191">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-191">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-192">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-192">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-193">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-193">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-194">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-194">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-195">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-195">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-211">Счет одобрен, и имеется уменьшение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-211">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="f3ce5-212">Обращение продаж без выставления счета</span><span class="sxs-lookup"><span data-stu-id="f3ce5-212">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="f3ce5-213">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-213">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-214">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-214">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-215">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-215">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-216">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-216">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-217">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-217">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-196">Продажи с выставленными счетами — оплачивается для нового количества</span><span class="sxs-lookup"><span data-stu-id="1ecb2-196">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="1ecb2-197">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-197">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-218">Продажи с выставленными счетами — оплачивается для нового количества</span><span class="sxs-lookup"><span data-stu-id="f3ce5-218">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="f3ce5-219">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-219">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-198">Продажи с выставленным счетом — не оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-198">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="1ecb2-199">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-199">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-220">Продажи с выставленным счетом — не оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-220">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="f3ce5-221">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-221">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="1ecb2-200">Счет исправлен для увеличения оплачиваемого количества.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-200">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="1ecb2-201">Продаж с выставленным счетом — обращение</span><span class="sxs-lookup"><span data-stu-id="1ecb2-201">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="1ecb2-202">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-202">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-222">Счет исправлен для увеличения оплачиваемого количества.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-222">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="f3ce5-223">Продаж с выставленным счетом — обращение</span><span class="sxs-lookup"><span data-stu-id="f3ce5-223">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="f3ce5-224">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-224">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="1ecb2-203">Обращение продаж с выставленными счетами для вехи</span><span class="sxs-lookup"><span data-stu-id="1ecb2-203">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="1ecb2-204">Изменение в состоянии вехи с <strong>Выставлен счет</strong> на <strong>Готов к выставлению счета</strong></span><span class="sxs-lookup"><span data-stu-id="1ecb2-204">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="f3ce5-225">Обращение продаж с выставленными счетами для вехи</span><span class="sxs-lookup"><span data-stu-id="f3ce5-225">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="f3ce5-226">Изменение в состоянии вехи с <strong>Выставлен счет</strong> на <strong>Готов к выставлению счета</strong></span><span class="sxs-lookup"><span data-stu-id="f3ce5-226">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="1ecb2-205">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-205">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="1ecb2-206">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-206">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="1ecb2-207">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-207">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-227">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-227">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-228">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-228">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-229">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-229">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-208">Продажи с выставлением счета</span><span class="sxs-lookup"><span data-stu-id="1ecb2-208">Billed sales</span></span></td>
-<td><span data-ttu-id="1ecb2-209">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-209">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-230">Продажи с выставлением счета</span><span class="sxs-lookup"><span data-stu-id="f3ce5-230">Billed sales</span></span></td>
+<td><span data-ttu-id="f3ce5-231">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-231">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="1ecb2-210">Счет исправлен для уменьшения оплачиваемого количества.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-210">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="1ecb2-211">Продаж с выставленным счетом — обращение</span><span class="sxs-lookup"><span data-stu-id="1ecb2-211">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="1ecb2-212">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-212">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-232">Счет исправлен для уменьшения оплачиваемого количества.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-232">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="f3ce5-233">Продаж с выставленным счетом — обращение</span><span class="sxs-lookup"><span data-stu-id="f3ce5-233">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="f3ce5-234">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-234">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-213">Продажи с выставленными счетами для нового количества</span><span class="sxs-lookup"><span data-stu-id="1ecb2-213">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="1ecb2-214">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-214">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-235">Продажи с выставленными счетами для нового количества</span><span class="sxs-lookup"><span data-stu-id="f3ce5-235">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="f3ce5-236">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-236">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-215">Продажи без выставленного счета — оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-215">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="1ecb2-216">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-216">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-237">Продажи без выставленного счета — оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-237">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="f3ce5-238">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-238">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="the-resource-belongs-to-an-organizational-unit-that-differs-from-the-projects-contracting-unit"></a><span data-ttu-id="1ecb2-217">Ресурс принадлежит к подразделению, который отличается от контрактной единицы по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-217">The resource belongs to an organizational unit that differs from the project's contracting unit</span></span>
+### <a name="the-resource-belongs-to-an-organizational-unit-that-differs-from-the-projects-contracting-unit"></a><span data-ttu-id="f3ce5-239">Ресурс принадлежит к подразделению, который отличается от контрактной единицы по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-239">The resource belongs to an organizational unit that differs from the project's contracting unit</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="1ecb2-218">Событие</span><span class="sxs-lookup"><span data-stu-id="1ecb2-218">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="1ecb2-219">Оплачиваемый или проданный проект</span><span class="sxs-lookup"><span data-stu-id="1ecb2-219">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="1ecb2-220">Проект на стадии предварительных продаж</span><span class="sxs-lookup"><span data-stu-id="1ecb2-220">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="1ecb2-221">Внутренний проект</span><span class="sxs-lookup"><span data-stu-id="1ecb2-221">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="f3ce5-240">Событие</span><span class="sxs-lookup"><span data-stu-id="f3ce5-240">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="f3ce5-241">Оплачиваемый или проданный проект</span><span class="sxs-lookup"><span data-stu-id="f3ce5-241">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="f3ce5-242">Проект на стадии предварительных продаж</span><span class="sxs-lookup"><span data-stu-id="f3ce5-242">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="f3ce5-243">Внутренний проект</span><span class="sxs-lookup"><span data-stu-id="f3ce5-243">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="1ecb2-222">Время и материалы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-222">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="1ecb2-223">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="1ecb2-223">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="f3ce5-244">Время и материалы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-244">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="f3ce5-245">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="f3ce5-245">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="1ecb2-224">Фактические</span><span class="sxs-lookup"><span data-stu-id="1ecb2-224">Actuals</span></span></th>
-<th><span data-ttu-id="1ecb2-225">Валюта транзакции</span><span class="sxs-lookup"><span data-stu-id="1ecb2-225">Transaction currency</span></span></th>
-<th><span data-ttu-id="1ecb2-226">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="1ecb2-226">Fixed price</span></span></th>
-<th><span data-ttu-id="1ecb2-227">Валюта транзакции</span><span class="sxs-lookup"><span data-stu-id="1ecb2-227">Transaction currency</span></span></th>
+<th><span data-ttu-id="f3ce5-246">Фактические</span><span class="sxs-lookup"><span data-stu-id="f3ce5-246">Actuals</span></span></th>
+<th><span data-ttu-id="f3ce5-247">Валюта транзакции</span><span class="sxs-lookup"><span data-stu-id="f3ce5-247">Transaction currency</span></span></th>
+<th><span data-ttu-id="f3ce5-248">Фиксированная цена</span><span class="sxs-lookup"><span data-stu-id="f3ce5-248">Fixed price</span></span></th>
+<th><span data-ttu-id="f3ce5-249">Валюта транзакции</span><span class="sxs-lookup"><span data-stu-id="f3ce5-249">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="1ecb2-228">Создана запись времени.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-228">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="1ecb2-229">Нет действий в сущности фактических данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-229">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="f3ce5-250">Создана запись времени.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-250">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="f3ce5-251">Нет действий в сущности фактических данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-251">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-230">Запись времени отправлена.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-230">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="1ecb2-231">Нет действий в сущности фактических данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-231">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="f3ce5-252">Запись времени отправлена.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-252">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="f3ce5-253">Нет действий в сущности фактических данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-253">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="4"><span data-ttu-id="1ecb2-232">Время одобрено, и нет изменений или увеличения оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-232">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="1ecb2-233">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-233">Cost actual</span></span></td>
-<td><span data-ttu-id="1ecb2-234">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-234">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="1ecb2-235">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-235">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="1ecb2-236">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-236">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="1ecb2-237">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-237">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="1ecb2-238">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-238">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="f3ce5-254">Время одобрено, и нет изменений или увеличения оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-254">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="f3ce5-255">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-255">Cost actual</span></span></td>
+<td><span data-ttu-id="f3ce5-256">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-256">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="f3ce5-257">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-257">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="f3ce5-258">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-258">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="f3ce5-259">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-259">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="f3ce5-260">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-260">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-239">Фактическая сумма продаж с невыставленными счетами — оплачиваемые</span><span class="sxs-lookup"><span data-stu-id="1ecb2-239">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="1ecb2-240">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-240">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-261">Фактическая сумма продаж с невыставленными счетами — оплачиваемые</span><span class="sxs-lookup"><span data-stu-id="f3ce5-261">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="f3ce5-262">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-262">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-241">Стоимость единицы распределения ресурсов</span><span class="sxs-lookup"><span data-stu-id="1ecb2-241">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="1ecb2-242">Валюта единицы распределения ресурсов</span><span class="sxs-lookup"><span data-stu-id="1ecb2-242">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="f3ce5-263">Стоимость единицы распределения ресурсов</span><span class="sxs-lookup"><span data-stu-id="f3ce5-263">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="f3ce5-264">Валюта единицы распределения ресурсов</span><span class="sxs-lookup"><span data-stu-id="f3ce5-264">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-243">Внутрихолдинговые продажи</span><span class="sxs-lookup"><span data-stu-id="1ecb2-243">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="1ecb2-244">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-244">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="f3ce5-265">Внутрихолдинговые продажи</span><span class="sxs-lookup"><span data-stu-id="f3ce5-265">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="f3ce5-266">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-266">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="5"><span data-ttu-id="1ecb2-245">Время одобрено, и имеется уменьшение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-245">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="1ecb2-246">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-246">Cost actual</span></span></td>
-<td><span data-ttu-id="1ecb2-247">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-247">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="1ecb2-248">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-248">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="1ecb2-249">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-249">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="1ecb2-250">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-250">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="1ecb2-251">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="1ecb2-251">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-267">Время одобрено, и имеется уменьшение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-267">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="f3ce5-268">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-268">Cost actual</span></span></td>
+<td><span data-ttu-id="f3ce5-269">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-269">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-270">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-270">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-271">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-271">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-272">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-272">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-273">Фактические данные стоимости</span><span class="sxs-lookup"><span data-stu-id="f3ce5-273">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-252">Стоимость единицы распределения ресурсов</span><span class="sxs-lookup"><span data-stu-id="1ecb2-252">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="1ecb2-253">Валюта единицы распределения ресурсов</span><span class="sxs-lookup"><span data-stu-id="1ecb2-253">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="f3ce5-274">Стоимость единицы распределения ресурсов</span><span class="sxs-lookup"><span data-stu-id="f3ce5-274">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="f3ce5-275">Валюта единицы распределения ресурсов</span><span class="sxs-lookup"><span data-stu-id="f3ce5-275">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-254">Внутрихолдинговые продажи</span><span class="sxs-lookup"><span data-stu-id="1ecb2-254">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="1ecb2-255">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-255">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="f3ce5-276">Внутрихолдинговые продажи</span><span class="sxs-lookup"><span data-stu-id="f3ce5-276">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="f3ce5-277">Валюта единицы по контракту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-277">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-256">Фактическое количество продаж без выставления счета — оплачивается для нового количества</span><span class="sxs-lookup"><span data-stu-id="1ecb2-256">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="1ecb2-257">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-257">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-278">Фактическое количество продаж без выставления счета — оплачивается для нового количества</span><span class="sxs-lookup"><span data-stu-id="f3ce5-278">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="f3ce5-279">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-279">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-258">Фактическое количество продаж без выставления счета — не оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-258">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="1ecb2-259">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-259">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-280">Фактическое количество продаж без выставления счета — не оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-280">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="f3ce5-281">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-281">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="1ecb2-260">Счет одобрен, и нет изменения или происходит увеличение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-260">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="1ecb2-261">Обращение продаж без выставления счета</span><span class="sxs-lookup"><span data-stu-id="1ecb2-261">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="1ecb2-262">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-262">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-263">Продажи с выставленными счетами для вехи</span><span class="sxs-lookup"><span data-stu-id="1ecb2-263">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-264">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-264">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-265">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-265">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="1ecb2-266">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-266">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-282">Счет одобрен, и нет изменения или происходит увеличение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-282">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="f3ce5-283">Обращение продаж без выставления счета</span><span class="sxs-lookup"><span data-stu-id="f3ce5-283">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="f3ce5-284">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-284">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-285">Продажи с выставленными счетами для вехи</span><span class="sxs-lookup"><span data-stu-id="f3ce5-285">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-286">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-286">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-287">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-287">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-288">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-288">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-267">Продажи с выставлением счета</span><span class="sxs-lookup"><span data-stu-id="1ecb2-267">Billed sales</span></span></td>
-<td><span data-ttu-id="1ecb2-268">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-268">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-289">Продажи с выставлением счета</span><span class="sxs-lookup"><span data-stu-id="f3ce5-289">Billed sales</span></span></td>
+<td><span data-ttu-id="f3ce5-290">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-290">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="1ecb2-269">Счет одобрен, и имеется уменьшение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-269">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="1ecb2-270">Обращение продаж без выставления счета</span><span class="sxs-lookup"><span data-stu-id="1ecb2-270">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="1ecb2-271">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-271">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-272">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-272">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-273">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-273">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-274">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-274">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="1ecb2-275">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-275">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-291">Счет одобрен, и имеется уменьшение оплачиваемых часов в процессе утверждения.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-291">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="f3ce5-292">Обращение продаж без выставления счета</span><span class="sxs-lookup"><span data-stu-id="f3ce5-292">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="f3ce5-293">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-293">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-294">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-294">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-295">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-295">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-296">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-296">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-297">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-297">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-276">Продажи с выставленными счетами — оплачивается для нового количества</span><span class="sxs-lookup"><span data-stu-id="1ecb2-276">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="1ecb2-277">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-277">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-298">Продажи с выставленными счетами — оплачивается для нового количества</span><span class="sxs-lookup"><span data-stu-id="f3ce5-298">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="f3ce5-299">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-299">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-278">Продажи с выставленным счетом — не оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-278">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="1ecb2-279">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-279">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-300">Продажи с выставленным счетом — не оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-300">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="f3ce5-301">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-301">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="1ecb2-280">Счет исправлен для увеличения оплачиваемого количества.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-280">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="1ecb2-281">Продаж с выставленным счетом — обращение</span><span class="sxs-lookup"><span data-stu-id="1ecb2-281">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="1ecb2-282">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-282">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="f3ce5-302">Счет исправлен для увеличения оплачиваемого количества.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-302">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="f3ce5-303">Продаж с выставленным счетом — обращение</span><span class="sxs-lookup"><span data-stu-id="f3ce5-303">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="f3ce5-304">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-304">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="1ecb2-283">Обращение продаж с выставленными счетами для вехи</span><span class="sxs-lookup"><span data-stu-id="1ecb2-283">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="1ecb2-284">Изменение в состоянии вехи с <strong>Выставлен счет</strong> на <strong>Готов к выставлению счета</strong></span><span class="sxs-lookup"><span data-stu-id="1ecb2-284">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="f3ce5-305">Обращение продаж с выставленными счетами для вехи</span><span class="sxs-lookup"><span data-stu-id="f3ce5-305">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="f3ce5-306">Изменение в состоянии вехи с <strong>Выставлен счет</strong> на <strong>Готов к выставлению счета</strong></span><span class="sxs-lookup"><span data-stu-id="f3ce5-306">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="1ecb2-285">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-285">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="1ecb2-286">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-286">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="1ecb2-287">Нет данных</span><span class="sxs-lookup"><span data-stu-id="1ecb2-287">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-307">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-307">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-308">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-308">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="f3ce5-309">Нет данных</span><span class="sxs-lookup"><span data-stu-id="f3ce5-309">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-288">Продажи с выставлением счета</span><span class="sxs-lookup"><span data-stu-id="1ecb2-288">Billed sales</span></span></td>
-<td><span data-ttu-id="1ecb2-289">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-289">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-310">Продажи с выставлением счета</span><span class="sxs-lookup"><span data-stu-id="f3ce5-310">Billed sales</span></span></td>
+<td><span data-ttu-id="f3ce5-311">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-311">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="1ecb2-290">Счет исправлен для уменьшения оплачиваемого количества.</span><span class="sxs-lookup"><span data-stu-id="1ecb2-290">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="1ecb2-291">Продаж с выставленным счетом — обращение</span><span class="sxs-lookup"><span data-stu-id="1ecb2-291">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="1ecb2-292">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-292">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="f3ce5-312">Счет исправлен для уменьшения оплачиваемого количества.</span><span class="sxs-lookup"><span data-stu-id="f3ce5-312">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="f3ce5-313">Продаж с выставленным счетом — обращение</span><span class="sxs-lookup"><span data-stu-id="f3ce5-313">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="f3ce5-314">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-314">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-293">Продажи с выставленными счетами для нового количества</span><span class="sxs-lookup"><span data-stu-id="1ecb2-293">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="1ecb2-294">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-294">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-315">Продажи с выставленными счетами для нового количества</span><span class="sxs-lookup"><span data-stu-id="f3ce5-315">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="f3ce5-316">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-316">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="1ecb2-295">Продажи без выставленного счета — оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="1ecb2-295">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="1ecb2-296">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="1ecb2-296">Project contract currency</span></span></td>
+<td><span data-ttu-id="f3ce5-317">Продажи без выставленного счета — оплачивается для разницы</span><span class="sxs-lookup"><span data-stu-id="f3ce5-317">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="f3ce5-318">Валюта контракта по проекту</span><span class="sxs-lookup"><span data-stu-id="f3ce5-318">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
