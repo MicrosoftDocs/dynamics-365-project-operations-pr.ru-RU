@@ -3,7 +3,7 @@ title: Новый взгляд на отчеты о расходах
 description: В этом разделе объясняется переработанный и переосмысленный интерфейс ввода отчета о расходах.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499732"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717711"
 ---
 # <a name="expense-reports-reimagined"></a>Новый взгляд на отчеты о расходах
 
@@ -41,15 +41,11 @@ ms.locfileid: "5499732"
 - Никакие существующие пункты меню для отчетов о расходах (существующая страница) или поля отчета о расходах не удаляются.
 - Рабочие процессы и любые утверждения по-прежнему переносят вас на существующую страницу отчетов о расходах.
 
-## <a name="getting-started-video-for-new-users"></a>Видео по началу работы для новых пользователей
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Видео [Работа с расходами в Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (показанное выше) включено в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Новые возможности
 
-| Новая функция | Описание: |
+| Новая функция | Описание |
 |---|----|
 | Видимость полей расходов | На новой странице настройки вы можете указать, какие поля следует отключить для организации, какие поля должны быть обязательными, а какие рекомендуемыми. |
 | Обязательные поля | Новая простая конфигурация позволяет сделать некоторые поля обязательными без использования структуры политик. |

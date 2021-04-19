@@ -1,6 +1,6 @@
 ---
-title: Управление невыполненной работой по выставлению счетов — облегченное развертывание
-description: Эта тема предоставляет информацию о различных представлениях, доступных для использования при управлении невыполненной работой по выставлению счетов.
+title: Управление невыполненной работой по выставлению счетов по проекту
+description: Этот тема содержит информацию о различных представлениях, доступных для использования при управлении невыполненной работой по выставлению счетов по проектам.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274114"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867012"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Управление невыполненной работой по выставлению счетов — облегченное развертывание
+# <a name="manage-project-billing-backlog"></a>Управление невыполненной работой по выставлению счетов по проекту 
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
