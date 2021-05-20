@@ -1,6 +1,6 @@
 ---
 title: Создание шаблона рабочих часов
-description: Как создать шаблон рабочих часов в Project Service
+description: В этом разделе описывается, как создать шаблон рабочих часов в Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285049"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981271"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="6892c-103">Создание шаблона рабочих часов (Project Service)</span><span class="sxs-lookup"><span data-stu-id="6892c-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="ed21f-103">Создание шаблона рабочих часов (Project Service)</span><span class="sxs-lookup"><span data-stu-id="ed21f-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="6892c-104">Прежде чем можно создавать расписания проекта, необходимо настроить календарь проекта, который задает число рабочих часов для размещения в день в расписании, а также для всех прочих нерабочих дней.</span><span class="sxs-lookup"><span data-stu-id="6892c-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="6892c-105">Это делается с шаблоном рабочих часов, содержащим сведения о рабочих часах в день, выходных и любых других нерабочих дней.</span><span class="sxs-lookup"><span data-stu-id="6892c-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="6892c-106">При создании проекта можно связывать шаблон работ с календарем проекта для применения расписания для проекта.</span><span class="sxs-lookup"><span data-stu-id="6892c-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="6892c-107">Существует два способа создания шаблона рабочих часов:</span><span class="sxs-lookup"><span data-stu-id="6892c-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="6892c-108">Создайте шаблон рабочих часов на основе календаря ресурса.</span><span class="sxs-lookup"><span data-stu-id="6892c-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="6892c-109">Создайте шаблон рабочих часов.</span><span class="sxs-lookup"><span data-stu-id="6892c-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="6892c-110">Чтобы создать шаблон рабочих часов на основе календаря ресурса</span><span class="sxs-lookup"><span data-stu-id="6892c-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="6892c-111">Перейдите к разделу **Project Service > Ресурсы**.</span><span class="sxs-lookup"><span data-stu-id="6892c-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="6892c-112">Выберите ресурс, на основе которого требуется создать рабочие часы.</span><span class="sxs-lookup"><span data-stu-id="6892c-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="6892c-113">Щелкните **Сохранить календарь как**, введите имя шаблона рабочих часов, а затем щелкните **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="6892c-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="6892c-114">Закончив изменять параметры, щелкните **Сохранить и закрыть**.</span><span class="sxs-lookup"><span data-stu-id="6892c-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="6892c-115">Нажмите кнопку **Сохранить** в правом нижнем углу экрана.</span><span class="sxs-lookup"><span data-stu-id="6892c-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="6892c-116">Чтобы создать шаблон рабочих часов</span><span class="sxs-lookup"><span data-stu-id="6892c-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="6892c-117">Перейдите к разделу **Project Service > Шаблоны рабочих часов**.</span><span class="sxs-lookup"><span data-stu-id="6892c-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="6892c-118">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="6892c-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="6892c-119">Введите имя шаблона рабочих часов.</span><span class="sxs-lookup"><span data-stu-id="6892c-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="6892c-120">Выберите ресурс, на котором должны быть основаны рабочие часы, а затем щелкните **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="6892c-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="6892c-121">См. также</span><span class="sxs-lookup"><span data-stu-id="6892c-121">See Also</span></span>  
- [<span data-ttu-id="6892c-122">Настройка ресурсов</span><span class="sxs-lookup"><span data-stu-id="6892c-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="ed21f-104">Чтобы создать проект и управлять им, вы должны применить к проекту шаблон календаря.</span><span class="sxs-lookup"><span data-stu-id="ed21f-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="ed21f-105">Шаблон календаря определяет следующие атрибуты проекта:</span><span class="sxs-lookup"><span data-stu-id="ed21f-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="ed21f-106">Часы работы, включая время начала и окончания</span><span class="sxs-lookup"><span data-stu-id="ed21f-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="ed21f-107">Рабочие дни</span><span class="sxs-lookup"><span data-stu-id="ed21f-107">Working days</span></span>
+- <span data-ttu-id="ed21f-108">Исключения календаря, такие как нерабочие дни.</span><span class="sxs-lookup"><span data-stu-id="ed21f-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="ed21f-109">Шаблон календаря, применяемый к проекту, является копией шаблона календаря, определенного в настройках вашей организации.</span><span class="sxs-lookup"><span data-stu-id="ed21f-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ed21f-110">Если вы измените шаблон календаря, эти изменения не распространятся на рабочие часы проекта.</span><span class="sxs-lookup"><span data-stu-id="ed21f-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="ed21f-111">Чтобы изменить рабочие часы проекта, необходимо применить новый шаблон.</span><span class="sxs-lookup"><span data-stu-id="ed21f-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="ed21f-112">Чтобы создать шаблон календаря для вашей организации, есть два ключевых требования:</span><span class="sxs-lookup"><span data-stu-id="ed21f-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="ed21f-113">Определите желаемые рабочие часы шаблона, используя новый или существующий резервируемый ресурс.</span><span class="sxs-lookup"><span data-stu-id="ed21f-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="ed21f-114">Создайте новый шаблон календаря и свяжите его с резервируемым ресурсом.</span><span class="sxs-lookup"><span data-stu-id="ed21f-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="ed21f-115">**Определите рабочие часы шаблона**</span><span class="sxs-lookup"><span data-stu-id="ed21f-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="ed21f-116">Выберите **Ресурсы** \> **Ресурсы**.</span><span class="sxs-lookup"><span data-stu-id="ed21f-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="ed21f-117">Создайте новый ресурс для ссылки в шаблоне календаря или выберите существующий ресурс.</span><span class="sxs-lookup"><span data-stu-id="ed21f-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="ed21f-118">Выберите вкладку **Часы работы** ресурса и следуйте инструкциям в [Задание рабочих часов для ресурса](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) для настройки правил календаря.</span><span class="sxs-lookup"><span data-stu-id="ed21f-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="ed21f-119">**Создание нового шаблона календаря**</span><span class="sxs-lookup"><span data-stu-id="ed21f-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="ed21f-120">Перейдите к **Параметры** \> **Шаблон календаря**.</span><span class="sxs-lookup"><span data-stu-id="ed21f-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="ed21f-121">Выберите **Создать** и введите имя, описание и шаблон ресурса.</span><span class="sxs-lookup"><span data-stu-id="ed21f-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="ed21f-122">Когда ресурс упоминается в шаблоне календаря, копия календаря ресурса связывается с шаблоном календаря.</span><span class="sxs-lookup"><span data-stu-id="ed21f-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="ed21f-123">Если рабочие часы скопированного шаблона изменятся, эти изменения не распространятся на шаблон календаря.</span><span class="sxs-lookup"><span data-stu-id="ed21f-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="ed21f-124">См. также</span><span class="sxs-lookup"><span data-stu-id="ed21f-124">See Also</span></span>  
+ [<span data-ttu-id="ed21f-125">Настройка ресурсов</span><span class="sxs-lookup"><span data-stu-id="ed21f-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
