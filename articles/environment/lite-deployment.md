@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290105"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950280"
 ---
 # <a name="deploy-project-operations---lite"></a>Развертывание Project Operations — облегченное
 
@@ -34,14 +34,14 @@ Project Operations поддерживает несколько моделей р
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Установка Project Operations в новой среде CDS
 
-1. Как [глобальный администратор или администратор Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, создайте новую среду CDS в [центре администрирования PowerPlatform](https://admin.powerplatform.com). Убедись в том, что **База данных CDS** и **Приложения Dynamics 365** включены. Дополнительную информацию см. в разделе [Создание и управление средами в центре администрирования Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Как [глобальный администратор или администратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, создайте новую среду CDS в [центре администрирования PowerPlatform](https://admin.powerplatform.com). Убедись в том, что **База данных CDS** и **Приложения Dynamics 365** включены. Дополнительную информацию см. в разделе [Создание и управление средами в центре администрирования Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Выбрать **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Установка Project Operations в существующей среде CDS
 
-1. Как [глобальный администратор или администратор Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, найдите среду в [центре администрирования PowerPlatform](https://admin.powerplatform.com), в которой вы хотите установить Project Operations.
-2. Установите **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365. Дополнительные сведения см. в статье [Управление приложениями Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Как [глобальный администратор или администратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, найдите среду в [центре администрирования PowerPlatform](https://admin.powerplatform.com), в которой вы хотите установить Project Operations.
+2. Установите **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365. Дополнительные сведения см. в статье [Управление приложениями Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

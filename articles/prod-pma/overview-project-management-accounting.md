@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289790"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950460"
 ---
 # <a name="project-management-and-accounting-overview"></a>Обзор управления проектами и учета
 
@@ -227,7 +227,7 @@ WBS — это описание работы, которая будет заве
 Прежде чем создавать счет клиента для проекта, вы можете создать предварительный счет или предложение по счету. В предложении счета вы можете выбрать транзакции по проекту, которые будут включены в счет по проекту. Затем вы можете просмотреть подробные сведения о счете, прежде чем разнести счет по проекту и отправить его клиенту или другому источнику финансирования. 
 
 
-Дополнительные сведения о том, как обрабатывать счета по проекту, см. в статье [Выставление счетов по проекту](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Дополнительные сведения о том, как обрабатывать счета по проекту, см. в статье [Выставление счетов по проекту](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Рассчитать стоимость завершения проекта

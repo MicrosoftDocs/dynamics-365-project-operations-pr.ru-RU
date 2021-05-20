@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287389"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950145"
 ---
 # <a name="financial-dimension-defaults"></a>Финансовые измерения по умолчанию
 
@@ -21,7 +21,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations использует платформу [Финансовые аналитики](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) в Dynamics 365 Finance, чтобы предоставить дополнительную аналитику о транзакциях вспомогательной и главной книги проекта.
+Dynamics 365 Project Operations использует платформу [Финансовые аналитики](/dynamics365/finance/general-ledger/financial-dimensions) в Dynamics 365 Finance, чтобы предоставить дополнительную аналитику о транзакциях вспомогательной и главной книги проекта.
 
 Финансовые измерения по умолчанию могут быть установлены для клиента, источника финансирования проекта, вехи, строки контракта по проекту или проекта.
 

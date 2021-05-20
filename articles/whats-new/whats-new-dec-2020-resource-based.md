@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291950"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951045"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в декабре 2020 г. — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -108,7 +108,7 @@ _**Относится к:** Project Operations для сценариев на о
 | Проезд и расходы                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Бизнес-процесс автоматической разноски отчета о расходах завершен, но счет не разносится                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Нормативные обновления
-Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
+Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

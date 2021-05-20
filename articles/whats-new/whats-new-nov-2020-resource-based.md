@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291860"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950955"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в ноябре 2020 г. — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -67,7 +67,7 @@ _**Относится к:** Project Operations для сценариев на о
 | Учет по проекту  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Включение этой функции нескольких строк контракта невозможно без интеграции с CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Нормативные обновления
-Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
+Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
