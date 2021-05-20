@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284329"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947940"
 ---
 # <a name="install-and-customize-project-service"></a>Установка и настройка (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284329"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Установка Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] — предпочтительное решение. Существует несколько способов купить решение. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Адаптация организации и пользователей](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] — предпочтительное решение. Существует несколько способов купить решение. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Адаптация организации и пользователей](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Настройка форм и отчетов [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
  Если необходимо настроить какие-либо формы, панели мониторинга или отчеты [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], дополнительные сведения можно найти по следующим ссылкам:  
   
-- [Приступая к созданию и настройке приложения](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Приступая к созданию и настройке приложения](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Создание и разработка форм](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Создание и разработка форм](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Создание и изменение панели мониторинга](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Создание и изменение панели мониторинга](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Создание и изменение процессов](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Создание и изменение процессов](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Введение в отчетность и аналитику](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Введение в отчетность и аналитику](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>См. также  
  [Руководство администратора](../psa/admin-guide.md)   

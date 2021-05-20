@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283789"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948164"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Руководство пользователя для Центра ресурсов проекта
 
@@ -48,7 +48,7 @@ ms.locfileid: "5283789"
 ## <a name="install-the-mobile-app"></a>Установка мобильного приложения
 Прежде чем можно будет работать с приложением Центр ресурсов проекта, необходимо установить на устройство мобильное приложение. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Установка Dynamics 365 for phones и for tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Установка Dynamics 365 for phones и for tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Базовая навигация
 1.  Когда вы входите в мобильное приложение, отображается страница MyApps со списком приложений, к которым у вас есть доступ. 
@@ -58,7 +58,7 @@ ms.locfileid: "5283789"
 
 **Панель навигации**
 
-Используйте панель навигации, чтобы перейти в свою рабочую область, создать новую запись, выполнить поиск либо сделать другие задачи. Для доступа к дополнительным командам нажмите ![Кнопка "Дополнительно"](media/MoreButton.png "Кнопка "Подробнее"").
+Используйте панель навигации, чтобы перейти в свою рабочую область, создать новую запись, выполнить поиск либо сделать другие задачи. Для доступа к дополнительным командам нажмите ![Кнопка "Дополнительно"](media/MoreButton.png "Кнопка &quot;Подробнее&quot;").
 
 ![Панель навигации](media/NavBar_2.png "Панель навигации")
 
@@ -99,7 +99,7 @@ ms.locfileid: "5283789"
 5. Продолжите ввод расходов за неделю. Завершив настройку и проверив правильность всего, нажмите **Отправить**. Менеджер рассмотрит и утвердит расходы.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Общие сведения о том, как использовать мобильное приложение 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Базовое руководство по Mobile](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Базовое руководство по Mobile](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>См. также  
  [Обзор Project Service](../psa/overview.md)   

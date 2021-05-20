@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1f3bb4442ce1d06807f264003c930dbbee19a5c7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 33a711816e8cca34c4595aa0929de9a808a48b0f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280909"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949415"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Выпуск-обновление 16 Project Service Automation, версия 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Мы рады объявить о последнем обновлении приложения Project Service Automation для Dynamics 365. Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования.  Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите Центр администрирования Dynamics 365 Online, страницу решений, чтобы установить обновление. Дополнительные сведения см. в разделе [Установка, обновление предпочтительного решения](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page).
+Мы рады объявить о последнем обновлении приложения Project Service Automation для Dynamics 365. Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования.  Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите Центр администрирования Dynamics 365 Online, страницу решений, чтобы установить обновление. Дополнительные сведения см. в разделе [Установка, обновление предпочтительного решения](/dynamics365/project-service/upgrade-psa-home-page).
 В этом разделе перечислены функции и исправления, появившиеся или изменившиеся в выпуске-обновлении 16 для PSA версии 3. Эта версия имеет номер сборки V3.10.6.34 и становится доступна широкому кругу клиентов посредством самостоятельного обновления в январе 2020 г.
 
 

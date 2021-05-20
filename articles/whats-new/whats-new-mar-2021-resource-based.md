@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 95a9251707de3699322471535aa93070ba4fb2ae
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 4d114ee64bd26d3271a1c72a7404c0f7035c2b61
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500035"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948075"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в марте 2021 г. — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -50,7 +50,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="regulatory-updates"></a>Нормативные обновления
 
-Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Еще один способ узнать о нормативных обновлениях — войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
+Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Еще один способ узнать о нормативных обновлениях — войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
