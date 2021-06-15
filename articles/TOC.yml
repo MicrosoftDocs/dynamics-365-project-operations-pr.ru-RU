@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Новые возможности
       items:
+        - name: "Май 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: "Апрель 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: "Март 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Настройка категорий расходов
               href: expense/set-up-expense-categories.md
+            - name: Настройка расстояния с использованием ставки за проделанное расстояние
+              href: expense/set-up-mileage.md
         - name: Личные расходы
           href: expense/personal-expenses-expense-report.md
         - name: Внутрихолдинговые расходы
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Новые возможности
       items:
+        - name: "Новые возможности в мае 2021\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "Новые возможности в апреле 2021\_— облегченное развертывание"
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "Новые возможности в марте 2021\_— облегченное развертывание"
@@ -1028,6 +1034,8 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Новые возможности и изменения в выпуске обновления 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Новые возможности и изменения в выпуске обновления 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Настройка еженедельной записи времени
               href: psa/time-entry-extensibility-v3.md
+            - name: Наборы утверждения
+              href: psa/approval-set.md
     - name: Вопросы и ответы и устранение неполадок (3.x)
       items:
         - name: Почему цена в фактических данных стоимости расходов по умолчанию принимает нулевое значение?
