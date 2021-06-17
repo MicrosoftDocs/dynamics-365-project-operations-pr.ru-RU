@@ -2,18 +2,16 @@
 title: Настройка и применение демонстрационных данных в Common Data Service
 description: Эта тема предоставляет информацию о настройке и применении данных конфигурации в Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289835"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001307"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Настройка и применение демонстрационных данных в Common Data Service 
 
@@ -23,7 +21,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-Прежде чем приступить к настройке данных в Common Data Service (CDS), должны быть выполнены следующие предварительные условия:
+Прежде чем вы начнете настраивать данные в Common Data Service (CDS), должны быть выполнены следующие предварительные условия:
 
 1.  Подготовьте среду CDS и среду Dynamics 365 Finance для Project Operations.
 2.  Информация о юридических лицах от Dynamics 365 Finance является общей в среде CDS. Это означает, что сущность **Компания** в CDS имеет следующие записи компаний:
@@ -33,7 +31,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="install-setup-and-configuration-data"></a>Установка данных настройки и конфигурации
 
-1. Загрузите, разблокируйте и разархивируйте [Пакет данных настройки и конфигурации](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Загрузите, разблокируйте и разархивируйте [Пакет данных настройки и конфигурации](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Перейдите в распакованную папку и запустите исполняемый файл, *DataMigrationUtility*.
 3. На странице 1 мастера настройки Common Data Service (CMT) выберите **Импортировать данные**, затем выберите **Продолжить**.
 
@@ -57,13 +55,20 @@ _**Относится к:** Project Operations для сценариев на о
 ![Импортировать данные](./media/5ImportData.png)
 
 10. Импорт будет выполняться примерно от двух до десяти минут в зависимости от скорости вашей сети. После завершения импорта выйдите из мастера CMT. 
-11. Проверьте свою организацию на наличие данных по следующим 19 сущностям:
+11. Проверьте свою организацию на наличие данных по следующим 26 сущностям:
 
   - Валюта
+  - План счетов
+  - Финансовый календарь
+  - Типы валютных курсов
+  - День оплаты
+  - Расписание оплаты
+  - Условия оплаты
   - Подразделение
-  - Контактные сведения
+  - Контакт
   - Налоговая группа
   - Группа клиентов
+  - Группа поставщиков
   - Единица
   - Группа единиц измерения
   - Прайс-лист

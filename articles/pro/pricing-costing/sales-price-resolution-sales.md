@@ -2,18 +2,16 @@
 title: Разрешение значений цены продажи для оценок и фактических значений по проекту
 description: В этой теме содержится информация о том, как разрешаются цены продажи для оценок проекта и фактических данных.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 8ac7b8ca7dfc5679b0acb1a984bb7663552d66b4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877372"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004357"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Разрешение значений цены продажи для оценок и фактических значений по проекту
 

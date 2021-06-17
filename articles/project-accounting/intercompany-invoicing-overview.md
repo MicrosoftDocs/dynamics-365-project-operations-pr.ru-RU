@@ -2,18 +2,16 @@
 title: Обзор внутрихолдингового выставления счетов
 description: В этом разделе представлена информация и примеры внутрихолдингового выставления счетов для проектов.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287344"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002657"
 ---
 # <a name="intercompany-invoicing-overview"></a>Обзор внутрихолдингового выставления счетов
 
@@ -21,7 +19,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 В вашей организации может быть несколько подразделений, дочерних компаний и других юридических лиц, которые передают продукты и услуги друг другу для проектов. Юридическое лицо, предоставляющее услугу или продукт, называется *юридическое лицо-кредитор*. Юридическое лицо, получающее услугу или продукт, называется *юридическое лицо-заемщик*.
 
-На следующем рисунке показан типичный сценарий, в котором два юридических лица, Contoso Robotics USA (юридическое лицо-заемщик) и Contoso Robotics UK (юридическое лицо-кредитор) совместно используют ресурсы для реализации проекта для клиента, Adventure Works. В этом сценарии Contoso Robotics USA заключает контракт на поставку работы для Adventure Works.
+На следующем рисунке показан типичный сценарий, когда два юридических лица, Contoso Robotics USA (юридическое лицо-заемщик) и Contoso Robotics UK (юридическое лицо-кредитор) совместно используют ресурсы для реализации проекта для клиента, Adventure Works. Для этого сценария Contoso Robotics USA заключает контракт на поставку работ компании Adventure Works.
 
 ![Внутрихолдинговое выставление счетов](./media/IntercompanyScenario.png) 
 

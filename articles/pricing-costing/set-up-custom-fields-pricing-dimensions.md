@@ -2,11 +2,9 @@
 title: Создание настраиваемых полей в качестве измерений цен
 description: В этом разделе представлена информация о том, как настроить измерения цен с помощью настраиваемых полей.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274879"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004727"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Создание настраиваемых полей в качестве измерений цен
 
@@ -76,8 +74,8 @@ _**Относится к:** Project Operations для сценариев на о
 | Роль        | Подразделение    |Расположение работы      |Стандартный заголовок      |Рабочие часы ресурса      |  Наценка|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|На месте            |                    |Сверхурочная работа                 |15     |
-|             | Contoso India|Локальный             |                    |Сверхурочная работа                 |10     |
-|             | Contoso US   |Локальный             |                    |Сверхурочная работа                 |20     |
+|             | Contoso India|Локальная             |                    |Сверхурочная работа                 |10     |
+|             | Contoso US   |Локальная             |                    |Сверхурочная работа                 |20     |
 
 
 Если ресурс из компании Contoso India с базовой ставкой 100 долларов США работает на месте, и он зарегистрировал 8 часов обычного времени и 2 часа переработки в записи времени, механизм ценообразования будет использовать базовую ставку 100 за 8 часов, чтобы записать 800 долларов США. За 2 часа переработки будет применена наценка 15% к базовому тарифу 100, чтобы получить цену за единицу 115 долларов США, и запишет общую стоимость 230 долларов США.
