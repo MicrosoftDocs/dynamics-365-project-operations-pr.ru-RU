@@ -2,18 +2,16 @@
 title: Применение демонстрационных данных настройки и конфигурации — облегченное развертывание
 description: Эта тема предоставляет информацию о том, как применить демонстрационные данные настройки и конфигурации для Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290150"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997167"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Применение демонстрационных данных настройки и конфигурации для Project Operations — облегченное развертывание 
 
@@ -28,8 +26,8 @@ _**Облегченное развертывание — от сделки до 
 
 ## <a name="instructions"></a>Инструкции
 
-1. Загрузите [пакет основных данных](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Перейдите в папку *ProjOpsDemoDataSetupAndMaster — интегрированный CMT* и запустите исполняемый файл, *DataMigrationUtility*.
+1. Загрузите [пакет основных данных](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Перейдите в папку *ProjOpsSampleSetupData - CE only CMT* и запустите исполняемый файл, *DataMigrationUtility*.
 3. На странице 1 мастера настройки Common Data Service (CMT) выберите **Импортировать данные**, затем выберите **Продолжить**.
 
     ![Миграция конфигурации](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ _**Облегченное развертывание — от сделки до 
    ![Вход в конфигурацию](./media/2ConfigurationSignin.png)
 
 7. На странице 3 из списка организаций в клиенте выберите организацию, в которую вы хотите импортировать демонстрационные данные, затем выберите **Войти**.
-8. На странице 4 выберите ZIP-файл *MasterAndSetupData* из распакованной папки, *ProjOpsDemoDataSetupAndMaster — интегрированный CMT*.
+8. На странице 4 выберите ZIP-файл, *SampleSetupAndConfigData* из распакованной папки, *ProjOpsSampleSetupData - CE only CMT*.
 
    ![ZIP-файл](./media/3ZipFile.png)
 
@@ -52,7 +50,7 @@ _**Облегченное развертывание — от сделки до 
    ![Импортировать данные](./media/5ImportData.png)
 
 10. Импорт будет выполняться примерно от двух до десяти минут в зависимости от скорости вашей сети. После его завершения выйдите из мастера CMT. 
-11. Проверьте свою организацию на наличие данных по следующим 20 сущностям:
+11. Проверьте свою организацию на наличие данных по следующим 18 сущностям:
 
     -   Валюта
     -   Учетная запись

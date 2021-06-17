@@ -2,18 +2,16 @@
 title: Ведение участников рабочей группы
 description: В этом разделе приводятся сведения о резервировании именованных ресурсов для проектной рабочей группы и их назначении задачам.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 00312c5a701768e0042e7e0236477c192690ded3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286849"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998652"
 ---
 # <a name="maintain-team-members"></a>Ведение участников рабочей группы
 

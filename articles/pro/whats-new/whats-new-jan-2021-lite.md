@@ -2,19 +2,17 @@
 title: Что нового в январе 2021 г. — облегченное развертывание Project Operations
 description: Эта тема предоставляет информацию об обновлениях качества, доступных в облегченном развертывании Project Operations выпуска за январь 2021 г.
 author: sigitac
-manager: tfehr
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 460240c90f98f268dfda11858897b47c61e8af4e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d302b3870e99467ba2e22cd98719b94a48c1fcf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272134"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993972"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Что нового в январе 2021 г. — облегченное развертывание Project Operations
 

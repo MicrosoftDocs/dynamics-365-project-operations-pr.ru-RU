@@ -2,18 +2,16 @@
 title: Закрытие предложения с расценками
 description: Эта тема предоставляет информацию о закрытии предложений с расценками в Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3f46bf61bc3e492a648d65e86750a25609d5ab7a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277264"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995952"
 ---
 # <a name="close-a-quote"></a>Закрытие предложения с расценками
 

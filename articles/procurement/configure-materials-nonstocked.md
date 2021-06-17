@@ -2,19 +2,17 @@
 title: Настроить нескладируемые материалы и незавершенные накладные поставщика
 description: В этом тема объясняется, как включить нескладируемые материалы и незавершенные накладные поставщика.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880679"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993927"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Настроить нескладируемые материалы и незавершенные накладные поставщика
 
@@ -61,11 +59,11 @@ Dynamics 365 Finance:
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Активируйте рабочий процесс для создания учетных записей на основе сущности поставщика
 
-Решение Dual Write Orchestration обеспечивает [Главная интеграция поставщиков](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). В качестве обязательного условия для этой функции данные поставщика должны быть созданы в сущности **Учетные записи**. Активируйте шаблон рабочего процесса для создания поставщиков в таблице **Учетные записи**, как описано в [Переключение между разработками поставщика](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Решение Dual Write Orchestration обеспечивает [Главная интеграция поставщиков](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). В качестве обязательного условия для этой функции данные поставщика должны быть созданы в сущности **Учетные записи**. Активируйте шаблон рабочего процесса для создания поставщиков в таблице **Учетные записи**, как описано в [Переключение между разработками поставщика](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Задать создание продуктов активными
 
-Нескладируемые материалы должны быть настроены как **Выпущенные продукты** в Финансах. Решение Dual Write Orchestration обеспечивает готовую [Интеграция выпущенных продуктов в Каталог продукции Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). По умолчанию продукты из Финансов синхронизируются с Dataverse в состоянии черновика. Чтобы синхронизировать продукт с активным состоянием, чтобы его можно было напрямую использовать в документах об использовании материалов или ожидающих накладных поставщика, перейдите к **Система** > **Администрирование** > **Системное администрирование** > **Системные параметры**, и на вкладке **Продажи** установить **Создавать продукты в активном состоянии** на **Да**.
+Нескладируемые материалы должны быть настроены как **Выпущенные продукты** в Финансах. Решение Dual Write Orchestration обеспечивает готовую [Интеграция выпущенных продуктов в Каталог продукции Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). По умолчанию продукты из Финансов синхронизируются с Dataverse в состоянии черновика. Чтобы синхронизировать продукт с активным состоянием, чтобы его можно было напрямую использовать в документах об использовании материалов или ожидающих накладных поставщика, перейдите к **Система** > **Администрирование** > **Системное администрирование** > **Системные параметры**, и на вкладке **Продажи** установить **Создавать продукты в активном состоянии** на **Да**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Настройка обязательных компонентов в Финансы
 
