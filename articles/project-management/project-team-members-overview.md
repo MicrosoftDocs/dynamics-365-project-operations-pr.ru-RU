@@ -2,18 +2,16 @@
 title: Участники проектной группы
 description: Эта тема предоставляет информацию о том, как работать с информацией об участниках рабочей группы проекта, атрибутами и расписанием.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3526c5e2c968bdaa4d957592aed8d1b21c64b799
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 273736219aff9c2ed4ffa8cf616d6ea656bd7294
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286669"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010937"
 ---
 # <a name="project-team-members"></a>Участники проектной группы
 

@@ -2,18 +2,16 @@
 title: Создание решения для настраиваемых измерений ценообразования
 description: В этом разделе представлена информация о том, как создавать решения для настраиваемых измерений цен.
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3e3f688b0147974ef252a0ee00be20c4669d7165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278434"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010352"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Создание решения для настраиваемых измерений ценообразования
 

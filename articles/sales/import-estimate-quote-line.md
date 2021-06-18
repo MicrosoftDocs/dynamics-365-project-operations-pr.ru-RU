@@ -2,18 +2,16 @@
 title: Импорт оценок проекта в строку предложения с расценками по проекту
 description: В этой теме дана информация об импорте оценок из проекта в строку предложения с расценками по проекту.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: ae491495575ce2a5e4aaf0d8f22a14ea4b5e72de
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858759"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010217"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Импорт оценок проекта в строку предложения с расценками по проекту
 

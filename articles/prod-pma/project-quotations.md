@@ -2,11 +2,9 @@
 title: Предложения с расценками для проекта
 description: В этой статье представлена концепция предложений с расценками для проекта, которую вы можете использовать, чтобы сделать привлекательное предложение клиенту на первом этапе фазы проекта. Предложение с расценками для проекта может включать предложенные товары и услуги, основная контактная информация, специальные торговые соглашения и скидки, а также возможные налоги и надбавки.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8f86c86aac8ebae9a77bacbb5275f1f7e6609f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 322c2403543b9eaebbd4bad56cfbe6f7c42b682a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289160"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009767"
 ---
 # <a name="project-quotations"></a>Предложения с расценками для проекта
 

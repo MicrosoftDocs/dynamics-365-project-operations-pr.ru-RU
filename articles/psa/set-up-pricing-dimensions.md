@@ -2,12 +2,10 @@
 title: Настройка настраиваемых полей в качестве измерений цен
 description: В этом разделе представлена информация о настройке настраиваемых измерений цен.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282484"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008327"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Настройка настраиваемых полей в качестве измерений цен 
 
@@ -74,8 +72,8 @@ ms.locfileid: "5282484"
 | Роль        | Подразделение    |Расположение работы      |Стандартный заголовок      |Рабочие часы ресурса      |  Наценка|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|На месте            |                    |Сверхурочная работа                 |15     |
-|             | Contoso India|Локальный             |                    |Сверхурочная работа                 |10     |
-|             | Contoso US   |Локальный             |                    |Сверхурочная работа                 |20     |
+|             | Contoso India|Локальная             |                    |Сверхурочная работа                 |10     |
+|             | Contoso US   |Локальная             |                    |Сверхурочная работа                 |20     |
 
 
 Если ресурс из компании Contoso India с базовой ставкой 100 долларов США работает на месте, и он зарегистрировал 8 часов обычного времени и 2 часа переработки в записи времени, механизм ценообразования Project Service будет использовать базовую ставку 100 за 8 часов, чтобы записать 800 долларов США. За 2 часа переработки будет применена наценка 15% к базовому тарифу 100, чтобы получить цену за единицу 115 долларов США, и запишет общую стоимость 230 долларов США.

@@ -2,18 +2,16 @@
 title: Новые возможности в ноябре 2020 года — Project Operations для сценариев на основе запасов/производственных заказов
 description: Эта тема предоставляет информацию об обновлениях качества, доступных в выпуске Project Operations за ноябрь 2020 г., для сценариев на основе запасов и производства.
 author: sigitac
-manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 31640ba6d91831d75ca21b7938a50e4b431d759f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 809e89c10ea8c7978a79326b4a77e69007f86123
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950775"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012017"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Новые возможности в ноябре 2020 года — Project Operations для сценариев на основе запасов/производственных заказов
 
