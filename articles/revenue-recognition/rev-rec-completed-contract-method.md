@@ -2,18 +2,16 @@
 title: Управление оценками дохода
 description: В этом разделе представлена информация о том, как работать с оценками дохода для проектов.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b63346f56db8b906e5aa45940465bdb18e3df480
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e3cbaff18d8bd4d6f6a7577bba25b3e843b1757e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279019"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013863"
 ---
 # <a name="manage-revenue-estimates"></a>Управление оценками дохода
 
