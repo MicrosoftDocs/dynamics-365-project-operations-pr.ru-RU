@@ -2,12 +2,10 @@
 title: Создание настраиваемых решений для измерений ценообразования
 description: В этой теме объясняется, как создать настраиваемое решение при создании пользовательских измерений ценообразования.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d8117d6f6bcedc97264401fc941470f34efb1ae
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285004"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012332"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Создание настраиваемых решений для измерений ценообразования
 
