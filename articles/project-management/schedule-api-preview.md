@@ -2,18 +2,16 @@
 title: Использование API расписания для выполнения операций с сущностями планирования
 description: Этот тема содержит информацию и примеры использования API расписания.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950820"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116813"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Использование API расписания для выполнения операций с сущностями планирования
 
@@ -268,7 +266,6 @@ OperationSet — это шаблон единицы работы, который
 - У каждого пользователя может быть не более 10 открытых **OperationSet**.
 - В настоящее время Project Operations поддерживает не более 500 общих задач в проекте.
 - Статус сбоя и журналы ошибок в **OperationSet** в настоящее время недоступны.
-- API расписания — общедоступная предварительная версия. Использование этих API в рабочей среде не поддерживается Microsoft.
 - [Пределы и границы проектов и задач](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Обработка ошибок

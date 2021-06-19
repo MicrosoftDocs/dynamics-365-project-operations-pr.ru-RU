@@ -2,19 +2,17 @@
 title: Устранение неполадок при работе в сетке задач
 description: Этот тема предоставляет информацию об устранении неполадок, необходимую при работе в сетке задач.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286579"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213416"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Устранение неполадок при работе в сетке задач 
 
@@ -57,7 +55,7 @@ Project Operations требует, чтобы параметр проекта с
  ![Поле конечная точка PEX в параметре проекта](media/projectparameter.png)
 
 1. Добавить поле **Конечная точка PEX** на страницу **Параметры проекта**.
-2. Обновите поле следующим значением: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Обновите поле следующим значением: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Удалите поле со страницы **Параметры проекта**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Привилегии для Project для Интернета
