@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Развертывание сред
           items:
+            - name: Ручное развертывание приложения Project Operations Dataverse с поддержкой двойной записи
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Подготовка новой среды
               href: environment/resource-provision-new-environment.md
             - name: Модель безопасности
@@ -48,11 +50,15 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Интеграция управления расходами
               href: environment/resource-dual-write-expense.md
-            - name: Интеграция накладных поставщика
+            - name: Интеграция счетов поставщика
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Новые возможности
       items:
-        - name: "Май 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Июль 2021 года\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: "Июнь 2021 года\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-june-2021-resource-based.md
+        - name: "Май 2021 года\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: "Апрель 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-apr-2021-resource-based.md
@@ -282,7 +288,7 @@
           items:
             - name: Разработка шаблонов проектов с помощью копирования проектов
               href: project-management/dev-copy-project.md
-            - name: Использование API расписания (общедоступная предварительная версия)
+            - name: Использование API расписания проекта (общедоступная предварительная версия)
               href: project-management/schedule-api-preview.md
     - name: Управление ресурсами
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Обзор процесса выставления счетов
           href: invoicing/post-project-invoices.md
-        - name: Управление предложениями по счетам по проекту
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Счет-проформа
           items:
             - name: Управление невыполненной работой по выставлению счетов на основе проектов
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Настройка автоматизации счетов на основе проектов
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Управление предложениями по счетам по проекту
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Выставление счетов для клиента
+          items:
+            - name: Управление предложениями по счетам для проекта
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Правильный учет черновиков предложений по счетам для проекта
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Внутрихолдинговое выставление счетов
+          items:
+            - name: Обзор внутрихолдингового выставления счетов
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Настройка внутрихолдингового выставления счетов
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Создание внутрихолдинговых транзакций
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Создание внутрихолдинговых счетов для клиентов и поставщиков
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Учет по проекту
       items:
         - name: Финансовые измерения по умолчанию
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Журнал интеграции в Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Внутрихолдинговое выставление счетов
-          items:
-            - name: Обзор внутрихолдингового выставления счетов
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Настройка внутрихолдингового выставления счетов
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Создание внутрихолдинговых транзакций
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Создание внутрихолдинговых счетов для клиентов и поставщиков
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Признание выручки
       items:
         - name: Обзор признания выручки
@@ -512,9 +520,13 @@
           href: environment/security-model.md
     - name: Новые возможности
       items:
-        - name: "Новые возможности в мае 2021\_— облегченное развертывание"
+        - name: "Новые возможности в июле 2021 года\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: "Новые возможности в июне 2021 года\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: "Новые возможности в мае 2021 года\_— облегченное развертывание"
           href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: "Новые возможности в апреле 2021\_— облегченное развертывание"
+        - name: "Новые возможности в апреле 2021 года\_— облегченное развертывание"
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "Новые возможности в марте 2021\_— облегченное развертывание"
           href: pro/whats-new/whats-new-mar-2021-lite.md
@@ -762,7 +774,7 @@
           items:
             - name: Разработка шаблонов проектов с помощью копирования проектов
               href: project-management/dev-copy-project.md
-            - name: Использование API расписания (общедоступная предварительная версия)
+            - name: Использование API расписания проекта (общедоступная предварительная версия)
               href: project-management/schedule-api-preview.md
     - name: Управление ресурсами
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Новые возможности
       items:
+        - name: "Новые возможности в июле 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: "Новые возможности в мае 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: "Новые возможности в апреле 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Новые возможности в марте 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
@@ -1034,6 +1050,10 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Новые возможности и изменения в выпуске обновления 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Новые возможности и изменения в выпуске обновления 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Новые возможности и изменения в выпуске обновления 31, V3'
