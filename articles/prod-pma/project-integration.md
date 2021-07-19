@@ -2,7 +2,7 @@
 title: Интеграция Microsoft Project Client
 description: Планирование и ведение графика проекта может быть сложной задачей, поэтому руководителям проектов необходимо использовать инструменты, которые помогают им справляться с этой задачей. Интеграция с Microsoft Project Client обеспечивает поддержку для открытия и управления структурной декомпозицией работ.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999462"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269851"
 ---
 # <a name="microsoft-project-client-integration"></a>Интеграция Microsoft Project Client
 
@@ -124,7 +124,14 @@ ms.locfileid: "5999462"
 
 8.  Выберите **Календарь** для использования в качестве ресурсов.
 
-11. Нажмите кнопку **ОК**.
+11. Щелкните **OK**.
 
+> [!NOTE]
+> Надстройка Project Client не поддерживает следующие символы в формате идентификатора проекта:
+> 
+>   - Подчеркивание
+>   - Точка
+>   - ПРОБЕЛ
+>   - Косая черта
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

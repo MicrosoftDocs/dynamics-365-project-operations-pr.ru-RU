@@ -6,12 +6,12 @@ ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995907"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304317"
 ---
 # <a name="time-entry-ui-behavior"></a>Поведение пользовательского интерфейса ввода времени
 
@@ -25,7 +25,7 @@ _**Относится к:** Project Operations для сценариев на о
 |------------   |------------------------   |
 | Новая           | Alt + Shift + N           |
 | Копировать строку      | Alt + Shift + C           |
-| Изменить запись    | Alt + Shift + E           |
+| Изменить сущность    | Alt + Shift + E           |
 | Изменить строку      | Alt + Shift + Ctrl + E    |
 | Открыть запись    | Alt + Shift + O           |
 | Отправить        | Alt + Shift + S           |
