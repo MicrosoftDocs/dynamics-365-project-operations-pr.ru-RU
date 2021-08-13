@@ -832,6 +832,16 @@
           items:
             - name: Обзор загруженности ресурсов
               href: resource-management/resource-utilization-overview.md
+    - name: Управление субподрядом в Project Operations
+      items:
+        - name: Обзор управления субподрядами
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Основные понятия в субподряде
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Управление поставщиками и прайс-листами проектов
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Субподрядчики как резервируемые ресурсы
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Время
       items:
         - name: Обзор времени
@@ -1050,6 +1060,8 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Новые возможности и изменения в выпуске обновления 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Новые возможности и изменения в выпуске обновления 32.5, V3'
