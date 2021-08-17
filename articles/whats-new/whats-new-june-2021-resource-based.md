@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28890238f9debb96786a31f66dd9a219f88a5338
-ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
+ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6293153"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003877"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в июне 2021 года — Project Operations для сценариев на основе ресурсов/без запасов
 

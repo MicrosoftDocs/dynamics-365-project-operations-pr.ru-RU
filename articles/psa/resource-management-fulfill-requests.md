@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998022"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996857"
 ---
 # <a name="fulfilling-resource-requests"></a>Выполнение запросов ресурсов
 
@@ -33,15 +33,15 @@ ms.locfileid: "5998022"
 
 Запросы ресурса отображаются в виде списка в представлении **Активные запросы ресурсов**.
 
-> ![Список запросов ресурсов](media/Resource-Management-image59.png)
+> ![Список запросов ресурсов.](media/Resource-Management-image59.png)
 
 Для выполнения запроса выберите его в списке, затем выберите **Найти ресурсы**. Можно также дважды щелкнуть строку для открытия запроса. Затем можно выбрать вкладку **Требование ресурса** для просмотра требований для этого запроса. Чтобы начать выполнять запрос, выберите **Найти ресурсы**.
 
-> ![Сведения запроса ресурса](media/Resource-Management-image60.png)
+> ![Сведения запроса ресурса.](media/Resource-Management-image60.png)
 
 Помощник по расписанию появляется, и он отфильтрован по требованиям. Выберите ресурс, затем выберите **Резервировать**.
 
-> ![Выбранный ресурс](media/Resource-Management-image61.png)
+> ![Выбранный ресурс.](media/Resource-Management-image61.png)
 
 Универсальный участник рабочей группы заменяется окончательно зарезервированным именованным ресурсом в проектной группе и назначениях задач в расписании проекта.
 

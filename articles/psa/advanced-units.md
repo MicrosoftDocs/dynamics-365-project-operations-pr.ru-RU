@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987587"
 ---
 # <a name="unit-groups-and-units"></a>Группы единиц измерения и единицы измерения
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009587"
 
 На следующем рисунке показан пример настройки для единицы измерения **День**, где в поле **Количество** показывается число часов в дне, и **Неделя**, где в поле **Количество** показано число дней в неделе.
 
-> ![Страница "Группа единиц измерения: информация"](media/advanced-2.png)
+> ![Страница «Группа единиц измерения: информация».](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Использование единиц измерения и групп единиц измерения
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369392"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005407"
 ---
 # <a name="intercompany-invoicing-overview"></a>Обзор внутрихолдингового выставления счетов
 
@@ -22,7 +22,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 На следующем рисунке показан типичный сценарий, когда два юридических лица, Contoso Robotics USA (юридическое лицо-заемщик) и Contoso Robotics UK (юридическое лицо-кредитор) совместно используют ресурсы для реализации проекта для клиента, Adventure Works. Для этого сценария Contoso Robotics USA заключает контракт на поставку работ компании Adventure Works.
 
-![Внутрихолдинговое выставление счетов](./media/IntercompanyScenario.png) 
+![Внутрихолдинговое выставление счетов.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations использует следующий поток для обработки внутрихолдинговых транзакций:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations использует следующий пото
 
 На следующей диаграмме показано внутрихолдинговое выставление счетов, поскольку оно связано с событиями учета и ожидаемыми разносками в главной книге.
 
-![Внутрихолдинговый поток](./media/IntercompanyFlow.png)
+![Внутрихолдинговый поток.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

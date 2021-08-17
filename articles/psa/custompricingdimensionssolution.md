@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012332"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995282"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Создание настраиваемых решений для измерений ценообразования
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012332"
 1. Выберите **Параметры** > **Решения**, затем выберите **Создать**. 
 2. Назовите решение, **Измерения ценообразования \<your organization name>**, введите остальные необходимые сведения, затем выберите **Сохранить**.
 
-> ![Создание настраиваемого решения для измерений ценообразования](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Создание настраиваемого решения для измерений ценообразования.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Добавление всех требуемых сущностей и связанных компонентов в решение измерения ценообразования
 Необходимо добавить следующие сущности Project Service в ваше решение ценообразования. Выполните шаги в этой процедуре, чтобы выполнить некоторые важные изменения схемы в решении ценообразования, чтобы сущности знали о новых измерениях ценообразования.
@@ -54,16 +54,16 @@ ms.locfileid: "6012332"
 - Цена роли 
 - Запись времени 
 
-> ![Добавление существующих сущностей в решение измерения ценообразования](media/Existing-entities-to-PD-solution.png)
+> ![Добавление существующих сущностей в решение измерения ценообразования.](media/Existing-entities-to-PD-solution.png)
 
-> ![Выберите компоненты решения](media/Dimension-Components.png)
+> ![Выберите компоненты решения.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Обязательно включите все формы и представления для каждой выбранной сущности.
 
 4. При появлении запроса на включение всех зависимых сущностей для выбранных сущностей выберите **Нет**.
 
-> ![Не включайте все связанные компоненты](media/Do-not-include-required.png)
+> ![Не включайте все связанные компоненты.](media/Do-not-include-required.png)
 
 
 

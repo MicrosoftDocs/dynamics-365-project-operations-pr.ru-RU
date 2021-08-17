@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999822"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001087"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Синхронизация контрактов по проекту и проектов напрямую из Project Service Automation в Finance 
 
@@ -42,7 +42,7 @@ ms.locfileid: "5999822"
 
 На следующем рисунке показано, как данные синхронизируются между Project Service Automation и Finance.
 
-[![Поток данных для интеграции Project Service Automation с Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Поток данных для интеграции Project Service Automation с Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
@@ -140,17 +140,17 @@ ms.locfileid: "5999822"
 
 На следующих рисунках показаны примеры сопоставлений задач шаблона в интеграции данных. В сопоставлении отображается информация о полях, которые будут синхронизированы из Project Service Automation в Finance.
 
-[![Сопоставление шаблона контракта по проекту](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Сопоставление шаблона контракта по проекту.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Сопоставление шаблона проекта](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Сопоставление шаблона проекта.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Сопоставление шаблона строк контракта по проекту](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Сопоставление шаблона строк контракта по проекту.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Сопоставление шаблона вех строк контракта по проекту](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Сопоставление шаблона вех строк контракта по проекту.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Сопоставление вех строк контракта по проекту в Projects and Contracts (PSA 3.x в Dynamics) — шаблон v2:
 
-[![Сопоставление вех строк контракта по проекту с шаблоном второй версии](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Сопоставление вех строк контракта по проекту с шаблоном второй версии.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

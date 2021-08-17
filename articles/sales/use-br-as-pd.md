@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011207"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996272"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Использование резервируемого ресурса в качестве измерения цен
 
@@ -64,18 +64,18 @@ ms.locfileid: "6011207"
 1. Дважды щелкните строку в сетке **Измерения цен**, чтобы открыть страницу измерения **msdyn_bookableresource**.
 2. На странице измерения на вкладке **Связанные** выберите **Имена полей измерений цен**.
 
-  ![Вкладка "Имена полей измерений цен"](media/PD-fieldname.png)
+  ![Вкладка «Имена полей измерений цен».](media/PD-fieldname.png)
 
 3. В открывшемся связанном представлении выберите **Добавить новое имя поля измерения цен**.
 
-  ![Добавить новые имена полей измерения цен](media/Add-NewPD-fieldname.png)
+  ![Добавить новые имена полей измерения цен.](media/Add-NewPD-fieldname.png)
 
   При этом открывается страница **Создать имя поля измерения цен** для **msdyn_bookableresource**. 
 
 4. На странице **новое имя поля измерения цен**, добавить **msdyn_projectteam** к **Логическое имя сущности**.
 5. Добавить **msdyn_bookableresourceid** к **Имя поля**.
 
- ![Форма создания имени поля измерения цен](media/PD-fieldname-Added.png)
+ ![Форма создания имени поля измерения цен.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

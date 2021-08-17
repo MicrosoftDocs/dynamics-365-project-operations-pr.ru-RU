@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998292"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002527"
 ---
 # <a name="project-templates"></a>Шаблоны проектов 
 
@@ -47,7 +47,7 @@ ms.locfileid: "5998292"
 
 - При создании проекта из предложения с расценками можно выбрать шаблон проекта в диалоговом окне **Быстрое создание: Проект**.
 
-> ![Диалоговое окно "Быстрое создание: проект"](media/project-11.png)
+> ![Диалоговое окно «Быстрое создание: проект».](media/project-11.png)
 
 - При создании нового проекта путем выбора пункта **Создать проект**, страница **Проект** отображается перед сохранением записи. В поле **Выберите шаблон** выберите один из предопределенных шаблонов проекта в организации.
 - Используйте **Создание проекта из шаблона** на странице **Сущность шаблона**.

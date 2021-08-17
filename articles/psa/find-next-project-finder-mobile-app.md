@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007517"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990808"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Найдите свой следующий проект с помощью мобильного приложения Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ ms.locfileid: "6007517"
   
  Коснитесь стрелки справа от интересующего проекта, чтобы увидеть подробную информацию и зарегистрироваться для участия.  
   
- ![Список проектов, соответствующих навыкам в мобильном приложении для поиска проектов](../psa/media/project-service-project-finder-list.png "Список проектов, соответствующих навыкам в мобильном приложении для поиска проектов")  
+ ![Список проектов, соответствующих навыкам в приложении Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Список проектов, соответствующих навыкам в мобильном приложении для поиска проектов")  
   
 ## <a name="update-your-skills"></a>Обновление навыков  
  Коснитесь кнопки профиля в нижнем правом углу экрана, чтобы обновить свои навыки и профессиональный уровень.  
   
- ![Кнопка профиля в мобильном приложении Project Finder](../psa/media/project-service-project-finder-profile.png "Кнопка профиля в мобильном приложении Project Finder")  
+ ![Кнопка профиля в приложении Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Кнопка профиля в мобильном приложении Project Finder")  
   
 ### <a name="see-also"></a>См. также  
  [Руководство по совместной работе и вводу данных о времени и расходах](../psa/time-expense-collaboration-guide.md)

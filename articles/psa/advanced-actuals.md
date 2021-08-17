@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014852"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000772"
 ---
 # <a name="recording-actuals"></a>Запись фактических значений 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014852"
 
 Все финансовые транзакции, которые происходят в ходе проекта, записываются. Эти транзакции записываются как **фактические значения**. В следующей таблице показаны различные типы созданных фактических данных, в зависимости от того, является ли проект проектом "время и материалы", проектом с фиксированной ценой, внутренним проектом или находится на стадии подготовки к продаже.
 
-> ![Таблица, показывающая порядок записи фактических значений](media/advanced-table2.png)
+> ![Таблица, показывающая порядок записи фактических значений.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

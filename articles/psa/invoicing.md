@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015077"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985517"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Выставление счетов в Project Service Automation
 
@@ -50,7 +50,7 @@ PSA не предназначен для создания счетов для к
 
 - На странице списка **Контракты по проекту** откройте контракт по проекту, затем выберите **Создать счет**.
 
-    ![Создание счетов по проекту для конкретного контракта по проекту](media/CreateProjectInvoicesOneByOne.png)
+    ![Создание счетов по проекту для конкретного контракта по проекту.](media/CreateProjectInvoicesOneByOne.png)
 
     Счет создается для всех транзакций для выбранного контракта по проекту с состоянием **Готово к выставлению счета**. Эти транзакции включают время, расходы, вехи и строки контракта на основании продукта.
 
@@ -58,7 +58,7 @@ PSA не предназначен для создания счетов для к
 
 1. На странице списка **Контракты по проекту** выберите один или несколько контрактов по проекту, для которых необходимо создать счет, затем выберите **Создать счета проекта**.
 
-    ![Массовое создание счетов по проекту](media/CreateProjectInvoicesBulk.png)
+    ![Массовое создание счетов по проекту.](media/CreateProjectInvoicesBulk.png)
 
     Предупреждение информирует, что может быть задержка до того, как счета будут созданы. Ход выполнения также отображается.
 

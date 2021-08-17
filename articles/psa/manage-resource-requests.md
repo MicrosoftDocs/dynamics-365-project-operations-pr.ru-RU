@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015032"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985157"
 ---
 # <a name="manage-resource-requests-project-service"></a>Управление запросами на ресурсы (Project Service)
 
@@ -43,7 +43,7 @@ ms.locfileid: "6015032"
   
    -   Щелкните **Фильтр** для отображения панели **Фильтр**, которая позволяет фильтровать результаты по организационным единицам компании, навыкам или другим признакам.  
   
-       ![Экран "Запрос ресурса" в Project Service](../psa/media/project-service-resource-request-screen.png "Экран &quot;Запрос ресурса&quot; в Project Service")  
+       ![Экран «Запрос ресурса» в Project Service.](../psa/media/project-service-resource-request-screen.png "Экран &quot;Запрос ресурса&quot; в Project Service")  
   
 3. В календаре для резервируемого ресурса выберите период времени, на который нужно зарезервировать ресурс, а затем щелкните **Зарезервировать**, чтобы зарезервировать ресурс, или **Предложить резервирование**, чтобы предложить резервирование и чтобы запрашивающее лицо его утвердило. При резервировании ресурса можно использовать предварительное или окончательное резервирование.  
   

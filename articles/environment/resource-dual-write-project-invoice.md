@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996582"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993257"
 ---
 # <a name="project-invoice-integration"></a>Интеграция счета проекта
 
@@ -20,7 +20,7 @@ ms.locfileid: "5996582"
 
 В Project Operations Руководитель проекта управляет невыполненной работой по выставлению счетов по проекту и создает счет-проформу для клиента в Microsoft Dataverse. На основании этого счета-проформы специалист по расчетам с клиентами или бухгалтер проекта создает счет для клиента. Интеграция двойной записи гарантирует, что сведения о счете-проформе синхронизируются с приложениями Finance and Operations. После разноски счета для клиента система обновляет соответствующие фактические данные по проекту в Dataverse сведениями об учете. На следующем рисунке представлен высокоуровневый концептуальный обзор этой интеграции.
 
-   ![Интеграция счета проекта](./media/DW5Invoicing.png)
+   ![Интеграция счета проекта.](./media/DW5Invoicing.png)
 
 После того, как Руководитель проекта подтвердит счет-проформу в Dataverse, информация заголовка счета-проформы синхронизируется с приложениями Finance and Operations, использующие сопоставление таблиц с двойной записью, **Предложение по счету по проекту V2 (счета)**. Это односторонняя интеграция от Dataverse к приложениям Finance and Operations. Создание или удаление предложений по счетам по проекту непосредственно в приложениях Finance and Operations не поддерживаются.
 

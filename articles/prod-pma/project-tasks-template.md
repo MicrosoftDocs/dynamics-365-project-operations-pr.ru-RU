@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 16cd38f2f190414d7be9c93e8ab90d55006f47e1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009992"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992807"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронизируйте задачи проекта напрямую из Project Service Automation с Finance and Operations
 
@@ -39,7 +39,7 @@ ms.locfileid: "6009992"
 
 На следующем рисунке показано, как данные синхронизируются между Project Service Automation и Finance.
 
-[![Поток данных для интеграции Project Service Automation с Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Поток данных для интеграции Project Service Automation с Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Шаблон и задача
 
@@ -80,7 +80,7 @@ ms.locfileid: "6009992"
 
 На следующих рисунках показан пример сопоставления задач шаблона в интеграции данных. В сопоставлении отображается информация о полях, которые будут синхронизированы из Project Service Automation в Finance.
 
-[![Сопоставление шаблонов](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Сопоставление шаблонов.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

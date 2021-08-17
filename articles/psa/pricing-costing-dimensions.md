@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998477"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Домашняя страница измерений ценообразования и стоимости
 
@@ -41,7 +41,7 @@ ms.locfileid: "6368897"
 
 PSA поставляется с набором по умолчанию измерений ценообразования. Их можно просматривать, выбрав **Project Service** > **Параметры**. В записи параметров на вкладке **Сумма на основе измерения цен** убедитесь, что роль **msdyn_resourcecategory** и подразделение распределения ресурсов **msdyn_organizationalunit** содержат поля **Применимо к продажам** и **Применимо к стоимости**, в которых задано значение **Да**. Это позволит настроить цену и стоимость для каждого сочетания роли и подразделения.
 
-![Снимок экрана параметров Project Service с выделенным полем "Применимо к продажам"](media/PS-OOB-parameters.png)
+![Снимок экрана параметров Project Service с выделенным полем «Применимо к продажам».](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > При вы использовали готовые поля роли и подразделение в качестве измерения ценообразования до версии 3 PSA, не будет никаких заметных изменений. Вы можете продолжить использовать Project Service, как обычно. 

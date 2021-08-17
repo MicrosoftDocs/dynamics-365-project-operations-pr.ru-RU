@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009947"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989567"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Рабочая область мобильного приложения "Регистрация времени проекта"
 
@@ -94,7 +94,7 @@ ms.locfileid: "6009947"
 3.  При первом входе в систему вам будет предложено ввести имя пользователя и пароль. Введите свои учетные данные.
 4.  После входа в систему отображаются доступные рабочие области для вашей компании. Обратите внимание: если ваш системный администратор позже опубликует новую рабочую область, вам придется обновить список мобильных рабочих областей.
 
-[![Потяните, чтобы обновить](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Потяните, чтобы обновить.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Введите время с помощью мобильной рабочей области ввода времени проекта
 1.  На мобильном устройстве выберите рабочее пространство **Запись времени проекта**.
