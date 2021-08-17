@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433669"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009232"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Новые возможности в июле 2021 г. — облегченное развертывание Project Operations
 
@@ -20,7 +20,7 @@ _Относится к: облегченное развертывание — о
 
 Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
-  - Project Operations в среде Dataverse версии 4.12.0.148.
+  - Project Operations в среде Dataverse версии 4.12.0.148 или 4.12.0.152.
 
 ## <a name="quality-updates"></a>Обновления качества
 | **Область функций**              | **Номер ссылки** | **Обновление качества**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ _Относится к: облегченное развертывание — о
 | Общие сведения                       | 2296857              | Отслеживание хода выполнения длительных заданий.                                                                                                                                                                        |
 | Общие сведения                       | 2253682              | Решение Project Operations с двойной записью не следует устанавливать, если базовая версия с двойной записью установлено в среде без решения для оркестрации двойной записи.                                                |
 | Общие сведения                       | 2316420              | При изменении бизнес-единицы пользователя приложения происходит сбой подготовки базовой версии Project Service.                                                                                                                     |
+| Общие сведения                       | 2376405              | Исправлена проблема с обновлением, управляемым издателем (обновление качества доступно в версии 4.12.0.152)                                                                                                                     |

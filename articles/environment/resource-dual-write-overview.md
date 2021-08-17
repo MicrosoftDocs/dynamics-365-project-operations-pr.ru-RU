@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368447"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007927"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Обзор интеграции с двойной записью Project Operations
 
@@ -23,7 +23,7 @@ Project Operations использует [возможности двойной �
 
 На следующем рисунке показано, как данные синхронизируются в рамках этой интеграции между Dataverse и Финансы.
 
-![Обзор потоков данных Project Operations](./media/ProjectOperationsFlows.jpg)
+![Обзор потоков данных Project Operations.](./media/ProjectOperationsFlows.jpg)
 
 Project Operations на Dataverse предоставляет современный пользовательский интерфейс и простую расширяемость без кода/с минимумом кода, используя возможности Power Platform. Руководители проектов, менеджеры ресурсов, участники проектных групп и другие сотрудники, непосредственно взаимодействующие с клиентами, выполняют свои действия в Project Operations на Dataverse.
 

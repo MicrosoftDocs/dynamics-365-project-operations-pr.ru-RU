@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992850"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007162"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Просмотр оплачиваемой загруженности для ресурсов
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992850"
  
 **Представление загруженности** на странице **Загруженность ресурсов Project Service** отображает оплачиваемую загруженность для каждого резервируемого ресурса. Поскольку это представление основано на доске расписания, вы найдете много тех же функций.
 
-> ![Снимок экрана представления загруженности](media/FAQ-utilization-1.png)
+> ![Снимок экрана представления загруженности.](media/FAQ-utilization-1.png)
  
 
 Расчет оплачиваемой загруженности работает следующим образом:
@@ -48,7 +48,7 @@ ms.locfileid: "5992850"
 2. Выберите ресурс, чтобы открыть запись. 
 3. На вкладке **Project Service** можно задать целевую загруженность ресурса.
 
-> ![Снимок экрана использования вкладки Project Service для задания целевой загруженности](media/FAQ-utilization-2.png)
+> ![Снимок экрана использования вкладки Project Service для задания целевой загруженности.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Задание целевой загруженности для роли
 
@@ -56,7 +56,7 @@ ms.locfileid: "5992850"
 2. Выберите роль и откройте запись. 
 3. Задайте целевую загруженность для роли.
 
-> ![Снимок экрана использования пункта "Роли ресурса" для задания целевой загруженности](media/FAQ-utilization-3.png)
+> ![Снимок экрана использования пункта «Роли ресурса» для задания целевой загруженности.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Вычисление оплачиваемой загруженности для ресурса
 
