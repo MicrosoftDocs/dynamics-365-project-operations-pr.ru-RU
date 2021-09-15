@@ -4,6 +4,8 @@
   items:
     - name: Определение типа развертывания
       href: environment/determine-deployment-type.md
+    - name: Регистрация на пробные версии Project Operations
+      href: environment/admin-trials.md
     - name: Обновления Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations для сценариев на основе ресурсов/без запасов
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Новые возможности
       items:
+        - name: "Август 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: "Июль 2021 года\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: "Июнь 2021 года\_— Project Operations для сценариев на основе ресурсов/без запасов"
@@ -418,6 +422,8 @@
       items:
         - name: Обзор утверждений
           href: approvals/approvals-overview.md
+        - name: Наборы утверждения
+          href: approvals/approval-sets.md
         - name: Примечания разработчика
           items:
             - name: Заметки разработчика для утверждений
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Новые возможности
       items:
+        - name: Новые возможности раннего доступа волны 2 выпуска от 2021 г. — облегченное развертывание
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Новые возможности в августе 2021 года\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "Новые возможности в июле 2021 года\_— облегченное развертывание"
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: "Новые возможности в июне 2021 года\_— облегченное развертывание"
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Управление субподрядом в Project Operations
       items:
-        - name: Обзор управления субподрядами
+        - name: Управление субподрядом в Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Субподряды в раннем доступе от октября 2021 г.
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Основные понятия в субподряде
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Управление поставщиками и прайс-листами проектов
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Субподрядчики как резервируемые ресурсы
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Сведения о заголовке для субподрядов
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Строки субподряда для времени
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Строки субподряда для расхода
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Строки субподряда для продуктов
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ресурсы строки субподряда
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Вехи строки субподряда
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Время
       items:
         - name: Обзор времени
@@ -868,6 +892,8 @@
       items:
         - name: Обзор утверждений
           href: approvals/approvals-overview.md
+        - name: Наборы утверждения
+          href: approvals/approval-sets.md
         - name: Примечания разработчика
           items:
             - name: Заметки разработчика для утверждений
@@ -1060,6 +1086,8 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Новые возможности и изменения в выпуске обновления 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Новые возможности и изменения в выпуске обновления 33, V3'
@@ -1302,11 +1330,11 @@
           items:
             - name: Создание записей времени
               href: psa/time-entries.md
-            - name: Календарь записи времени
+            - name: Календарь записей времени
               href: psa/time-entry-calendar.md
             - name: Настройка еженедельной записи времени
               href: psa/time-entry-extensibility-v3.md
-            - name: Наборы утверждения
+            - name: Наборы утверждения в Project Service Automation
               href: psa/approval-set.md
     - name: Вопросы и ответы и устранение неполадок (3.x)
       items:
