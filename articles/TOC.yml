@@ -56,25 +56,29 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Новые возможности
       items:
-        - name: "Август 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Октябрь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: "Сентябрь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: "Август 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-august-2021-resource-based.md
-        - name: "Июль 2021 года\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Июль 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-july-2021-resource-based.md
-        - name: "Июнь 2021 года\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Июнь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-june-2021-resource-based.md
-        - name: "Май 2021 года\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Май 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-may-2021-resource-based.md
-        - name: "Апрель 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Апрель 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: "Март 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Март 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: "Февраль 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Февраль 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: "Январь 2021\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Январь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: "Декабрь 2020\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Декабрь 2020\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: "Ноябрь 2020\_— Project Operations для сценариев на основе ресурсов/без запасов"
+        - name: "Ноябрь 2020\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Процесс продаж по проекту
       items:
@@ -94,7 +98,7 @@
           items:
             - name: Обзор управления возможными сделками по проектам
               href: sales/manage-project-based-opportunities.md
-            - name: Сведения о заголовке для возможных сделок на основе проекта
+            - name: Сведения в заголовке для возможных сделок на основе проекта
               href: sales/opportunity-header.md
             - name: Строки возможной сделки на основе проекта
               href: sales/project-based-lines.md
@@ -108,15 +112,15 @@
           items:
             - name: Обзор управления предложениями с расценками по проектам
               href: pro/sales/manage-quotes-sales.md
-            - name: Уникальные понятия для предложений с расценками на основе проектов
+            - name: 'Понятия, уникальные для предложений с расценками на основе проекта'
               href: sales/quotes-key-concepts.md
-            - name: Сведения о заголовке для предложений с расценками на основе проектов
+            - name: Сведения в заголовке для предложений с расценками на основе проекта
               href: sales/quote-values-budget-limits-contract.md
             - name: Управление несколькими клиентами в предложении с расценками по проекту
               href: sales/manage-multiple-customers-quote.md
             - name: Управление прайс-листами проекта в предложении с расценками
               href: pro/sales/manage-project-price-lists-sales.md
-            - name: Строки предложения с расценками на основе проектов
+            - name: Строки предложения с расценками на основе проекта
               items:
                 - name: Обзор строк предложения с расценками на основе проекта
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
@@ -142,15 +146,15 @@
           items:
             - name: Обзор управления контрактами по проекту
               href: pro/sales/manage-contracts-sales.md
-            - name: Уникальные понятия для контрактов на основе проектов
+            - name: 'Понятия, уникальные для контрактов на основе проекта'
               href: sales/contracts-key-concepts.md
-            - name: Сведения о заголовке для контрактов на основе проектов
+            - name: Сведения в заголовке для контрактов на основе проекта
               href: sales/project-contract-settings.md
             - name: Управление прайс-листами проекта в контрактах по проекту
               href: sales/contracts-manage-project-price-lists.md
             - name: Управление несколькими клиентами в контрактах по проекту
               href: sales/manage-multiple-customers-contract.md
-            - name: Строки контракта на основе проектов
+            - name: Строки контракта на основе проекта
               items:
                 - name: Обзор строк контракта на основе проекта
                   href: pro/sales/manage-contract-values-project-based-sales.md
@@ -292,7 +296,7 @@
           items:
             - name: Разработка шаблонов проектов с помощью копирования проектов
               href: project-management/dev-copy-project.md
-            - name: Использование API расписания проекта (общедоступная предварительная версия)
+            - name: Использование API расписания проекта
               href: project-management/schedule-api-preview.md
     - name: Управление ресурсами
       items:
@@ -442,29 +446,37 @@
       items:
         - name: Настройка нескладируемых материалов и незавершенных счетов поставщика
           href: procurement/configure-materials-nonstocked.md
-        - name: Закупка нескладируемых материалов для проектов с использованием незавершенных счетов поставщика
+        - name: Закупка нескладируемых материалов для проектов с использованием ожидающих счетов поставщиков
           href: procurement/pending-vendor-invoices.md
+        - name: Заказ нескладируемых материалов для проектов с использованием заказов на покупку по проектам
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Удержание поставщиков
+          items:
+            - name: Обзор удержания поставщиков
+              href: procurement/vendor-retention-overview.md
+            - name: Настройка удержания поставщиков
+              href: procurement/set-up-vendor-retention.md
     - name: Выставление счетов
       items:
         - name: Обзор процесса выставления счетов
           href: invoicing/post-project-invoices.md
-        - name: Счет-проформа
+        - name: Выставление счетов-проформ
           items:
-            - name: Управление невыполненной работой по выставлению счетов на основе проектов
+            - name: Управление невыполненной работой по выставлению счетов на основе проекта
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Управление состоянием и проверка соблюдения лимитов
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Счета-проформы на основе проектов
+            - name: Счета-проформы на основе проекта
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Управление счетом-проформой на основе проектов
+            - name: Управление счетом-проформой на основе проекта
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Выставление счета на предоплату или аванс
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Подтверждение счета-проформы на основе проектов
+            - name: Подтверждение счета-проформы на основе проекта
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Создание корректирующих счетов на основе проектов
+            - name: Создание корректирующих счетов на основе проекта
               href: proforma-invoicing/corrective-invoices.md
-            - name: Настройка автоматизации счетов на основе проектов
+            - name: Настройка автоматизации счетов на основе проекта
               href: proforma-invoicing/configure-automated-invoice-creation.md
         - name: Выставление счетов для клиента
           items:
@@ -526,27 +538,31 @@
           href: environment/security-model.md
     - name: Новые возможности
       items:
-        - name: Новые возможности раннего доступа волны 2 выпуска от 2021 г. — облегченное развертывание
+        - name: "Новые возможности раннего доступа волны 2 выпуска от 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: "Новые возможности в августе 2021 года\_— облегченное развертывание"
+        - name: "Новые возможности в октябре 2021\_г.\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: "Новые возможности в сентябре 2021\_г.\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: "Новые возможности в августе 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: "Новые возможности в июле 2021 года\_— облегченное развертывание"
+        - name: "Новые возможности в июле 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: "Новые возможности в июне 2021 года\_— облегченное развертывание"
+        - name: "Новые возможности в июне 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: "Новые возможности в мае 2021 года\_— облегченное развертывание"
+        - name: "Новые возможности в мае 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: "Новые возможности в апреле 2021 года\_— облегченное развертывание"
+        - name: "Новые возможности в апреле 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: "Новые возможности в марте 2021\_— облегченное развертывание"
+        - name: "Новые возможности в марте 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: "Новые возможности в феврале 2021\_— облегченное развертывание"
+        - name: "Новые возможности в феврале 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: "Новые возможности в январе 2021\_— облегченное развертывание"
+        - name: "Новые возможности в январе 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: "Новые возможности в декабре 2020\_— облегченное развертывание"
+        - name: "Новые возможности в декабре 2020\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: "Новые возможности в ноябре 2020\_— облегченное развертывание"
+        - name: "Новые возможности в ноябре 2020\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Процесс продаж по проекту
       items:
@@ -566,11 +582,11 @@
           items:
             - name: Обзор возможных сделок по проектам
               href: sales/manage-project-based-opportunities.md
-            - name: Сведения о заголовке для возможных сделок по проекту
+            - name: Сведения в заголовке для возможных сделок по проекту
               href: pro/sales/opportunity-header-sales.md
             - name: Управление стоками возможной сделки на основе продуктов
               href: pro/sales/product-based-lines-sales.md
-            - name: Управление стоками возможной сделки на основе проектов
+            - name: Управление стоками возможной сделки на основе проекта
               href: pro/sales/project-based-lines-sales.md
             - name: Создание предложений с расценками на основе возможных сделок по проектам
               href: sales/link-quotes-opportunities.md
@@ -578,13 +594,13 @@
               href: sales/copy-project-based-opportunity.md
             - name: Закрытие возможной сделки по проекту
               href: sales/close-opportunity.md
-        - name: Управление предложениями с расценками на основе проектов
+        - name: Управление предложениями с расценками на основе проекта
           items:
             - name: Обзор предложений с расценками на основе проекта
               href: pro/sales/manage-quotes-sales.md
-            - name: Уникальные понятия для предложений с расценками по проекту
+            - name: 'Понятия, уникальные для предложений с расценками по проекту'
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Сведения о заголовке для предложений с расценками по проекту
+            - name: Сведения в заголовке для предложений с расценками по проекту
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Несколько клиентов в предложениях с расценками по проекту
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -598,7 +614,7 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Управление сложными единицами измерения для строк предложения с расценками на основе продуктов
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Строки предложения с расценками на основе проектов
+            - name: Строки предложения с расценками на основе проекта
               items:
                 - name: Обзор строк предложения с расценками на основе проекта
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
@@ -614,17 +630,17 @@
                   href: pro/sales/import-estimate-project-quote-sales.md
                 - name: Управление расписаниями счетов
                   href: sales/invoice-schedule-quote-line.md
-            - name: Копирование предложений с расценками на основе проектов
+            - name: Копирование предложений с расценками на основе проекта
               href: sales/lose-quote.md
-            - name: Закрытие предложений с расценками на основе проектов
+            - name: Закрытие предложений с расценками на основе проекта
               href: pro/sales/win-quote-sales.md
-        - name: Управление контрактами на основе проектов
+        - name: Управление контрактами на основе проекта
           items:
             - name: Обзор контрактов на основе проекта
               href: pro/sales/manage-contracts-sales.md
-            - name: Уникальные понятия для контрактов по проекту
+            - name: 'Понятия, уникальные для контрактов по проекту'
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Сведения о заголовке для контрактов по проекту
+            - name: Сведения в заголовке для контрактов по проекту
               href: pro/sales/project-contract-settings-sales.md
             - name: Несколько клиентов в контрактах по проекту
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -638,7 +654,7 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Управление сложными единицами измерения для строк контракта на основе продуктов
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Строки контракта на основе проектов
+            - name: Строки контракта на основе проекта
               items:
                 - name: Обзор строк контракта на основе проекта
                   href: pro/sales/manage-contract-values-project-based-sales.md
@@ -784,7 +800,7 @@
           items:
             - name: Разработка шаблонов проектов с помощью копирования проектов
               href: project-management/dev-copy-project.md
-            - name: Использование API расписания проекта (общедоступная предварительная версия)
+            - name: Использование API расписания проекта
               href: project-management/schedule-api-preview.md
     - name: Управление ресурсами
       items:
@@ -846,7 +862,7 @@
       items:
         - name: Управление субподрядом в Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Субподряды в раннем доступе от октября 2021 г.
+        - name: "Субподряды в раннем доступе от октября 2021\_г."
           href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Основные понятия в субподряде
           href: pro/subcontracting/key-concepts-subcontracting.md
@@ -854,15 +870,15 @@
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Субподрядчики как резервируемые ресурсы
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Сведения о заголовке для субподрядов
+        - name: Сведения в заголовке для субподрядов
           href: pro/subcontracting/subcontract-header-details.md
         - name: Строки субподряда для времени
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Строки субподряда для расхода
+        - name: Строки субподряда для категорий расходов
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Строки субподряда для продуктов
           href: pro/subcontracting/subcontract-line-products.md
-        - name: Ресурсы строки субподряда
+        - name: Ресурсы для строки субподряда
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Вехи строки субподряда
           href: pro/subcontracting/subcontract-line-milestones.md
@@ -908,7 +924,7 @@
           items:
             - name: Создание и подтверждение журналов корректировок
               href: actuals/create-confirm-correction-journals.md
-    - name: Счет-проформа
+    - name: Выставление счетов-проформ
       items:
         - name: Управление невыполненной работой по выставлению счетов по проекту
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
@@ -930,19 +946,19 @@
   items:
     - name: Новые возможности
       items:
-        - name: "Новые возможности в июле 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+        - name: "Новые возможности в июле 2021\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: "Новые возможности в мае 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+        - name: "Новые возможности в мае 2021\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: "Новые возможности в апреле 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+        - name: "Новые возможности в апреле 2021\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: "Новые возможности в марте 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+        - name: "Новые возможности в марте 2021\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: "Новые возможности в январе 2021 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+        - name: "Новые возможности в январе 2021\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: "Новые возможности в декабре 2020 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+        - name: "Новые возможности в декабре 2020\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: "Новые возможности в ноябре 2020 года\_— Project Operations для сценариев на основе запасов/производственных заказов"
+        - name: "Новые возможности в ноябре 2020\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Обзор развертывания Project Operations для сценариев на основе запасов/производственных заказов
       href: prod-pma/project-operations-prod-order-deployment-overview.md
@@ -1086,6 +1102,8 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Новые возможности и изменения в выпуске обновления 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Новые возможности и изменения в выпуске обновления 34, V3'
