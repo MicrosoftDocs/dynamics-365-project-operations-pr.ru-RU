@@ -2,17 +2,17 @@
 title: Покупка нескладируемые материалы с помощью незавершенной накладной поставщика
 description: В этой теме объясняется, как записывать незавершенные накладные поставщика.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009052"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547305"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Покупка нескладируемые материалы с помощью незавершенной накладной поставщика
 
@@ -45,4 +45,5 @@ _**Относится к:** Project Operations для сценариев на о
     - Сумма сальдо поставщика.
     - Сумма налога.
     - Стоимость проекта записывается на учетная запись интеграции закупок.
-    - Фактическая транзакция по проекту в Dataverse. Эта транзакция далее обрабатывается с использованием [Журнал интеграции Project Operations](../project-accounting/project-operations-integration-journal.md). При разноске этого журнала сумма перемещается со учетной записи интеграции закупок в учетная запись затрат по проекту.
+    - Транзакция фактических затрат по проекту в Dataverse.  Эта транзакция далее обрабатывается с использованием [Журнал интеграции Project Operations](../project-accounting/project-operations-integration-journal.md). При разноске этого журнала сумма перемещается со учетной записи интеграции закупок в учетная запись затрат по проекту. 
+    - Покупки, которые выставляются на оплату клиенту проекта с использованием метода выставления счетов на время и материалы. Кроме того, для покупок в Dataverse создаются транзакции продаж без выставленных счетов. Прайс-лист продукции в Dataverse используется для цен продажи и сумм для транзакции продажи без выставленных счетов.

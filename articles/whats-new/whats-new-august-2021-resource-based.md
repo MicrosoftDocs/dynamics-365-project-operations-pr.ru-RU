@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323477"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501387"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в августе 2021 года — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -31,7 +31,7 @@ ms.locfileid: "7323477"
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Обновления сопоставления с двойной записью Project Operations
 
-В этом выпуске нет обновлений для карт Project Operations с двойной записью. 
+В этом выпуске нет обновлений для карт Project Operations с двойной записью.
 
 Для получения информации о текущем списке и версиях карт с двойной записью Project Operations см. [Версии карты с двойной записью Project Operations](../environment/resource-dual-write-maps.md).
 
