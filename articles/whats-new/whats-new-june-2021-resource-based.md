@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003877"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679225"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в июне 2021 года — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -30,6 +30,7 @@ _**Относится к:** Project Operations для сценариев на о
 - Возможность удаления [Строк предлагаемых счетов по проекту для сценариев корректировки](../invoicing/correct-project-invoice-proposals.md).
 - Строки детализированных расходов отражают названия подкатегорий в отчете о расходах. [Новые функции отчетов о расходах](../expense/expense-reports-reimagined.md#new-features).
 - Способ оплаты доступен на новой панели расходов при создании нового расхода.
+- Общая доступность API-интерфейсов планирования проектов. Эта новая функция позволяет клиентам программно выполнять операции создания, обновления и удаления с задачами проекта, назначениями ресурсов, зависимостями задач и записями участников рабочей группы проекта. Для получения дополнительной информации см. раздел [Использование API-интерфейсов планирования проектов с сущностями планирования](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Обновления сопоставления с двойной записью Project Operations
 

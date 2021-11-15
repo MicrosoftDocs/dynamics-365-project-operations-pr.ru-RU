@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Интеграция счетов поставщика
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Удаление Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Новые возможности
       items:
         - name: "Октябрь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Использование API расписания проекта
               href: project-management/schedule-api-preview.md
+            - name: Производительность API расписания проекта
+              href: project-management/project-schedule-api-performance.md
     - name: Управление ресурсами
       items:
         - name: Основные понятия
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Использование API расписания проекта
               href: project-management/schedule-api-preview.md
+            - name: Производительность API расписания проекта
+              href: project-management/project-schedule-api-performance.md
     - name: Управление ресурсами
       items:
         - name: Основные понятия
@@ -1102,6 +1108,8 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Новые возможности и изменения в выпуске обновления 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Новые возможности и изменения в выпуске обновления 35, V3'
