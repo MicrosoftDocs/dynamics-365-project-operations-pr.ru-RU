@@ -52,12 +52,14 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Интеграция управления расходами
               href: environment/resource-dual-write-expense.md
-            - name: Интеграция счетов поставщика
+            - name: Интеграция накладных поставщика
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Удаление Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Новые возможности
       items:
+        - name: "Ноябрь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "Октябрь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: "Сентябрь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Производительность API расписания проекта
               href: project-management/project-schedule-api-performance.md
+            - name: Журналы планирования проектов
+              href: project-management/schedule-api-logs.md
     - name: Управление ресурсами
       items:
         - name: Основные понятия
@@ -544,6 +548,8 @@
       items:
         - name: "Новые возможности раннего доступа волны 2 выпуска от 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Новые возможности в ноябре 2021\_г.\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: "Новые возможности в октябре 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: "Новые возможности в сентябре 2021\_г.\_— облегченное развертывание"
@@ -952,6 +958,10 @@
   items:
     - name: Новые возможности
       items:
+        - name: "Новые возможности в октябре 2021\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: "Новые возможности в сентябре 2021\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: "Новые возможности в июле 2021\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: "Новые возможности в мае 2021\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
@@ -1108,6 +1118,8 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Новые возможности и изменения в выпуске обновления 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Новые возможности и изменения в выпуске обновления 36, V3'

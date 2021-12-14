@@ -2,7 +2,7 @@
 title: Сканирование чеков с распознаванием текста
 description: Эта тема предоставляет информацию об оптическом распознавании символов (OCR) для квитанций.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007747"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798056"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Сканирование чеков с распознаванием текста
 
@@ -85,7 +85,18 @@ _**Относится к:** Project Operations для сценариев на о
 
 **Где эта функция доступна и обрабатывается?**
 
-В настоящее время поддерживается в США.
+Доступность этой функции в разных регионах указана в следующей таблице. Если ваш регион в настоящее время не поддерживается, отправьте запрос, чтобы определить приоритетность службы OCR в вашем регионе. 
+
+| Область | Поддерживаемые                         |
+|--------|-----------------------------------|
+| USA    | Да                               |
+| CAN    | Да                               |
+| Соединенное Королевство     | Да                               |
+| Австралия    | Да                               |
+| Европа     | Частично. Только английские квитанции. |
+| Азия   | No                                |
+| Япония  | No                                |
+| Африка | No                                |
 
 **Куда уходят мои чеки?**
 
