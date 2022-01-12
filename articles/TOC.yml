@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Обновления Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Удаленные или устаревшие функции
+      items:
+        - name: Удаленные или устаревшие функции в Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations для сценариев на основе ресурсов/без запасов
   items:
     - name: Начало работы
@@ -52,12 +56,14 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Интеграция управления расходами
               href: environment/resource-dual-write-expense.md
-            - name: Интеграция накладных поставщика
+            - name: Интеграция счетов поставщика
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Удаление Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Новые возможности
       items:
+        - name: "Декабрь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: "Ноябрь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "Октябрь 2021\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Настройка расстояния с использованием ставки за проделанное расстояние
               href: expense/set-up-mileage.md
+        - name: Детализация расходов
+          href: prod-exp/expense-itemization.md
         - name: Личные расходы
           href: expense/personal-expenses-expense-report.md
         - name: Внутрихолдинговые расходы
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Управление оценками выручки
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Устранение неполадок
+      items:
+        - name: Процесс продаж по проекту
+          items:
+            - name: 'Ошибка несоответствия валюты при создании проекта, контракта, предложения с расценками или резервируемого ресурса'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: "Облегченное развертывание\_— от сделки до счетов-проформ"
   items:
     - name: Начало работы
@@ -548,6 +562,8 @@
       items:
         - name: "Новые возможности раннего доступа волны 2 выпуска от 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Новые возможности в декабре 2021\_г.\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: "Новые возможности в ноябре 2021\_г.\_— облегченное развертывание"
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: "Новые возможности в октябре 2021\_г.\_— облегченное развертывание"
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Вехи строки субподряда
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Субподряд участников рабочей группы проекта
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Параметры субподряда для участников рабочей группы проекта
+          href: pro/subcontracting/subcon-options.md
+        - name: Оценка затрат на назначения ресурсов по субподряду
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Настройка таблицы расписаний для отображения емкости сотрудников и нештатных работников
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Набор персонала по проекту с учетом емкости сотрудников и нештатных работников
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Учет времени, расходов и использования материалов для субподрядных компонентов'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Переходы между состояниями по субподряду
+          href: pro/subcontracting/subcon-states.md
     - name: Время
       items:
         - name: Обзор времени
@@ -1118,6 +1148,8 @@
       items:
         - name: График выпуска обновлений Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Новые возможности и изменения в выпуске обновления 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Новые возможности и изменения в выпуске обновления 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Новые возможности и изменения в выпуске обновления 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Руководство по отчетам
           href: psa/implementation-guides/reporting-guide.md
+    - name: Обновление с Project Service Automation до Project Operations — облегченное развертывание
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Обновление Project Service Automation (версия приложения 3.x)
       items:
         - name: Обновление Project Service Automation
