@@ -2,16 +2,16 @@
 title: Регистрация на пробные версии Project Operations
 description: В этой теме представлена информация о том, как развернуть пробную версию Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599229"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901633"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Регистрация на пробные версии Project Operations 
 
@@ -90,7 +90,8 @@ _**Применяется к:** Project Operations для сценариев н�
 4.  Выберите соответствующий URL-адрес Microsoft Dataverse и URL-адреса приложений Finance and Operations для проверки развертывания.
 
 ## <a name="configuring-dual-write"></a>Настройка двойной записи
-Только для развертываний нескладируемых материалов настройте сопоставления с двойной записью. Для получения дополнительной информации см. [Версии сопоставления Project Operations с двойной записью](resource-dual-write-maps.md).
+- Чтобы настроить роли безопасности для двойной записи, см. раздел [Обновление параметров безопасности в Project Operations в Dataverse](resource-provision-new-environment.md).
+- Чтобы настроить сопоставления двойной записи, см. раздел [Выполнение сопоставлений двойной записи Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Назначение лицензий
 
