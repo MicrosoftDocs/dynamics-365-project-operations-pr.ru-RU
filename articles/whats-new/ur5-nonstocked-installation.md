@@ -2,17 +2,19 @@
 title: Обновите Project Operations в вашей среде Finance
 description: В этой теме содержится информация о том, как обновить Project Operations в вашей среде Dynamics 365 Finance.
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986777"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816641"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Обновите Project Operations в вашей среде Finance
 
@@ -33,7 +35,7 @@ _**Относится к:** Project Operations для сценариев на о
 4. Убедитесь, что среда работает. Если она не запущена, запустите среду.
 5. В разделе **Новый выпуск** под **Доступные обновления**, выберите **Просмотр сведений об обновлении** для 10.0.15.
 
-![Кнопка «Просмотр сведений об обновлении».](media/view-update.png)
+![Кнопка "Просмотр сведений об обновлении"](media/view-update.png)
 
 6. На странице **Двоичные обновления** выберите **Сохранить пакет**.
 7. На странице **Просмотреть и сохранить обновления** выберите **Сохранить пакет**.
@@ -47,11 +49,11 @@ _**Относится к:** Project Operations для сценариев на о
 2. В списке выберите пакет, который вы сохранили ранее, а затем выберите **Применить**.
 3. Выбрать **Да**, чтобы подтвердить, что вы хотите развернуть пакет.
 
-![Диалоговое окно подтверждения развертывания пакета.](media/confirm-package-deployment.png)
+![Диалоговое окно подтверждения развертывания пакета](media/confirm-package-deployment.png)
 
 4. Выбрать **Да**, чтобы подтвердить, что вы хотите обновить приложение.
 
-![Диалоговое окно подтверждения обновления приложения.](media/confirm-application-update.png)
+![Диалоговое окно подтверждения обновления приложения](media/confirm-application-update.png)
 
 Начнется развертывание и обновление приложения. 
 
@@ -84,7 +86,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 1. В вашей среде Dataverse перейдите в **Параметры**, а в группа **Система** выберите **Безопасность** .
 
-![Параметры среды Dataverse.](media/Picture21.png)
+![Параметры среды Dataverse](media/Picture21.png)
 
 2. Выбор **ролей безопасности**.
 3. В списке ролей выберите **пользователь приложения с двойной записью** и выберите вкладку **Настраиваемые объекты**. 
@@ -121,8 +123,5 @@ _**Относится к:** Project Operations для сценариев на о
 6. Из списка сопоставлений выберите сопоставление **Реестр (msdyn_ledgers)** со всеми обязательными компонентами и выберите флажок **Начальная синхронизация**. 
 7. В поле **Главная запись для начальной синхронизации** выберите **Приложения Finance and Operations**, а затем выберите **Выполнить**.
  
- ![Синхронизация сопоставления реестра.](media/DW6.png)
+ ![Синхронизация сопоставления реестра](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

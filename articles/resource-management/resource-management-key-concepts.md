@@ -2,16 +2,18 @@
 title: Ключевые концепции управления ресурсами
 description: В этой теме предоставлена информация о возможностях управления ресурсами в Microsoft Dynamics Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994832"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123889"
 ---
 # <a name="resource-management-key-concepts"></a>Ключевые концепции управления ресурсами
 
@@ -33,6 +35,3 @@ _**Относится к:** Project Operations для сценариев на о
 
 
 Можно подбирать сотрудников для проекта с рабочей группой универсальных или именованных ресурсов в Project Operations. Можно использовать разные методы добавления и назначения участников рабочей группы и управления их резервированиями и назначениями. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

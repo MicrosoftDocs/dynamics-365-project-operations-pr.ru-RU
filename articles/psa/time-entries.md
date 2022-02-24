@@ -2,6 +2,8 @@
 title: Создание записей времени
 description: В этом разделе представлена информация о том, как создать записи времени.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990422"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149694"
 ---
 # <a name="create-time-entries"></a>Создание записей времени
 
@@ -68,6 +70,3 @@ ms.locfileid: "6990422"
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Возможности группировки, сортировки, поиска и фильтрации
 
 Можно группировать и фильтровать записи времени по измерениям, которые определены в столбцах. В поле **Группировать по** выберите измерение, которое следует использовать для фильтрации записей времени. Также можно сортировать записи ввода времени в восходящем или нисходящем порядке с помощью стрелок сортировки в заголовках столбцов. Кроме этого, можно отображать или скрывать записи, выбирая кнопку **Фильтр** в заголовках столбцов, затем, в поле **Поиск** вводя текст, который должен использоваться для поиска записей времени по имени проекта, задаче проекта, записи времени или ресурсу.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

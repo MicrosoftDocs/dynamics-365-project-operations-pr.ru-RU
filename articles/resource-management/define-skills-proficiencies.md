@@ -2,9 +2,11 @@
 title: Определение навыков и квалификаций
 description: В этом разделе представлена информация о том, как настроить модели квалификации для оценки ресурсов.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e120f8c5a3d2dfaeb577652afcc1feac4cdc9e22f2f274e94bb674ea3fa52fed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988757"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083132"
 ---
 # <a name="define-skills-and-proficiencies"></a>Определение навыков и квалификаций
 
@@ -40,6 +42,3 @@ _**Относится к:** Project Operations для сценариев на о
 
 
 Эти значения оценок отображаются в фильтрах **Требования ресурсов**, **Таблица расписаний** и **Помощник по расписанию**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

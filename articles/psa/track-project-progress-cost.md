@@ -2,6 +2,8 @@
 title: Отслеживание хода выполнение проекта и его стоимости
 description: Порядок отслеживания хода выполнение проекта и его стоимости в Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe8a8e1776b10fff0dc137e329c58eb530591a6e6adde0ac58ca83d323c5da4f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dccf7c9b3e994e5d39f50b38e50a6c423c412f6
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992312"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144249"
 ---
 # <a name="track-project-progress-and-cost-project-service"></a>Отслеживание хода выполнение проекта и его стоимости (Project Service)
 
@@ -38,6 +40,3 @@ ms.locfileid: "6992312"
   
 ### <a name="see-also"></a>См. также  
  [Руководство менеджера по проектам](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

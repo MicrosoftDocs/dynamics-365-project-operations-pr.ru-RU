@@ -2,16 +2,18 @@
 title: Использование категории транзакции в качестве измерения цен
 description: В этом разделе представлена информация об использовании поля "Категория транзакции" в качестве измерения цены.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996137"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514018"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Использование категории транзакции в качестве измерения цен
 
@@ -48,6 +50,3 @@ _**Относится к:** Project Operations для сценариев на о
 2. На странице **Параметры** на вкладке **Сумма на основе измерений цен** убедитесь, что в сетке отображаются записи в сущности **Измерения цен**.
 3. Добавьте **Категорию транзакции** в этот список и установите поля **Применимо к стоимости** и **Применимо к продажам** на **Да**.
 4. В поле **Тип измерения**, выберите **На основе суммы**, а затем выберите приоритет для **Категория транзакции**, так как она связана со стоимостью и продажами.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

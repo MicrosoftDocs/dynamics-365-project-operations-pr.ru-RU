@@ -2,17 +2,18 @@
 title: Обзор загруженности ресурсов
 description: В этой теме представлена информация о загруженности ресурсов в Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002077"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401392"
 ---
 # <a name="resource-utilization-overview"></a>Обзор загруженности ресурсов
 
@@ -44,6 +45,3 @@ _**Относится к:** Project Operations для сценариев на о
 На вкладке **Project Service** можно также задать индивидуальную целевую загруженность для ресурса. Расчет загруженности затем использует целевую загруженность, чтобы оценить цель ресурса вместо цели роли ресурса по умолчанию.
 
 Загруженность отображается для ресурса только в том случае, если этот ресурс имеет утвержденное оплачиваемое время в течение периода, который отображается в сетке.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

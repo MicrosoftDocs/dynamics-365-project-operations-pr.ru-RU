@@ -2,16 +2,18 @@
 title: Копирование прайс-листов
 description: В этой теме предоставлена информация о порядке копирования прайс-листов в Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003742"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181513"
 ---
 # <a name="copy-price-lists"></a>Копирование прайс-листов
 
@@ -41,6 +43,3 @@ _**Относится к:** Project Operations для сценариев на о
 1. На вкладках **Роль**, **Категория** и **Позиция прайс-листа** прайс-листа вы можете выбрать **Обновить цены**, чтобы применить наценку ко всем ценам во вложенной сетке. 
 2. На открывшейся странице диалога введите наценку. Вы также можете ввести отрицательный процент наценки, чтобы снизить цены на определенный процент. 
 3. Выберите **ОК** на странице диалога, затем убедитесь, что цены во вложенной сетке отражают внесенные вами изменения.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

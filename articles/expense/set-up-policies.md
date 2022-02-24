@@ -2,9 +2,11 @@
 title: Определение политик расходов
 description: Вы можете определить политики расходов, которым ваши сотрудники должны следовать при вводе и отправке отчетов о расходах и заявок на командировки.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986372"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128434"
 ---
 # <a name="define-expense-policies"></a>Определение политик расходов
 
@@ -51,6 +53,3 @@ _**Относится к:** Project Operations для сценариев на о
 ## <a name="when-to-evaluate-policies"></a>Когда оценивать политики
 
 В параметрах управления расходами вы можете выбрать оценку политик управления расходами при сохранении строки или при отправке отчета о расходах. Если вы выберете оценку при сохранении строки, пользователи получат более раннее представление о том, что им нужно сделать, чтобы сразу заполнить отчет о расходах. В противном случае вы можете отложить оценку политики и сэкономить время, выполнив проверку в конце, во время отправки в рабочий процесс.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

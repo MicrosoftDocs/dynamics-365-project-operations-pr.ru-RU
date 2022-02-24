@@ -2,16 +2,18 @@
 title: Добавление подписки Azure в проект LCS
 description: Эта тема предоставляет информацию о том, как подключить подписку Azure к проекту LCS.
 author: sigitac
+manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986687"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880554"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Добавление подписки Azure в проект LCS
 
@@ -23,35 +25,35 @@ _**Относится к:** Project Operations для сценариев на о
 
 1. В вашем проекте LCS в разделе **Среды** выберите **Настройки Microsoft Azure**.
 
-![Параметры Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
+![Параметры приложения Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
 2. На странице **Параметры проекта** на вкладке **Соединители Azure** выберите **Авторизовать**. Это позволяет развертывать среды в этом проекте.
 
-![Соединители Azure.](./media/2AzureConnectors.png)
+![Соединители Azure](./media/2AzureConnectors.png)
 
 3. Выбрать **Авторизовать** еще раз, чтобы предоставить согласие администратора.
 
-![Предоставление согласия администратора.](./media/3GrantAdminConsent.png)
+![Предоставление согласия администратора](./media/3GrantAdminConsent.png)
 
 4. Примите запрос на разрешения.
 
-![Примите запрос на разрешения.](./media/4AcceptPermissionRequest.png)
+![Примите запрос на разрешения](./media/4AcceptPermissionRequest.png)
 
 Авторизация завершена. 
 
-![Авторизация прошла успешно.](./media/5AuthorizationComplete.png)
+![Авторизация прошла успешно](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Предоставление службам развертывания Dynamics доступа к вашей подписке Azure
 
 1. Перейдите в раздел [Выставление счетов Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) и выберите свою подписку. Службам развертывания Dynamics необходим доступ к этой подписке, чтобы иметь возможность развертывать среды.
 
-![Сведения о подписке Azure.](./media/6AzureSubscription.png)
+![Сведения о подписке Azure](./media/6AzureSubscription.png)
 
 2. Выберите **Контроль доступа (IAM)** в области навигации, затем выберите **Добавить назначение роли**.
 3. В ползунке справа выберите **Участник роли** и в представленном списке найдите и выберите **Службы развертывания Dynamics**. 
 4. Нажмите кнопку **Сохранить**.
 
-![Доступ к подписке.](./media/7SubscriptionAccess.png)
+![Доступ к подписке](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Добавление соединителя подписки в проект LCS
 

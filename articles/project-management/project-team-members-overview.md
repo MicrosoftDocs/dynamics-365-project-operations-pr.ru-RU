@@ -2,17 +2,18 @@
 title: Участники проектной группы
 description: Эта тема предоставляет информацию о том, как работать с информацией об участниках рабочей группы проекта, атрибутами и расписанием.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994022"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127444"
 ---
 # <a name="project-team-members"></a>Участники проектной группы
 
@@ -59,6 +60,3 @@ _**Относится к:** Project Operations для сценариев на о
 
 - **Создать**: помимо добавления ресурсов непосредственно из расписания, менеджеры проектов могут добавлять новых именованных или универсальных участников рабочей группы из сетки участников рабочей группы.
 - **Удалить**: выбрав одного или нескольких участников рабочей группы, менеджер проекта может удалить ресурсы, которые больше не будут участвовать в проекте. Удаление участника рабочей группы также приведет к удалению всех связанных назначений ресурсов и отмене всех существующих резервирований.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

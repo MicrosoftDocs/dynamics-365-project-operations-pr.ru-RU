@@ -2,9 +2,11 @@
 title: Настройка и использование платежей поставщикам с оплатой после получения оплаты от клиентов
 description: В этой теме объясняется, как создавать условия с оплатой после оплаты клиентом (PWP), чтобы можно было выпускать частичные платежи поставщикам на основе платежей клиентов.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008872"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083167"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Настройка и использование платежей поставщикам с оплатой после получения оплаты от клиентов
 
@@ -78,6 +80,3 @@ ms.locfileid: "7008872"
 2. На странице **Счет поставщика с оплатой после оплаты** в поле поиска введите значения, чтобы найти счет поставщика, который вы хотите просмотреть, затем выберите **Поиск**.
 3. На экспресс-вкладке **Строки накладных поставщика** выберите строки, которые вы хотите изменить.
 4. Если условия **Оплата после оплаты** выполнены для строки счета-фактуры, выберите **Освобождение платежа поставщика**. Параметр **Оплата после оплаты** сбрасывается, а значение поля **Готов к оплате** изменяется на **Да**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

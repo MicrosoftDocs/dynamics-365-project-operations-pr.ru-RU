@@ -2,16 +2,18 @@
 title: Управление сложными единицами измерения для строк контракта на основе продуктов — облегченное развертывание
 description: Эта тема предоставляет информацию о поддержке продажи продуктов на основе подписки.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003382"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177392"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Управление сложными единицами измерения для строк контракта на основе продуктов — облегченное развертывание
 
@@ -44,6 +46,3 @@ Project Operations проверяет, что только численные с
 7. Повторите шаги 2–6 для всех свойств, которые вместе составляют количество для строки контракта на основе продукта.
 
 Если настроены количественные коэффициенты, когда пользователь создает строку контракта для этого продукта, количество в строке контракта блокируется. Затем количество рассчитывается как произведение значений свойств для этой строки контракта.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

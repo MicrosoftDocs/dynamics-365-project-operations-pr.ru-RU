@@ -2,16 +2,18 @@
 title: Управление оценками дохода
 description: В этом разделе представлена информация о том, как работать с оценками дохода для проектов.
 author: sigitac
+manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996542"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531531"
 ---
 # <a name="manage-revenue-estimates"></a>Управление оценками дохода
 
@@ -88,6 +90,3 @@ _**Относится к:** Project Operations для сценариев на о
 Используйте эту страницу, чтобы отменить все исключения с указанной датой оценки и статусом оценки **Исключено**. Статус транзакции изменится после того, как вы выберете соответствующие поля.
 
 Это также автоматически изменяет статус проекта на **В процессе**, если стадия проекта завершена. Статус оценки периода проекта снова изменится на **Разнесено**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

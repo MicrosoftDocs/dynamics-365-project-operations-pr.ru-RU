@@ -2,9 +2,11 @@
 title: Распределение бюджета проекта или пересмотр бюджета по периодам
 description: Эта процедура показывает, как распределить суммы бюджета проекта по периодам.
 author: Yowelle
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e35330d1cbddea41dac7e215350252470b610a52bb05b245d7794a37415dcd3c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b332be67ffdab0156997eb223d8a31af6ced3ef
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989387"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083246"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Распределение бюджета проекта или пересмотр бюджета по периодам
 
@@ -42,6 +44,3 @@ ms.locfileid: "6989387"
 10. Если распределение соответствует вашему желанию, щелкните "Отправить" на странице бюджета проекта, чтобы отправить бюджет или изменения бюджета в рабочий процесс утверждения.  
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

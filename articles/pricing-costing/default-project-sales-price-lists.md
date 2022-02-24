@@ -2,16 +2,18 @@
 title: Прайс-листы по умолчанию
 description: В этой теме предоставлена информация о прайс-листах продаж и себестоимости по умолчанию в Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989882"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130954"
 ---
 # <a name="default-price-lists"></a>Прайс-листы по умолчанию
 
@@ -19,7 +21,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="sales-price-lists"></a>Прайс-листы продаж
 
-Каждое предложение по проекту и контракт в Dynamics 365 Project Operations содержат прайс-лист по умолчанию. 
+Каждое предложение с расценками и контракт по проекту в Dynamics 365 Project Operations содержат прайс-лист продаж по умолчанию. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Прайс-лист по умолчанию для предложения с расценками по проекту
 Система выполняет следующий процесс, чтобы определить, какой прайс-лист использовать по умолчанию для предложения с расценками по проекту:
@@ -55,6 +57,3 @@ _**Относится к:** Project Operations для сценариев на о
 5. Далее система проверяет срок действия прайс-листов, соответствующих дате входящей сметы или фактической строки. 
 6. Если существует несколько прайс-листов, действующих на дату входящей сметы или фактических данных, выбирается прайс-лист, созданный последним.
 7. Если нет прайс-листов себестоимости, прикрепленных к параметрам проекта, которые соответствуют валюте и дате вступления в силу, система по умолчанию устанавливает ставку себестоимости равной нулю (0) во входящей смете или фактической строке.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

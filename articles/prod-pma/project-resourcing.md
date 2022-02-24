@@ -2,26 +2,28 @@
 title: Домашняя страница выделения ресурсов проектам
 description: В этом разделе представлена информация о выделении ресурсов проектам.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007342"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083174"
 ---
 # <a name="project-resourcing-home-page"></a>Домашняя страница выделения ресурсов проектам
 
@@ -38,7 +40,7 @@ ms.locfileid: "7007342"
 - Оцените количество ресурсов, необходимых для всего жизненного цикла проекта.
 - Составьте проект структурной декомпозиции работ (WBS), используя начальные назначения ресурсов.
 
-[![Жизненный цикл проекта.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Жизненный цикл проекта](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 По мере планирования проекта запланированные ресурсы можно заменить укомплектованными ресурсами. Менеджер проекта также может вернуться и обновить резервирование ресурсов на любом этапе проекта.
 
@@ -48,11 +50,8 @@ ms.locfileid: "7007342"
 - [Управление компетенциями ресурсов](manage-resource-competencies.md)
 - [Создание нового проекта](create-new-project.md)
 - [Настройка цен на основе ролей](set-up-role-based-pricing.md)
-- [Создание рабочей группы проекта](create-project-team.md)
+- [Создание проектной группы](create-project-team.md)
 - [Синхронизация емкости ресурсов](synchronize-resource-capacity.md)
 - [Производительность планирования ресурсов проекта](project-scheduling-performance.md)
 - [Настройка ролей в шаблонах структурной декомпозиции работ](set-up-roles-wbs-template.md)
 - [Выполнение ресурсов для запланированных ресурсов](resource-fulfillment-planned-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

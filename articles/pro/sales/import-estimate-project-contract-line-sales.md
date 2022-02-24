@@ -2,16 +2,18 @@
 title: Импорт оценки в строку контракта на основе проекта — облегченное развертывание
 description: Эта тема предоставляет информацию об импорте финансовых оценок из проекта в строку контракта.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997262"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177482"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Импорт оценки в строку контракта на основе проекта — облегченное развертывание
 
@@ -58,6 +60,3 @@ _**Относится к:** развертывание Lite — от сделк�
 | Задача A | Стоимость авиабилета | 01.10.2020 | 4 | 400 | 1600 |
 | Задача B | Отель | 01.10.2020 | 4 | 200 | 800 |
 | Задача C | Отель | 01.11.2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

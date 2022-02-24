@@ -2,16 +2,18 @@
 title: Настройка автоматического создания счетов
 description: Эта тема предоставляет информацию о том, как настроить систему для автоматического создания счетов.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992672"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122449"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Настройка автоматического создания счетов
 
@@ -43,6 +45,3 @@ _**Относится к:** Project Operations для сценариев на о
 
 > [!NOTE]
 > Пакетное выставление счетов запускается только для строк контракта по проекту, которые настроены с помощью графиков счетов. В строке контракта с методом выставления счетов с фиксированной ценой должны быть настроены вехи. Для строки контракта по проекту с методом выставления счетов с учетом времени и материала потребуется настроить расписание счетов на основе даты. То же самое справедливо для строки контракта на основе проекта.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

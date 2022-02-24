@@ -2,9 +2,11 @@
 title: Синхронизируйте фактические данные по проекту непосредственно из Project Service Automation с журналом интеграции проекта для разноски в Finance and Operations
 description: В этой теме описаны шаблоны и базовые задачи, которые используются для синхронизации фактических данных проекта непосредственно из Microsoft Dynamics 365 Project Service Automation с Finance and Operations.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988127"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083320"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Синхронизируйте фактические данные по проекту непосредственно из Project Service Automation с журналом интеграции проекта для разноски в Finance and Operations
 
@@ -42,7 +44,7 @@ ms.locfileid: "6988127"
 
 На следующем рисунке показано, как данные синхронизируются между Project Service Automation и Finance.
 
-[![Поток данных для интеграции Project Service Automation с Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Поток данных для интеграции Project Service Automation с Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Фактические данные проекта из Project Service Automation
 
@@ -93,9 +95,9 @@ ms.locfileid: "6988127"
 
 На следующих рисунках показан пример сопоставления задач шаблона в интеграции данных. В сопоставлении отображается информация о полях, которые будут синхронизированы из Project Service Automation в Finance.
 
-[![Сопоставление шаблонов — фактические данные.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Сопоставление шаблонов — фактические данные](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Сопоставление шаблонов — транзакционные соединения.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Сопоставление шаблонов — транзакционные соединения](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Импорт из промежуточной таблицы после интеграции из Project Service Automation
 
@@ -135,9 +137,6 @@ ms.locfileid: "6988127"
 
 На следующих рисунках показаны примеры сопоставлений задач шаблона в интеграции данных. В сопоставлении отображается информация о полях, которые будут синхронизированы из Finance в Project Service Automation.
 
-[![Сопоставление шаблонов — обновление фактических данных.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Сопоставление шаблонов — обновление фактических данных](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Сопоставление шаблонов — обновление транзакций.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Сопоставление шаблонов — обновление транзакций](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)

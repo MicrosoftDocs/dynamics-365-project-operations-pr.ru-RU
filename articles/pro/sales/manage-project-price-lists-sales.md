@@ -2,16 +2,18 @@
 title: Управление прайс-листами проекта в предложениях с расценками по проекту
 description: В этой теме предоставлена информация о работе с прайс-листами проекта в предложениях с расценками.
 author: rumant
+manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7fcc7feaa9fc8d53046f54576e20989318dc3ec939569ea3844b18097512a24b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001627"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858624"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Управление прайс-листами проекта в предложениях с расценками по проекту 
 

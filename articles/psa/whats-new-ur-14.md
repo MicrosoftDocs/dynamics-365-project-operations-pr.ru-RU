@@ -2,6 +2,8 @@
 title: Что нового или измененного в выпуске-обновлении 14 для Project Service Automation версии 3
 description: В этом разделе приведены сведения о новых возможностях в выпуске-обновлении 14 для Project Service Automation версии 3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71971b96ea6955b95fa519884356a310b2885d0667d60ca07856a444de77dc64
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9347741d8dae2c9a810bb5b3a32d4d6c0a628ed
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987047"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147174"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Выпуск-обновление 14 Project Service Automation, версия 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-С удовольствием объявляем о выходе последнего обновления для приложения Dynamics 365 Project Service Automation (PSA). Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования. Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите Центр администрирования Dynamics 365 Online и перейдите на страницу решений, чтобы установить обновление. Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](/power-platform/admin/install-remove-preferred-solution).
+С удовольствием объявляем о выходе последнего обновления для приложения Dynamics 365 Project Service Automation (PSA). Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования. Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите Центр администрирования Dynamics 365 Online и перейдите на страницу решений, чтобы установить обновление. Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 В этом разделе перечислены функции и исправления, появившиеся или изменившиеся в выпуске-обновлении 14 для PSA версии 3. Эта версия имеет номер сборки V3.10.4.21 и становится доступна по следующему графику:
 
@@ -62,6 +64,3 @@ ms.locfileid: "6987047"
      - Исправлено: общая цена продажи не рассчитывается до тех пор, пока пользователь не введет себестоимость для оценки расходов по проекту.
      - Исправлено: закрыть предложение с расценками как **Реализованное**, нельзя, если контракт по проекту не находится в состоянии **Черновик**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

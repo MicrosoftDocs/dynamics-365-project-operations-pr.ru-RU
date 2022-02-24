@@ -2,9 +2,11 @@
 title: Стадии проекта
 description: Эта тема предоставляет информацию об этапах проекта, которые доступны в Microsoft Dynamics Project Operations.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea8b74813e8a51930a03571eab0d962e14f66a8fd6cb978d3435570a01ce5c5d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003078"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127489"
 ---
 # <a name="project-stages"></a>Стадии проекта
 
@@ -61,6 +63,3 @@ _**Относится к:** Project Operations для сценариев на о
 
 Когда все транзакции зафиксированы для проекта, руководитель проекта может обновить стадию на **Закрыт**. В этот момент никакие транзакции невозможно зафиксировать, и проект становится доступен только для чтения.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

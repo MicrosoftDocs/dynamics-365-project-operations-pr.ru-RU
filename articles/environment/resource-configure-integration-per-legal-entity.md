@@ -2,22 +2,24 @@
 title: Настройка интеграции Project Operations для каждого юридического лица
 description: Эта тема предоставляет информацию о настройке интеграции по юридическому лицу в Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999422"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122899"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Настройка интеграции Project Operations для каждого юридического лица 
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-В этой теме описаны шаги, необходимые для настройки Dynamics 365 Project Operations для юридического лица.
+Эта тема проведет вас через шаги, необходимые для настройки Dynamics 365 Project Operations для каждого юридического лица.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Включение ключей функций в Dynamics 365 Finance
 
@@ -49,6 +51,3 @@ _**Относится к:** Project Operations для сценариев на о
   - **Тип выставления счетов по умолчанию**: Project Operations использует фиксированный набор значений по умолчанию для типа выставления счетов, которые должны быть сопоставлены со свойствами строки Finance. Создайте запись для каждого типа выставления счетов: **Не указано**, **Оплачиваемый**, **Не оплачиваемый**, **Бесплатный** и **Недоступно**.
   - **Значения по умолчанию для категорий проекта**: выберите категории проектов по умолчанию, которые будут использоваться для каждого типа транзакции. Эти значения по умолчанию будут использоваться в **журнале интеграции Project Operations** и в сметах, где для фактических данных проекта не указана категория транзакции.
   - **Прогнозы**: выберите модель прогноза, которая будет использоваться для оценки времени и расходов.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

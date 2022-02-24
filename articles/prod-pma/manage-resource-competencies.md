@@ -2,9 +2,11 @@
 title: Управление компетенциями ресурсов
 description: В этом разделе представлена информация о настройке компетенций для ресурсов проекта.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007432"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270649"
 ---
 # <a name="manage-resource-competencies"></a>Управление компетенциями ресурсов
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007432"
 
 Компетенция ресурсов — важная часть управления ресурсами. Компетенции можно использовать в качестве основы для определения ресурсов с правильным балансом навыков, образования, сертификации и опыта работы в проектах. Вы должны настроить эту информацию для каждого ресурса и регулярно обновлять ее. Таким образом, вы можете максимизировать возможности, когда определенные компетенции ресурсов совпадают во время назначения ресурсов проекта.
 
-[![Примеры навыков, сертификатов, образования и опыта работы в проектах.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Примеры навыков, сертификатов, образования и опыта работы в проектах](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Следующие процедуры объясняют, как настроить некоторые компетенции для ресурса.
 

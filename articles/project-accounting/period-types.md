@@ -2,16 +2,18 @@
 title: Типы периодов
 description: В этом разделе представлена информация о том, как настроить типы периодов для оценки дохода.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998792"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531533"
 ---
 # <a name="period-types"></a>Типы периодов
 
@@ -32,6 +34,3 @@ _**Относится к:** Project Operations для сценариев на о
 4. Выберите запись типа периода, а затем выберите **Создать периоды** для создания периодов для типа периода. В зависимости от выбранной вами частоты периодов у вас может быть возможность указать дату начала или количество периодов для создания.
 5. Выбрать **Периоды** для просмотра созданных периодов.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

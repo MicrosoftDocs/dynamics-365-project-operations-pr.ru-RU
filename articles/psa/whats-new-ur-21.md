@@ -2,6 +2,8 @@
 title: Что нового и что изменилось в выпуске-обновлении 21 Project Service Automation версии 3
 description: В этом разделе перечислены функции и исправления, доступные в выпуске-обновлении 21 Project Service Automation версии 3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e7bf9d5c85d2fab0d17c435bdd96057c0c80be8f41b16f94afe6b1f554e7a9fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b1194c1cf1997b68030fe88360c6ebb756c715fd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984753"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147039"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Выпуск-обновление 21 Project Service Automation, версия 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Мы рады объявить о последнем обновлении приложения Project Service Automation для Dynamics 365. Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования. Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите страницу решений Центра администрирования Dynamics 365 Online и установите обновление. Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](/power-platform/admin/install-remove-preferred-solution).
+Мы рады объявить о последнем обновлении приложения Project Service Automation для Dynamics 365. Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования. Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите страницу решений Центра администрирования Dynamics 365 Online и установите обновление. Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 В этом разделе перечислены функции и исправления, появившиеся или изменившиеся в выпуске-обновлении 21 Project Service Automation версии 3. Эта версия имеет номер сборки V3.10.32.50 и стала доступна для широкой публики после автоматического обновления в июне 2020 г.
 
@@ -75,6 +77,3 @@ ms.locfileid: "6984753"
 - Логика **Разрешение прайс-листа продаж** неправильно обрабатывает часовые пояса, что приводит к неправильному выбору прайс-листов.
 - **Общая фактическая стоимость** проекта может отличаться на незначительную сумму после утверждения однократной записи.
 - Логика **Разрешение цены** не предоставляет понятное сообщение об ошибке, если **Полученная цена роли** не имеет значения в полях **Базовая единица** и **Цена в базовой единице**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

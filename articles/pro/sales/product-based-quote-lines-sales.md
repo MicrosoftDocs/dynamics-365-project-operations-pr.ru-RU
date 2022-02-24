@@ -2,17 +2,18 @@
 title: Обзор строк предложения с расценками на основе продуктов — облегченное развертывание
 description: Эта тема предоставляет информацию о работе со строками предложений с расценками на основе продукта.
 author: rumant
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 29d82637c6c8bb5b5cde7707d181d5b3d3b235c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003337"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272584"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Обзор строк предложения с расценками на основе продуктов — облегченное развертывание
 

@@ -2,10 +2,12 @@
 title: Использование категории проводки как измерение цен
 description: В этом разделе представлена информация об использовании категории проводки в качестве измерения цены.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988890"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150774"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Использование категории проводки как измерение цен
 
@@ -51,6 +53,3 @@ ms.locfileid: "6988890"
 2. На странице **Параметры** на вкладке **Сумма на основе измерений цен** обратите внимание, что в сетке на вкладке отображаются записи в сущности **Измерения цен**.
 3. Добавьте **Категорию проводки** в этот список и установите поля **Применимо к стоимости** и **Применимо к продажам** на **Да**.
 4. В поле **Тип измерения**, выберите **На основе суммы**, а затем выберите приоритет для **Категория проводки**, связанной со стоимостью и продажами.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

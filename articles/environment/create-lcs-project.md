@@ -2,16 +2,18 @@
 title: Запуск нового проекта LCS
 description: Эта тема предоставляет информацию о создании нового проекта в LCS для вашей среды Project Operations.
 author: stsporen
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989972"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175637"
 ---
 # <a name="start-a-new-lcs-project"></a>Запуск нового проекта LCS
 
@@ -24,16 +26,13 @@ _**Относится к:** Project Operations для сценариев на о
 3. Выберите значок "плюс" (**+**), чтобы создать новый проект.
 4. Для целей предварительного просмотра выберите тип проекта **Миграция, создание решений и знакомство**.
 
-  ![Выберите тип проекта LCS.](./media/create-lcs-1.png)
+  ![Выберите тип проекта LCS](./media/create-lcs-1.png)
 
 5. Задайте имя проекта. 
 6. Выберите **Finance and Operations** в качестве названия продукта и выберите отрасль и методологию. 
 7. Выберите **Создать**.
 
-![Создание проекта LCS.](./media/create-lcs-2.png)
+![Создание проекта LCS](./media/create-lcs-2.png)
 
 Используйте этот проект LCS для развертывания вашей среды Project Operations.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

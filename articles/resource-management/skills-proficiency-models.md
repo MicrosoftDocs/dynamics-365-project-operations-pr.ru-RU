@@ -2,16 +2,18 @@
 title: Навыки и сертификаты
 description: Эта тема предоставляет информацию о добавлении характеристик навыков и сертификации к ресурсам.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990197"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128884"
 ---
 # <a name="skills-and-certifications"></a>Навыки и сертификаты
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
@@ -41,5 +43,3 @@ _**Относится к:** Project Operations для сценариев на о
 3. Во вложенной сетке **Навыки** выберите **+ Добавить новую характеристику требований.**
 4. На панели быстрого создания найдите и выберите требуемые характеристики и добавьте **Значение оценки**.
 5. Выберите **Сохранить и закрыть**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

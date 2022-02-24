@@ -2,22 +2,24 @@
 title: Расширение записей времени
 description: Эта тема предоставляет информацию о том, как разработчики могут расширить элемент управления ввода времени.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993347"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124654"
 ---
 # <a name="extending-time-entries"></a>Расширение записей времени
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
-Dynamics 365 Project Operations включает расширяемый пользовательский элемент управления вводом времени. Этот элемент управления включает следующие функции:
+Dynamics 365 Project Operations включает расширяемый настраиваемый элемент управления вводом времени. Этот элемент управления включает следующие функции:
 
 - Ввод времени по горизонтали в течение недели
 - Итоги за день, строку или неделю
@@ -142,6 +144,3 @@ Dynamics 365 Project Operations включает расширяемый поль
 
 ### <a name="copying-time-entries"></a>Копирование записей времени
 Используйте представление **Копировать столбцы записи времени** для определения списка полей для копирования во время ввода времени. **Дата** и **Длительность** являются обязательными полями и не должны удаляться из представления.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Использование резервируемого ресурса как измерения ценообразования
 description: В этом разделе представлена информация об использовании резервируемого ресурса в качестве измерения ценообразования.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988982"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145014"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Использование резервируемого ресурса как измерения ценообразования
 
@@ -62,18 +64,15 @@ ms.locfileid: "6988982"
 1. Чтобы сделать это, дважды щелкните строку в сетке **Измерения цен**, чтобы открыть страницу измерения **msdyn_bookableresource**.
 2. На странице измерения на вкладке **Связанные** щелкните **Имена полей измерений цен**.
 
- ![Вкладка «Имена полей измерений цен».](media/PD-fieldname.png)
+ ![Вкладка "Имена полей измерений цен"](media/PD-fieldname.png)
 
 4. В открывшемся связанном представлении щелкните **Добавить новое имя поля измерения цен**.
 
- ![Добавить новые имена полей измерения цен.](media/Add-NewPD-fieldname.png)
+ ![Добавить новые имена полей измерения цен](media/Add-NewPD-fieldname.png)
 
 
 При этом открывается страница **Создать имя поля измерения цен** для **msdyn_bookableresource**. 
 
 5. Добавьте **msdyn_projectteam** в поле **Логическое имя сущности** и **msdyn_bookableresourceid** в поле **Имя поля**. Сохранить запись.
 
- ![Форма создания имени поля измерения цен.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Форма создания имени поля измерения цен](media/PD-fieldname-Added.png)

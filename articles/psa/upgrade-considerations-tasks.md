@@ -1,6 +1,8 @@
 ---
 title: Рекомендации по обновлению структурной декомпозиции работ
 description: В этом разделе приведены сведения об обновлении структурной декомпозиции работ из Project Service Automation версий с 2.x по 3.x.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992357"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149559"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Рекомендации по обновлению структурной декомпозиции работ
 
@@ -32,20 +34,20 @@ ms.locfileid: "6992357"
 ## <a name="key-entities"></a>Основные сущности
 Для точной структурной декомпозиции работ, которая уже загружена ресурсами, требуются следующие сущности:
 
-- [Проект](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Проектная группа](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Задача проекта](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Назначения ресурсов](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Зависимость задач проекта](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Резервируемые ресурсы](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Проект](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Проектная группа](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Задача проекта](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Назначения ресурсов](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Зависимость задач проекта](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Резервируемые ресурсы](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Чтобы определить загруженную ресурсом структурную декомпозицию работ, необходимо выполнить следующие шаги:
 
-1. Создание нового проекта. Дополнительные сведения о том, как создать новый проект, см. в статье [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Создайте одну или несколько задач. Дополнительные сведения о том, как создать задачу, см. в статье [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Определите зависимости задачи. Дополнительные сведения см. в разделе [Зависимость задач проекта](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency),
-4. Назначьте участников проектной рабочей группы проекту. Дополнительные сведения см. в статье [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Назначьте участников проектной рабочей группы задаче. Дополнительные сведения см. в статье [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Создание нового проекта. Дополнительные сведения о том, как создать новый проект, см. в статье [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Создайте одну или несколько задач. Дополнительные сведения о том, как создать задачу, см. в статье [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Определите зависимости задачи. Дополнительные сведения см. в разделе [Зависимость задач проекта](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency),
+4. Назначьте участников проектной рабочей группы проекту. Дополнительные сведения см. в статье [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Назначьте участников проектной рабочей группы задаче. Дополнительные сведения см. в статье [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Отношения проектной рабочей группы
 
@@ -94,6 +96,3 @@ ms.locfileid: "6992357"
 
 - Все зависимости задач проекта должны быть связаны с одним и тем же проектом.
 - Задача не может иметь одну и ту же зависимость, на которую ссылаются более одного раза.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

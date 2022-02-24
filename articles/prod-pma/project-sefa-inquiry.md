@@ -2,9 +2,11 @@
 title: Запрос графика расходов федеральных наград
 description: Эта тема предоставляет информацию о запросе графика расходов федеральных наград.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007252"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083172"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Запрос графика расходов федеральных наград
 
@@ -60,7 +62,7 @@ ms.locfileid: "7007252"
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Настройка грантов для отчета по запросу о графике расходов федеральных наград
 
 1. Перейдите в раздел **Управление и учет по проектам \> Гранты \> Гранты** и выберите существующий грант.
-2. На экспресс-вкладке **Настройка** в поле **Каталог федеральной внутренней помощи** присвойте номер CFDA. Номер CFDA на гранте определяет кластер CFDA для отчетности.
+2. На экспресс-вкладке **Настройка** в поле **Каталог федеральной внутренней помощи** присвойте номер CFDA. Номер CFDA на гранте определяет кластер CFDA для отчетности.
 3. На экспресс-вкладке **Контактные данные** введите информацию о грантодателе, выполнив следующие действия:
 
     1. В поле **Клиент гранта** введите клиента, ответственного за грант. Для существующего гранта эта информация может быть уже введена.
@@ -77,8 +79,8 @@ ms.locfileid: "7007252"
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Исключение грантов из отчетности SEFA в зависимости от типа гранта
 
-1. Перейдите в раздел **Управление и учет по проектам \> Настройка \> Гранты \> Типы грантов**.
-2. На экспресс-вкладке **Информация по умолчанию** выберите флажок **Исключить из графика расходов федеральных премий**.
+1. Перейдите в раздел **Управление и учет по проектам \> Настройка \> Гранты \> Типы грантов**.
+2. На экспресс-вкладке **Информация по умолчанию** выберите флажок **Исключить из графика расходов федеральных премий**.
 3. Выберите **Сохранить**, чтобы сохранить изменения.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Запуск запроса графика расходов федеральных наград
@@ -102,6 +104,3 @@ ms.locfileid: "7007252"
 - Каталог федеральной внутренней помощи
 - Получения
 - Расходы
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

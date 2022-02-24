@@ -2,9 +2,11 @@
 title: Настройка выставления счетов внутрихолдингового проекта
 description: В этой теме показано, как настроить выставление счетов по проекту между двумя компаниями в вашей организации.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfb804945d15476fad29ce93d3f21adfbf2d950ace7b58f30911b36e494ff0c1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989432"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083247"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Настройка выставления счетов внутрихолдингового проекта
 
@@ -62,6 +64,3 @@ ms.locfileid: "6989432"
 32. В поле **Цены** введите число.
 33. Нажмите кнопку **Сохранить**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

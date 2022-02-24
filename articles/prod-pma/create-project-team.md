@@ -2,9 +2,11 @@
 title: Создание рабочей группы проекта
 description: В этом разделе представлена информация о том, как создавать рабочие группы по проекте и управлять ими.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005812"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270874"
 ---
 # <a name="create-a-project-team"></a>Создание проектной группы
 
@@ -33,7 +35,7 @@ ms.locfileid: "7005812"
 
 Менеджер проекта может выбрать роль на странице, а затем, если есть доступный ресурс, который соответствует требованиям, выбрать резервирование ресурса для заполнения роли. Обратите внимание, что на данном этапе планирования ресурсы резервировать не нужно. При создании WBS вы можете заменить роли укомплектованными ресурсами для проекта. Если роли заменяются укомплектованными ресурсами в WBS, настройка ресурсов автоматически обновляет список и расписание проектной группы.
 
-[![Список проектной команды, включающий как роли, так и фактические ресурсы.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Список проектной команды, включающий как роли, так и фактические ресурсы](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 У менеджера проекта есть различные варианты резервирования ресурса для проекта, например **Оставшаяся загрузка**, **Полная загрузка**, **Процент загрузки** и **Указать часы**. Эти параметры резервирования можно отменить в любой момент, если назначение ресурсов изменится. Поддерживаются два типа резервирования:
 

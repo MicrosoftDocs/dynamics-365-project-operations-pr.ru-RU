@@ -2,16 +2,18 @@
 title: Новые возможности в ноябре 2020 г. — Project Operations для сценариев на основе ресурсов/без запасов
 description: Эта тема предоставляет информацию об обновлениях качества, доступных в выпуске Project Operations за ноябрь 2020 г., для сценариев на основе ресурсов/без запасов.
 author: sigitac
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007972"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367282"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в ноябре 2020 г. — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -65,7 +67,4 @@ _**Относится к:** Project Operations для сценариев на о
 | Учет по проекту  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Включение этой функции нескольких строк контракта невозможно без интеграции с CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Нормативные обновления
-Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.

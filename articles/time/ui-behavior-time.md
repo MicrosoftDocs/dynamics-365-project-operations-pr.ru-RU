@@ -2,16 +2,18 @@
 title: Поведение пользовательского интерфейса ввода времени
 description: В этом разделе представлена информация о поведении пользовательского интерфейса ввода времени.
 author: stsporen
+manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999467"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499630"
 ---
 # <a name="time-entry-ui-behavior"></a>Поведение пользовательского интерфейса ввода времени
 
@@ -25,7 +27,7 @@ _**Относится к:** Project Operations для сценариев на о
 |------------   |------------------------   |
 | Новая           | Alt + Shift + N           |
 | Копировать строку      | Alt + Shift + C           |
-| Изменить сущность    | Alt + Shift + E           |
+| Изменить запись    | Alt + Shift + E           |
 | Изменить строку      | Alt + Shift + Ctrl + E    |
 | Открыть запись    | Alt + Shift + O           |
 | Отправить        | Alt + Shift + S           |

@@ -2,16 +2,18 @@
 title: Определение строк предложения с расценками на основе продуктов
 description: В этом разделе представлена информация о применении себестоимости к строке предложения с расценками на основе продуктов.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001897"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118940"
 ---
 # <a name="costing-product-based-quote-lines"></a>Определение строк предложения с расценками на основе продуктов
 
@@ -31,6 +33,3 @@ _**Относится к:** Project Operations для сценариев на о
 Fabrikam Robotics устанавливает роботизированные манипуляторы на сборочных линиях корпорации A Datum Corporation. Fabrikam предоставляет услуги по установке, но роботизированные манипуляторы закупаются у компании Trey Robotics. Если установка роботизированных манипуляторов в корпорации A Datum Corporation откроет новую вертикаль отрасли производства для роботизированных манипуляторов компании Trey, компания Trey может предоставить Fabrikam особую скидку на эту сделку.
 
 В этом случае Fabrikam создаст строку предложения с расценками на основе продукта для роботизированных манипуляторов и введет специальную стоимость за единицу измерения для этого предложения. Эта стоимость отличается от стандартной стоимости манипуляторов Trey Robotic.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

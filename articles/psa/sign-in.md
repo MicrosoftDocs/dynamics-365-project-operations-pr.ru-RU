@@ -2,6 +2,8 @@
 title: Выполнение входа в Project Service Automation
 description: Порядок выполнения входа (Project Service Automation)
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990467"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150279"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Выполнение входа в Project Service Automation
 
@@ -37,7 +39,7 @@ ms.locfileid: "6990467"
   
 - Ваш пароль  
   
-  Возможно, вы получили эти данные от своего администратора по электронной почте. Если у вас нет этих данных или при выполнении входа возникает проблема, см. раздел [Как найти администратора или специалиста по поддержке](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Возможно, вы получили эти данные от своего администратора по электронной почте. Если у вас нет этих данных или при выполнении входа возникает проблема, см. раздел [Как найти администратора или специалиста по поддержке](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Задайте личные параметры, чтобы разрешить эл. почту  
  Необходимо задать параметры электронной почты, чтобы позволить другим отправлять сообщения электронной почты от вашего имени, чтобы [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] могло отправлять вам уведомления, когда нужно утвердить время и расходы или зарегистрироваться для участия в проектах.  
@@ -54,6 +56,3 @@ ms.locfileid: "6990467"
   
 ### <a name="see-also"></a>См. также  
  [Руководство по совместной работе и вводу данных о времени и расходах](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

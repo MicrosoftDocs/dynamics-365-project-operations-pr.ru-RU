@@ -2,16 +2,18 @@
 title: Копирование возможных сделок на основе проекта
 description: Эта тема предоставляет информацию о копировании возможных сделок на основе проекта в Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999737"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181696"
 ---
 # <a name="copy-project-based-opportunities"></a>Копирование возможных сделок на основе проекта
 
@@ -32,6 +34,3 @@ _**Относится к:** Project Operations для сценариев на о
     | Скопировать цены | Значение "Да/Нет", указывающее, следует ли копировать цену возможной сделки из исходной возможной сделки. | Если выбрано значение **Да**, прайс-листы копируются из исходной в целевую возможную сделку. Если выбрано значение **Нет**, прайс-листы устанавливаются по умолчанию на основе последних прайс-листов, которые были настроены. |
 
 3. Нажмите **ОК**. Система создает копию возможной сделки по проекту на основе выбранных параметров, и открывается новая возможная сделка на основе проекта.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
