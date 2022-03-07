@@ -2,18 +2,16 @@
 title: Изменение требования ресурса
 description: В этом разделе представлена информация об обновлении сведений требования ресурсов.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128794"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999782"
 ---
 # <a name="edit-a-resource-requirement"></a>Изменение требования ресурса
 
@@ -37,3 +35,5 @@ _**Относится к:** Project Operations для сценариев на о
 ## <a name="edit-resource-assignment-contours"></a>Изменение контуров назначения ресурсов
 
 Помимо редактирования сведений требований к ресурсам, менеджер проекта может обновлять отдельные контуры требований к ресурсам с помощью функции **Указание шаблона**. При выборе пункта **Указание шаблона** откроется страница, на которой вы сможете просматривать контуры в масштабе дня, недели или месяца. Для каждого контура можно настроить время начала, время окончания и общие трудозатраты за определенный период.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Использование доски расписания для резервирования ресурсов для проекта
 description: В этом разделе представлена информация о том, как резервировать ресурсы.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144429"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998067"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Использование доски расписания для резервирования ресурсов для проекта
 
@@ -53,3 +51,6 @@ ms.locfileid: "5144429"
 Требования выполняется с помощью выбранного ресурса. В области **Требования к резервированию** обратите внимание, что требование обновлено, и ресурс отображается как зарезервированный по проекту.
 
 ![Ресурс, зарезервированный по проекту](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

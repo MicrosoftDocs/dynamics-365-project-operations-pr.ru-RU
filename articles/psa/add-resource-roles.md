@@ -2,8 +2,6 @@
 title: Добавление ролей ресурсов
 description: Как назначить роль ресурсам Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 737c36cc7a31b5fa10524e13709ae99751aa1771
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2b92df44415bc6efd1c610fb26ff153eb1cd1615
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145914"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014492"
 ---
 # <a name="add-resource-roles-project-service"></a>Добавление ролей ресурсов (Project Service)
 
@@ -47,3 +45,6 @@ ms.locfileid: "5145914"
   
 ### <a name="see-also"></a>См. также  
  [Настройка ресурсов](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

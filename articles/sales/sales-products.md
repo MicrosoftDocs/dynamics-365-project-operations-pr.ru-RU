@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 606d44b64e5e1cd92ff3ab057a9cce408f972574
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121279"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277444"
 ---
 # <a name="products"></a>Продукты
 
@@ -124,3 +124,6 @@ _**Относится к:** Project Operations для сценариев на о
 - **SKU продукта** 
 
 Свойства **Кол-во пользователей** и **Кол-во месяцев** могут быть отмечены как факторы количества путем редактирования этих свойств в строке продукта. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

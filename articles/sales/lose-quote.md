@@ -2,18 +2,16 @@
 title: Копирование предложений с расценками на основе проектов
 description: Эта тема предоставляет информацию о том, как копировать предложения с расценками на основе проекта в Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181828"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992177"
 ---
 # <a name="copy-project-based-quotes"></a>Копирование предложений с расценками на основе проектов
 
@@ -45,3 +43,6 @@ _**Относится к:** Project Operations для сценариев на о
 > - Ссылка на проект в строках предложения с расценками на основе проекта — информация о бюджете клиента
 >
 >Поскольку эта информация очень специфична для каждого предложения с расценками, эти поля и записи не копируются. Копируются строки предложения для проектов и продуктов, оценки деталей строки предложения с расценками и значения, которые нельзя превышать на уровне предложения с расценками. Значения по умолчанию цены и ставки затрат зависят от параметра **Копировать цены**, выбранного на странице диалога **Параметры копирования**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

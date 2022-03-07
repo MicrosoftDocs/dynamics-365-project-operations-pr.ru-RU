@@ -1,5 +1,5 @@
 ---
-title: Сканирование чеков с распознаванием текста
+title: Распознавание текста для сопоставления чеков с расходами
 description: Эта тема предоставляет информацию об оптическом распознавании символов (OCR) для квитанций.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499867"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124339"
 ---
-# <a name="capture-a-receipt-using-ocr"></a>Сканирование чеков с распознаванием текста
+# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Распознавание текста для сопоставления чеков с расходами
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
@@ -94,6 +94,3 @@ _**Относится к:** Project Operations для сценариев на о
 Приложение Finance обращается в Cognitive Services для извлечения данных из полей. Службы Cognitive Services хранят копию вашей квитанции до 24 часов, пока происходит обработка. После завершения обработки службы Cognitive Services удалят квитанцию. Квитанции по-прежнему хранятся в Finance.
 
 Дополнительные сведения см. в разделе [Включение распознавания чеков с помощью новой возможности распознавателя документов](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

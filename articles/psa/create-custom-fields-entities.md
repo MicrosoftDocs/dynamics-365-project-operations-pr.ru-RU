@@ -17,16 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144879"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083257"
 ---
 # <a name="create-custom-fields-and-entities"></a>Создание настраиваемых полей и сущностей 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Выполните следующие шаги в любое время, когда требуется создать настраиваемый набор параметров или сущность на платформе Power Apps.  
 Процедуры в данном разделе необходимо выполнить с помощью веб-интерфейса Project Service Automation (PSA).

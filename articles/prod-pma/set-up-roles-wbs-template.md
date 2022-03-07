@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083168"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288665"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Настройка ролей в шаблонах структурной декомпозиции работ
 
@@ -107,3 +107,6 @@ ms.locfileid: "4083168"
     > Вы не получите предупреждение о том, что указанный ресурс теперь равен 2, потому что количество ресурсов остается 1.
 
 14. На странице **Структурная декомпозиция работ** проверьте назначение ресурса в WBS, а затем выберите **Сохранить**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

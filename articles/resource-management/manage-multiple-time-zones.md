@@ -2,18 +2,16 @@
 title: Управление часовыми поясами
 description: Когда проект создается, его часовой пояс основан на часовом поясе, определенном в применяемом шаблоне рабочего времени.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119839"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997752"
 ---
 # <a name="manage-time-zones"></a>Управление часовыми поясами
 
@@ -68,3 +66,6 @@ _**Относится к:** Project Operations для сценариев на о
 Обратите внимание, что при более внимательном рассмотрении деталей резервирования можно увидеть разницу во времени начала резервирования. Резервирования начинаются не ранее времени начала контура назначения и не ранее доступного времени начала работы ресурса.
 
 ![Новые резервирования ресурсов на таблице расписаний](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

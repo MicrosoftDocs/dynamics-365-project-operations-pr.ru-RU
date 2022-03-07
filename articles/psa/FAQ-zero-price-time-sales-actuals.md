@@ -2,8 +2,6 @@
 title: Почему цена по умолчанию принимает нулевое значение в фактических данных продаж времени?
 description: Устранение неполадки, когда цена по умолчанию принимает нулевое значение в фактических данных продаж времени.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146229"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992582"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Почему цена по умолчанию принимает нулевое значение в фактических данных продаж времени?
 
@@ -57,3 +55,6 @@ ms.locfileid: "5146229"
 
 Если вы все еще не видите действительную цену в ваших фактических данных продаж времени после выполнения трех приведенных выше проверок, зарегистрируйте обращение в службу поддержки. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

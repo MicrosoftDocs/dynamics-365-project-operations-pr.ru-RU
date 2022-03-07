@@ -2,12 +2,10 @@
 title: Создание настраиваемых решений для измерений ценообразования
 description: В этой теме объясняется, как создать настраиваемое решение при создании пользовательских измерений ценообразования.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144655"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995282"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Создание настраиваемых решений для измерений ценообразования
 
@@ -34,7 +32,7 @@ ms.locfileid: "5144655"
 1. Выберите **Параметры** > **Решения**, затем выберите **Создать**. 
 2. Назовите решение, **Измерения ценообразования \<your organization name>**, введите остальные необходимые сведения, затем выберите **Сохранить**.
 
-> ![Создание настраиваемого решения для измерений ценообразования](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Создание настраиваемого решения для измерений ценообразования.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Добавление всех требуемых сущностей и связанных компонентов в решение измерения ценообразования
 Необходимо добавить следующие сущности Project Service в ваше решение ценообразования. Выполните шаги в этой процедуре, чтобы выполнить некоторые важные изменения схемы в решении ценообразования, чтобы сущности знали о новых измерениях ценообразования.
@@ -56,15 +54,18 @@ ms.locfileid: "5144655"
 - Цена роли 
 - Запись времени 
 
-> ![Добавление существующих сущностей в решение измерения ценообразования](media/Existing-entities-to-PD-solution.png)
+> ![Добавление существующих сущностей в решение измерения ценообразования.](media/Existing-entities-to-PD-solution.png)
 
-> ![Выберите компоненты решения](media/Dimension-Components.png)
+> ![Выберите компоненты решения.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Обязательно включите все формы и представления для каждой выбранной сущности.
 
 4. При появлении запроса на включение всех зависимых сущностей для выбранных сущностей выберите **Нет**.
 
-> ![Не включайте все связанные компоненты](media/Do-not-include-required.png)
+> ![Не включайте все связанные компоненты.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

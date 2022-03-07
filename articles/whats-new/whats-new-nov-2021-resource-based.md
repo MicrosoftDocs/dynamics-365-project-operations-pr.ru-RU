@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
+ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942901"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7827342"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в ноябре 2021 г. — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -20,7 +20,7 @@ ms.locfileid: "7942901"
 
 Этот тема применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
 
-- Project Operations в среде Dataverse версии 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Project Operations в среде Dataverse версии 4.26.0.145, 4.26.0.148 или 4.26.0.150
 - Управление проектами и бухгалтерский учет в среде Dynamics 365 Finance версии 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Функции, входящие в данный выпуск

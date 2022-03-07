@@ -2,18 +2,16 @@
 title: Настройка подлежащих оплате компонентов строки предложения с расценками на основе проекта
 description: В этом разделе представлена информация о включенных, подлежащих оплате и не подлежащих оплате компонентах в строках предложений с расценками на основе проекта.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642559"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004012"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Настройка подлежащих оплате компонентов строки предложения с расценками на основе проекта
 
@@ -53,3 +51,6 @@ _**Относится к:** Project Operations для сценариев на о
 | No | Да | Не может быть установлено | Не оплачивается | Выставления счетов за фактическое время: Недоступно </br>Тип выставления счетов за фактические расходы: Не оплачивается |
 | Да | No | Оплачивается | Не может быть установлено | Выставления счетов за фактическое время: Оплачивается </br>Тип выставления счетов за фактические расходы: Недоступно |
 | Да | No | Не оплачивается | Не может быть установлено | Выставления счетов за фактическое время: Не оплачивается </br> Тип выставления счетов за фактические расходы: Недоступно |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

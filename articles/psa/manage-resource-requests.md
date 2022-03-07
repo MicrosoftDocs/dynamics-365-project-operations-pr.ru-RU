@@ -2,8 +2,6 @@
 title: Управление запросами на ресурсы
 description: Как управлять запросами на ресурсы в Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149874"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985157"
 ---
 # <a name="manage-resource-requests-project-service"></a>Управление запросами на ресурсы (Project Service)
 
@@ -45,9 +43,12 @@ ms.locfileid: "5149874"
   
    -   Щелкните **Фильтр** для отображения панели **Фильтр**, которая позволяет фильтровать результаты по организационным единицам компании, навыкам или другим признакам.  
   
-       ![Экран "Запрос ресурса" в Project Service](../psa/media/project-service-resource-request-screen.png "Экран &quot;Запрос ресурса&quot; в Project Service")  
+       ![Экран «Запрос ресурса» в Project Service.](../psa/media/project-service-resource-request-screen.png "Экран &quot;Запрос ресурса&quot; в Project Service")  
   
 3. В календаре для резервируемого ресурса выберите период времени, на который нужно зарезервировать ресурс, а затем щелкните **Зарезервировать**, чтобы зарезервировать ресурс, или **Предложить резервирование**, чтобы предложить резервирование и чтобы запрашивающее лицо его утвердило. При резервировании ресурса можно использовать предварительное или окончательное резервирование.  
   
 ### <a name="see-also"></a>См. также  
  [Руководство по диспетчеру ресурсов](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

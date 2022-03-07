@@ -2,10 +2,9 @@
 title: Домашняя страница планирования проекта
 description: В этом разделе представлена информация о планировании проекта.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148254"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990602"
 ---
 # <a name="project-planning-home-page"></a>Домашняя страница планирования проекта
 
@@ -52,3 +51,6 @@ Dynamics 365 Project Service Automation предлагает сквозную п
 - [Шаблоны проектов](project-templates.md)
 - [Стадии проекта](project-stages.md)
 - [Параметры проекта](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

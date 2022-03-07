@@ -2,8 +2,6 @@
 title: Просмотр невыполненной работы по выставлению счетов для проектов и контрактов по проекту
 description: В этом разделе представлена информация о том, как проверить невыполненные работы по времени, расходам и продуктам, а также как отметить их как готовые к выставлению счетов.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150504"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008552"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Просмотр невыполненной работы по выставлению счетов для проектов и контрактов по проекту
 
@@ -59,3 +57,6 @@ ms.locfileid: "5150504"
 Для просмотра вех выставления счетов откройте **Продажи** \> **Выставление счетов** \> **Вехи фиксированных цен**. Выберите вехи, которые готовы к выставлению счетов, затем выберите **Готово к выставлению счета**. Состояние выставления счета этих вех изменяется на **Готово к выставлению счета**.
 
 ![Вехи фиксированных цен](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

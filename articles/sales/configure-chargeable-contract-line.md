@@ -1,5 +1,5 @@
 ---
-title: Настройка подлежащих оплате компонентов в строке контракта по проекту
+title: Настройка подлежащих оплате компонентов строки контракта на основе проекта
 description: Эта тема предоставляет информацию о включенных, оплачиваемых и неоплачиваемых компонентах в строках контракта.
 author: rumant
 manager: Annbe
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858354"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128713"
 ---
-# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Настройка подлежащих оплате компонентов в строке контракта по проекту
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Настройка подлежащих оплате компонентов строки контракта на основе проекта
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
@@ -58,6 +58,3 @@ _**Относится к:** Project Operations для сценариев на о
 | No | Да | Не может быть установлено | Не оплачивается | Выставления счетов за фактическое время: Недоступно </br>Тип выставления счетов за фактические расходы: Не оплачивается |
 | Да | No | Оплачивается | Не может быть установлено | Выставления счетов за фактическое время: Оплачивается </br>Тип выставления счетов за фактические расходы: Недоступно |
 | Да | No | Не оплачивается | Не может быть установлено | Выставления счетов за фактическое время: Не оплачивается </br> Тип выставления счетов за фактические расходы: Недоступно |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

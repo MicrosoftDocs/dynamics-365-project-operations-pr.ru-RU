@@ -2,18 +2,16 @@
 title: Обзор обработки счетов
 description: Этот тема предоставляет обзор обработки счетов в Project Operations для сценариев на основе ресурсов/отсутствия запасов.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 13f16d42ffdc0a9a6f369c311dfd9e15ad3f7aff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089292"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001532"
 ---
 # <a name="invoicing-process-overview"></a>Обзор обработки счетов
 
@@ -30,3 +28,6 @@ Project Operations для сценариев, основанных на ресу
 Можно [вручную создать счет-проформу](../proforma-invoicing/create-manual-proforma-invoice.md) или использовать [периодический процесс](../proforma-invoicing/configure-automated-invoice-creation.md). Руководитель проекта может [скорректировать черновик счета-проформы](../proforma-invoicing/manage-proforma-invoice.md) по мере необходимости, а затем подтвердить его.
 
 Подтвержденный счет-проформа отправляется на адрес модуль **Управление и учет по проектам** в Finance. Бухгалтер проекта форматирует и обновляет предложение по счету по проекту, а затем разносит и распечатывает документ. Разнесенные счета по проекту записываются в Главной книге, а также во подкнигах Клиента и Проекта.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

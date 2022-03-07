@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: b63346f56db8b906e5aa45940465bdb18e3df480
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531531"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279019"
 ---
 # <a name="manage-revenue-estimates"></a>Управление оценками дохода
 
@@ -90,3 +90,6 @@ _**Относится к:** Project Operations для сценариев на о
 Используйте эту страницу, чтобы отменить все исключения с указанной датой оценки и статусом оценки **Исключено**. Статус транзакции изменится после того, как вы выберете соответствующие поля.
 
 Это также автоматически изменяет статус проекта на **В процессе**, если стадия проекта завершена. Статус оценки периода проекта снова изменится на **Разнесено**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Просмотр оплачиваемой загруженности для ресурсов
 description: В этом разделе представлена информация о представлении загруженности ресурсов.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992850"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122179"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Просмотр оплачиваемой загруженности для ресурсов
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Представление загруженности** на странице **Загруженность ресурсов Project Service** отображает оплачиваемую загруженность для каждого резервируемого ресурса. Поскольку это представление основано на доске расписания, вы найдете много тех же функций.
 
@@ -99,6 +99,3 @@ ms.locfileid: "5992850"
   - Роль в строке контракта по проекту, поддерживающей проект, была установлена на неоплачиваемое значение.
   - У проекта нет связанной строки контракта.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

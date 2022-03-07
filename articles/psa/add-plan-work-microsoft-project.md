@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146004"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129694"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Использование надстройки Project Service Automation для планирования работы в Microsoft Project
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -175,59 +173,6 @@ ms.locfileid: "5146004"
 4. Нажмите кнопку **Опубликовать**.  
 
 В результате связи файла Project с [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] файл Project становится шаблоном и задает структурную декомпозицию работ в шаблоне [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] как доступную только для чтения.  Чтобы внести изменения в план проекта, вам нужно внести их в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] и опубликовать как обновления в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
-
-## <a name="read-a-resource-loaded-schedule"></a>Прочтите расписание загрузки ресурса
-
-При чтении проекта из Project Service Automation календарь ресурса не синхронизируется с клиентом для настольного компьютера. Если есть различия в длительности, усилиях или завершении задач, это, вероятно, связано с тем, что ресурсы и клиент для настольного компьютера не имеют одного и того же шаблона календаря рабочих часов, примененного к проекту.
-
-
-## <a name="data-synchronization"></a>Синхронизация данных
-
-В следующей таблице показано, как данные синхронизируются между Project Service Automation и надстройкой Microsoft Project для настольных компьютеров.
-
-| **Сущность** | **Поле** | **Microsoft Project к Project Service Automation** | **Project Service Automation к Microsoft Project** |
-| --- | --- | --- | --- |
-| Задача проекта | Срок выполнения | ● | - |
-| Задача проекта | Оценка трудозатрат | ● | - |
-| Задача проекта | Код клиента MS Project | ● | - |
-| Задача проекта | Родительская задача | ● | - |
-| Задача проекта | Project | ● | - |
-| Задача проекта | Задача проекта | ● | - |
-| Задача проекта | Название задачи проекта | ● | - |
-| Задача проекта | Единица распределения ресурсов (устарело в 3.0) | ● | - |
-| Задача проекта | Запланированная длительность | ● | - |
-| Задача проекта | Дата начала | ● | - |
-| Задача проекта | Идентификатор WBS | ● | - |
-
-| **Сущность** | **Поле** | **Microsoft Project к Project Service Automation** | **Project Service Automation к Microsoft Project** |
-| --- | --- | --- | --- |
-| Участник команды | Код клиента MS Project | ● | - |
-| Участник команды | Название должности | ● | - |
-| Участник команды | проект | ● | ● |
-| Участник команды | Проектная группа | ● | ● |
-| Участник команды | Единица распределения ресурсов | - | ● |
-| Участник команды | Роль | - | ● |
-| Участник команды | Рабочие часы | Не синхронизировано | Не синхронизировано |
-
-| **Сущность** | **Поле** | **Microsoft Project к Project Service Automation** | **Project Service Automation к Microsoft Project** |
-| --- | --- | --- | --- |
-| Назначение ресурса | С даты | ● | - |
-| Назначение ресурса | часов | ● | - |
-| Назначение ресурса | Код клиента MS Project | ● | - |
-| Назначение ресурса | Запланированная работа | ● | - |
-| Назначение ресурса | Project | ● | - |
-| Назначение ресурса | Проектная группа | ● | - |
-| Назначение ресурса | Назначение ресурса | ● | - |
-| Назначение ресурса | Задача | ● | - |
-| Назначение ресурса | Дата окончания | ● | - |
-
-| **Сущность** | **Поле** | **Microsoft Project к Project Service Automation** | **Project Service Automation к Microsoft Project** |
-| --- | --- | --- | --- |
-| Зависимости задач проекта | Зависимость задач проекта | ● | - |
-| Зависимости задач проекта | Тип ссылки | ● | - |
-| Зависимости задач проекта | Задача-предшественник | ● | - |
-| Зависимости задач проекта | Project | ● | - |
-| Зависимости задач проекта | Задача-последователь | ● | - |
 
 ### <a name="see-also"></a>См. также  
  [Руководство менеджера по проектам](../psa/project-manager-guide.md)

@@ -17,17 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 32d0dbc3a69d713dcae8d27e52f2a0c6fc296127
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148479"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083294"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Добавление настраиваемых полей к настройке цены и транзакционным сущностям 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 В этом разделе предполагается, что пользователь выполнил процедуры из раздела [Создание настраиваемых полей и сущностей](create-custom-fields-entities.md). Если вы еще не завершили эти процедуры, вернитесь и выполните их, а затем вернитесь к этому разделу. 
 
 В этом разделе процедуры покажут, как добавить необходимые ссылки на настраиваемые поля в сущности и в элементы пользовательского интерфейса (UI), такие как формы и представления.

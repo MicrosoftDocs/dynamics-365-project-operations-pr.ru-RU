@@ -2,12 +2,10 @@
 title: Использование резервируемого ресурса как измерения ценообразования
 description: В этом разделе представлена информация об использовании резервируемого ресурса в качестве измерения ценообразования.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145014"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012107"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Использование резервируемого ресурса как измерения ценообразования
 
@@ -76,3 +74,6 @@ ms.locfileid: "5145014"
 5. Добавьте **msdyn_projectteam** в поле **Логическое имя сущности** и **msdyn_bookableresourceid** в поле **Имя поля**. Сохранить запись.
 
  ![Форма создания имени поля измерения цен](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

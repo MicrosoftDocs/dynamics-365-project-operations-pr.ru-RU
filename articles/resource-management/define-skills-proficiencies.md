@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d1ef50a3aa297ef439b54d37de629414ca66c820
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083132"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279694"
 ---
 # <a name="define-skills-and-proficiencies"></a>Определение навыков и квалификаций
 
@@ -42,3 +42,6 @@ _**Относится к:** Project Operations для сценариев на о
 
 
 Эти значения оценок отображаются в фильтрах **Требования ресурсов**, **Таблица расписаний** и **Помощник по расписанию**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

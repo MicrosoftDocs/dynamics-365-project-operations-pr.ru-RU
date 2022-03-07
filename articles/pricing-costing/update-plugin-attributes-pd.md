@@ -2,18 +2,16 @@
 title: Обновление атрибутов подключаемых модулей новыми измерений цен
 description: В этом разделе представлена информация об обновлении атрибутов подключаемого модуля для измерений цены.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643234"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988352"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Обновление атрибутов подключаемых модулей новыми измерений цен
 
@@ -52,3 +50,6 @@ ms.locfileid: "4643234"
 7. Нажмите **ОК**, чтобы закрыть страницу, затем выберите **Обновить шаг**.
 8. Повторите шаги 2-7 для второго подключаемого модуля, **PreOperationQuoteLineDetail**. Для этого подключаемого модуля необходимо обновить шаг **Update of msdyn_quotelinetransaction**.
 9. Закройте **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

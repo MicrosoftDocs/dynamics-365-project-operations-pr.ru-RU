@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 8ffbcb326e5cd86c49b3b3b27ce7d68404a6842b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365597"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289250"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Обзор развертывания Project Operations для сценариев на основе запасов/производственных заказов
 
@@ -43,3 +43,6 @@ _**Применяется к:** Project Operations для сценариев н�
 - Механизм налога с продаж и обменного курса корпоративного класса для создания счетов для клиентов по проектам.
 - Система бухгалтерского учета и признания выручки по проектам, соответствующая международным стандартам финансовой отчетности (МСФО).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

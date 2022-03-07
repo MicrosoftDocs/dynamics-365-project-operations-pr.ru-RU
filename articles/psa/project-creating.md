@@ -2,8 +2,6 @@
 title: Расписания проектов
 description: В этом разделе представлена информация о том, как создать расписание.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148434"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998432"
 ---
 # <a name="project-schedules"></a>Расписания проектов 
 
@@ -96,7 +94,7 @@ ms.locfileid: "5148434"
 
 Название задачи описывает работу, которая должна быть выполнена. В PSA атрибуты, связанные с задачей, описываются расписание задачи и ее требования к комплектации штата.
 
-> ![Атрибуты задачи](media/project-2.png)
+> ![Атрибуты задачи.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Атрибуты расписания
 
@@ -149,3 +147,6 @@ ms.locfileid: "5148434"
 ### <a name="manual-scheduling"></a>Ручное планирование
 
 Если правила автоматического планирования не соответствуют вашим требованиям, можно установить для задачи режим **Запланировано вручную**. При этой настройке модуль планирования не рассчитывает значения для других атрибутов планирования. Независимо из режима задачи, если заданы предшественники для задач, это всегда влияет на дату начала зависимой задачи.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

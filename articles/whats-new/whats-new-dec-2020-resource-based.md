@@ -2,19 +2,17 @@
 title: Новые возможности в декабре 2020 г. — Project Operations для сценариев на основе ресурсов/без запасов
 description: Эта тема предоставляет информацию об обновлениях качества, доступных в выпуске Project Operations за декабрь 2020 г., для сценариев на основе ресурсов/без запасов.
 author: sigitac
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727896"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984887"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в декабре 2020 г. — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -108,4 +106,7 @@ _**Относится к:** Project Operations для сценариев на о
 | Проезд и расходы                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Бизнес-процесс автоматической разноски отчета о расходах завершен, но счет не разносится                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Нормативные обновления
-Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
+Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в LCS и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

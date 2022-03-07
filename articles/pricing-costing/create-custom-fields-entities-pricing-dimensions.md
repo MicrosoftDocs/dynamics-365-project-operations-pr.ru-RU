@@ -2,11 +2,9 @@
 title: Создание настраиваемых полей и сущностей в качестве измерений цен
 description: Эта тема предоставляет информацию о том, как создавать настраиваемые наборы параметров или сущности.
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642829"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003652"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Создание настраиваемых полей и сущностей в качестве измерений цен
 
@@ -46,7 +44,7 @@ _**Относится к:** Project Operations для сценариев на о
 3. Выберите **Создать** для создания новой сущности с названием **Стандартный заголовок**. 
 4. Введите остальные обязательные сведения, затем выберите **Сохранить**.
 
-> ![Определение сущности стандартного заголовка](media/Standard-Title-entity-definition.png)
+> ![Определение сущности стандартного заголовка.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Измерения на основе набора параметров 
 Можно создать два измерения на основе набора параметров. 
@@ -56,11 +54,11 @@ _**Относится к:** Project Operations для сценариев на о
 
 На следующем рисунке показано представление измерения **Место работы ресурса**. 
 
-> ![Измерение ценообразования на основе набора параметров под названием "Место работы ресурса"](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Измерение ценообразования на основе набора параметров под названием «Место работы ресурса».](media/Option-set-PD-called-Resource-Work-Location.png)
 
 На следующем рисунке показано представление измерения **Рабочие часы ресурса**. 
 
-> ![Измерение ценообразования на основе набора параметров под названием "Рабочие часы ресурса"](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Измерение ценообразования на основе набора параметров под названием «Рабочие часы ресурса».](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Перейдите в пункт **Параметры** > **Решения** и дважды щелкните **Измерения ценообразования \<your organization name>**. 
 2. В обозревателе решений в левой навигационной панели выберите **Наборы параметров**. 
@@ -76,4 +74,7 @@ _**Относится к:** Project Operations для сценариев на о
 4. Закройте страницу. 
 5. Повторите шаги с 1 по 3 для создания другого стандартного заголовка для "Главный системный инженер".
 
-> ![Демонстрационные данные для сущности стандартного заголовка](media/ST-data.png)
+> ![Демонстрационные данные для сущности стандартного заголовка.](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

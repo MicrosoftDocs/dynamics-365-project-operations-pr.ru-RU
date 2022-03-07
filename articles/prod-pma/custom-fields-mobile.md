@@ -2,11 +2,9 @@
 title: Реализация настраиваемых полей для мобильного приложения Microsoft Dynamics 365 Project Timesheet iOS и Android
 description: В этой теме представлены общие шаблоны использования расширений для реализации настраиваемых полей.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005767"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Реализация настраиваемых полей для мобильного приложения Microsoft Dynamics 365 Project Timesheet iOS и Android
 
@@ -155,13 +153,13 @@ ms.locfileid: "5271009"
 
 Ниже приведен снимок экрана мобильного приложения для создания записи расписания. Он показывает стандартные поля и настраиваемое поле в разделе "Запись времени" под названием "Тестовая строка" с уже установленным значением перечисления "Второй параметр".
 
-![Настраиваемое поле тестовой строки в приложении](media/timesheet-entry.jpg)
+![Настраиваемое поле тестовой строки в приложении.](media/timesheet-entry.jpg)
 
 
 
 Ниже приведен снимок экрана мобильного приложения, на котором пользователь выбирает один из вариантов перечисления, доступных для настраиваемого поля «Тестовая строка».  Два варианта — «Первый вариант» и «Второй вариант» показаны как переключатели. В настоящее время выбран второй вариант.
 
-![Кнопки выбора (переключатели) для настраиваемого поля тестовой строки](media/enum-option.jpg)
+![Кнопки выбора (переключатели) для настраиваемого поля тестовой строки.](media/enum-option.jpg)
 
 
 
@@ -173,7 +171,7 @@ ms.locfileid: "5271009"
 
 Ниже скриншот из Visual Studio дерева объектов приложения. Он показывает расширение таблицы TSTimesheetLine с полем TestLineString, добавленным в качестве настраиваемого поля.
 
-![Строка](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Строка.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Используйте цепочку команд в методе buildCustomFieldList класса TSTimesheetSettings, чтобы отобразить поле в разделе записи расписания.
 
@@ -319,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Ниже приведен снимок экрана мобильного приложения пользователя, просматривающего расписание. Кнопка «Дополнительная информация» была выбрана в правом верхнем углу, чтобы отобразить параметр «Подробнее».  
 
-![Команда "Подробнее"](media/show-more.png)
+![Команда «Подробнее».](media/show-more.png)
 
 Ниже приведен снимок экрана мобильного приложения, на котором показан раздел "Дополнительно" расписания. В раздел заголовка расписания добавлено настраиваемое поле «Коэффициент использования этого расписания (вычисляемое настраиваемое поле)». В настраиваемом поле установлено значение «0,667» только для чтения.
 
-![Раздел "Подробнее"](media/more-section.jpg)
+![Раздел «Подробнее».](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Расширьте таблицу TSTimesheetTable, чтобы в ней было настраиваемое поле
 
@@ -416,7 +414,7 @@ final class TSTimesheetDetails_Extension
 
 Из параметров проекта вы можете сделать стандартные поля доступными только для чтения или скрытыми в мобильном приложении. Задайте параметры в разделе **Мобильные расписания** на вкладке **Расписание** на странице **Параметры управления проектами и учета**.
 
-![Параметры проекта](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Параметры проекта.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Изменение действий, доступных для выбора через расширения
 

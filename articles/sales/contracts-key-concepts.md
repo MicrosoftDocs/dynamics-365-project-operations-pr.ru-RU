@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663744"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642154"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Уникальные понятия для контрактов на основе проектов
+# <a name="project-contracts---key-concepts"></a>Контракты по проектам — основные понятия
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
@@ -88,6 +88,3 @@ Project Operations поддерживает четыре типа классов
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Отличия от заказов в Dynamics 365 Sales
 
 Контракты в Project Operations построены на основе заказов в Dynamics 365 Sales. Однако есть важные отклонения и различия в функциональности. Контракты имеют свою собственную форму и элементы пользовательского интерфейса, бизнес-правила, бизнес-логику в надстройках и клиентские скрипты, которые делают их уникальными по сравнению с заказами. По этим причинам не используйте заказ Sales и контракт Project Operations как взаимозаменяемые.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

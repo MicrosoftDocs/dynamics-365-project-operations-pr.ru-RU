@@ -2,11 +2,9 @@
 title: Рабочий процесс управления расходами
 description: В этой теме объясняется, как можно использовать систему рабочих процессов в Microsoft Dynamics 365 Finance, чтобы настроить процесс проверки отчетов о расходах в управлении расходами.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fde336f53d72e9ddf38c5123d9e774a4c3a22a28
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c2a2cae435342139f32d1bb5d38d68acd920453f5e6f6551e1f6d57967d8053
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271684"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001312"
 ---
 # <a name="expense-management-workflow"></a>Рабочий процесс управления расходами
 

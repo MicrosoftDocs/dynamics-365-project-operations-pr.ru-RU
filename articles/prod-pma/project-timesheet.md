@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083361"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288845"
 ---
 # <a name="project-timesheet-mobile-application"></a>Мобильное приложение "Расписание проекта"
 
@@ -96,3 +96,6 @@ ms.locfileid: "4083361"
 ## <a name="review-timesheets"></a>Просмотр расписаний
 
 Список расписаний, которые необходимо просмотреть, доступен в меню. Этот параметр доступен только в том случае, если вы были назначены утверждающим рабочего процесса. Поддерживаются как утверждение заголовка, так и утверждение строки. Утверждение на уровне строки дает возможность отметить одну или несколько строк для утверждения. После просмотра информации о расписании нажмите **Одобрить**, **Делегировать** или **Вернуть**, чтобы продолжить рабочий процесс.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

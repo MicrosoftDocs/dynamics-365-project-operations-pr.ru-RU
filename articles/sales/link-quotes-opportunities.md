@@ -2,18 +2,16 @@
 title: Создание предложений с расценками по проектам на основе возможных сделок
 description: В этом разделе представлена информация о создании предложения с расценками по проекту из возможной сделки.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d678fce7a6b52522500a77daecc46353ff17fbf2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118129"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009812"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Создание предложений с расценками по проектам на основе возможных сделок
 
@@ -56,3 +54,6 @@ _**Относится к:** Project Operations для сценариев на о
    Когда вы перемещаете возможную сделку на этот этап, вы можете выбрать это предложение с расценками из списка предложений с расценками, связанных с этой возможной сделкой. Выбор этого предложения с расценками означает, что вы продолжаете работать с ним.
 
    Все остальные предложения с расценками, связанные с возможной сделкой, будут по-прежнему доступны и активны, пока одно из них не будет реализовано. Вы можете вернуть процесс продаж обратно на предыдущий этап **Квалифицировать** и выбрать другое предложение с расценками, чтобы двигаться дальше с ним.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

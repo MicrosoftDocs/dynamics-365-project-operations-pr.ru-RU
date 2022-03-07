@@ -2,11 +2,9 @@
 title: Производительность планирования ресурсов проекта
 description: Эта тема предоставляет информацию о том, как повысить производительность планирования ресурсов для большого количества проектов.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083171"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007297"
 ---
 # <a name="project-resource-scheduling-performance"></a>Производительность планирования ресурсов проекта
 
@@ -69,3 +67,6 @@ ms.locfileid: "4083171"
 
 > [!NOTE]
 > Это распределит общие данные в таблицу **ResRollup** для всех компаний в вашей среде, поэтому пакетное задание нужно запускать только в одном юридическом лице. Это пакетное задание необходимо для всех представлений **Доступность ресурсов**. Если это пакетное задание не запущено, данные **ResRollup** будут генерироваться "на лету", что может занять время.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

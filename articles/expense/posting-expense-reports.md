@@ -2,11 +2,9 @@
 title: Разноска отчетов о расходах
 description: В этой теме объясняется, как разносить отчеты о расходах.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124294"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007702"
 ---
 # <a name="post-expense-reports"></a>Разноска отчетов о расходах
 
@@ -31,3 +29,6 @@ ms.locfileid: "4124294"
 Чтобы разнести отчет о расходах, на странице **Утвержденные отчеты о расходах** выберите отчет о расходах, затем на панели действий выберите **Разнести**.
 
 Вы также можете разнести все отчеты о расходах в списке одновременно. Выберите все отчеты о расходах, затем выберите **Разнести**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,10 @@
 title: Добавление новых форм настраиваемых сущностей (Project Service Automation 2.x)
 description: В этом разделе представлена информация о том, как добавлять формы пользовательской сущности для возможных сделок, предложений с расценками, заказов или счетов в Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144609"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995237"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Добавление новых форм настраиваемых сущностей (Project Service Automation 2.x)
 
@@ -59,7 +57,7 @@ Dynamics 365 Project Service Automation использует поле **Тип**
     - Экспортируйте форму **Мои сведения о проекте** в составе неуправляемого решения, затем найдите значение **formId** в файле customization.xml экспортированного решения.
     - Откройте форму **Мои сведения о проекте** в редакторе форм, затем найдите глобальный уникальный идентификатор (GUID) рядом с параметром **fromId** в URL-адресе, как показано на следующем рисунке.
 
-    ![Значение formId новой формы в URL-адресе](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Значение formId новой формы в URL-адресе.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Создайте сопоставление **msdyn\_ordertype** для значения **formId**, изменив веб-ресурс msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Удалите код из ресурса и замените его следующим кодом.
 
@@ -96,3 +94,6 @@ Dynamics 365 Project Service Automation использует поле **Тип**
     ```
 
 6. Сохраните и затем опубликуйте настройки.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144474"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275059"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Управление проектами и резервированиями в календаре (Project Service)
 
@@ -91,3 +91,6 @@ ms.locfileid: "5144474"
   
 ### <a name="see-also"></a>См. также  
  [Руководство по совместной работе и вводу данных о времени и расходах](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

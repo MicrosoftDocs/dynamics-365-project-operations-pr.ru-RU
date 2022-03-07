@@ -2,8 +2,6 @@
 title: Основные понятия
 description: В этом разделе представлена информация об основных понятиях для управления ресурсами в Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147759"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995102"
 ---
 # <a name="key-concepts"></a>Основные понятия
 
@@ -48,3 +46,6 @@ ms.locfileid: "5147759"
 | Контур                    | Часы задачи, требования или назначения, когда они разделяются на дневное распределение. Например, пятидневная 40-часовая задача может быть разбита в контур по восемь часов в день в течение пяти дней. |
 | Представление "Выверка"        | Представление, которое показывает резервирования и назначение для каждого участника проектной группы. Это представление позволяет руководителю проекта искать любые несоответствия между резервированиями и назначениями и принимать меры по устранению при наличии каких-либо несоответствий. |
 | Рабочие часы                 | Сущность, которая используется для определения производительность ресурса, а также рабочих и нерабочих часов. Данная сущность также называется календарем ресурса. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

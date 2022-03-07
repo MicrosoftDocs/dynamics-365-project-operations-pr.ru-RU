@@ -2,18 +2,16 @@
 title: Проекты оценки дохода с фиксированной ценой
 description: В этом разделе представлена информация о доходе с фиксированной ценой в проектах.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531534"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006442"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Проекты оценки дохода с фиксированной ценой 
 
@@ -35,3 +33,6 @@ _**Относится к:** Project Operations для сценариев на о
 
   Стоимость проекта, профиль дохода, шаблон стоимости и код периода можно установить вручную. Если они не установлены вручную, значения по умолчанию используются во время первого расчета оценки для проекта с использованием правил, настроенных для профилей затрат и доходов по проекту.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

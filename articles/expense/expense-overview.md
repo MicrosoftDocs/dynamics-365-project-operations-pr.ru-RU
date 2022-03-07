@@ -2,19 +2,17 @@
 title: Обзор расходов
 description: В этой теме предоставлена информация о функциях расходов в Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 2a26b321e15080cc6a4a6a3ed410be175e790a1b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764925"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995412"
 ---
 # <a name="expense-home-page"></a>Домашняя страница расходов
 
@@ -44,3 +42,6 @@ Dynamics 365 Project Operations поддерживает возможность 
 
 ## <a name="determine-your-expense-deployment"></a>Определение развертывания расходов
 Чтобы определить, используете ли вы базовое развертывание управления расходами, убедитесь, что URL-адрес заканчивается на **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

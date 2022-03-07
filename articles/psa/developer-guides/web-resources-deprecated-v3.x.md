@@ -2,12 +2,10 @@
 title: Нерекомендуемые веб-ресурсы в Project Service Automation 3.x
 description: В этом разделе описываются веб-ресурсы, которые больше не используются в Dynamics 365 Project Service Automation 3.0.
 author: makk
-manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148569"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988937"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Нерекомендуемые веб-ресурсы в Project Service Automation 3.x
 
@@ -538,3 +536,6 @@ ms.locfileid: "5148569"
 - msdyn\_\\Time\\App\\Scripts\\Views\\SubmitDialog.js
 - msdyn\_\\Time\\App\\Scripts\\Views\\TimeEntryView.js
 - msdyn\_\\Time\\Moca\\Scripts\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

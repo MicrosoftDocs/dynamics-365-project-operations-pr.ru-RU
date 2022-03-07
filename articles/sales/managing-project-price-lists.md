@@ -2,11 +2,9 @@
 title: Управление прайс-листами проекта в предложении с расценками
 description: В этом разделе представлена информация о сущности прайс-листа проекта.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177212"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003922"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Управление прайс-листами проекта в предложении с расценками
 
@@ -120,3 +118,6 @@ Project Operations отслеживает затраты для использо
     1. Прайс-лист себестоимости, который вложен в подразделение.
     2. Прайс-лист себестоимости, который вложен в параметры Project Operations. Поскольку прайс-листы себестоимости во многих различных валютах могут быть вложены в параметры, сопоставление валюты выполняется между валютой контрактного подразделения проекта, контракта или предложения с расценками и валютой прайс-листа себестоимости.
     3. Для расходов методы ценообразования "по себестоимости" и "с наценкой к себестоимости" не применяются к прайс-листам себестоимости. Даже если эти методы ценообразования используются в строках прайс-листа себестоимости, чтобы задать настроить значения себестоимости категории транзакций, система игнорирует их, и никакая себестоимость по умолчанию не вводится.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

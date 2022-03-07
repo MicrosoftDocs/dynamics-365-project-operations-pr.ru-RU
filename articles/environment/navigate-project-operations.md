@@ -2,18 +2,16 @@
 title: Навигация по Project Operations
 description: В этой теме содержится информация о том, как получить доступ к Project Operations из Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642064"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994607"
 ---
 # <a name="navigate-project-operations"></a>Навигация по Project Operations
 
@@ -30,11 +28,14 @@ Dynamics 365 Project Operations для сценариев ресурсов/бе�
 
 Используйте имя среды в разделе **Имя среды Common Data Service** для перехода к Project Operations в среде CDS. 
 
-  ![Имя среды Common Data Service](./media/environment-name.PNG)
+  ![Имя среды Common Data Service.](./media/environment-name.PNG)
 
 Выберите **Вход** > **Вход в среду**, чтобы перейти к модулю **Управление и учет по проектам** в Finance.  
 
-   ![Вход в Finance](./media/environment-login.PNG)
+   ![Вход в Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Вы можете получить доступ к Project Operations в Common Data Service и модулю **Управление и учет по проектам** напрямую, используя соответствующие URL-адреса. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

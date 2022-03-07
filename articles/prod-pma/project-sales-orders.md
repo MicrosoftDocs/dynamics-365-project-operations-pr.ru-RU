@@ -2,11 +2,9 @@
 title: Заказы на продажу для временных и материальных проектов
 description: В этой теме объясняется, как создавать заказы на продажу на основе проектов для временных и материальных проектов.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dec9bc700d18f71ec7c9e976b38cb8cbb41f21b5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083173"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009677"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Заказы на продажу для временных и материальных проектов
 
@@ -41,3 +39,6 @@ ms.locfileid: "4083173"
 - Перейдите в сам проект. На панели действий выберите **Управление > Задачи по номенклатуре > Заказ на продажу**. Информация о проекте по умолчанию будет соответствовать заказу на продажу из проекта. Если у контракта по проекту более одного источника финансирования, вам нужно будет выбрать источник финансирования, чтобы указать клиента для заказа на продажу. Если для проекта есть только один источник финансирования, заказчик будет установлен автоматически.
 - Перейдите на страницу списка **Все заказы на продажу** и создайте новый заказ на продажу. Вам нужно будет выбрать проект для заказа на продажу. После выбора проекта заказчик будет выбран из источника финансирования, или вам нужно будет выбрать источник финансирования, если у контракта по проекту несколько источников финансирования.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

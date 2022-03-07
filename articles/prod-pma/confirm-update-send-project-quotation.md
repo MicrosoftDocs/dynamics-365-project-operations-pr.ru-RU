@@ -2,11 +2,9 @@
 title: Подтверждение, обновление и отправка предложения с расценками по проекту
 description: Эта тема предоставляет информацию об отправке предложения с расценками клиенту для подтверждения, изменении на основе отзывов и последующей повторной отправке предложения с расценками.
 author: ruhercul
-manager: AnnBe
 ms.date: 05/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: df7bfd7c57b7a273a94e49fcf3834072a8eb20b0ed598a144cefaff41e28a431
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270829"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991277"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Подтверждение, обновление и отправка предложения с расценками по проекту
 

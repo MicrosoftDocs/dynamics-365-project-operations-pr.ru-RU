@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089293"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275869"
 ---
 # <a name="manage-project-invoice-proposals"></a>Управление предложениями по счетам по проекту
 
@@ -143,3 +143,6 @@ _**Относится к:** Project Operations для сценариев на о
 В добавок к странице **Предложение по счету**, предложения по счетам также можно разнести, выполнив периодическое задание, **Разноска предложений по счетам**. Чтобы найти это задание, перейдите к **Управление и учет по проектам** > **Периодический** > **Счета по проекту** > **Разноска предложений по счетам**.
 
 На этой странице показаны все предложения по счетам, готовые к разноске. Вы можете запланировать разноску предложений по счетам, выбрав **Пакет**. Установите **Параметр пакетной обработки** на **Да** и задайте повторение пакетной обработки, выбрав **Повторение**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
