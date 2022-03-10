@@ -6,12 +6,12 @@ ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001307"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986642"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Настройка и применение демонстрационных данных в Common Data Service 
 
@@ -35,24 +35,24 @@ _**Относится к:** Project Operations для сценариев на о
 2. Перейдите в распакованную папку и запустите исполняемый файл, *DataMigrationUtility*.
 3. На странице 1 мастера настройки Common Data Service (CMT) выберите **Импортировать данные**, затем выберите **Продолжить**.
 
-![Миграция конфигурации](./media/1ConfigurationMigration.png)
+![Миграция конфигурации.](./media/1ConfigurationMigration.png)
 
 4. На странице 2 мастера CMT выберите **Microsoft 365** как **Тип развертывания**.
 5. Установите флажки **Показать список доступных организаций** и **Показать расширенный**.
 6. Выберите регион своего клиента, введите свои учетные данные и выберите **Войти**.
 
-![Вход в конфигурацию](./media/2ConfigurationSignin.png)
+![Вход в конфигурацию.](./media/2ConfigurationSignin.png)
 
 7. На странице 3 из списка организаций в клиенте выберите организацию, в которую вы хотите импортировать демонстрационные данные, и выберите **Войти**.
 8. На странице 4 выберите ZIP-файл *SampleSetupAndConfigData* из распакованной папки.
 
-![Выбор ZIP-файла](./media/3ZipFile.png)
+![Выбор ZIP-файла.](./media/3ZipFile.png)
 
-![Выберите файл](./media/4SelectAFile.png)
+![Выберите файл.](./media/4SelectAFile.png)
 
 9. После выбора ZIP-файла выберите **Импортировать данные**.
 
-![Импортировать данные](./media/5ImportData.png)
+![Импорт данных.](./media/5ImportData.png)
 
 10. Импорт будет выполняться примерно от двух до десяти минут в зависимости от скорости вашей сети. После завершения импорта выйдите из мастера CMT. 
 11. Проверьте свою организацию на наличие данных по следующим 26 сущностям:
@@ -84,50 +84,50 @@ _**Относится к:** Project Operations для сценариев на о
   - Назначение категории резервируемого ресурса
   - Характеристика резервируемого ресурса
 
-![Завершите импорт](./media/6CompleteImport.png)
+![Завершите импорт.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Обновление конфигураций Project Operations
 
 1. Перейдите в среду CE. Вы можете найти ее, открыв [Центр администрирования Power Platform](https://admin.powerplatform.microsoft.com/environments), выбрав среду, затем выбрав **Открыть среду**. 
 
-![Открыть среду](./media/7OpenEnvironment.png)
+![Открыть среду.](./media/7OpenEnvironment.png)
 
 2. Выберите **Проекты** > **Ресурсы**, затем выберите **Создать**, чтобы создать доступный для резервирования ресурс для вашего пользователя.
 
-![Резервируемые ресурсы](./media/8BookableResources.png)
+![Резервируемые ресурсы.](./media/8BookableResources.png)
 
 3. На вкладке **Общие** выберите своего администратора. Убедитесь, что часовой пояс соответствует тому, в котором вы находитесь. 
 
-![Создание резервируемого ресурса](./media/9NewBookableResource.png)
+![Создание резервируемого ресурса.](./media/9NewBookableResource.png)
 
 4. На вкладке **Планирование** в поле **Компания** выберите компанию **USPM**, затем выберите **Сохранить**. 
 
-![Вкладка планирования](./media/10SchedulingTab.png)
+![Вкладка планирования.](./media/10SchedulingTab.png)
 
 5. Перейдите на вкладку **Рабочие часы**.  
 
-![Рабочие часы](./media/11WorkHours.png)
+![Рабочие часы.](./media/11WorkHours.png)
 
 6. Дважды щелкните любое значение в календаре и выберите **Изменить** > **Все события этой серии**. 
 
-![Рабочий календарь](./media/12WorkCalendar.png)
+![Рабочий календарь.](./media/12WorkCalendar.png)
 
 7. Измените рабочие часы на восьмичасовой (8) рабочий день, отметьте выходные как нерабочие дни и убедитесь, что часовой пояс соответствует вашему. 
 8. Выберите **Сохранить и закрыть**.
 
-![Обновление календаря](./media/13UpdateCalendar.png)
+![Обновление календаря.](./media/13UpdateCalendar.png)
 
 9. Перейдите в раздел **Параметры** > **Шаблоны календаря** и выберите **Создать**.
  
- ![Шаблоны календарей](./media/14CalendarTemplates.png)
+ ![Шаблоны календарей.](./media/14CalendarTemplates.png)
  
  10. Введите имя, выберите созданный вами шаблон ресурса, затем выберите **Сохранить**. 
  
- ![Сохранение шаблона календаря](./media/15SaveCalendarTemplate.png)
+ ![Сохранение шаблона календаря.](./media/15SaveCalendarTemplate.png)
  
  11. Выберите **Параметры** и дважды щелкните запись. 
  
- ![Параметры проекта](./media/16ProjectParameters.png)
+ ![Параметры проекта.](./media/16ProjectParameters.png)
  
 12. Обновите следующие поля:
 
@@ -138,7 +138,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 13. Нажмите кнопку **Сохранить**. 
 
-![Обновление параметров проекта](./media/17UpdatedProjectParameters.png)
+![Обновление параметров проекта.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

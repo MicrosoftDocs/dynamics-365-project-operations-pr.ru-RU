@@ -2,8 +2,6 @@
 title: Добавление ресурсов
 description: Как добавлять ресурсы в Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ec7ac38475269f472f97f4537cfcdf1abcada37
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ea45dad7917df21081e777b2a88f33d85b63d18cb86749ba62a24dfdf48bd939
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285364"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005272"
 ---
 # <a name="add-resources-project-service"></a>Добавление ресурсов (Project Service)
 

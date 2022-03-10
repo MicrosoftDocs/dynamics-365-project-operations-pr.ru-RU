@@ -2,18 +2,16 @@
 title: Запись расходов (Lite)
 description: Этот тема предоставляет информацию о том, как работать с записью расходов в развертывании Lite.
 author: stsporen
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 539d0ba6be6f49a6f0509595a0776ef67135496d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 48bf86a5cee475708f93462dc154e21b36240023f0a94cf31c49e9a096951736
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276769"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007837"
 ---
 # <a name="expense-entry-lite"></a>Запись расходов (Lite)
 

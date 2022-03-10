@@ -1,19 +1,18 @@
 ---
 title: Обзор управления проектами
-description: В этой теме предоставлена информация об управлении проектом в Dynamics 365 Project Operations.
+description: В этом разделе представлена информация о об управлении проектами в Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de7b77bbb0f6e8f7c55aadc35d1f732f37d56615
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083038"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991008"
 ---
 # <a name="project-management-overview"></a>Обзор управления проектами
 
@@ -26,3 +25,6 @@ _**Относится к:** Project Operations для сценариев на о
 - Использование оценок проекта в процессе продаж.
 - Прогнозирование потребностей в ресурсах для проектов, которые находятся в воронке продаж.
 - Успешно доставлять проекты путем отслеживания хода выполнения и потребления стоимости.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

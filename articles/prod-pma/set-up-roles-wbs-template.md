@@ -2,11 +2,9 @@
 title: Настройка ролей в шаблонах структурной декомпозиции работ
 description: Эта тема предоставляет информацию о настройке информации о ролях в шаблонах структурной декомпозиции работ.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288665"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008917"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Настройка ролей в шаблонах структурной декомпозиции работ
 
@@ -91,7 +89,7 @@ ms.locfileid: "5288665"
 
 4. Установите даты и трудозатраты (часы), как показано на следующем рисунке.
 
-    [![Установка дат и трудозатрат](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Установка дат и трудозатрат.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Выберите строку задач **Инициирование**, а затем в поле **Роль** выберите **Старший менеджер проекта**.
 6. Выберите **Опубликовать**.

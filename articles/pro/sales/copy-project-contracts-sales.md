@@ -2,18 +2,16 @@
 title: Копирование контрактов по проектам — облегченное развертывание
 description: В этой теме предоставлена информация о копировании контрактов по проектам в Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a0ffb807c8254f4d392c4750fa0b4a60f7fd26b0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273754"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006037"
 ---
 # <a name="copy-project-contracts---lite"></a>Копирование контрактов по проектам — облегченное развертывание
 

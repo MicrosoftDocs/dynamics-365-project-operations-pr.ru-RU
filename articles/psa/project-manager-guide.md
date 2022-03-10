@@ -2,8 +2,6 @@
 title: Руководство менеджера по проектам
 description: Руководство по управлению проектами с помощью Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bed91df141d19bf93703f6cad51432d6a1ffefa
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d24d3966ee4f495fc4cfdf35492495fd0244b5ef08e53005d8ac4a854cd7cce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132071"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998387"
 ---
 # <a name="project-manager-guide-project-service"></a>Руководство для менеджера проектов (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -93,3 +93,6 @@ ms.locfileid: "4132071"
  [Руководство менеджера по ресурсам](../psa/resource-manager-guide.md)   
  [Руководство по совместной работе и вводу данных о времени и расходах](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

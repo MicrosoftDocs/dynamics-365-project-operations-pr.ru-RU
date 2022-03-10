@@ -2,18 +2,16 @@
 title: Настройка категорий расходов
 description: Эта тема предоставляет информацию о том, как настроить категории расходов и общие категории для отчетов о расходах.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1589cf82626e744d35f31fef8e8437a5ad71360d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276139"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993122"
 ---
 # <a name="set-up-expense-categories"></a>Настройка категорий расходов
 

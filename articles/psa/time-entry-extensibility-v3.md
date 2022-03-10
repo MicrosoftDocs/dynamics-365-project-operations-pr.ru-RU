@@ -2,8 +2,6 @@
 title: Настройка еженедельных записей времени
 description: В этом разделе представлена информация о том, как реализовать настраиваемые бизнес-правила, которые поддерживают принятую в организации практику.
 author: stsporen
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083275"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002302"
 ---
-# <a name="customize-weekly-time-entry"></a>Настройка еженедельных записей времени 
+# <a name="customize-weekly-time-entry"></a>Настройка еженедельной записи времени 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -130,3 +130,6 @@ ms.locfileid: "4083275"
 
 > [!IMPORTANT] 
 > В настоящее время известная проблема на страницах TBX не позволяет пользователям исправлять информацию и повторно выбирать "Готово", если обновление не прошло проверку в подключаемом модуле. Как временной решение, настройте проверки бизнес-правила для максимально возможно исключения подобной ситуации.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

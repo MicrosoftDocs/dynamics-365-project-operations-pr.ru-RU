@@ -1,12 +1,10 @@
 ---
-title: Распознавание текста для сопоставления чеков с расходами
+title: Сканирование чеков с распознаванием текста
 description: Эта тема предоставляет информацию об оптическом распознавании символов (OCR) для квитанций.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,14 +13,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124339"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798056"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Распознавание текста для сопоставления чеков с расходами
+# <a name="capture-a-receipt-using-ocr"></a>Сканирование чеков с распознаванием текста
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
@@ -87,10 +85,24 @@ _**Относится к:** Project Operations для сценариев на о
 
 **Где эта функция доступна и обрабатывается?**
 
-В настоящее время поддерживается в США.
+Доступность этой функции в разных регионах указана в следующей таблице. Если ваш регион в настоящее время не поддерживается, отправьте запрос, чтобы определить приоритетность службы OCR в вашем регионе. 
+
+| Область | Поддерживаемые                         |
+|--------|-----------------------------------|
+| USA    | Да                               |
+| CAN    | Да                               |
+| Соединенное Королевство     | Да                               |
+| Австралия    | Да                               |
+| Европа     | Частично. Только английские квитанции. |
+| Азия   | No                                |
+| Япония  | No                                |
+| Африка | No                                |
 
 **Куда уходят мои чеки?**
 
 Приложение Finance обращается в Cognitive Services для извлечения данных из полей. Службы Cognitive Services хранят копию вашей квитанции до 24 часов, пока происходит обработка. После завершения обработки службы Cognitive Services удалят квитанцию. Квитанции по-прежнему хранятся в Finance.
 
 Дополнительные сведения см. в разделе [Включение распознавания чеков с помощью новой возможности распознавателя документов](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

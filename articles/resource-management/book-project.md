@@ -2,18 +2,16 @@
 title: Резервирование для проекта
 description: В этом разделе представлена информация о резервировании ресурса для проекта.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131089"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994922"
 ---
 # <a name="book-to-a-project"></a>Резервирование для проекта
 
@@ -66,3 +64,6 @@ _**Относится к:** Project Operations для сценариев на о
 
 > [!NOTE]
 > Этот метод не создает никаких резервирований для ресурса. Вместо этого он добавляет ресурс в рабочую группу. После того как участник рабочей группы был добавлен в проект, менеджер проекта может использовать ведение резервирований или продление резервирований, чтобы добавить необходимые резервирования к ресурсу.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

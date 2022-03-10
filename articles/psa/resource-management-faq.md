@@ -2,8 +2,6 @@
 title: Вопросы и ответы по управлению ресурсами
 description: Этот раздел содержит ответы на часто задаваемые вопросы об управлении ресурсами.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083399"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002392"
 ---
 # <a name="resource-management-faq"></a>Вопросы и ответы по управлению ресурсами
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -52,3 +52,6 @@ ms.locfileid: "4083399"
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>В чем разница между назначением и резервированием?
 
 Назначения — это назначение ресурсов задачам проекта в расписании проекта. Ресурсы могут быть реальными или универсальными ресурсами. Резервирования — это окончательное или предварительное назначение ресурсов проекту. Окончательные резервирования потребляет производительность ресурса. В идеальном случае для реальных ресурсов резервирования и назначения должны быть согласованы, поскольку они не отличаются. Однако PSA не задает такое согласование принудительно. Представление "Выверка" показывает руководителю проекта места, в которых резервирования и назначения ресурсов не согласованы.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

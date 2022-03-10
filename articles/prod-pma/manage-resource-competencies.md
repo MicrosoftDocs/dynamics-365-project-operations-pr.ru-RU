@@ -2,11 +2,9 @@
 title: Управление компетенциями ресурсов
 description: В этом разделе представлена информация о настройке компетенций для ресурсов проекта.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083213"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007432"
 ---
 # <a name="manage-resource-competencies"></a>Управление компетенциями ресурсов
 
@@ -31,7 +29,7 @@ ms.locfileid: "4083213"
 
 Компетенция ресурсов — важная часть управления ресурсами. Компетенции можно использовать в качестве основы для определения ресурсов с правильным балансом навыков, образования, сертификации и опыта работы в проектах. Вы должны настроить эту информацию для каждого ресурса и регулярно обновлять ее. Таким образом, вы можете максимизировать возможности, когда определенные компетенции ресурсов совпадают во время назначения ресурсов проекта.
 
-[![Примеры навыков, сертификатов, образования и опыта работы в проектах](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Примеры навыков, сертификатов, образования и опыта работы в проектах.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Следующие процедуры объясняют, как настроить некоторые компетенции для ресурса.
 
@@ -53,3 +51,6 @@ ms.locfileid: "4083213"
 5. В поле **Дата уровня** выберите **1-/14/2014**.
 6. В поле **Годы опыта** введите **10**.
 7. Выберите **Сохранить** и закройте страницу.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

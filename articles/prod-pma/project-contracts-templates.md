@@ -1,12 +1,10 @@
 ---
-title: Синхронизируйте контракты по проекту и проекты напрямую из Project Service Automation с Finance and Operations
+title: Синхронизация контрактов по проекту и проектов напрямую из Project Service Automation в Finance
 description: В этой теме описаны шаблон и базовые задачи, которые используются для синхронизации контрактов по проекту и проектов непосредственно из Microsoft Dynamics 365 Project Service Automation с Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642649"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001087"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронизируйте контракты по проекту и проекты напрямую из Project Service Automation с Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Синхронизация контрактов по проекту и проектов напрямую из Project Service Automation в Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -44,7 +42,7 @@ ms.locfileid: "4642649"
 
 На следующем рисунке показано, как данные синхронизируются между Project Service Automation и Finance.
 
-[![Поток данных для интеграции Project Service Automation с Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Поток данных для интеграции Project Service Automation с Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
@@ -53,24 +51,24 @@ ms.locfileid: "4642649"
 Следующие шаблоны и базовые задачи используются для синхронизации контрактов по проекту и проектов из Project Service Automation в Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Интеграция с Dynamics 365 Project Service Automation v2.x
-- **Название шаблона в интеграции данных:** Проекты и контракты (из PSA в Fin and Ops)
+- **Название шаблона в Интеграции данных:** Проекты и контракты (Project Service Automation в Finance)
 - **Название задач в проекте:**
 
-    - Контракты на проекты из PSA в Fin and Ops
-    - Проекты из PSA в Fin and Ops
-    - Строки контракта на проекты из PSA в Fin and Ops
-    - Вехи строк контракта на проекты из PSA в Fin and Ops
+    - Контракты по проектам Project Service Automation в Finance
+    - Проекты Project Service Automation в Finance
+    - Строки контракта по проекту Project Service Automation в Finance
+    - Вехи строки контракта по проекту Project Service Automation в Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Интеграция с Dynamics 365 Project Service Automation v3.x
 В Project Service Automation произошло изменение схемы, которое влияет на шаблон вехи строк контракта по проекту, и для интеграции Project Service Automation v3.x с Dynamics 365 требуется использование версии шаблона v2.
 
-- **Название шаблона в интеграции данных:** Проекты и контракты (из PSA 3.x в Fin and Ops) — v2
+- **Название шаблона в Интеграции данных:** Проекты и контракты (Project Service Automation 3.x в Finance) — v2
 - **Название задач в проекте:**
 
-    - Контракты на проекты из PSA в Fin and Ops
-    - Проекты из PSA в Fin and Ops
-    - Строки контракта на проекты из PSA в Fin and Ops
-    - Вехи строк контракта на проекты из PSA в Fin and Ops
+    - Контракты по проектам Project Service Automation в Finance
+    - Проекты Project Service Automation в Finance
+    - Строки контракта по проекту Project Service Automation в Finance
+    - Вехи строки контракта по проекту Project Service Automation в Finance
 
 Перед синхронизацией контрактов по проектам и проектов вы должны синхронизировать организации.
 
@@ -87,7 +85,8 @@ ms.locfileid: "4642649"
 
 Контракты по проекту управляются в Project Service Automation и синхронизируются с Finance как контракты по проекту. В рамках шаблона интеграции вы можете задать источник интеграции в Finance для контракта по проекту.
 
-Проекты «Время и материалы» и проекты с фиксированной ценой управляются в Project Service Automation и синхронизируются с Finance как проекты. В рамках интеграции шаблона вы можете задать источник интеграции в Finance для проекта.
+Временные и материальные проекты, а также проекты с фиксированной ценой управляются в Project Service Automation и синхронизируются с Finance как проекты. В рамках шаблона интеграции вы можете установить источник интеграции для проекта в Finance. В настоящее время поддерживаются только временные и материальные проекты, а также проекты с фиксированной ценой.
+
 
 Строки контрактов по проекту управляются в Project Service Automation и синхронизируются с Finance как правила выставления счетов по проекту. Если метод выставления счетов отличается от типа проекта по умолчанию, синхронизация обновляет тип проекта для проекта строки контракта и группы проектов.
 
@@ -108,8 +107,8 @@ ms.locfileid: "4642649"
 ## <a name="prerequisites-and-mapping-setup"></a>Предварительные условия и настройка сопоставления
 
 - Перед синхронизацией контрактов по проектам и проектов вы должны синхронизировать организации.
-- В вашем наборе подключения добавьте сопоставление поля ключа интеграции для **msdyn\_organizationalunits** в **msdyn\_name \[Name\]**. Сначала вам может потребоваться добавить проект в набор подключений. Для получения дополнительной информации см. [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- В вашем наборе подключения добавьте сопоставление поля ключа интеграции для **msdyn\_projects** в **msdynce\_projectnumber \[Project Number\]**. Сначала вам может потребоваться добавить проект в набор подключений. Для получения дополнительной информации см. [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- В вашем наборе подключения добавьте сопоставление поля ключа интеграции для **msdyn\_organizationalunits** в **msdyn\_name \[Name\]**. Сначала вам может потребоваться добавить проект в набор подключений. Для получения дополнительной информации см. [Интеграция данных в Common Data Service для приложений](/powerapps/administrator/data-integrator).
+- В вашем наборе подключения добавьте сопоставление поля ключа интеграции для **msdyn\_projects** в **msdynce\_projectnumber \[Project Number\]**. Сначала вам может потребоваться добавить проект в набор подключений. Для получения дополнительной информации см. [Интеграция данных в Common Data Service для приложений](/powerapps/administrator/data-integrator).
 - **SourceDataID** для контрактов по проекту и проектов может быть обновлено на другое значение или удалено из сопоставления. Значение шаблона по умолчанию — **Project Service Automation**.
 - Сопоставление **PaymentTerms** необходимо обновить, чтобы оно отражало действительные условия оплаты в Finance. Вы также можете удалить сопоставление из задачи проекта. У сопоставления значений по умолчанию — значения по умолчанию для демонстрационных данных. В следующей таблице показаны значения в Project Service Automation.
 
@@ -122,7 +121,7 @@ ms.locfileid: "4642649"
 
 ## <a name="power-query"></a>Power Query
 
-Вы должны использовать Microsoft Power Query для Excel для фильтрации данных, если выполняются следующие условия:
+Используйте Microsoft Power Query для Excel для фильтрации данных, если выполняются следующие условия:
 
 - У вас есть заказы на продажу в Dynamics 365 Sales.
 - У вас есть несколько подразделений в Project Service Automation, и эти они будут сопоставлены с несколькими юридическими лицами в Finance.
@@ -130,7 +129,7 @@ ms.locfileid: "4642649"
 Если вам необходимо использовать Power Query, следуйте этим рекомендациям:
 
 - В шаблоне проектов и контрактов (из PSA в Fin and Ops) есть фильтр по умолчанию, который включает только заказы на продажу типа **рабочий элемент (msdyn\_ordertype = 192350001)**. Этот фильтр помогает гарантировать, что контракты по проекту не создаются для заказов на продажу в Finance. Если вы создаете свой собственный шаблон, вы должны добавить этот фильтр.
-- Вы должны создать фильтр Power Query, который включает только организации по контракту, которые должны быть синхронизированы с юридическим лицом из набора подключений интеграции. Например, контракты по проекту, которые у вас есть с подразделением по контракту Contoso US, должны быть синхронизированы с юридическим лицом USSI, но контракты по проекту, которые у вас есть с подразделением по контракту Contoso Global, должны быть синхронизированы с юридическим лицом USMF. Если вы не добавите этот фильтр в сопоставление задач, все контракты по проекту будут синхронизированы с юридическим лицом, которое определено для набора подключений, независимо от подразделения по контракту.
+- Создайте фильтр Power Query, который включает только контрактные организации, которые должны быть синхронизированы с юридическим лицом набора интеграционных подключений. Например, контракты по проектам, которые у вас есть с контрактным подразделением Contoso US должны быть синхронизированы с юридическим лицом USSI, но контракты по проектам, которые у вас есть с контрактным подразделением Contoso Global необходимо синхронизировать с юридическим лицом USMF. Если вы не добавите этот фильтр в сопоставление задач, все контракты по проекту будут синхронизированы с юридическим лицом, которое определено для набора подключений, независимо от подразделения по контракту.
 
 ## <a name="template-mapping-in-data-integration"></a>Сопоставление шаблонов в интеграции данных
 
@@ -141,14 +140,17 @@ ms.locfileid: "4642649"
 
 На следующих рисунках показаны примеры сопоставлений задач шаблона в интеграции данных. В сопоставлении отображается информация о полях, которые будут синхронизированы из Project Service Automation в Finance.
 
-[![Сопоставление шаблона контракта по проекту](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Сопоставление шаблона контракта по проекту.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Сопоставление шаблона проекта](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Сопоставление шаблона проекта.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Сопоставление шаблона строк контракта по проекту](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Сопоставление шаблона строк контракта по проекту.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Сопоставление шаблона вех строк контракта по проекту](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Сопоставление шаблона вех строк контракта по проекту.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Сопоставление вех строк контракта по проекту в Projects and Contracts (PSA 3.x в Dynamics) — шаблон v2:
 
-[![Сопоставление вех строк контракта по проекту с шаблоном второй версии](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Сопоставление вех строк контракта по проекту с шаблоном второй версии.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

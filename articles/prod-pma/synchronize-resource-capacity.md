@@ -2,11 +2,9 @@
 title: Синхронизация емкости ресурсов
 description: Эта тема предоставляет информацию о том, как синхронизировать емкость ресурса в календарях и проектах.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b63ccb5b0f04dedb8a942e22d6e1993204dc20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005632"
 ---
 # <a name="synchronize-resource-capacity"></a>Синхронизация емкости ресурсов
 
@@ -31,7 +29,7 @@ ms.locfileid: "5288587"
 
 Процессы синхронизации ресурсов помогают гарантировать, что информация для календаря и базового календаря попадет в планирование ресурсов проекта. Если календарь изменяется, процессы вносят необходимые обновления в планирование ресурсов проекта. Эти процессы также помогают повысить производительность, поскольку информация о ресурсах календаря заранее синхронизируется. Следовательно, обновления информации о планировании ресурсов происходят быстрее. Мы рекомендуем вам планировать процессы как пакет, а не по одному. В противном случае есть риск, что кто-то забудет инклюзивные даты при последней синхронизации информации. Если инклюзивные даты не используются, во время синхронизации дат могут возникать пропуски.
 
-![Синхронизация календаря](./media/projectresourcing04-1024x471.jpg)
+![Синхронизация календаря.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Синхронизация операций сведения загрузки ресурсов
 
@@ -48,7 +46,7 @@ ms.locfileid: "5288587"
     | Дата начала  | Введите дату начала процесса синхронизации для операций сведения загрузки ресурсов. |
     | Дата окончания    | Введите дату окончания процесса синхронизации для операций сведения загрузки ресурсов. |
 
-[![Процесс синхронизации](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Процесс синхронизации.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

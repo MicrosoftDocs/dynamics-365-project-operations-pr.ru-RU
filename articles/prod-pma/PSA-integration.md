@@ -2,27 +2,25 @@
 title: Обзор Project Service Automation
 description: В этой теме представлена информация о интеграционном решении Dynamics 365 Project Service Automation в Dynamics 365 Finance.
 author: ruhercul
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642469"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005902"
 ---
 # <a name="project-service-automation-overview"></a>Обзор Project Service Automation
 
@@ -58,7 +56,7 @@ ms.locfileid: "4642469"
 > [!NOTE]
 > В настоящее время доступны не все шаблоны. Шаблоны будут выпускаться по мере их завершения.
 
-[![Интеграция Project Service Automation с Finance](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Интеграция Project Service Automation с Finance.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Системные требования для Finance
 
@@ -75,3 +73,6 @@ ms.locfileid: "4642469"
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Установите решение интеграции Project Service Automation с Finance в свой экземпляр Project Service Automation
 
 Загрузите решение для интеграции Project Service Automation с Finance из [Центра загрузки Microsoft](https://www.microsoft.com/download/details.aspx?id=57016) и следуйте инструкциям, прилагаемым к решению.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

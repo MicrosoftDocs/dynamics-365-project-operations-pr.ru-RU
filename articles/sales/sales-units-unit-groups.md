@@ -2,11 +2,9 @@
 title: Единицы измерения и группы единиц измерения
 description: В этом разделе представлена информация о том, как создавать единицы и группы единиц в Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 162366f4b7aa678b4e39d9745a657037bf36cbe0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277354"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999557"
 ---
 # <a name="units-and-unit-groups"></a>Единицы измерения и группы единиц измерения
 

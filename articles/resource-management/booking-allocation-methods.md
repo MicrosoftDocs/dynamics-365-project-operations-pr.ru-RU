@@ -2,11 +2,9 @@
 title: Способы распределения при резервировании
 description: Эта тема предоставляет информацию о том, как методы распределения резервирования работают в Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 358eb5a6ccf1dd09f8056a20dbf6906e2c3803bd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 294cc39624723f9eb069aa36067a015c0b708f83a9e0183416655f9bd874fa9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280054"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004147"
 ---
 # <a name="booking-allocation-methods"></a>Способы распределения при резервировании
 

@@ -6,12 +6,13 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000812"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002077"
 ---
 # <a name="resource-utilization-overview"></a>Обзор загруженности ресурсов
 

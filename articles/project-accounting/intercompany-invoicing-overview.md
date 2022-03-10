@@ -2,18 +2,17 @@
 title: Обзор внутрихолдингового выставления счетов
 description: В этом разделе представлена информация и примеры внутрихолдингового выставления счетов для проектов.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287344"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005407"
 ---
 # <a name="intercompany-invoicing-overview"></a>Обзор внутрихолдингового выставления счетов
 
@@ -21,9 +20,9 @@ _**Относится к:** Project Operations для сценариев на о
 
 В вашей организации может быть несколько подразделений, дочерних компаний и других юридических лиц, которые передают продукты и услуги друг другу для проектов. Юридическое лицо, предоставляющее услугу или продукт, называется *юридическое лицо-кредитор*. Юридическое лицо, получающее услугу или продукт, называется *юридическое лицо-заемщик*.
 
-На следующем рисунке показан типичный сценарий, в котором два юридических лица, Contoso Robotics USA (юридическое лицо-заемщик) и Contoso Robotics UK (юридическое лицо-кредитор) совместно используют ресурсы для реализации проекта для клиента, Adventure Works. В этом сценарии Contoso Robotics USA заключает контракт на поставку работы для Adventure Works.
+На следующем рисунке показан типичный сценарий, когда два юридических лица, Contoso Robotics USA (юридическое лицо-заемщик) и Contoso Robotics UK (юридическое лицо-кредитор) совместно используют ресурсы для реализации проекта для клиента, Adventure Works. Для этого сценария Contoso Robotics USA заключает контракт на поставку работ компании Adventure Works.
 
-![Внутрихолдинговое выставление счетов](./media/IntercompanyScenario.png) 
+![Внутрихолдинговое выставление счетов.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations использует следующий поток для обработки внутрихолдинговых транзакций:
 
@@ -36,7 +35,7 @@ Dynamics 365 Project Operations использует следующий пото
 
 На следующей диаграмме показано внутрихолдинговое выставление счетов, поскольку оно связано с событиями учета и ожидаемыми разносками в главной книге.
 
-![Внутрихолдинговый поток](./media/IntercompanyFlow.png)
+![Внутрихолдинговый поток.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

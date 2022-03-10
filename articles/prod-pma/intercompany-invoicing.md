@@ -2,11 +2,9 @@
 title: Внутрихолдинговое выставление счетов
 description: В этой статье представлена информация и примеры внутрихолдингового выставления счетов для проектов.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270784"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995822"
 ---
 # <a name="intercompany-invoicing"></a>Внутрихолдинговое выставление счетов
 
@@ -35,7 +33,7 @@ ms.locfileid: "5270784"
 
 На следующем рисунке показан типичный сценарий, в котором два юридических лица, SI FR (юридическое лицо-заемщик) и SI USA (юридическое лицо-кредитор) совместно используют ресурсы для реализации проекта для клиента A. В этом сценарии с SI FR заключен договор на поставку работа заказчику А. 
 
-[![Пример внутрихолдингового выставления счетов](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Пример внутрихолдингового выставления счетов.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Цель состоит в том, чтобы сделать контроль затрат, признание выручки, налоги и трансфертную цену для транзакций внутрихолдинговых проектов более гибкими и эффективными. Кроме того, предусмотрены следующие возможности:
 

@@ -2,8 +2,6 @@
 title: Способы распределения резервирования в Project Service Automation
 description: В этом разделе представлена информация о различных способах распределения резервирования.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6fefaf0677ec1b3b84b202824ba16a87fa1b8d5c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a770a51c2bf05e227367efc834dbff2832a316f617ae4fe22a43572940f43cbe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286354"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000862"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Способы распределения резервирования в Project Service Automation
 

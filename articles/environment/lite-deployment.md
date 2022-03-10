@@ -2,22 +2,22 @@
 title: Развертывание Project Operations — облегченное
 description: Эта тема предоставляет информацию о том, как установить развертывание Project Operations Lite — от сделки до счетов-проформ.
 author: stsporen
-manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175682"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991592"
 ---
 # <a name="deploy-project-operations---lite"></a>Развертывание Project Operations — облегченное
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Project Operations поддерживает несколько моделей развертывания. Чтобы определить лучшую модель развертывания, см. раздел [Типы развертывания](determine-deployment-type.md).
 
@@ -32,13 +32,16 @@ Project Operations поддерживает несколько моделей р
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Установка Project Operations в новой среде CDS
 
-1. Как [глобальный администратор или администратор Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, создайте новую среду CDS в [центре администрирования PowerPlatform](https://admin.powerplatform.com). Убедись в том, что **База данных CDS** и **Приложения Dynamics 365** включены. Дополнительную информацию см. в разделе [Создание и управление средами в центре администрирования Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
-2. Выберите **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365.
+1. Как [глобальный администратор или администратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, создайте новую среду CDS в [центре администрирования PowerPlatform](https://admin.powerplatform.com). Убедись в том, что **База данных CDS** и **Приложения Dynamics 365** включены. Дополнительную информацию см. в разделе [Создание и управление средами в центре администрирования Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+2. Выбрать **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Установка Project Operations в существующей среде CDS
 
-1. Как [глобальный администратор или администратор Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, найдите среду в [центре администрирования PowerPlatform](https://admin.powerplatform.com), в которой вы хотите установить Project Operations.
-2. Установите **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365. Дополнительные сведения см. в статье [Управление приложениями Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Как [глобальный администратор или администратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, найдите среду в [центре администрирования PowerPlatform](https://admin.powerplatform.com), в которой вы хотите установить Project Operations.
+2. Установите **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365. Дополнительные сведения см. в статье [Управление приложениями Dynamics 365](/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

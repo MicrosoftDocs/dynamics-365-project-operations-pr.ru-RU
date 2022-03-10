@@ -2,8 +2,6 @@
 title: Почему не удается удалить записи из сущности фактических значений?
 description: В этом разделе представлена информация о том, почему нельзя удалить записи из сущности фактических данных.
 author: JPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/6/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 36cd241c7c7a2ff6ae018c94d691bc95d1f0c912
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d60a3586fd1f0f688bcd2626d039ebc1aa6b0925c90d676f0e716400d8e8d6dd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148974"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002887"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Почему не удается удалить записи из сущности "Фактические значения"?
 
@@ -33,3 +31,6 @@ ms.locfileid: "5148974"
 
 Project Service Automation (PSA) не позволяет удалять фактические значения, поскольку они служат как источник истины для транзакций, которые имеют финансовое влияние на последующие системы, такие как главная книга. Если фактические значения можно было бы удалить, целостность транзакций финансовой отчетности оказалась бы под вопросом. Чтобы поддерживать журнал аудита, клиенты должны использовать журналы для создания компенсирующих транзакций.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

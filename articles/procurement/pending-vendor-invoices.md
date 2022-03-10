@@ -2,17 +2,17 @@
 title: Покупка нескладируемые материалы с помощью незавершенной накладной поставщика
 description: В этой теме объясняется, как записывать незавершенные накладные поставщика.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993825"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547305"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Покупка нескладируемые материалы с помощью незавершенной накладной поставщика
 
@@ -45,4 +45,5 @@ _**Относится к:** Project Operations для сценариев на о
     - Сумма сальдо поставщика.
     - Сумма налога.
     - Стоимость проекта записывается на учетная запись интеграции закупок.
-    - Фактическая транзакция по проекту в Dataverse. Эта транзакция далее обрабатывается с использованием [Журнал интеграции Project Operations](../project-accounting/project-operations-integration-journal.md). При разноске этого журнала сумма перемещается со учетной записи интеграции закупок в учетная запись затрат по проекту.
+    - Транзакция фактических затрат по проекту в Dataverse.  Эта транзакция далее обрабатывается с использованием [Журнал интеграции Project Operations](../project-accounting/project-operations-integration-journal.md). При разноске этого журнала сумма перемещается со учетной записи интеграции закупок в учетная запись затрат по проекту. 
+    - Покупки, которые выставляются на оплату клиенту проекта с использованием метода выставления счетов на время и материалы. Кроме того, для покупок в Dataverse создаются транзакции продаж без выставленных счетов. Прайс-лист продукции в Dataverse используется для цен продажи и сумм для транзакции продажи без выставленных счетов.

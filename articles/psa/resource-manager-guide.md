@@ -2,8 +2,6 @@
 title: Руководство по диспетчеру ресурсов
 description: Руководство по управлению ресурсами в Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ee87e5b1a2cf96434f4862e07d2b85bad9eace
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0ad7d792450303c25fdac9f1191c809006d41541763b4f565b55abfa6da58a0a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124024"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984989"
 ---
 # <a name="resource-manager-guide-project-service"></a>Руководство для менеджера по управлению ресурсами (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -71,3 +71,6 @@ ms.locfileid: "4124024"
  [Руководство для менеджера по работе с клиентами](../psa/account-manager-guide.md)   
  [Руководство менеджера по проектам](../psa/project-manager-guide.md)   
  [Руководство по совместной работе и вводу данных о времени и расходах](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

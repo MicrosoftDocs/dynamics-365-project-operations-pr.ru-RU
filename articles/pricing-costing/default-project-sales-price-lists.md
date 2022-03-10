@@ -2,18 +2,16 @@
 title: Прайс-листы по умолчанию
 description: В этой теме предоставлена информация о прайс-листах продаж и себестоимости по умолчанию в Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275599"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989882"
 ---
 # <a name="default-price-lists"></a>Прайс-листы по умолчанию
 

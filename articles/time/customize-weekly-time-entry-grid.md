@@ -2,18 +2,16 @@
 title: Расширение записей времени
 description: Эта тема предоставляет информацию о том, как разработчики могут расширить элемент управления ввода времени.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277174"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993347"
 ---
 # <a name="extending-time-entries"></a>Расширение записей времени
 

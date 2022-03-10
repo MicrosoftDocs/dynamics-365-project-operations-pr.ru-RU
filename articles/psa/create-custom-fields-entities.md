@@ -2,12 +2,10 @@
 title: Создание настраиваемых полей и сущностей
 description: В этом разделе объясняется, как создавать наборы параметров и сущности в вашем собственном решении на платформе Power Apps.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +15,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992447"
 ---
 # <a name="create-custom-fields-and-entities"></a>Создание настраиваемых полей и сущностей 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Выполните следующие шаги в любое время, когда требуется создать настраиваемый набор параметров или сущность на платформе Power Apps.  
 Процедуры в данном разделе необходимо выполнить с помощью веб-интерфейса Project Service Automation (PSA).
@@ -43,7 +43,7 @@ ms.locfileid: "4083257"
 2. В обозревателе решений в левой навигационной панели выберите **Сущности**.
 3. Щелкните **Создать** для создания новой сущности с названием **Стандартный заголовок**. Введите остальные обязательные сведения, затем щелкните **Сохранить**.
 
-> ![Определение сущности стандартного заголовка](media/Standard-Title-entity-definition.png)
+> ![Определение сущности стандартного заголовка.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Измерения на основе набора параметров 
@@ -54,9 +54,9 @@ ms.locfileid: "4083257"
 2. В обозревателе решений в левой навигационной панели выберите **Наборы параметров**. 
 3. Щелкните **Создать** для создания нового набора параметров, введите остальное обязательные сведения, затем нажмите **Сохранить**.
 
-> ![Измерение ценообразования на основе набора параметров под названием "Место работы ресурса" ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Измерение ценообразования на основе набора параметров под названием «Место работы ресурса».](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Измерение ценообразования на основе набора параметров под названием "Рабочие часы ресурса" ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Измерение ценообразования на основе набора параметров под названием «Рабочие часы ресурса».](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Создание данные для измерений на основе сущности
@@ -68,6 +68,9 @@ ms.locfileid: "4083257"
 3. Закройте форму. 
 4. Повторите шаги с 1 по 3 для создания другого стандартного заголовка для "Главный системный инженер".
 
-> ![Демонстрационные данные для сущности стандартного заголовка ](media/ST-data.png)
+> ![Демонстрационные данные для сущности стандартного заголовка.](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

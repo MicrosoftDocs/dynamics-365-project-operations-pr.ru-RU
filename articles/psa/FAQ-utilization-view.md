@@ -2,8 +2,6 @@
 title: Просмотр оплачиваемой загруженности для ресурсов
 description: В этом разделе представлена информация о представлении загруженности ресурсов.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122179"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007162"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Просмотр оплачиваемой загруженности для ресурсов
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Представление загруженности** на странице **Загруженность ресурсов Project Service** отображает оплачиваемую загруженность для каждого резервируемого ресурса. Поскольку это представление основано на доске расписания, вы найдете много тех же функций.
 
-> ![Снимок экрана представления загруженности](media/FAQ-utilization-1.png)
+> ![Снимок экрана представления загруженности.](media/FAQ-utilization-1.png)
  
 
 Расчет оплачиваемой загруженности работает следующим образом:
@@ -48,7 +48,7 @@ ms.locfileid: "4122179"
 2. Выберите ресурс, чтобы открыть запись. 
 3. На вкладке **Project Service** можно задать целевую загруженность ресурса.
 
-> ![Снимок экрана использования вкладки Project Service для задания целевой загруженности](media/FAQ-utilization-2.png)
+> ![Снимок экрана использования вкладки Project Service для задания целевой загруженности.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Задание целевой загруженности для роли
 
@@ -56,7 +56,7 @@ ms.locfileid: "4122179"
 2. Выберите роль и откройте запись. 
 3. Задайте целевую загруженность для роли.
 
-> ![Снимок экрана использования пункта "Роли ресурса" для задания целевой загруженности](media/FAQ-utilization-3.png)
+> ![Снимок экрана использования пункта «Роли ресурса» для задания целевой загруженности.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Вычисление оплачиваемой загруженности для ресурса
 
@@ -99,3 +99,6 @@ ms.locfileid: "4122179"
   - Роль в строке контракта по проекту, поддерживающей проект, была установлена на неоплачиваемое значение.
   - У проекта нет связанной строки контракта.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

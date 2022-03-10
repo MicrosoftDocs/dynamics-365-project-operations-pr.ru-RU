@@ -2,8 +2,6 @@
 title: Что нового или измененного в выпуске-обновлении 12 для Project Service Automation версии 3
 description: В этом разделе приведены сведения о новых возможностях в выпуске-обновлении 12 для Project Service Automation версии 3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,15 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 5f05488a652f7a699aaa5d8e644eae38d7083f404d3c461cdaabd1915b1a710a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119974"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004507"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Выпуск-обновление 12 Project Service Automation, версия 3
-С удовольствием объявляем о выходе последнего обновления для приложения Dynamics 365 Project Service Automation (PSA). Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования. Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите Центр администрирования Dynamics 365 Online и перейдите на страницу решений, чтобы установить обновление. Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+С удовольствием объявляем о выходе последнего обновления для приложения Dynamics 365 Project Service Automation (PSA). Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования. Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите Центр администрирования Dynamics 365 Online и перейдите на страницу решений, чтобы установить обновление. Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](/power-platform/admin/install-remove-preferred-solution).
 
 В этом разделе перечислены функции и исправления, появившиеся или изменившиеся в выпуске-обновлении 12 для Project Service Automation версии 3. Эта версия имеет номер сборки V3.10.2.34 и становится доступна широкому кругу клиентов посредством самостоятельного обновления в октябре 2019 года.
 
@@ -58,3 +59,6 @@ ms.locfileid: "4119974"
     - Исправлено: дублирующиеся идентификаторы объектов в главной форме **Контракт**.
     - Исправлено: логика обновлена так, чтобы вкладка **Анализ предложения с расценками** отображалась и на ней была видна настройка метаданных вкладки.
     - Исправлено: дата учета в записи фактических данных теперь определяется датой записи времени/расхода, а не датой утверждения.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

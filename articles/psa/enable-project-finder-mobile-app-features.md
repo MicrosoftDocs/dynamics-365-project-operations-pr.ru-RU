@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f068c32ac957dc5921ccabc989b3b7a347585c19
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007742"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004912"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Включение функций мобильного приложения Project Finder Mobile (Project Service)
 
@@ -47,11 +47,11 @@ ms.locfileid: "6007742"
   
 4. Задайте для параметра **Разрешить ресурсу изменять навык** значение **Да**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Это глобальный параметр. Руководители проекта могут указывать, будет ли тот или иной проект видим, на странице проекта **Рабочая группа проекта**.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Уведомления по электронной почте  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] отправляет электронные сообщения о запросах ресурсов следующим получателям в следующих ситуациях.  

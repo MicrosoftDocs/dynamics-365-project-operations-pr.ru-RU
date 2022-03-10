@@ -2,8 +2,6 @@
 title: Сценарии с несколькими валютами (версия 3.x)
 description: В этом разделе представлена информация о сценариях с несколькими валютами.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145689"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005137"
 ---
 # <a name="multiple-currency-scenarios"></a>Сценарии с несколькими валютами
 
@@ -105,3 +103,6 @@ Dynamics 365 автоматически обрабатывает свертки 
 | Расходы           | Продажи без выставления счета   | 17 июня | Дементий  | Прокат автомобиля           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Для вычисления общей суммы продаж без выставления счета по проекту можно создать поле свертки для поля **Сумма** на всех связанных фактических значениях продаж без выставления счета. Поле свертки представляет собой конструкцию Dynamics 365, которая позволяет создавать быстрые формулы для связанных записей.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

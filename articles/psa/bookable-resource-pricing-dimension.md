@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012107"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988982"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Использование резервируемого ресурса как измерения ценообразования
 
@@ -62,18 +62,18 @@ ms.locfileid: "6012107"
 1. Чтобы сделать это, дважды щелкните строку в сетке **Измерения цен**, чтобы открыть страницу измерения **msdyn_bookableresource**.
 2. На странице измерения на вкладке **Связанные** щелкните **Имена полей измерений цен**.
 
- ![Вкладка "Имена полей измерений цен"](media/PD-fieldname.png)
+ ![Вкладка «Имена полей измерений цен».](media/PD-fieldname.png)
 
 4. В открывшемся связанном представлении щелкните **Добавить новое имя поля измерения цен**.
 
- ![Добавить новые имена полей измерения цен](media/Add-NewPD-fieldname.png)
+ ![Добавить новые имена полей измерения цен.](media/Add-NewPD-fieldname.png)
 
 
 При этом открывается страница **Создать имя поля измерения цен** для **msdyn_bookableresource**. 
 
 5. Добавьте **msdyn_projectteam** в поле **Логическое имя сущности** и **msdyn_bookableresourceid** в поле **Имя поля**. Сохранить запись.
 
- ![Форма создания имени поля измерения цен](media/PD-fieldname-Added.png)
+ ![Форма создания имени поля измерения цен.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Строки возможной сделки на основе проекта
 description: В этом разделе представлена информация о работе со строками возможных сделок на основе проекта.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91c53c917846a2b4e4fd64c14bb91782e9d05d66
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277669"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996362"
 ---
 # <a name="project-based-opportunity-lines"></a>Строки возможной сделки на основе проекта
 
