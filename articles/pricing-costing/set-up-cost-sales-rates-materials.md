@@ -2,16 +2,16 @@
 title: Настройка ставок себестоимости и продаж для материалов
 description: Этот тема содержит информацию о том, как настроить ставки стоимости и ставки продаж для материалов, используемых в проектах.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999197"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576884"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Настройка ставок себестоимости и продаж для материалов
 
@@ -25,6 +25,9 @@ _**Относится к:** Project Operations для сценариев на о
 2. В **Позиции прайс-листа**, в меню вложенной сетки выберите **Новая позиция прайс-листа**. 
 3. На странице **Быстрое создание** введите продукт и единицу, для которых вы создаете новую цену.
 
-Для получения дополнительной информации о том, как определять цены на позиции каталога, см. [Определение ценообразования для продукта](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) и [Десятичная точность в валюте и ценообразовании](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Для получения дополнительной информации о том, как определить цены для позиций каталога, см. разделы [Определение ценообразования для продукта с помощью прайс-листов и позиций прайс-листов](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) и [Десятичная точность в валюте и ценообразовании](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations не поддерживает все методы ценообразования для продуктов, как Dynamics 365 Sales. Единственный метод ценообразования, поддерживаемый для продуктов, которые будут использоваться в проектах, — это *Сумма в валюте*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

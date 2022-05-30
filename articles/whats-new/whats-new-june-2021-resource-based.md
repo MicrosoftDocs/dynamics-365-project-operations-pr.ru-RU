@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679225"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600804"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в июне 2021 года — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -21,7 +21,7 @@ _**Относится к:** Project Operations для сценариев на о
 Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
 - Project Operations в среде Dynamics 365 Dataverse версии 4.11.0.156 или 4.11.0.164.
-- Управление проектами и учет в средах приложений Finance and Operations версии 10.0.19.
+- Управление проектами и учет в средах приложений для управления финансами и операциями версии 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Функции, входящие в данный выпуск
 
@@ -38,7 +38,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 Для получения информации о текущем списке и версиях карт с двойной записью Project Operations см. [Версии карты с двойной записью Project Operations](../environment/resource-dual-write-maps.md).
 
-Всегда следует запускать последнюю версию сопоставления в своей среде и включать все связанные сопоставления таблиц при обновлении решения Project Operations Dataverse и версии решения приложений Finance and Operations. Некоторые функции и возможности могут работать некорректно, если не активирована последняя версия сопоставления. Вы можете увидеть активную версию карты на странице **Двойная запись** в столбце **Версия**. Активируйте новую версию карты, выбрав **Версии карт таблиц**, выбрав последнюю версию, а затем сохранив ее. Если вы настроили готовое сопоставление таблицы, повторно примените изменения. Дополнительные сведения см. в [Управление жизненным циклом приложений](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Всегда запускайте последнюю версию сопоставления в своей среде и включайте все связанные сопоставления таблиц при обновлении решения Project Operations Dataverse и версии решения приложений для управления финансами и операциями. Некоторые функции и возможности могут работать некорректно, если не активирована последняя версия сопоставления. Вы можете увидеть активную версию карты на странице **Двойная запись** в столбце **Версия**. Активируйте новую версию карты, выбрав **Версии карт таблиц**, выбрав последнюю версию, а затем сохранив ее. Если вы настроили готовое сопоставление таблицы, повторно примените изменения. Дополнительные сведения см. в [Управление жизненным циклом приложений](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Если вы столкнулись с проблемой при запуске карты, следуйте инструкциям в разделе [Проблема с отсутствующими столбцами таблицы на картах](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) в руководстве по устранению неполадок с двойной записью.
 

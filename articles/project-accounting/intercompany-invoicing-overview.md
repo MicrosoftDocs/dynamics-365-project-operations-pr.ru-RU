@@ -3,16 +3,15 @@ title: Обзор внутрихолдингового выставления с
 description: В этом разделе представлена информация и примеры внутрихолдингового выставления счетов для проектов.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005407"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586268"
 ---
 # <a name="intercompany-invoicing-overview"></a>Обзор внутрихолдингового выставления счетов
 
@@ -20,7 +19,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 В вашей организации может быть несколько подразделений, дочерних компаний и других юридических лиц, которые передают продукты и услуги друг другу для проектов. Юридическое лицо, предоставляющее услугу или продукт, называется *юридическое лицо-кредитор*. Юридическое лицо, получающее услугу или продукт, называется *юридическое лицо-заемщик*.
 
-На следующем рисунке показан типичный сценарий, когда два юридических лица, Contoso Robotics USA (юридическое лицо-заемщик) и Contoso Robotics UK (юридическое лицо-кредитор) совместно используют ресурсы для реализации проекта для клиента, Adventure Works. Для этого сценария Contoso Robotics USA заключает контракт на поставку работ компании Adventure Works.
+На следующем рисунке показан типичный сценарий, в котором два юридических лица, Contoso Robotics USA (юридическое лицо-заемщик) и Contoso Robotics UK (юридическое лицо-кредитор) совместно используют ресурсы для реализации проекта для клиента, Adventure Works. В этом сценарии Contoso Robotics USA заключает контракт на поставку работы для Adventure Works.
 
 ![Внутрихолдинговое выставление счетов.](./media/IntercompanyScenario.png) 
 

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005317"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727974"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Использование надстройки Project Service Automation для планирования работы в Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005317"
 ## <a name="download-and-install-the-add-in"></a>Загрузка и установка надстройки  
  Подготовьте сведения о входе в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Они вам потребуются для подключения из [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] к [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  В центре загрузки загрузите надстройку для поддерживаемой версии Project Service, [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) или [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  В центре загрузки загрузите надстройку для поддерживаемой версии Project Service, [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) или [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Щелкните ссылку загрузки.  
 
@@ -87,9 +88,8 @@ ms.locfileid: "7005317"
 
 Проект импортируется в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Будут применены цены и процесс создания рабочих групп. Откройте проект в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], чтобы просмотреть рабочую группу, оценки проекта и структурную декомпозицию работ. В следующей таблице показано, где можно найти результаты:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Диаграмма Ганта**   | Импорт на экран [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Структурная декомпозиция работ**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Лист ресурсов** |   Импорт на экран [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Участники рабочей группы проекта**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Использование использования**    |    Импорт на экран [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Оценки проекта**.     |

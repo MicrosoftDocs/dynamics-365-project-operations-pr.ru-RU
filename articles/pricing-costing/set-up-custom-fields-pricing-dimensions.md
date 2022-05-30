@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003607"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599424"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Создание настраиваемых полей в качестве измерений цен
 
@@ -74,8 +74,8 @@ _**Относится к:** Project Operations для сценариев на о
 | Роль        | Подразделение    |Расположение работы      |Стандартный заголовок      |Рабочие часы ресурса      |  Наценка|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|На месте            |                    |Сверхурочная работа                 |15     |
-|             | Contoso India|Локальная             |                    |Сверхурочная работа                 |10     |
-|             | Contoso US   |Локальная             |                    |Сверхурочная работа                 |20     |
+|             | Contoso India|Локальный             |                    |Сверхурочная работа                 |10     |
+|             | Contoso US   |Локальный             |                    |Сверхурочная работа                 |20     |
 
 
 Если ресурс из компании Contoso India с базовой ставкой 100 долларов США работает на месте, и он зарегистрировал 8 часов обычного времени и 2 часа переработки в записи времени, механизм ценообразования будет использовать базовую ставку 100 за 8 часов, чтобы записать 800 долларов США. За 2 часа переработки будет применена наценка 15% к базовому тарифу 100, чтобы получить цену за единицу 115 долларов США, и запишет общую стоимость 230 долларов США.

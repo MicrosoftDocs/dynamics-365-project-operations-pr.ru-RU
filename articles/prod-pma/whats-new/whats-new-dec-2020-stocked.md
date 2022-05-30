@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008827"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594962"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Новые возможности и изменения в Project Operations от декабря 2020 г. для сценариев на основе запасов/производственных заказов
 
@@ -139,7 +139,7 @@ _Применяется к: Project Operations для сценариев на о
 
 ## <a name="regulatory-updates"></a>Нормативные обновления
 
-Для получения информации о нормативных обновлениях для Dynamics 365 Finance см. раздел [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Еще один способ узнать о нормативных обновлениях — войти в Lifecycle Services (LCS) и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
+Сведения о нормативных обновлениях для Dynamics 365 Finance см. в разделе [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Еще один способ узнать о нормативных обновлениях — войти в Lifecycle Services (LCS) и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

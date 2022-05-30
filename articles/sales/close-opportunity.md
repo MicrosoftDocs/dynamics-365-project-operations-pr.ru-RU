@@ -4,14 +4,14 @@ description: В этом разделе представлена информа�
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: da388c19fb32a1dc62a0273a4de1203a45345dfb0c0a56e76b73cccc751e9545
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e86231ee595646d676885f41674438ea7c3c02b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006397"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601402"
 ---
 # <a name="close-an-opportunity"></a>Закрытие возможной сделки
 

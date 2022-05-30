@@ -4,14 +4,14 @@ description: В этом разделе представлена информа�
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 77809f63230530e2e6553b76e56d37249b060ab9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009502"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584750"
 ---
 # <a name="set-up-price-lists"></a>Настройка прайс-листов
 

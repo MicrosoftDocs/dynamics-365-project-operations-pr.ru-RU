@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991142"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586314"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Новые возможности и изменения Project Operations в мае 2021 года для сценариев на основе запасов/производственных заказов
 
@@ -93,7 +93,7 @@ _ **Применяется к:** Project Operations для сценариев н
 | Проезд и расходы                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | В мобильном приложении Expense есть проблемы с синхронизацией. 
 
 ### <a name="regulatory-updates"></a>Нормативные обновления
-Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в Lifecycle Services (LCS) и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
+Сведения о нормативных обновлениях для приложений для управления финансами и операциями см. в разделе [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Вы также можете войти в Lifecycle Services (LCS) и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

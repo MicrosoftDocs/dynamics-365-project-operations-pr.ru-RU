@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928677"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594870"
 ---
 # <a name="provision-a-new-environment"></a>Подготовка новой среды
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 В этом разделе представлена информация о том, как подготовить новую среду Dynamics 365 Project Operations для сценариев на основе ресурсов/без запасов.
 
@@ -34,7 +34,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="provision-a-project-operations-environment"></a>Подготовка среды Project Operations
 
-1. Откройте новую [демонстрационную среду](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance или развертывание [песочницы/производственной среды](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Откройте новое развертывание [демонстрационной среды](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) или [песочницы/рабочей среды](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) Dynamics 365 Finance. 
 2. Перейдите к мастеру **Подготовка среды**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ _**Относится к:** Project Operations для сценариев на о
 
     ![Применение решений.](./media/13ApplySolutions.png)
 
-5. Выберите оба решения, **Сопоставление сущностей с двойной записью Dynamics 365 Finance and Operations**, а также **Сопоставления сущностей с двойной записью Dynamics 365 Project Operations**, а затем выберите **Применить**.
+5. Выберите оба решения — **Сопоставление сущностей для двойной записи Dynamics 365 Finance and Operations** и **Сопоставления сущностей для двойной записи Dynamics 365 Project Operations**, затем выберите **Применить**.
 
     ![Подтверждение решений.](./media/14ConfirmSolutions.png)
 

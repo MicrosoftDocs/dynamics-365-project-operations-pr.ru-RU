@@ -4,14 +4,14 @@ description: Эта тема предоставляет информацию о�
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d53dde1d3b2705c5b0283f989d0e2eebfdcb5a0eb5f91cf4bf48e9c07aba79d1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87f6ef70a328164291f37e42d106649178c8cfbe
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989792"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591052"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Управление сложными единицами измерения, такими как по пользователям и по месяцам для строк предложения с расценками на основе продуктов — облегченное развертывание
 

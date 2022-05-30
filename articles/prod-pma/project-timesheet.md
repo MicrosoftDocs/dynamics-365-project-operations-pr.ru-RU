@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997217"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683232"
 ---
 # <a name="project-timesheet-mobile-application"></a>Мобильное приложение "Расписание проекта"
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997217"
 
 ## <a name="overview"></a>Обзор
 
-Мобильное приложение Microsoft Dynamics 365 Project Timesheet позволяет пользователям отправлять и утверждать расписания для проектов на своих мобильных устройствах (iPhone или Android). Это мобильное приложение предоставляет функции расписания, которые находятся в области управления проектами и учета Dynamics 365 Finance, повышая продуктивность и эффективность пользователей, а также позволяя своевременно вводить и утверждать расписания проектов.
+Мобильное приложение Microsoft Dynamics 365 Project Timesheet позволяет пользователям отправлять и утверждать расписания для проектов на своих мобильных устройствах (iPhone или Android). Это мобильное приложение предоставляет функции табеля учета рабочего времени, которые хранятся в области "Управление и учет по проектам" у Dynamics 365 Finance, повышая производительность и эффективность работы пользователей, а также обеспечивая своевременный ввод и утверждение табелей учета рабочего времени для проекта.
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузка и установка мобильного приложения
 

@@ -1,32 +1,31 @@
 ---
-title: Синхронизируйте фактические данные по проекту непосредственно из Project Service Automation с журналом интеграции проекта для разноски в Finance and Operations
-description: В этой теме описаны шаблоны и базовые задачи, которые используются для синхронизации фактических данных проекта непосредственно из Microsoft Dynamics 365 Project Service Automation с Finance and Operations.
+title: Синхронизация фактических значений проекта непосредственно из Project Service Automation в журнал интеграции проекта для разноски в Finance and Operations
+description: В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации фактических значений непосредственно из Microsoft Dynamics 365 Project Service Automation в Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988127"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683554"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Синхронизируйте фактические данные по проекту непосредственно из Project Service Automation с журналом интеграции проекта для разноски в Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Синхронизация фактических значений проекта непосредственно из Project Service Automation в журнал интеграции проекта для разноски в Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме описаны шаблоны и базовые задачи, которые используются для синхронизации фактических данных проекта непосредственно из Dynamics 365 Project Service Automation с Dynamics 365 Finance.
+В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации фактических значений непосредственно из Dynamics 365 Project Service Automation в Dynamics 365 Finance.
 
 Шаблон синхронизирует транзакции из Project Service Automation с промежуточной таблицей в Finance. После завершения синхронизации вы **должны** импортировать данные из промежуточной таблицы в журнал интеграции.
 
@@ -75,7 +74,7 @@ ms.locfileid: "6988127"
 
 ### <a name="power-query"></a>Power Query
 
-В шаблоне фактических данных по проекту необходимо использовать Microsoft Power Query для Excel для выполнения следующих задач:
+В шаблоне фактических значений по проекту необходимо использовать Microsoft Power Query для Excel для выполнения следующих задач:
 
 - Преобразуйте тип транзакции в Project Service Automation в правильный тип транзакции в Finance. Это преобразование уже определено в шаблоне фактических данных проекта (из PSA в Fin and Ops).
 - Преобразуйте тип выставления счетов в Project Service Automation в правильный тип выставления счетов в Finance. Это преобразование уже определено в шаблоне фактических данных проекта (из PSA в Fin and Ops). Затем тип выставления счетов сопоставляется со свойством строки на основе конфигурации на странице **Параметры интеграции Project Service Automation**.
@@ -84,9 +83,9 @@ ms.locfileid: "6988127"
 - Если внутрихолдинговое время или фактические данные внутрихолдинговых расходов не синхронизируются с Finance, необходимо удалить последний вставленный условный столбец из шаблона. В противном случае может произойти ошибка интеграции или неправильные фактические транзакции могут быть импортированы в Finance.
 
 #### <a name="contract-organizational-unit"></a>Подразделение контракта
-Чтобы обновить вставленный условный столбец в шаблоне, щелкните стрелку **Сопоставить**, чтобы открыть сопоставление. Выберите ссылку **Расширенный запрос и фильтрация** для открытия Power Query.
+Чтобы обновить вставленный условный столбец в шаблоне, щелкните стрелку **Сопоставить**, чтобы открыть сопоставление. Выберите ссылку **Расширенный запрос и фильтрация**, чтобы открыть Power Query.
 
-- Если вы используете шаблон фактических данных проекта по умолчанию (PSA в Fin and Ops), в Power Query выберите последнее **Вставленное условие** в разделе **Примененные шаги**. В записи **Функция** замените **USSI** на название юридического лица, которое следует использовать при интеграции. Добавьте дополнительные условия в запись **Функция**, как вам нужно, и обновите условие **else** **USMF** на правильное юридическое лицо.
+- При использовании шаблона по умолчанию для фактических значений проекта (из PSA в Fin and Ops) выберите в Power Query последнее **Вставленное условие** из раздела **Примененные действия**. В записи **Функция** замените **USSI** на название юридического лица, которое следует использовать при интеграции. Добавьте дополнительные условия в запись **Функция**, как вам нужно, и обновите условие **else** **USMF** на правильное юридическое лицо.
 - Если вы создаете новый шаблон, вы должны добавить столбец для поддержки времени и затрат внутри компании. Выберите **Добавить условный столбец** и введите имя столбца, например **LegalEntity**. Введите условие для столбца, где if **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null.
 
 ### <a name="template-mapping-in-data-integration"></a>Сопоставление шаблонов в интеграции данных
@@ -126,7 +125,7 @@ ms.locfileid: "6988127"
 
 ### <a name="power-query"></a>Power Query
 
-В шаблоне обновления фактических данных по проекту необходимо использовать Power Query для выполнения следующих задач:
+В шаблоне обновления фактических значений по проекту необходимо использовать Power Query для выполнения следующих задач:
 
 - Преобразуйте тип транзакции в Finance в правильный тип транзакции в Project Service Automation. Это преобразование уже определено в шаблоне обновления фактических данных проекта (из Fin and Ops в PSA).
 - Преобразуйте тип выставления счетов в Finance в правильный тип выставления счетов в Project Service Automation. Это преобразование уже определено в шаблоне обновления фактических данных проекта (из Fin and Ops в PSA).

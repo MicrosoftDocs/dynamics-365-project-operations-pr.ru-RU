@@ -1,32 +1,31 @@
 ---
-title: Синхронизируйте задачи проекта напрямую из Project Service Automation с Finance and Operations
-description: В этой теме описаны шаблон и базовая задачи, которые используются для синхронизации задач проекта непосредственно из Microsoft Dynamics 365 Project Service Automation с Dynamics 365 Finance.
+title: Синхронизация задач по проекту напрямую из Project Service Automation в Finance and Operations
+description: В этой теме рассматривается шаблон и базовая задача, которая используется для синхронизации задач по проекту непосредственно из Microsoft Dynamics 365 Project Service Automation в Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992807"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683326"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронизируйте задачи проекта напрямую из Project Service Automation с Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронизация задач по проекту напрямую из Project Service Automation в Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме описаны шаблон и базовая задачи, которые используются для синхронизации задач проекта непосредственно из Dynamics 365 Project Service Automation с Dynamics 365 Finance.
+В этой теме рассматривается шаблон и базовая задача, которая используется для синхронизации задач по проекту непосредственно из Dynamics 365 Project Service Automation в Dynamics 365 Finance.
 
 > [!NOTE]
 > - Интеграция задач проекта, категории транзакций расходов, оценки часов, оценки расходов и блокировка функций доступны в версии 8.0.
@@ -68,11 +67,11 @@ ms.locfileid: "6992807"
 
 ## <a name="power-query"></a>Power Query
 
-Вы должны использовать Microsoft Power Query для Excel для фильтрации данных, если выполняется следующее условие:
+Необходимо использовать Microsoft Power Query для Excel для фильтрации данных, если выполняется следующее условие:
 
 - У вас есть записи о конкретных ресурсах в задаче проекта.
 
-Если вам необходимо использовать Power Query, следуйте этим рекомендациям:
+При использовании Power Query необходимо придерживаться следующего правила:
 
 - В шаблоне задач проекта (из PSA в Fin and Ops) есть фильтр по умолчанию, который исключает связанные с ресурсами записи из задачи проекта, устанавливая фильтр для **IsLineTask** как **False**. Если вы создаете свой собственный шаблон, вы должны добавить этот фильтр.
 

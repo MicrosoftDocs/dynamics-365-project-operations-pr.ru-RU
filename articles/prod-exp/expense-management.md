@@ -3,25 +3,23 @@ title: Обзор управления расходами
 description: Эта тема предоставляет общую информацию об управлении расходами и ссылки на дополнительные ресурсы. Вы можете использовать управление расходами для создания интегрированного рабочего процесса, в котором вы можете хранить информацию о способах оплаты, импортировать транзакции по кредитным картам и отслеживать деньги, которые сотрудники тратят, когда они несут расходы для вашего бизнеса.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001447"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684842"
 ---
 # <a name="expense-management-overview"></a>Обзор управления расходами
 
@@ -45,7 +43,7 @@ ms.locfileid: "7001447"
 
 ### <a name="blogs"></a>Блоги
 
-Вы можете найти мнения, новости и другую информацию в [блоге Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и [блоге Microsoft Dynamics 365 Finance and Operations — Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Мнения, новости и другие сведения см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 В [блоге сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) партнеры Microsoft Dynamics получают единый ресурс, где они могут узнать о новостях и тенденциях в MBS Operations.
 

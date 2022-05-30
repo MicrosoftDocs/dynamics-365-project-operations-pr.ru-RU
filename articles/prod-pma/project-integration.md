@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988037"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685001"
 ---
 # <a name="microsoft-project-client-integration"></a>Интеграция Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-Планирование и ведение графика проекта может быть сложной задачей, поэтому руководителям проектов необходимо использовать инструменты, которые помогают им справляться с этой задачей. Интеграция с Microsoft Project Client обеспечивает поддержку для открытия и управления структурной декомпозицией работ. Менеджер проекта может публиковать любые изменения обратно в структурную декомпозицию работ проекта Dynamics 365 Finance.
+Планирование и ведение графика проекта может быть сложной задачей, поэтому руководителям проектов необходимо использовать инструменты, которые помогают им справляться с этой задачей. Интеграция с Microsoft Project Client обеспечивает поддержку для открытия и управления структурной декомпозицией работ. Руководитель проекта может публиковать любые изменения обратно в структурную декомпозицию работ по проекту в Dynamics 365 Finance.
 
 > [!NOTE]
 > Если вы используете июльское обновление (версия 10.0.4), вы должны установить KB 4054797 и 4055884.
@@ -40,7 +39,7 @@ ms.locfileid: "6988037"
 •   Щелкните **Открыть**, затем щелкните **Выполнить** при появлении запроса.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Открытие и редактирование существующей черновой структурной декомпозиции работ в Microsoft Project Client
-Если для проекта в Dynamics 365 Finance структурная декомпозиция работ уже создана, структурную декомпозицию работ можно открыть в приложении Microsoft Project Client, если структурная декомпозиция работ находится в состоянии черновика. Чтобы открыть на странице **Проект**, щелкните ссылку **Открыть в Microsoft Project** на вкладке **План**. Эту страницу также можно открыть из приложения Microsoft Project Client, нажав **Открыть** на вкладке **Microsoft Dynamics 365**. Выберите **Юридическое лицо** и **Проект** из списка.
+Если для проекта в Dynamics 365 Finance уже создана структурная декомпозиция работ, эту структурную декомпозицию работ можно открыть в клиентском Microsoft Project Client, если эта структурная декомпозиция работ имеет статус черновика. Чтобы открыть на странице **Проект**, щелкните ссылку **Открыть в Microsoft Project** на вкладке **План**. Эту страницу также можно открыть из приложения Microsoft Project Client, нажав **Открыть** на вкладке **Microsoft Dynamics 365**. Выберите **Юридическое лицо** и **Проект** из списка.
 
 > [!NOTE]
 > Если вы используете Internet Explorer в качестве браузера, вам нужно будет нажать **Сохранить** для открытия вручную из того места, куда загружен файл. Или щелкните **Сохранить и открыть**, чтобы открыть файл в Microsoft Project Client. Не переименовывайте имя файла при сохранении.

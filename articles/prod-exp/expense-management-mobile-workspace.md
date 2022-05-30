@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001492"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682818"
 ---
 # <a name="expense-management-mobile-workspace"></a>Мобильная рабочая область управления расходами
 
@@ -35,7 +34,7 @@ ms.locfileid: "7001492"
 
 В частности, мобильная рабочая область **Управление расходами** позволяет пользователям выполнять следующие задачи:
 
-- Сделайте фотографию квитанции и отправьте ее в Dynamics 365 Finance. Позже вы можете прикрепить эту фотографию к отчету о расходах позже.
+- Сделать фото чека и отправить его в Dynamics 365 Finance. Позже вы можете прикрепить эту фотографию к отчету о расходах позже.
 - Отправьте файл как снятую квитанцию. Позже вы можете прикрепить этот файл к отчету о расходах.
 - Создайте новую строку расходов, используя прикрепленную квитанцию. Позже вы можете добавить эту строку в отчет о расходах и отправить ее на утверждение и возмещение.
 
@@ -53,7 +52,7 @@ ms.locfileid: "7001492"
 ## <a name="prerequisites"></a>Предварительные условия
 Предварительные требования различаются в зависимости от версии, развернутый в вашей организации.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Условия, если вы используете Dynamics 365 Finance 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Предварительные условия при использовании Dynamics 365 Finance 
 Если Finance было развернуто для вашей организации, системный администратор должен опубликовать мобильное рабочее пространство **Управление расходами**. Инструкции см. в [Публикация мобильных рабочих областей](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Предварительные требования, если вы используете версию 1611 с обновлением платформы 3 или новее

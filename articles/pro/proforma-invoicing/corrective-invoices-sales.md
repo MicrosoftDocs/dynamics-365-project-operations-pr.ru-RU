@@ -4,14 +4,14 @@ description: В этой теме содержится информация о �
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cec77f22dd52e15c9fb61b7acc0bd3e633f119b96d7958af021e4dce977140a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 29a21dd1da03b06c95c030e5bafc8e3e25fb789b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009547"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578218"
 ---
 # <a name="corrective-project-invoices"></a>Корректирующие счета по проекту
 

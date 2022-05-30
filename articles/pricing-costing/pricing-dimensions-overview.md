@@ -3,17 +3,16 @@ title: Обзор измерений цен
 description: В этом разделе представлена информация об измерениях цен в Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001987"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579276"
 ---
 # <a name="pricing-dimensions-overview"></a>Обзор измерений цен
 
@@ -58,18 +57,18 @@ Dynamics 365 Project Operations поставляется с набором по 
 
 **Пример тарифов для счетов**
 
-| Роль        | Подразделение    |Единица      |Цена      |Валюта  |
+| Роль        | Подразделение    |Единица измерения      |Цена      |Валюта  |
 | ------------|-------------|----------|----------:|----------|
-| Разработка   | Contoso US  |Час | 200|Доллар США     |
-| Разработка   | Contoso India |Час|   112|Доллар США     |
+| Разработчик   | Contoso US  |Hour | 200|Доллар США     |
+| Разработчик   | Contoso India |Hour|   112|Доллар США     |
 
 
 **Пример норм затрат**
 
-| Диапазон зарплаты     | Подразделение    |Единица      |Цена      |Валюта  |
+| Диапазон зарплаты     | Подразделение    |Единица измерения      |Цена      |Валюта  |
 | ----------------|-------------|----------|----------:|----------|
-| Моя компания_Диапазон1 | Contoso US  |Час | 145|Доллар США     |
-| Моя компания_Диапазон2 | Contoso India |Час|   67|Доллар США     |
+| Моя компания_Диапазон1 | Contoso US  |Hour | 145|Доллар США     |
+| Моя компания_Диапазон2 | Contoso India |Hour|   67|Доллар США     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

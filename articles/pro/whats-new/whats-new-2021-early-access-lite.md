@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323927"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723692"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Что нового в раннем доступе 2021 волны 2. Упрощенное развертывание Project Operations
 
@@ -26,7 +26,7 @@ _Относится к: облегченное развертывание — о
 
 ## <a name="features-included-in-this-release"></a>Функции, входящие в данный выпуск
 
-[Управление субподрядом](../subcontracting/subcontracting_EA_scope.md) - эта функция обеспечивает лучшую видимость и контроль над всеми аспектами работы над проектом. Предварительная версия управления субподрядом включает следующие возможности:
+[Управление субподрядом](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - эта функция обеспечивает лучшую видимость и контроль над всеми аспектами работы над проектом. Предварительная версия управления субподрядом включает следующие возможности:
 
   - Руководитель проекта может создавать субподряд с поставщиком. По умолчанию прайс-листы, прикрепленные к записи поставщика, используются для субподряда. Организация поставщика имеют тип отношений **Продавец** или **Поставщик**.
   - Руководитель проекта может разбить все покупки на позиции строки субподряда. Строки субподряда могут касаться времени, расходов или продуктов. Класс транзакции определяет, для чего предназначена эта строка.

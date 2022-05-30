@@ -4,14 +4,14 @@ description: В этой теме предоставлена информаци�
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.openlocfilehash: 07f96973a1341e65e648f126a931d72454334e9c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678365"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592524"
 ---
 # <a name="create-and-update-a-project"></a>Создание и обновление проекта
 

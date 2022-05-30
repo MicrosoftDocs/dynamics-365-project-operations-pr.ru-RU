@@ -1,17 +1,17 @@
 ---
 title: Применение демонстрационных данных к размещенной в облаке среде Finance
-description: В этой теме объясняется, как применить демонстрационные данные из Project Operations к размещенной в облаке среде Dynamics 365 Finance.
+description: В этой теме поясняется, как применить демонстрационные данные из Project Operations к среде Dynamics 365 Finance, размещенной в облаке.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009682"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588982"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Применение демонстрационных данных к размещенной в облаке среде Finance
 

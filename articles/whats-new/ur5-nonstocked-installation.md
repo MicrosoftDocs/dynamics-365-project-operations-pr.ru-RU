@@ -1,25 +1,25 @@
 ---
 title: Обновите Project Operations в вашей среде Finance
-description: В этой теме содержится информация о том, как обновить Project Operations в вашей среде Dynamics 365 Finance.
+description: Этот тема содержит информацию о том, как обновить Project Operations в среде Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986777"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579963"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Обновите Project Operations в вашей среде Finance
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
 
-В этой теме содержится информация о том, как обновить Dynamics 365 Project Operations в вашей среде Dynamics 365 Finance. Для обновления Project Operations до Обновление 5 (UR5) требуются три процедуры:
+Этот тема содержит информацию о том, как обновить Dynamics 365 Project Operations в среде Dynamics 365 Finance. Для обновления Project Operations до Обновление 5 (UR5) требуются три процедуры:
 
 - [Импортируйте пакет в предварительный проект](#import)
 - [Примените обновление](#apply)
@@ -119,7 +119,7 @@ _**Относится к:** Project Operations для сценариев на о
 4. На странице **Версия сопоставления таблиц** примените новую версию сопоставления к каждому из трех объектов.
 5. На странице **Двойная запись** выберите выполнение, чтобы перезапустить сопоставления.
 6. Из списка сопоставлений выберите сопоставление **Реестр (msdyn_ledgers)** со всеми обязательными компонентами и выберите флажок **Начальная синхронизация**. 
-7. В поле **Главная запись для начальной синхронизации** выберите **Приложения Finance and Operations**, а затем выберите **Выполнить**.
+7. В поле **Главный объект для начальной синхронизации** выберите **Приложения для управления финансами и операциями apps**, затем выберите **Выполнить**.
  
  ![Синхронизация сопоставления реестра.](media/DW6.png)
  

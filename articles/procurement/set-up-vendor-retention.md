@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594622"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583720"
 ---
 # <a name="set-up-vendor-retention"></a>Настройка удержания поставщиков
 
@@ -22,7 +22,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Настройка счета для удержания поставщика в главной книге
 
-1. В Dynamics 365 Finance перейдите в раздел **Главная книга** > **Настройка разноски** > **Счета для автоматических проводок**.
+1. В Dynamics 365 Finance выберите **Главная книга** > **Настройка разноски** > **Счета для автоматических проводок**.
 2. Добавление новой строки.
 3. В поле **Тип разноски** выберите **Удержание поставщика**.
 4. Выберите основной счет для разноски удержания поставщика.

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818199"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588936"
 ---
 # <a name="mobile-expense-app"></a>Мобильное приложение для учета расходов
 
@@ -47,7 +47,7 @@ _**Относится к:** Project Operations для сценариев на о
 - Отправьте отчет о расходах на утверждение и возмещение.
 - Утверждайте или отклоняйте отчеты о расходах, для которых вы назначены в качестве утверждающего.
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Условия, если вы используете Dynamics 365 Finance
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Предварительные условия при использовании Dynamics 365 Finance
 
 Если Finance было развернуто для вашей организации, системный администратор должен опубликовать мобильное рабочее пространство **Управление расходами**. 
 

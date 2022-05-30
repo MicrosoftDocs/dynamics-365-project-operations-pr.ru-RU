@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986822"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589028"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в феврале 2021 г. — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -46,12 +46,12 @@ _**Относится к:** Project Operations для сценариев на о
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Управление и учет по проектам в Dynamics 365 Finance 
 
-Для получения дополнительной информации об Управлении и учете по проектам в Dynamics 365 Finance, см. [Что нового в январе 2021 г. — Project Operations для сценариев на основе ресурсов/без запасов](whats-new-jan-2021-resource-based.md).
+Дополнительные сведения о модуле "Управление и учет по проектам" Dynamics 365 Finance см. в разделе [Новые возможности в январе 2021 г. — Project Operations для сценариев на основе ресурсов/без запасов](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Нормативные обновления
 
-Для получения информации о нормативных обновлениях для приложений Finance and Operations см. раздел [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Еще один способ узнать о нормативных обновлениях — войти в Lifecycle Services (LCS) и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
+Сведения о нормативных обновлениях для приложений для управления финансами и операциями см. в разделе [Нормативные обновления](/dynamics365/finance/localizations/regulatory-updates). Еще один способ узнать о нормативных обновлениях — войти в Lifecycle Services (LCS) и просмотреть запланированные нормативные обновления с помощью инструмента поиска проблем. Поиск проблем позволяет искать по стране, типу функции и выпуску.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

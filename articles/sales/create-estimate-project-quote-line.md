@@ -4,14 +4,14 @@ description: В этой теме дана информация о создан�
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 84283ac055aea802fadbd6814ea65a6d3dc01d29e1e3c6290ef11f72f6a75692
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 96a83bb51864297098db28588e22197d78462fa2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003967"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580012"
 ---
 # <a name="estimate-a-project-quote-line"></a>Оценка строки предложения с расценками проекта
 

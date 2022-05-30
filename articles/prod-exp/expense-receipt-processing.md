@@ -1,24 +1,23 @@
 ---
 title: Обработка чеков по расходам
-description: Эта тема предоставляет информацию об оптическом распознавании символов (OCR) для квитанций. Эта функция предназначена для улучшения работы пользователей при создании отчетов о расходах в Microsoft Dynamics 365 Finance.
+description: Эта тема предоставляет информацию об оптическом распознавании символов (OCR) для квитанций. Эта функция предназначена для повышения комфорта пользователей при создании отчетов по расходам в Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001402"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684336"
 ---
 # <a name="expense-receipt-processing"></a>Обработка чеков по расходам
 
@@ -51,7 +50,7 @@ ms.locfileid: "7001402"
 
 Эта функция работает в сочетании с функцией **Переработанные отчеты о расходах**, чтобы помочь упростить работу с расходами. Эта функция доступна только для сред уровня 2+, то есть для среды песочницы и рабочей среды.
 
-Чтобы использовать эти расширенные возможности по расходам, установите надстройку службы управления расходами для Microsoft Dynamics 365 Finance и включите функции в своем экземпляре. Вы можете получить доступ к надстройке из своего проекта в Microsoft Dynamics Lifecycle Services (LCS).
+Чтобы использовать эти дополнительные возможности для расходов, установите надстройку службы управления расходами Microsoft Dynamics 365 Finance и включите функции в своем экземпляре. Вы можете получить доступ к надстройке из своего проекта в Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Войдите в LCS и откройте желаемую среду.
 2. Перейти к пункту **Полная информация**.

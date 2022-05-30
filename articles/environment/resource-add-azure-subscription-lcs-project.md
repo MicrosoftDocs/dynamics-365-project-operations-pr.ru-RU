@@ -4,14 +4,14 @@ description: Эта тема предоставляет информацию о 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986687"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595928"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Добавление подписки Azure в проект LCS
 
@@ -65,7 +65,7 @@ _**Относится к:** Project Operations для сценариев на о
 8. Выберите регион Azure для развертывания и выберите центр обработки данных, расположенный рядом с местом, где вы планируете использовать эту систему.
 9.  Выберите **Подключиться**.
 
-Вы успешно подключили свою подписку Azure. Теперь вы можете развернуть развернутые в облаке среды Dynamics 365 Finance.
+Вы успешно подключили свою подписку Azure. Теперь вы можете развертывать облачные среды Dynamics 365 Finance.
 
 
 

@@ -4,14 +4,14 @@ description: В этом разделе представлена информа�
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992222"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601126"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Создание решения для настраиваемых измерений ценообразования
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992222"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Создание решения для настраиваемых измерений ценообразования
 
 1.  Выберите **Параметры** > **Решения**, затем выберите **Создать**.
-2.  Назовите решение, *<your organization name> измерения цен*.
+2.  Назовите решение, *\<your organization name\> измерения цен*.
 3. Введите остальные обязательные сведения, затем выберите **Сохранить**.
 
   ![Создание решения для настраиваемых измерений цен.](./media/Creation-of-custom-pricing-dimension-solution.png)

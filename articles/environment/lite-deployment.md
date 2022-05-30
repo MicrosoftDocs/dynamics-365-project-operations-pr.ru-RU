@@ -2,44 +2,44 @@
 title: Развертывание Project Operations — облегченное
 description: Эта тема предоставляет информацию о том, как установить развертывание Project Operations Lite — от сделки до счетов-проформ.
 author: stsporen
-ms.date: 10/02/2020
+ms.date: 02/28/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991592"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580748"
 ---
 # <a name="deploy-project-operations---lite"></a>Развертывание Project Operations — облегченное
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Project Operations поддерживает несколько моделей развертывания. Чтобы определить лучшую модель развертывания, см. раздел [Типы развертывания](determine-deployment-type.md).
 
 
 > [!IMPORTANT]
-> Это развертывание, упрощенное развертывание — от сделки до счетов-проформ, приводит к **развертыванию Project Operations только в Common Data Service**.
+> Это развертывание, упрощенное развертывание — от сделки до счетов-проформ, приводит к **развертыванию Project Operations только в Dataverse**.
 
-- [Установка Project Operations в новой среде CDS](#new)
-- [Установка в существующую среду CDS](#existing)
+- [Установка Project Operations в новую среду Dataverse](#new)
+- [Установка в существующую среду Dataverse](#existing)
 
 
 
-## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Установка Project Operations в новой среде CDS
+## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new"></a>Установка Project Operations в новую среду Dataverse
 
-1. Как [глобальный администратор или администратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, создайте новую среду CDS в [центре администрирования PowerPlatform](https://admin.powerplatform.com). Убедись в том, что **База данных CDS** и **Приложения Dynamics 365** включены. Дополнительную информацию см. в разделе [Создание и управление средами в центре администрирования Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. В качестве [глобального администратора или администратора Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations создайте новую среду Dataverse в [центре администрирования PowerPlatform](https://admin.powerplatform.com). Убедитесь, что параметры **Создать базу данных для этой среды** и **Приложения Dynamics 365** включены. Дополнительную информацию см. в разделе [Создание и управление средами в центре администрирования Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Выбрать **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365.
 
 
-## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Установка Project Operations в существующей среде CDS
-
-1. Как [глобальный администратор или администратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, найдите среду в [центре администрирования PowerPlatform](https://admin.powerplatform.com), в которой вы хотите установить Project Operations.
-2. Установите **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365. Дополнительные сведения см. в статье [Управление приложениями Dynamics 365](/power-platform/admin/manage-apps).
+## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a>Установка Project Operations в существующую среду Dataverse
+1. Убедитесь, что в среде не настроена [двойная запись](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), поскольку в таком случае при установке будут установлены возможности [Project Operations для сценариев на основе ресурсов/без запасов](project-operations-integrated-deployment-overview.md).
+2. Как [глобальный администратор или администратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) с лицензией Project Operations, найдите среду в [центре администрирования PowerPlatform](https://admin.powerplatform.com), в которой вы хотите установить Project Operations.
+3. Установите **Microsoft Dynamics 365 Project Operations** из списка развертывания приложений Dynamics 365. Дополнительные сведения см. в статье [Управление приложениями Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

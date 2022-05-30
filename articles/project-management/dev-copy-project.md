@@ -2,76 +2,80 @@
 title: Разработка шаблонов проектов с помощью копирования проектов
 description: Эта тема предоставляет информацию о том, как создавать шаблоны проектов с помощью настраиваемого действия копирования проекта.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989285"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590915"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Разработка шаблонов проектов с помощью копирования проектов
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations поддерживает возможность копирования проекта и отзыва любых назначений обратно к универсальным ресурсам, представляющим роль. Клиенты могут использовать эту функцию для создания базовых шаблонов проектов.
 
 Когда вы выбираете действие **Копировать проект**, статус целевого проекта обновляется. Используйте поле **Причина состояния**, чтобы определить, когда действие копирования завершено. Выбор действия **Копировать проект** также обновляет дату начала проекта до текущей даты начала, если в целевой сущности проекта не обнаружена целевая дата.
 
-## <a name="copy-project-custom-action"></a>Настраиваемое действие копирования проекта 
+## <a name="copy-project-custom-action"></a>Настраиваемое действие копирования проекта
 
-### <a name="name"></a>Название 
+### <a name="name"></a>Имя. 
 
-**msdyn_CopyProjectV2**
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Входные параметры
+
 Имеются три входных параметра:
 
-| Параметр          | Тип   | Значения                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** или **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Ссылка на сущность | Исходный проект |
-| Целевой объект             | Ссылка на сущность | Целевой проект |
+- **ReplaceNamedResources** или **ClearTeamsAndAssignments** — задайте только один из параметров. Не задавайте их оба.
 
+    - **\{"ReplaceNamedResources":true\}** — поведение по умолчанию для Project Operations. Все именованные ресурсы заменяются универсальными ресурсами.
+    - **\{"ClearTeamsAndAssignments":true\}** — поведение по умолчанию для Project for the Web. Все назначения и участники рабочей группы удаляются.
 
-- **{"clearTeamsAndAssignments":true}**: поведение по умолчанию для Project для Интернета, и удаляет все назначения и участников рабочей группы.
-- **{"removeNamedResources":true}** поведение по умолчанию для Project Operations, и возвратит назначения на универсальные ресурсы.
+- **SourceProject** — ссылка на сущность исходного проекта, из которого производится копирование. Этот параметр не может иметь значение NULL.
+- **Target** — ссылка на сущность целевого проекта, в который производится копирование. Этот параметр не может иметь значение NULL.
 
-Дополнительные сведения о значениях по умолчанию для действий см. в разделе [Использование действий веб-API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+В следующей таблице приведено краткое описание трех параметров.
 
-## <a name="specify-fields-to-copy"></a>Указание полей для копирования 
+| Параметр                | Type             | Стоимость                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Логический          | **True** или **False** |
+| ClearTeamsAndAssignments | Логический          | **True** или **False** |
+| SourceProject            | Ссылка на сущность | Исходный проект    |
+| Target                   | Ссылка на сущность | Целевой проект    |
+
+Дополнительные сведения о значениях по умолчанию для действий см. в разделе [Использование действий веб-API](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+### <a name="validations"></a>Проверки
+
+Выполняются следующие проверки.
+
+1. Проверка на значения NULL,, а также извлечение исходного и целевого проектов для подтверждения существования обоих проектов в организации.
+2. Система проверяет пригодность целевого проекта для копирования, проверяя следующие условия:
+
+    - В проекте нет предыдущей деятельности (в том числе выбора значений на вкладке **Задачи**), и проект только что создан.
+    - Нет ранее сделанных копий, в этом проекте не запрашивался импорт, и проект не находится в состоянии **Сбой**.
+
+3. Операция не вызывается с использованием HTTP.
+
+## <a name="specify-fields-to-copy"></a>Указание полей для копирования
+
 Когда действие **Копировать проект** вызывается, оно смотрит на представление проекта **Копировать столбцы проекта**, чтобы определить, какие поля копировать при копировании проекта.
 
-
 ### <a name="example"></a>Пример
-В следующем примере показано, как вызвать настраиваемое действие **CopyProject** с помощью набора параметров **removeNamedResources**.
+
+В следующем примере показано, как вызвать пользовательское действие **CopyProjectV3** с заданным параметром **removeNamedResources**.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Dynamics 365 Project Operations поддерживает возможность 
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

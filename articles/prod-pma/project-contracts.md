@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001042"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683508"
 ---
 # <a name="project-contracts"></a>Контракты по проектам
 
@@ -45,7 +44,7 @@ ms.locfileid: "7001042"
 -   Дорожный проект совместно финансируется двумя муниципалитетами.
 -   Проект моста финансируется за счет государственного гранта и частной корпорации.
 
-В Dynamics 365 Finance вы можете разделить счет за одну транзакцию или весь проект между несколькими клиентами, грантами или организациями. 
+В Dynamics 365 Finance можно разделить выставление счетов для одной проводки или всего проекта между несколькими клиентами, грантами или организациями. 
 
 В проектах, у которых есть несколько спонсоров, все стороны, которые вносят вклад в финансирование проекта расширенного финансирования, называются источниками финансирования. После того как заказчик, организация или грант определены как источник финансирования, они могут быть назначены одному или нескольким правилам финансирования. Правила финансирования содержат критерии, определяющие, как расходы распределяются между различными источниками финансирования проекта. 
 

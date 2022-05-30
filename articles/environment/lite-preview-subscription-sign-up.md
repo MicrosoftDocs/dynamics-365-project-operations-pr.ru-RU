@@ -4,14 +4,14 @@ description: Эта тема предоставляет информацию о 
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991547"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588016"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Регистрация на подписку на предварительную версию — облегченное развертывание 
 
@@ -43,7 +43,7 @@ ms.locfileid: "6991547"
 > Вам понадобится административный доступ к порталу Microsoft 365 вашей организации, чтобы выполнить следующие шаги.
 
 
-1. Перейдите в [Центр администрирования Microsoft 365](https://portal.office.com/), чтобы назначить лицензии вашим пользователям.
+1. Перейдите в [Центр администрирования Microsoft 365](https://portal.office.com/), чтобы назначить лицензии пользователям.
 2. На странице **Активные пользователи** выберите пользователей, которым вы хотите назначить лицензию.
 3. Убедитесь, что выбрана лицензия **Dynamics 365 Project Operations**. 
 4. Выберите **Сохранить изменения**.

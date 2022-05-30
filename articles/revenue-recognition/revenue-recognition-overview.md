@@ -3,16 +3,15 @@ title: Обзор признания дохода
 description: В этом разделе представлена информация о признание дохода в Project Operations.
 author: sigitac
 ms.date: 11/16/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 3d2fcf434a5086595e40f50afc2366eb806168085ae9212b5d25e3e9bd02e2c6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988667"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601448"
 ---
 # <a name="revenue-recognition-overview"></a>Обзор признания дохода
 

@@ -4,14 +4,14 @@ description: Эта тема предоставляет информацию о�
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 52abaa785b50b914e7813aaf4660504ee99129d6
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997262"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582082"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Импорт оценки в строку контракта на основе проекта — облегченное развертывание
 

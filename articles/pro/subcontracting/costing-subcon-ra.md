@@ -4,14 +4,14 @@ description: В этой тема объясняется, как Microsoft Dynam
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09a2a86ea0e97376939d5bff6df9177747818ebb
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f276e12713261538d1e7520dac17243e578db433
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903515"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596710"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Оценка затрат на назначения ресурсов по субподряду
 
