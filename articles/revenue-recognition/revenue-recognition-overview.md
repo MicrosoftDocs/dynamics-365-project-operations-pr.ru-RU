@@ -1,23 +1,23 @@
 ---
 title: Обзор признания дохода
-description: В этом разделе представлена информация о признание дохода в Project Operations.
+description: В этой статье представлена информация о признании дохода в Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926286"
 ---
 # <a name="revenue-recognition-overview"></a>Обзор признания дохода
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-В Dynamics 365 Project Operations принципы признание дохода различаются в зависимости от выбранного метода выставления счетов для проекта или части проекта. В этом разделе представлена информация о признание дохода в Project Operations.
+В Dynamics 365 Project Operations принципы признание дохода различаются в зависимости от выбранного метода выставления счетов для проекта или части проекта. В этой статье представлена информация о признании дохода в Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Транзакции учитываются с использованием метода выставления счетов по времени и материалам
 

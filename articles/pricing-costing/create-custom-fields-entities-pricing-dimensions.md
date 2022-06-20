@@ -1,6 +1,6 @@
 ---
 title: Создание настраиваемых полей и сущностей в качестве измерений цен
-description: Эта тема предоставляет информацию о том, как создавать настраиваемые наборы параметров или сущности.
+description: В этой статье содержится информация о том, как создавать настраиваемые наборы параметров или сущности.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4912087d7a19f5f342beff94723acd6131ce2dd8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 198faf7e51fad2d9573aaeab316170a84bf558ff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917868"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Создание настраиваемых полей и сущностей в качестве измерений цен
 

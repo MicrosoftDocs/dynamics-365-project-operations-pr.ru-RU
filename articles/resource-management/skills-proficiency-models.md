@@ -1,17 +1,17 @@
 ---
 title: Навыки и сертификаты
-description: Эта тема предоставляет информацию о добавлении характеристик навыков и сертификации к ресурсам.
+description: В этой статье содержится информация о добавлении к ресурсам характеристик навыков и сертификатов.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918375"
 ---
 # <a name="skills-and-certifications"></a>Навыки и сертификаты
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_

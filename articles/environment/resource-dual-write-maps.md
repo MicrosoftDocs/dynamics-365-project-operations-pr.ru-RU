@@ -1,17 +1,17 @@
 ---
 title: Версии сопоставлений с двойной записью Project Operations
-description: В этом разделе представлен список сопоставлений с двойной записью, необходимых для Dynamics 365 Project Operations.
+description: В этой статье представлен список карт с двойной записью, необходимых для Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612780"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959512"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Версии сопоставлений с двойной записью Project Operations
 
@@ -54,7 +54,7 @@ _**Относится к:** Project Operations для сценариев на о
 | Сущность интеграции Project Operations для оценки часов (msdyn_resourceassignments) | 1.0.0.5 | Не требуется для подготовки. ||
 | Сущность экспорта категорий расходов проекта интеграции Project Operations (msdyn_expensecategories) | 1.0.0.1 | Не требуется для подготовки. ||
 | Сущность экспорта расходов проекта интеграции Project Operations (msdyn_expenses) | 1.0.0.3 | Не требуется для подготовки. ||
-| Сущность экспорта накладной поставщика проекта интеграции Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Не требуется для подготовки. ||
+| Сущность экспорта накладной поставщика проекта интеграции Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Не требуется для подготовки. |10.0.26 или позднее|
 | Сущность экспорта строки накладной поставщика проекта интеграции Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Не требуется для подготовки. | 10.0.26 или позднее |
 | Роли ресурсов проекта для всех компаний (bookableresourcecategories) | 1.0.0.1 | Требуется начальная синхронизация сопоставления таблиц для синхронизации ролей ресурсов Руководитель проекта и Участник рабочей группы, которые заполняются в среде Dynamics 365 Dataverse во время подготовки. Dataverse является основным источником начальной синхронизации. ||
 | Задачи проекта (msdyn_projecttasks) | 1.0.0.4 | Не требуется для подготовки. ||

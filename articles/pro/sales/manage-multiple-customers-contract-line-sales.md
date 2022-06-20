@@ -1,17 +1,17 @@
 ---
 title: Управление несколькими клиентами в строках контракта на основе проекта — облегченное развертывание
-description: Эта тема предоставляет информацию об управлении несколькими клиентами в строках контракта на основе проекта.
+description: В этой статье содержится информация о том, как управлять несколькими клиентами в строках контракта на основе проекта.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 565ae4d2c639b3933c0a05c04f27367ef16fece7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f7648c7ef7ec6ffb68932552a0c25b79f1f93733
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922146"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Управление несколькими клиентами в строках контракта на основе проекта — облегченное развертывание
 

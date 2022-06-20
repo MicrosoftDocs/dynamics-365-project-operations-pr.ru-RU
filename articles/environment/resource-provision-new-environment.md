@@ -1,18 +1,18 @@
 ---
 title: Подготовка новой среды
-description: Эта тема предоставляет информацию о подготовке новой среды Project Operations.
+description: В этой статье содержится информация о том, как подготовить к работе новую среду Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931622"
 ---
 # <a name="provision-a-new-environment"></a>Подготовка новой среды
 
@@ -20,7 +20,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 
 
-В этом разделе представлена информация о том, как подготовить новую среду Dynamics 365 Project Operations для сценариев на основе ресурсов/без запасов.
+В этой статье содержится информация о том, как подготовить к работе новую среду Dynamics 365 Project Operations для сценариев на основе ресурсов/без запасов.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Включение автоматической подготовки Project Operations в проекте LCS
 

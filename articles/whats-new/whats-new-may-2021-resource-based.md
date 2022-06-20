@@ -1,24 +1,24 @@
 ---
 title: Новые возможности, май 2021 — Project Operations для сценариев на основе ресурсов/без запасов
-description: В этой теме содержится информация об обновлениях качества, доступных в выпуске Project Operations за май 2021 года, для сценариев на основе ресурсов/без запасов.
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске Project Operations за май 2021 года для сценариев на основе ресурсов/без запасов.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: 425b0eb78b5f03d4b0da9a792d6e33fc96adf060
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930426"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности, май 2021 — Project Operations для сценариев на основе ресурсов/без запасов
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
 - Project Operations в среде Dynamics 365 Dataverse версии 4.10.0.186
 - Управление проектами и учет в средах приложений для управления финансами и операциями версии 10.0.18

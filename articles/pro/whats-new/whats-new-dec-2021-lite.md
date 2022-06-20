@@ -1,24 +1,24 @@
 ---
 title: Что нового в декабре 2021 г. — облегченное развертывание Project Operations
-description: Этот тема содержит информацию об обновлениях качества, доступных в выпуске облегченного развертывания Project Operations за декабрь 2021 года.
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске облегченного развертывания Project Operations за декабрь 2021 года.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914096"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Что нового в декабре 2021 г. — облегченное развертывание Project Operations
 
 _Относится к: облегченное развертывание — от сделки до счетов-проформ_
 
-Этот тема применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
 
 - Project Operations в среде Dataverse версии 4.27.0.195, 4.27.0.242, 4.27.0.244
 

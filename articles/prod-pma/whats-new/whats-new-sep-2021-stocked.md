@@ -1,24 +1,24 @@
 ---
 title: Новые возможности или изменения в сентябре 2021 г. — Project Operations для сценариев на основе запасов/производственных заказов
-description: Эта тема содержит информацию об обновлениях качества, доступных в выпуске Project Operations за сентябрь 2021 года для сценариев на основе запасов/производства.
+description: Эта статья содержит информацию об обновлениях качества, доступных в выпуске Project Operations за сентябрь 2021 года для сценариев на основе запасов/производства.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916534"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Новые возможности или изменения в сентябре 2021 г. — Project Operations для сценариев на основе запасов/производственных заказов
 
 _**Применяется к:** Project Operations для сценариев на основе запасов/производственных заказов_
 
-Этот тема применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
 
 - Управление и учет по проектам в среде Dynamics 365 Finance версии 10.0.21
  

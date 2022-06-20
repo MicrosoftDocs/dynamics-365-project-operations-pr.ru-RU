@@ -1,23 +1,23 @@
 ---
 title: Настройка интеграции Project Operations для каждого юридического лица
-description: Эта тема предоставляет информацию о настройке интеграции по юридическому лицу в Project Operations.
+description: В этой статье содержится информация о настройке интеграции по юридическому лицу в Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914694"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Настройка интеграции Project Operations для каждого юридического лица 
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-В этой теме описаны шаги, необходимые для настройки Dynamics 365 Project Operations для юридического лица.
+В этой статье описаны шаги, необходимые для настройки Dynamics 365 Project Operations по юридическому лицу.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Включение функциональных ключей в Dynamics 365 Finance
 

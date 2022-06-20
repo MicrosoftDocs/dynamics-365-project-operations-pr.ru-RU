@@ -1,24 +1,24 @@
 ---
 title: Новые возможности в декабре 2020 года — облегченное развертывание Project Operations — от сделки до счетов-проформ
-description: Эта тема предоставляет информацию об обновлениях качества, доступных в облегченном развертывании Project Operations выпуска за декабрь 2020 г., — от сделки до выставления счетов-проформ.
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске облегченного развертывания Project Operations за декабрь 2020 года — от сделки до счетов-проформ.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924078"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Новые возможности в декабре 2020 года — облегченное развертывание Project Operations — от сделки до счетов-проформ
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
-Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
   - Project Operations в среде Dataverse версии 4.5.0.134 
 

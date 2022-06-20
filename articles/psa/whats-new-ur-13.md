@@ -1,6 +1,6 @@
 ---
 title: Что нового или измененного в выпуске-обновлении 13 для Project Service Automation версии 3
-description: В этом разделе приведены сведения о новых возможностях в выпуске-обновлении 13 для Project Service Automation версии 3.
+description: В этой статье представлена информация о том, что нового и измененного в выпуске-обновлении Project Service Automation 13, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: eb935d5bf3d2deb95db420f20a8102dae1864515
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4898391922f5ecbc99d78e49358ea749fe27b3f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930702"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Выпуск-обновление 13 Project Service Automation, версия 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596204"
 
 С удовольствием объявляем о выходе последнего обновления для приложения Dynamics 365 Project Service Automation (PSA). Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования. Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите Центр администрирования Dynamics 365 Online и перейдите на страницу решений, чтобы установить обновление. Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](/power-platform/admin/install-remove-preferred-solution).
 
-В этом разделе перечислены функции и исправления, появившиеся или изменившиеся в выпуске-обновлении 13 для Project Service Automation версии 3. Эта версия имеет номер сборки V3.10.3.18 и становится доступна по следующему графику:
+В этой статье перечислены функции и исправления, которые добавлены или изменены в выпуске-обновлении 13 для Project Service Automation V3. Эта версия имеет номер сборки V3.10.3.18 и становится доступна по следующему графику:
 
 - **Общая доступность (самостоятельное обновление):** ноябрь 2019 г.
 - **Автообновление:** декабрь 2019 г.

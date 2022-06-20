@@ -1,6 +1,6 @@
 ---
 title: Что нового или измененного в выпуске-обновлении 15 для Project Service Automation версии 3
-description: В этом разделе приведены сведения о новых возможностях в выпуске-обновлении 15 для Project Service Automation версии 3.
+description: В этой статье представлена информация о том, что нового и измененного в выпуске-обновлении Project Service Automation 15, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 26b9ee0a6ff1ad81d6c77a6a7091733667c493ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b87cae2cd8913457c2931d1661a57509d1398d29
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915660"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Выпуск-обновление 15 Project Service Automation, версия 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585164"
 
 С удовольствием объявляем о выходе последнего обновления для приложения Dynamics 365 Project Service Automation (PSA). Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования. Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите Центр администрирования Dynamics 365 Online и перейдите на страницу решений, чтобы установить обновление. Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](/power-platform/admin/install-remove-preferred-solution).
 
-В этом разделе перечислены функции и исправления, появившиеся или изменившиеся в выпуске-обновлении 15 для PSA версии 3. Эта версия имеет номер сборки V3.10.5.28 и становится доступна широкому кругу клиентов посредством самостоятельного обновления в январе 2020 г.
+В этой статье перечислены функции и исправления, которые добавлены или изменены в выпуске-обновлении 15 для PSA V3. Эта версия имеет номер сборки V3.10.5.28 и становится доступна широкому кругу клиентов посредством самостоятельного обновления в январе 2020 г.
 
 ## <a name="update-release-15"></a>Выпуск-обновление 15 
 

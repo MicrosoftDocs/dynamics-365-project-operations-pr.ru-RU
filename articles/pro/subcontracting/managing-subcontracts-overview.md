@@ -1,17 +1,17 @@
 ---
 title: Управление субподрядом в Project Operations
-description: Эта тема предоставляет обзор типичного сквозного процесса управления субподрядами в организациях на основе проектов.
+description: В этой статье представлен обзор комплексного процесса управления субподрядом, который обычно используется в проектных организациях.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911521"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Управление субподрядом в Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593030"
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
-Эта тема предоставляет обзор сквозного процесса управления субподрядами в организациях на основе проектов. Субподряд на услуги обычно следует за потоком бизнес-процессов, который показан на следующей диаграмме.
+В этой статье представлен обзор комплексного процесса управления субподрядом, который используется в проектных организациях. Субподряд на услуги обычно следует за потоком бизнес-процессов, который показан на следующей диаграмме.
 
 ![Поток процесса субподряда](../media/SubcontractingProcessFlow.png)
 

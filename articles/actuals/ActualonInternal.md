@@ -1,6 +1,6 @@
 ---
 title: Влияние фактических значений на внутренний проект
-description: В этой теме приведена информация о влиянии таблицы "Фактические значения" на различные события внутреннего проекта в Microsoft Dynamics 365 Project Operations.
+description: В этой статье приведена информация о влиянии таблицы "Фактические значения" на различные события внутреннего проекта в Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 66a9ac4d2f56ae95313ed6731c3e51926105cff7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: de05714c079fe121ef68e28b1acb82c24bce095e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921364"
 ---
 # <a name="actuals-impact-for-an-internal-project"></a>Влияние фактических значений на внутренний проект
 

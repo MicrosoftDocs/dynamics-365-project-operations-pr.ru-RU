@@ -1,6 +1,6 @@
 ---
 title: Домашняя страница управления ресурсами
-description: В этом разделе представлена информация о том, как управлять ресурсами.
+description: В этой статье представлена информация о том, как управлять ресурсами.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913268"
 ---
 # <a name="resource-management-home-page"></a>Домашняя страница управления ресурсами
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578770"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ресурсы — самый важный актив организаций, основанных на сервисе. Возможность находить и резервировать правильные ресурсы, когда они требуются, и поддерживать их загрузку помогает организации достигать целевого дохода и целей по удовлетворенности клиентов. Следующие разделы сфокусированы на возможностях управления ресурсами в Dynamics 365 Project Service Automation:
+Ресурсы — самый важный актив организаций, основанных на сервисе. Возможность находить и резервировать правильные ресурсы, когда они требуются, и поддерживать их загрузку помогает организации достигать целевого дохода и целей по удовлетворенности клиентов. В следующих статьях подробно рассматриваются возможности управления ресурсами в Dynamics 365 Project Service Automation:
 
 - [Управление ресурсами](manage-resources.md)
 - [Основные понятия](reports-key-concepts.md)

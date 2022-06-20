@@ -1,17 +1,17 @@
 ---
 title: Возврат НДС в управлении расходами
-description: В этой теме объясняется, как получить возмещение по соответствующим транзакциям по налогу на добавленную стоимость (НДС).
+description: В этой статье описан порядок получения возврата денежных средств по соответствующим транзакциям налога на добавленную стоимость (НДС).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1df921bbef4c11c7e07ed38775644117215a50fb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927942"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Возврат НДС в управлении расходами
 

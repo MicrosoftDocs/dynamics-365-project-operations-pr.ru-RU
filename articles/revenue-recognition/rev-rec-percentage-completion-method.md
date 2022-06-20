@@ -1,17 +1,17 @@
 ---
 title: Проекты оценки дохода с фиксированной ценой
-description: В этом разделе представлена информация о доходе с фиксированной ценой в проектах.
+description: В этой статье представлена информация о доходе с фиксированной ценой в проектах.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3febb22397faa31222015231481d43fb0449d0a2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928402"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Проекты оценки дохода с фиксированной ценой 
 

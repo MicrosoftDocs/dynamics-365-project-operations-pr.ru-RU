@@ -1,24 +1,24 @@
 ---
 title: Настройка шаблонов стоимости
-description: В этом разделе представлена информация о том, как создать и использовать шаблоны стоимости в Project Operations.
+description: В этой статье содержится информация о том, как создавать и использовать шаблоны стоимости в Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918420"
 ---
 # <a name="set-up-cost-templates"></a>Настройка шаблонов стоимости
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
 
-В этом разделе представлена информация о том, как создать и использовать шаблоны стоимости в Project Operations. Шаблон стоимости определяет:
+В этой статье содержится информация о том, как создавать и использовать шаблоны стоимости в Project Operations. Шаблон стоимости определяет:
 
 - Категории проектов для прогнозируемых и фактических транзакций, которые должны быть включены в расчет процента завершения проекта. Затем значение процента завершения используется для расчета признанного дохода.
 - Можно ли изменить процент выполнения, если он рассчитывается автоматически.

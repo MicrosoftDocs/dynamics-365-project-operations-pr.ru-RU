@@ -1,6 +1,6 @@
 ---
 title: Планируйте работу в Microsoft Project с помощью надстройки Project Service
-description: В этом разделе представлена информация о том, как использовать надстройку Microsoft Project для Microsoft Project Service.
+description: В этой статье представлена информация о том, как добавить, настроить и использовать надстройку Microsoft Project для Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: 779d83a896dd7d92c6584e6f1c57b1ea567e9051
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911014"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Планируйте работу в Microsoft Project с помощью надстройки Project Service
 

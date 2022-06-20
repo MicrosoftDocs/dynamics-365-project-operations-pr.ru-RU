@@ -1,24 +1,24 @@
 ---
 title: Интеграция управления расходами
-description: Этот тема предоставляет информацию об интеграции управления расходами в Project Operations с помощью двойной записи.
+description: В этой статье содержится информация об интеграции отчета о расходах в Project Operations с использованием двойной записи.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924630"
 ---
 # <a name="expense-management-integration"></a>Интеграция управления расходами
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-В этом разделе представлена информация об интеграции отчетов о расходах в Project Operations [полное развертывание расходов](../expense/expense-overview.md) с помощью двойной записи.
+В этой статье содержится информация об интеграции отчетов о расходах в [полном развертывании расходов](../expense/expense-overview.md) в Project Operations с использованием двойной записи.
 
 ## <a name="expense-categories"></a>Категории расходов
 

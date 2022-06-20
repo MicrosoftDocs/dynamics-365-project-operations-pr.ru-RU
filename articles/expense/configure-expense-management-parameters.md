@@ -1,23 +1,23 @@
 ---
 title: Настройка параметров управления расходами
-description: В этой теме описываются параметры, которые управляют общим поведением в модуле управления расходами.
+description: В этой статье описываются параметры, управляющие общим поведением в управлении расходами.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6432e119f38071b028c013561bab99820778a11d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931484"
 ---
 # <a name="configure-expense-management-parameters"></a>Настройка параметров управления расходами
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-В этой теме описываются параметры, которые управляют общим поведением в модуле управления расходами.
+В этой статье описываются параметры, управляющие общим поведением в управлении расходами.
 
 ## <a name="general"></a>Общие
 

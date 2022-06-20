@@ -1,24 +1,24 @@
 ---
 title: Новые возможности в октябре 2021 г. — Project Operations для сценариев на основе ресурсов/без запасов
-description: Этот тема содержит информацию об обновлениях качества, доступных в выпуске Project Operations за октябрь 2021 года для сценариев на основе ресурсов/без запасов.
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске Project Operations за октябрь 2021 года для сценариев на основе ресурсов/без запасов.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4dc5cc9a5842a02338b99c7c8d707bc0b81c74a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914653"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в октябре 2021 г. — Project Operations для сценариев на основе ресурсов/без запасов
 
 *Относится к: Project Operations для сценариев на основе ресурсов/без запасов*
 
-Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
    - Project Operations в среде Microsoft Dataverse версии 4.25.0.91
    - Управление и учет по проектам в среде Dynamics 365 Finance версии 10.0.21

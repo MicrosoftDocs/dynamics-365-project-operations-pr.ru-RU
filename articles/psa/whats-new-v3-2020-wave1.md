@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Project Service Automation версии 3.x, волна 1, 2020 г.
-description: В этом разделе приведены сведения о новых возможностях и изменениях в Project Service Automation версии 3, волна 1, 2020 г.
+description: В этой статье представлена информация о том, что нового и измененного в Project Service Automation версии 3, волна 1 2020 г.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928632"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Что нового и что изменилось в Project Service Automation версии 3, волна 1, 2020 г.
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-В этом разделе перечислены основные моменты, которые следует учитывать при переходе на последний выпуск Project Service Automation (PSA) версии 3.x, волна 1, 2020 г.
+В статье освещаются основные аспекты обновления при переходе на последний выпуск Project Service Automation (PSA) версии 3.x волна 1 2020 г.
 
 ## <a name="time-entry"></a>Запись времени
 Интерфейс записи времени расширен и теперь предусматривает возможности для записи времени в дополнительных сценариях, возможных на предприятиях клиентов. В частности, это возможность добавления типов записи, которые теперь обуславливают определенное поведение в зависимости от имени схемы **Параметры записи времени** (в интерфейсе отображается как **Источник времени**). Для поддержки этой функции было добавлено новое решение под названием "Time, Expense, Statusing, and Approvals (TESA)".

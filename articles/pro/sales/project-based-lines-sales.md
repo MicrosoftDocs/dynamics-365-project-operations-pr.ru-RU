@@ -1,17 +1,17 @@
 ---
 title: Строки возможной сделки на основе проекта — облегченное развертывание
-description: В этом разделе представлена информация о строках возможных сделок на основе проекта. (Pro)
+description: В этой статье приведена информация о строках возможной сделки на основе проекта. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c0c868aa6c54209c31429278fda19bf925267bce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914280"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Строки возможной сделки на основе проекта — облегченное развертывание
 

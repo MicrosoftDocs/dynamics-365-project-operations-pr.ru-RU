@@ -1,17 +1,17 @@
 ---
 title: Определение ролей
-description: В этом разделе представлена ссылка на информацию о том, как настроить категории резервируемых ресурсов.
+description: В этой статье приведена ссылка на информацию о том, как настраивать категории резервируемых ресурсов.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 4e8c965a1a977ba9c92d80f61b73ccab98635ec4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 87884fab51159744b1ebb287c34fb0414c8fd6da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924906"
 ---
 # <a name="define-roles"></a>Определение ролей
 

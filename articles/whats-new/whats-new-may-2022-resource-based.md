@@ -1,24 +1,24 @@
 ---
 title: Новые возможности, май 2022 — Project Operations для сценариев на основе ресурсов/без запасов
-description: Эта тема содержит информацию об обновлениях качества, доступных в выпуске Microsoft Dynamics 365 Project Operations для сценариев на основе ресурсов/без запасов за май 2022 года.
+description: В этой статье содержится информация об исправлениях, доступных в выпуске Microsoft Dynamics 365 Project Operations для сценариев на основе ресурсов/без запасов за май 2022 года.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710027"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921410"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности, май 2022 — Project Operations для сценариев на основе ресурсов/без запасов
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-Этот тема применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
 
 - Project Operations в среде Dataverse версии 4.42.0.70
 - Управление и учет по проектам в среде Dynamics 365 Finance версии 10.0.26

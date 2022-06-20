@@ -1,18 +1,18 @@
 ---
 title: Переопределение прайс-листов продаж по проекту
-description: Эта тема предоставляет информацию о создании пользовательских прайс-листов продажи.
+description: В этой статье содержатся инструкции по созданию пользовательских прайс-листов продаж.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16c2b53283b8aa2a243b55a0b887bb5bb461a5fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d0a769f415679b08f3228fcb14fbbbd37533ebc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911934"
 ---
 # <a name="override-project-sales-price-lists"></a>Переопределение прайс-листов продаж по проекту
 

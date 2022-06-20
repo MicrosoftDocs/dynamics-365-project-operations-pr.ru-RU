@@ -1,24 +1,24 @@
 ---
 title: Новые возможности в феврале 2022 г. — Project Operations для сценариев на основе ресурсов/без запасов
-description: Эта тема содержит информацию об обновлениях качества, доступных в выпуске Project Operations для сценариев на основе ресурсов/без запасов за февраль 2022 года.
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске Project Operations за февраль 2022 года для сценариев на основе ресурсов/без запасов.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933002"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в феврале 2022 г. — Project Operations для сценариев на основе ресурсов/без запасов
 
 *Относится к: Project Operations для сценариев на основе ресурсов/без запасов*
 
-Этот тема применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
 
 - Project Operations в среде Dataverse версии 4.28.0.120
 - Управление и учет по проектам в среде Dynamics 365 Finance версии 10.0.24
@@ -76,11 +76,11 @@ ms.locfileid: "8600850"
 
 ## <a name="removed-and-deprecated-features"></a>Удаленные и устаревшие функции
 
-В теме [Удаленные или устаревшие функции в Project Operations](removed-depreciated-features-project.md) рассматриваются функции, которые были удалены или признаны устаревшими для Dynamics 365 Project Operations.
+В статье [Удаленные или устаревшие функции в Project Operations](removed-depreciated-features-project.md) рассматриваются функции, которые были удалены или признаны устаревшими для Dynamics 365 Project Operations.
 
 - Удаленная функция больше недоступна в продукте.
 - Устаревшая функция не находится в активной разработке и может быть удалена в следующем обновлении.
 
-Уведомление об устаревании будет опубликовано в теме [Удаленные или устаревшие функции в Project Operations](removed-depreciated-features-project.md) за 12 месяцев до удаления соответствующей функции из продукта.
+Уведомление об устаревании будет опубликовано в статье [Удаленные или устаревшие функции в Project Operations](removed-depreciated-features-project.md) за 12 месяцев до удаления соответствующей функции из продукта.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и рабочей средой, время устаревания будет меньше 12 месяцев. Обычно такие изменения представляют собой функциональные обновления, которые должны вноситься в компилятор.

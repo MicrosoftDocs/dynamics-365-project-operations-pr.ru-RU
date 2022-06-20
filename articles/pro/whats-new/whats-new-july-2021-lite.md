@@ -1,24 +1,24 @@
 ---
 title: Новые возможности в июле 2021 г. — облегченное развертывание Project Operations
-description: В этом разделе предоставлена информация об обновлениях качества, доступных для выпуска облегченного развертывания Project Operations (июль 2021 года).
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске облегченного развертывания Project Operations за июль 2021 года.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 475ceea3a6c6db9fe63e3950eaca5d9074faa766
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7964f38c1bc7a8e0440e2e922ff153fd9bede131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914004"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Новые возможности в июле 2021 г. — облегченное развертывание Project Operations
 
 _Относится к: облегченное развертывание — от сделки до счетов-проформ_
 
-Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
   - Project Operations в среде Dataverse версии 4.12.0.148 или 4.12.0.152.
 

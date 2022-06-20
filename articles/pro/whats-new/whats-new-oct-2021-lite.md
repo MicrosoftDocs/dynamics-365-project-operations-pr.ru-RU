@@ -1,24 +1,24 @@
 ---
 title: Что нового в октябре 2021 г. — облегченное развертывание Project Operations
-description: Этот тема содержит информацию об обновлениях качества, доступных в выпуске облегченного развертывания Project Operations за октябрь 2021 года.
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске облегченного развертывания Project Operations за октябрь 2021 года.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921962"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Что нового в октябре 2021 г. — облегченное развертывание Project Operations
 
 _Относится к: облегченное развертывание — от сделки до счетов-проформ_
 
-Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
   - Project Operations в среде Microsoft Dataverse версии 4.25.0.91
 

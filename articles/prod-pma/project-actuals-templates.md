@@ -1,6 +1,6 @@
 ---
 title: Синхронизация фактических значений проекта непосредственно из Project Service Automation в журнал интеграции проекта для разноски в Finance and Operations
-description: В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации фактических значений непосредственно из Microsoft Dynamics 365 Project Service Automation в Finance and Operations.
+description: В этой статье рассматриваются шаблоны и базовые задачи, которые используются для синхронизации фактических значений непосредственно из Microsoft Dynamics 365 Project Service Automation в Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929506"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Синхронизация фактических значений проекта непосредственно из Project Service Automation в журнал интеграции проекта для разноски в Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации фактических значений непосредственно из Dynamics 365 Project Service Automation в Dynamics 365 Finance.
+В этой статье рассматриваются шаблоны и базовые задачи, которые используются для синхронизации фактических значений непосредственно из Dynamics 365 Project Service Automation в Dynamics 365 Finance.
 
 Шаблон синхронизирует транзакции из Project Service Automation с промежуточной таблицей в Finance. После завершения синхронизации вы **должны** импортировать данные из промежуточной таблицы в журнал интеграции.
 

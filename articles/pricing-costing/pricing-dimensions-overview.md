@@ -1,18 +1,18 @@
 ---
 title: Обзор измерений цен
-description: В этом разделе представлена информация об измерениях цен в Dynamics 365 Project Operations.
+description: В этой статье представлена информация об аналитиках ценообразования в Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918052"
 ---
 # <a name="pricing-dimensions-overview"></a>Обзор измерений цен
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations поставляется с набором по 
 
 ![Снимок экрана параметров Project Service с выделенным полем «Применимо к продажам».](media/PS-OOB-parameters.png)
 
-Если необходима задавать цену или стоимость ваших ресурсов с помощью дополнительных атрибутов, можно создать настраиваемые поля, сущности и измерения. Для получения дополнительных сведений см. следующие статьи: 
+Если необходима задавать цену или стоимость ваших ресурсов с помощью дополнительных атрибутов, можно создать настраиваемые поля, сущности и измерения. Для получения дополнительных сведений см. следующие статьи. 
   
   > [!NOTE]
   > Процедуры должны выполняться в том порядке, в котором они перечислены.

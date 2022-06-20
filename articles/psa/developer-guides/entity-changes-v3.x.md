@@ -1,6 +1,6 @@
 ---
 title: Изменение сущностей, элементов управления и интерфейса пользователя (Project Service Automation 3.x)
-description: В этом разделе описаны изменения решения для Microsoft Dynamics Project Service Automation 3.x.
+description: В этой статье описаны изменения решения для Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926884"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Изменение сущностей, элементов управления и интерфейса пользователя (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-В выпуске Microsoft Dynamics Project Service Automation (PSA) 3.x сделано много изменений сущностей, элементов управления, представлений и интерфейса пользователя. В этом разделе содержатся сведения об этих важных изменениях.
+В выпуске Microsoft Dynamics Project Service Automation (PSA) 3.x сделано много изменений сущностей, элементов управления, представлений и интерфейса пользователя. В этой статье содержатся сведения об этих важных изменениях.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Отношения "родительское-дочернее" для сущностей документа продаж, строки документа продаж и сведений строки документа продаж
 В версиях Dynamics 365 Project Service Automation (PSA), выпущенных до версии 3.0, некоторые отношений между сущностями документов продажи, строк документов продаж и сведений строк документов продаж были реализованы через строковые поля, которые должны были содержать строковое представление GUID связанной сущности. Это было связано с ограничениями платформы, которая требовала значительного объема настраиваемого кода на сторонах сервера и клиента в решении, чтобы эти отношения работали аналогично типичным отношениям сущностей Dynamics CRM и чтобы строковые поля вели себя как поля подстановки.

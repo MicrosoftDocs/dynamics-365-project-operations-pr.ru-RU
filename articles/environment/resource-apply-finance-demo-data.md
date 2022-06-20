@@ -1,24 +1,24 @@
 ---
 title: Применение демонстрационных данных к размещенной в облаке среде Finance
-description: В этой теме поясняется, как применить демонстрационные данные из Project Operations к среде Dynamics 365 Finance, размещенной в облаке.
+description: В этой статье поясняется, как применить демонстрационные данные из Project Operations к среде Dynamics 365 Finance, размещенной в облаке.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924676"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Применение демонстрационных данных к размещенной в облаке среде Finance
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
 > [!IMPORTANT]
-> Эта тема применима только к Microsoft Dynamics 365 Finance версии 10.0.13 и может выполняться только в облачной среде. Выполните действия, описанные в этой теме, **ПЕРЕД** применением обновлений качества к среде.
+> Эта статья применима только к Microsoft Dynamics 365 Finance версии 10.0.13 и может выполняться только в облачной среде. Выполните действия, описанные в этой статье, **ДО** применения качественных обновлений к среде.
 
 1. В своем проекте LCS откройте страницу **Сведения о среде**. Обратите внимание, что она включает сведения, необходимые для подключения к среде с помощью протокола удаленного рабочего стола (RDP).
 

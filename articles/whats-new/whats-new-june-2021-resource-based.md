@@ -1,24 +1,24 @@
 ---
 title: Новые возможности в июне 2021 года — Project Operations для сценариев на основе ресурсов/без запасов
-description: В этой теме предоставлена информация об обновлениях качества, доступных в выпуске Project Operations за июнь 2021 года для сценариев на основе ресурсов/без запасов.
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске Project Operations за июнь 2021 года для сценариев на основе ресурсов/без запасов.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910600"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности в июне 2021 года — Project Operations для сценариев на основе ресурсов/без запасов
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
 - Project Operations в среде Dynamics 365 Dataverse версии 4.11.0.156 или 4.11.0.164.
 - Управление проектами и учет в средах приложений для управления финансами и операциями версии 10.0.19.

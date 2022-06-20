@@ -1,24 +1,24 @@
 ---
 title: Удаленные или устаревшие функции в Dynamics 365 Project Operations
-description: В этой теме описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Project Operations.
+description: В этой статье описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921502"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Удаленные или устаревшие функции в Dynamics 365 Project Operations
 
 _**Применяется к:** Project Operations для сценариев на основе ресурсов/отсутствия запасов, облегченное развертывание — от сделки до выставления счетов-проформ и Project Operations для сценариев на основе запасов/производства_
 
-В этой теме описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Project Operations.
+В этой статье описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Project Operations.
 
 - *Удаленная* функция больше недоступна в продукте.
 - *Устаревшая* функция больше не находится в активной разработке и может быть удалена в будущем обновлении.

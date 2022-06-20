@@ -1,6 +1,6 @@
 ---
 title: Что нового или измененного в выпуске обновления 26 для Project Service Automation версии V3
-description: В этом разделе перечислены функции и исправления, доступные в выпуске-обновлении 26 для Project Service Automation версии версии 3.
+description: В этой статье перечислены функции и исправления, доступные в выпуске-обновлении 26 для Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cebfcd6425f11b74ce6331a093d8d3db3da356a0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 11f722c1f31c0e8aa08192cc955aabbe97018225
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928816"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Выпуск обновления 26 для Project Service Automation, версия V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577298"
 
 Мы рады объявить о последнем обновлении приложения Project Service Automation для Dynamics 365. Этот выпуск содержит некоторые важные усовершенствования, направленные на качество, производительность и удобство использования. Этот выпуск совместим с Dynamics 365 9.x. Чтобы обновить приложение до этого выпуска, посетите страницу решений Центра администрирования Dynamics 365 Online и установите обновление. Дополнительные сведения см. в разделе [Установка, обновление или удаление предпочтительного решения](/power-platform/admin/install-remove-preferred-solution).
 
-В этом разделе перечислены функции и исправления, появившиеся или изменившиеся в выпуске обновления 26 для Project Service Automation версии V3. Эта версия имеет номер сборки V3.10.44.59 и обычно доступна через самостоятельное обновление в декабре 2020 года.
+В этой статье перечислены функции и исправления, которые добавлены или изменены в выпуске-обновлении 26 для Project Service Automation, V3. Эта версия имеет номер сборки V3.10.44.59 и обычно доступна через самостоятельное обновление в декабре 2020 года.
 
 ## <a name="update-release-26"></a>Выпуск-обновление 26
 

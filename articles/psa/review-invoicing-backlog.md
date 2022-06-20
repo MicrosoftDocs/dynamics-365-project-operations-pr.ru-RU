@@ -1,6 +1,6 @@
 ---
 title: Просмотр невыполненной работы по выставлению счетов для проектов и контрактов по проекту
-description: В этом разделе представлена информация о том, как проверить невыполненные работы по времени, расходам и продуктам, а также как отметить их как готовые к выставлению счетов.
+description: В этой статье представлена информация о том, как проверить невыполненные работы по времени, расходам и продуктам, а также как отметить их как готовые к выставлению счетов.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928908"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Просмотр невыполненной работы по выставлению счетов для проектов и контрактов по проекту
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600574"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Когда транзакция готова к созданию и обработке счета, транзакция должна быть отмечена как **Готово к выставлению счета**. В этом разделе описываются виды транзакций, которые можно создавать.
+Когда транзакция готова к созданию и обработке счета, транзакция должна быть отмечена как **Готово к выставлению счета**. В этой статье описываются виды транзакций, которые можно создавать.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Просмотр невыполненной работы по выставлению счетов по времени и материалам
 

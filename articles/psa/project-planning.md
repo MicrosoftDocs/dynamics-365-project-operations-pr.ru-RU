@@ -1,6 +1,6 @@
 ---
 title: Домашняя страница планирования проекта
-description: В этом разделе представлена информация о планировании проекта.
+description: В этой статье представлена информация о планировании проекта.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919110"
 ---
 # <a name="project-planning-home-page"></a>Домашняя страница планирования проекта
 
@@ -43,7 +43,7 @@ Dynamics 365 Project Service Automation предлагает сквозную п
 - Прогнозирование потребностей в ресурсах для проектов, которые находятся в воронке продаж.
 - Успешно доставлять проекты путем отслеживания хода выполнения и потребления стоимости.
 
-Следующие разделы содержат сведения, которые помогут руководителям проектов оценивать работу, оценивать затраты на проект и прогнозировать потребность в ресурсах с помощью средств, которые содержатся в PSA:
+Следующие статьи содержат сведения, которые помогут руководителям проектов оценивать работу, оценивать затраты на проект и прогнозировать потребность в ресурсах с помощью средств, которые содержатся в PSA:
 
 - [Создание расписания](project-creating.md)
 - [Оценка затрат и выручки для проекта](project-estimating.md)

@@ -1,18 +1,18 @@
 ---
 title: Интеграция накладной поставщика
-description: В этой теме содержится информация об интеграции накладной поставщика в Project Operations.
+description: В этой статье содержится информация об интеграции накладной поставщика в Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591191"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912072"
 ---
 # <a name="vendor-invoice-integration"></a>Интеграция накладной поставщика
 
@@ -21,7 +21,7 @@ _**Относится к:** Project Operations для сценариев на о
 Связанные с проектом закупки в Dynamics 365 Project Operations можно записать, перейдя в **расчеты с поставщиками** > **Накладные** > **Незавершенные накладные поставщика** и используя документ незавершенной накладной поставщика. Дополнительные сведения см. в [Покупка нескладируемые материалы с помощью незавершенной накладной поставщика](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Прежде чем использовать функции, описанные в этой теме, просмотрите и примените необходимые конфигурации. Дополнительные сведения см. в [Включите нескладируемые материалы и незавершенные накладные поставщика](../procurement/configure-materials-nonstocked.md).
+> Прежде чем использовать функциональные возможности, описанные в этой статье, просмотрите и примените необходимые конфигурации. Дополнительные сведения см. в [Включите нескладируемые материалы и незавершенные накладные поставщика](../procurement/configure-materials-nonstocked.md).
 
 В Project Operations накладные поставщика, связанные с проектом, разносятся с использованием специальных правил разноски:
 

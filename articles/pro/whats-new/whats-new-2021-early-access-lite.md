@@ -1,24 +1,24 @@
 ---
 title: Что нового в раннем доступе 2021 волны 2. Упрощенное развертывание Project Operations
-description: В этой теме предоставлена информация о функциях, доступных для выпуска облегченного развертывания Project Operations 2021 года, волна 2.
+description: В этой статье содержится информация о возможностях, доступных в выпуске раннего доступа Project Operations, волна 2, за 2021 год.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924124"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Что нового в раннем доступе 2021 волны 2. Упрощенное развертывание Project Operations
 
 _Относится к: облегченное развертывание — от сделки до счетов-проформ_
 
-Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
   - Project Operations в среде Dataverse версии 4.23.0.4
 

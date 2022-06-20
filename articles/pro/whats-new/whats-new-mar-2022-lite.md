@@ -1,24 +1,24 @@
 ---
 title: Что нового в марте 2022 г. — облегченное развертывание Project Operations
-description: Эта тема содержит информацию об обновлениях качества, доступных в выпуске облегченного развертывания Project Operations за март 2022 года.
+description: Эта статья содержит информацию об обновлениях качества, доступных в выпуске облегченного развертывания Project Operations за март 2022 года.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934244"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Что нового в марте 2022 г. — облегченное развертывание Project Operations
 
 _Относится к: облегченное развертывание — от сделки до счетов-проформ_
 
-Этот тема применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Microsoft Dynamics 365 Project Operations:
 
 - Project Operations в среде Dataverse версии 4.30.0.99
 
@@ -51,9 +51,9 @@ _Относится к: облегченное развертывание — о
 
 ## <a name="removed-and-deprecated-features"></a>Удаленные и устаревшие функции
 
-В теме [Удаленные или устаревшие функции в Project Operations](../../whats-new/removed-depreciated-features-project.md) рассматриваются функции, которые были удалены или признаны устаревшими для Dynamics 365 Project Operations.
+В статье [Удаленные или устаревшие функции в Project Operations](../../whats-new/removed-depreciated-features-project.md) рассматриваются функции, которые были удалены или признаны устаревшими для Dynamics 365 Project Operations.
 
 - Удаленная функция больше недоступна в продукте.
 - Устаревшая функция не находится в активной разработке и может быть удалена в следующем обновлении.
 
-Уведомление об устаревании будет опубликовано в теме [Удаленные или устаревшие функции в Project Operations](../../whats-new/removed-depreciated-features-project.md) за 12 месяцев до удаления соответствующей функции из продукта.
+Уведомление об устаревании будет опубликовано в статье [Удаленные или устаревшие функции в Project Operations](../../whats-new/removed-depreciated-features-project.md) за 12 месяцев до удаления соответствующей функции из продукта.

@@ -1,6 +1,6 @@
 ---
 title: Домашняя страница отчетности
-description: В этом разделе представлена информация об отчетности в Dynamics 365 Project Service Automation.
+description: В этой статье представлена информация об отчетности в Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921686"
 ---
 # <a name="reporting-home-page"></a>Домашняя страница отчетности
 
@@ -47,7 +47,7 @@ Microsoft Dynamics 365 Project Service Automation позволяет орган�
 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
-Дополнительные сведения об отчетности в PSA см. в следующих разделах:
+Дополнительные сведения об отчетности в PSA см. в следующих статьях:
 
 - [Работа с моделью данных Project Service](reports-working-project-service-data-model.md)
 - [Панели мониторинга](reports-dashboards.md)

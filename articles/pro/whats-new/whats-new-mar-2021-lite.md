@@ -1,25 +1,25 @@
 ---
 title: Что нового в марте 2021 г. — облегченное развертывание Project Operations
-description: Эта тема предоставляет информацию об обновлениях качества, доступных в облегченном развертывании Project Operations выпуска за март 2021 г.
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске облегченного развертывания Project Operations за март 2021 года.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913912"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Что нового в марте 2021 г. — облегченное развертывание Project Operations
 
 _Относится к: облегченное развертывание — от сделки до счетов-проформ_
 
 
-Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
 - Project Operations в среде Dataverse версии 4.8.0.91 
 

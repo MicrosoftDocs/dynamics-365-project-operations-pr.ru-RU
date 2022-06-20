@@ -1,6 +1,6 @@
 ---
 title: Настройка выставления счетов внутрихолдингового проекта
-description: В этой теме показано, как настроить выставление счетов по проекту между двумя компаниями в вашей организации.
+description: В этой статье показано, как настроить выставление накладных по проекту между двумя компаниями в организации.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916626"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Настройка выставления счетов внутрихолдингового проекта
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме показано, как настроить выставление счетов по проекту между двумя компаниями в вашей организации. В этой задаче используется набор данных USSI.
+В этой статье показано, как настроить выставление накладных по проекту между двумя компаниями в организации. В этой задаче используется набор данных USSI.
 
 1. На панели навигации перейдите **Модули > Расчеты с поставщиками > Продавцы > Все поставщики**.
 2. В списке **Все поставщики** найдите и выберите нужную запись.

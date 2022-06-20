@@ -1,24 +1,24 @@
 ---
 title: Настройка удержания поставщиков
-description: В этой теме описывается, как настроить удержание поставщика.
+description: В этой статье описывается, как настроить удержание поставщика.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929782"
 ---
 # <a name="set-up-vendor-retention"></a>Настройка удержания поставщиков
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-В этой теме даны сведения, как настроить удержание поставщика.
+В этой статье приводятся сведения о том, как настроить удержание поставщика.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Настройка счета для удержания поставщика в главной книге
 

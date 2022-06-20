@@ -1,6 +1,6 @@
 ---
 title: Отправка запроса ресурса
-description: В этом разделе представлена информация об отправке запрос ресурса проекта.
+description: В этой статье представлена информация об отправке запроса на ресурс проекта.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d22f52771f55a551416d1ba2f7105d59d7b912f0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c446dc0f99a5b9c9cdf3698cdf774cfd1e5d4d6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928862"
 ---
 # <a name="submitting-a-resource-request"></a>Отправка запроса ресурса
 

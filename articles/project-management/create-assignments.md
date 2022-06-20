@@ -1,24 +1,24 @@
 ---
 title: Создание назначений ресурсов
-description: Эта тема предоставляет информацию о создании назначений универсальных и именованных ресурсов.
+description: В этой статье приведены инструкции по созданию назначений универсальных и именованных ресурсов.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933508"
 ---
 # <a name="create-resource-assignments"></a>Создание назначений ресурсов
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 
-Назначение ресурсов — это прямая связь участника проектной группы с задачей листового узла. В этой теме представлена информация о различных способах назначения ресурсов.
+Назначение ресурсов — это прямая связь участника проектной группы с задачей листового узла. В этой статье содержится информация о различных способах назначения ресурсов.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Создание универсального участника рабочей группы через назначение задач
 

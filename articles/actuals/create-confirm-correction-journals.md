@@ -1,6 +1,6 @@
 ---
 title: Создание и подтверждение журналов корректировок
-description: В этом разделе представлена информация о том, как создать и подтвердить журнал корректировок.
+description: В этой статье содержится информация о том, как создавать и подтверждать журнал корректировок.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 70886aa5a3060fa58461ce215e4de3b7286093e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928080"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Создание и подтверждение журналов корректировок
 

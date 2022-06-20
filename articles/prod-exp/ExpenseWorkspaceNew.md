@@ -1,6 +1,6 @@
 ---
 title: Переработанные отчеты о расходах
-description: Этот тема предоставляет информацию о переработанном и переосмысленном интерфейсе ввода отчета о расходах.
+description: В этой статье приводятся сведения о переработанных и измененных возможностях интерфейса ввода отчета о расходах.
 author: ryansandness
 ms.date: 06/14/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: cad971f3b45faf13dab4cd71ff7439c44b2e7b61
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 09322d7a59ae91f64dfa63b00f035178d7ca6444
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920996"
 ---
 # <a name="redesigned-expense-reports"></a>Переработанные отчеты о расходах
 

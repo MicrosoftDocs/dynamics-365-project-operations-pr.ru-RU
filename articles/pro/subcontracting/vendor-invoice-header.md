@@ -1,17 +1,17 @@
 ---
 title: Сведения в заголовке для счетов поставщиков
-description: В этой теме рассматривается функциональность, предоставляемая в заголовке счета поставщика в Microsoft Dynamics 365 Project Operations.
+description: В этой статье рассматривается функциональность, предоставляемая в заголовке счета поставщика в Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929874"
 ---
 # <a name="header-details-for-vendor-invoices"></a>Сведения в заголовке для счетов поставщиков
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575596"
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
-В этой теме рассматривается функциональность, предоставляемая в заголовке счета поставщика в Microsoft Dynamics 365 Project Operations.
+В этой статье рассматривается функциональность, предоставляемая в заголовке счета поставщика в Microsoft Dynamics 365 Project Operations.
 
 Планируя и выполняя проекты, руководители проектов могут нанимать субподрядчиков и приобретать продукты и услуги у поставщиков. Во время выполнения проекта возникают затраты из услуг, материалов и категорий расходов, которые закупаются по субподрядам с поставщиками. Поставщики выставляют счета по этим затратам на проекты путем создания счетов поставщиков.
 

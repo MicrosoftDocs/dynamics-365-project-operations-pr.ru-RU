@@ -1,6 +1,6 @@
 ---
 title: Работа с моделью данных Project Service Automation
-description: В этом разделе представлена информация о том, как работать с моделью данных.
+description: В этой статье представлена информация о том, как работать с моделью данных.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926700"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Работа с моделью данных Project Service Automation
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587556"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation расширяет сущности других приложений и вводит собственные сущности в модель данных Common Data Service. В этом разделе описываются некоторые из сущностей, которые вы встретите в типичных сценариях отчетности в PSA.
+Dynamics 365 Project Service Automation расширяет сущности других приложений и вводит собственные сущности в модель данных Common Data Service. В этой статье описываются некоторые из сущностей, которые вы встретите в типичных сценариях отчетности в PSA.
 
 ## <a name="reporting-on-opportunities"></a>Отчеты по возможным сделкам
 

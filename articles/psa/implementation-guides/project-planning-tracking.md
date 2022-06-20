@@ -1,6 +1,6 @@
 ---
 title: Планирование и отслеживание проектов
-description: В этом разделе приведена ссылка на сведения о планировании и отслеживании в Project Service Automation.
+description: В этой статье приведена ссылка на сведения о планировании и отслеживании в Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933278"
 ---
 # <a name="project-planning-and-tracking"></a>Планирование и отслеживание проектов
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589902"
 
 Приложение Project Service помогает обслуживающим организациям выявлять возможные сделки, отправлять предложения, заключать контрактные соглашения, управлять ресурсами, отслеживать время и расходы, выставлять счета клиентам и выполнять проекты вовремя и в рамках бюджета. 
 
-Ссылка на PDF-файл, которая находилась ранее в этом разделе, удалена, а содержимое перемещено в следующие разделы:
+Ссылка на PDF-файл, которая находилась ранее в этой статье, удалена, а содержимое перемещено в следующие статьи:
 
 - [Расписания проектов](../project-creating.md)
 - [Расходы и доходы проекта](../project-estimating.md)
@@ -43,7 +43,7 @@ ms.locfileid: "8589902"
 - [Параметры проекта](../project-settings.md)
 
 > [!NOTE]
-> Этот раздел будет удален в будущем при обновлении документации. 
+> Эта статья будет удалена в будущем при обновлении документации. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

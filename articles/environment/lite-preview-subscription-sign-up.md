@@ -1,21 +1,21 @@
 ---
 title: Регистрация на подписку на предварительную версию — облегченное развертывание
-description: Эта тема предоставляет информацию о том, как подписаться на развертывание и развернуть развертывание Project Operations Lite — от сделки до счетов-проформ.
+description: В этой статье содержится информация о том, как подписаться облегченное развертывание Project Operations и развернуть его — от сделки до счетов-проформ.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588016"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921272"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Регистрация на подписку на предварительную версию — облегченное развертывание 
 
-В этой теме описано, как подписаться на пробное предложение и как развернуть сделку Dynamics 365 Project Operations (облегченное развертывание) по выставлению счетов-проформ.
+В этой статье объясняется, как подписаться на бесплатную пробную версию и развернуть облегченное развертывание Dynamics 365 Project Operations — от сделки до счетов-проформ.
 
 > [!NOTE]
 > Этот процесс изменится в следующих выпусках Project Operations.
@@ -50,7 +50,7 @@ ms.locfileid: "8588016"
 
 ## <a name="create-a-new-dataverse-environment"></a>Создание новой среды Dataverse
 
-1. Подготовьте новую среду развертывания Project Operations Dataverse, следуя инструкциям в теме [модель развертывания Dataverse](lite-deployment.md). При выборе типа среды обязательно используйте вариант **Пробная версия (по подписке)**.
+1. Подготовьте к работе новую среду Project Operations Dataverse, следуя инструкциям в статье [Модель развертывания Dataverse](lite-deployment.md). При выборе типа среды обязательно используйте вариант **Пробная версия (по подписке)**.
 
   ![Создать среду.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "8588016"
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Установка демонстрационных данных конфигурации и настройки CDS
 
-Установите демонстрационные данные конфигурации и настройки CDS, следуя инструкциям в теме [Применение демонстрационных данных настройки и конфигурации](lite-apply-demo-setup-config-data.md).
+Установите конфигурацию CDS и настройте демонстрационные данные, следуя инструкциям в статье [Применение демонстрационных данных настройки и конфигурации](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

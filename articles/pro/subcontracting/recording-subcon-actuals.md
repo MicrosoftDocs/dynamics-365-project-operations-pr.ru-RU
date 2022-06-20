@@ -1,17 +1,17 @@
 ---
 title: Учет времени, расходов и использования материалов для субподрядных компонентов
-description: В этой теме объясняется, как Microsoft Dynamics 365 Project Operations отслеживает время, расходы и использование материалов, записываемых в проектах по субподрядным компонентам.
+description: В этой статье объясняется, как Microsoft Dynamics 365 Project Operations отслеживает время, расходы и использование материалов, записываемых в проектах по субподрядным компонентам.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927666"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Учет времени, расходов и использования материалов по проектам для субподрядных компонентов
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599240"
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
-В этой теме объясняется, как Microsoft Dynamics 365 Project Operations отслеживает время, расходы и использование материалов, записываемых в проектах по субподрядным компонентам.
+В этой статье объясняется, как Microsoft Dynamics 365 Project Operations отслеживает время, расходы и использование материалов, записываемых в проектах по субподрядным компонентам.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Калькуляция рабочего времени субподрядчика по проектам
 В Project Operations работники, работающие по контракту, могут вести учет рабочего времени по проектам так же, как и сотрудники. При вводе времени по проектам и/или задачам проекта подрядный работник может выбрать конкретный субподряд и строку субподряда.

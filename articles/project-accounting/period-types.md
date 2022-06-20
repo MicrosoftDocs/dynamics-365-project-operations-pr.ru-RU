@@ -1,23 +1,23 @@
 ---
 title: Типы периодов
-description: В этом разделе представлена информация о том, как настроить типы периодов для оценки дохода.
+description: В этой статье представлена информация о том, как настраивать типы периодов для оценки дохода.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930978"
 ---
 # <a name="period-types"></a>Типы периодов
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-Тип периода определяет, как часто оценивается доход по проекту. В этом разделе представлена информация о том, как настроить типы периодов для оценки дохода. 
+Тип периода определяет, как часто оценивается доход по проекту. В этой статье представлена информация о том, как настраивать типы периодов для оценки дохода. 
 
 ## <a name="create-and-work-with-period-types"></a>Создание и работа с типами периодов
 Чтобы создать типы периодов и работать с ними, выполните следующие действия:

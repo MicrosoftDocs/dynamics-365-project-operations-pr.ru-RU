@@ -1,25 +1,25 @@
 ---
 title: Ручное развертывание приложения Project Operations Dataverse с поддержкой двойной записи
-description: В этом разделе объясняется, как вручную развернуть приложение Project Operations Dataverse, чтобы обеспечить поддержку двойной записи.
+description: В этой статье поясняется, как вручную развернуть приложение Project Operations Dataverse, чтобы оно поддерживало двойную запись.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912026"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Ручное развертывание приложения Project Operations Dataverse с поддержкой двойной записи
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-В этом разделе объясняется, как вручную развернуть Microsoft Dynamics 365 Project Operations в Microsoft Dataverse, чтобы обеспечить поддержку двойной записи. Project Operations определяет конфигурацию среды и добавляет дополнительную поддержку для двойной записи, если выполняются предварительные условия.
+В этой статье поясняется, как вручную развернуть Microsoft Dynamics 365 Project Operations в Microsoft Dataverse, чтобы обеспечить поддержку двойной записи. Project Operations определяет конфигурацию среды и добавляет дополнительную поддержку для двойной записи, если выполняются предварительные условия.
 
-Если во время развертывания через Microsoft Dynamics Lifecycle Services (LCS) вы следовали инструкциям из этого раздела, вы можете пропустить развертывание для интеграции Microsoft Power Platform (ранее известной как среда Common Data Service).
+Во время развертывания через Microsoft Dynamics Lifecycle Services (LCS), если вы следовали инструкциям в этой статье, вы можете пропустить развертывание интеграции Microsoft Power Platform (ранее известной как среда Common Data Service).
 
 Процесс развертывания Project Operations в Dataverse с поддержкой двойной записи включает четыре основных шага:
 

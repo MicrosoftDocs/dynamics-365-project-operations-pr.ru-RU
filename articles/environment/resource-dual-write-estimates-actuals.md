@@ -1,24 +1,24 @@
 ---
 title: Интеграция оценок и фактических данных по проекту
-description: Этот тема предоставляет информацию об интеграции с двойной записью Project Operations для оценок и фактических данных по проекту.
+description: В этой статье содержится информация об интеграции Project Operations с двойной записью для оценок и фактических значений проекта.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914602"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Интеграция оценок и фактических данных по проекту
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/без запасов_
 
-Этот тема предоставляет информацию об интеграции с двойной записью Project Operations для оценок и фактических данных по проекту.
+В этой статье содержится информация об интеграции Project Operations с двойной записью для оценок и фактических значений проекта.
 
 ## <a name="project-estimates"></a>Оценки проекта
 

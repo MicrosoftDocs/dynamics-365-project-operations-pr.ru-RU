@@ -1,24 +1,24 @@
 ---
 title: Новые возможности и изменения в Project Operations от января 2021 г. для сценариев на основе запасов/производственных заказов
-description: Эта тема предоставляет информацию об обновлениях качества, доступных в выпуске Project Operations за январь 2021 г., для сценариев на основе запасов/производственных заказов.
+description: В этой статье содержится информация об обновлениях качества, доступных в выпуске Project Operations за январь 2021 года для сценариев на основе запасов/производственных заказов.
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923940"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Новые возможности и изменения в Project Operations от января 2021 г. для сценариев на основе запасов/производственных заказов
 
 _**Применяется к:** Project Operations для сценариев на основе запасов/производственных заказов_
 
-Эта тема применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
+Эта статья применяется к следующим компонентам и версиям Dynamics 365 Project Operations:
 
 - Управление и учет по проектам в среде Dynamics 365 Finance версии 10.0.16
 
