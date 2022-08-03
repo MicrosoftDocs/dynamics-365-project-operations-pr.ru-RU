@@ -1,11 +1,11 @@
 ---
-ms.openlocfilehash: ce4395c37d3339a5aec81c691c7372d020445005ec501c669927ce1fbee2faae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c8c930b58335f03b2efa3be0af61c83dedbc97ec
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986327"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029775"
 ---
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations стало специализированным приложением, с помощью которого вы можете управлять определенными бизнес-функциями. Дополнительные сведения об этих изменениях см. в разделе [Руководство по лицензированию Dynamics 365](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).
+> Решения Dynamics 365 Finance превратились в специализированные приложения, с помощью которых вы можете управлять определенными бизнес-функциями. Дополнительные сведения об этих изменениях см. в разделе [Руководство по лицензированию Dynamics 365](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).
  
