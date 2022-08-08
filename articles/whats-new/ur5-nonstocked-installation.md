@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912486"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030051"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Обновите Project Operations в вашей среде Finance
 
@@ -119,7 +119,7 @@ _**Относится к:** Project Operations для сценариев на о
 4. На странице **Версия сопоставления таблиц** примените новую версию сопоставления к каждому из трех объектов.
 5. На странице **Двойная запись** выберите выполнение, чтобы перезапустить сопоставления.
 6. Из списка сопоставлений выберите сопоставление **Реестр (msdyn_ledgers)** со всеми обязательными компонентами и выберите флажок **Начальная синхронизация**. 
-7. В поле **Главный объект для начальной синхронизации** выберите **Приложения для управления финансами и операциями apps**, затем выберите **Выполнить**.
+7. В поле **Главный объект для начальной синхронизации** выберите **Приложения для управления финансами и операциями**, затем выберите **Выполнить**.
  
  ![Синхронизация сопоставления реестра.](media/DW6.png)
  

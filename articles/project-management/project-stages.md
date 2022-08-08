@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911152"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177396"
 ---
 # <a name="project-stages"></a>Стадии проекта
 
@@ -47,7 +47,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="plan"></a>Планирование
 
-При выигрыше предложения с расценками, связанного с проектом, проект переходит на этап **Контракт**, стадия проекта обновляется на **План**. Пока проект находится на стадии **План**, на странице **Сущность проекта** отображаются сведения о контракте.
+При выигрыше предложения с расценками, связанного с проектом, проект переходит на этап **Контракт**, стадия проекта обновляется на **План**. Пока проект находится на стадии **План**, сведения по контракту отображаются на вкладке **Продажи** на странице **Сущность проекта**.
 
 ## <a name="deliver"></a>Доставка
 

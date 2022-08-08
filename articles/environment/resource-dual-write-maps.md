@@ -2,16 +2,16 @@
 title: Версии сопоставлений с двойной записью Project Operations
 description: В этой статье представлен список карт с двойной записью, необходимых для Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959512"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112445"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Версии сопоставлений с двойной записью Project Operations
 
@@ -46,7 +46,7 @@ _**Относится к:** Project Operations для сценариев на о
 | Заголовки контрактов по проекту (заказы на продажу) | 1.0.0.1 | Не требуется для подготовки. ||
 | Строки контракта по проекту (salesorderdetails) | 1.0.0.0 | Не требуется для подготовки. ||
 | Источник финансирования проекта (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Не требуется для подготовки. ||
-| Таблица интеграции Project Operations для оценок материалов (msdyn\_estimatelines) | 1.0.0.0 | Не требуется для подготовки. ||
+| Таблица интеграции проекта для оценок материалов (msdyn\_estimatelines) | 1.0.0.0 | Не требуется для подготовки. ||
 | Предложения по счетам по проекту V2 (счета) | 1.0.0.3 | Не требуется для подготовки. ||
 | Фактические данные интеграции Project Operations (msdyn_actuals) | 1.0.0.14 | Не требуется для подготовки. ||
 | Вехи строки контракта интеграции Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Не требуется для подготовки. ||

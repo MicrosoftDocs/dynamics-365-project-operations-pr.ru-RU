@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927436"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028626"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Использование категорий закупаемой продукции в сочетании с заказами на покупку по проекту и ожидающими счетами поставщиков
 
@@ -25,7 +25,7 @@ _**Относится к:** Project Operations для сценариев на о
 Для использования категорий закупаемой продукции в сочетании с заказами на покупку по проекту в в Microsoft Dynamics 365 Project Operations для сценариев на основе ресурсов/без запасов требуются следующие версии:
 
 - Версия решения Project Operations Dataverse — 4.41.0.45 или более поздняя
-- Среда Finance and Operations — версия 10.0.26 или более поздняя
+- Среда приложений для управления финансами и операциями — версия 10.0.26 или более поздняя
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>Запуск сопоставлений двойной записи для поддержки категорий закупаемой продукции
 

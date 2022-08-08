@@ -2,17 +2,17 @@
 title: Устранение неполадок при работе в сетке задач
 description: Эта статья содержит инструкции по устранению неполадок, необходимые при работе с сеткой задач.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911060"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188248"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Устранение неполадок при работе в сетке задач 
 
@@ -72,7 +72,10 @@ Project Operations требует, чтобы параметр проекта с
 4. Удалите поле со страницы **Параметры проекта**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Решение 3: вход в систему на project.microsoft.com
-В браузере Microsoft Edge откройте новую вкладку, перейдите на project.microsoft.com и войдите в систему с ролью пользователя, которую вы используете для доступа к Project Operations.
+
+В браузере откройте новую вкладку, перейдите на project.microsoft.com и войдите в систему с ролью пользователя, которую вы используете для доступа к Project Operations. Важно, чтобы только один пользователь вошел в систему продукта Microsoft в браузере. Сообщение об ошибке "login.microsoftonline.com отклонил попытку подключения" чаще всего появляется, когда в систему входит более одного пользователя, как показано на следующем рисунке.
+
+![Выберите страницу входа в учетную запись, показывающую, что два пользователя вошли в систему.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Проблема: проект не загружается, и пользовательский интерфейс зависает на счетчике
 

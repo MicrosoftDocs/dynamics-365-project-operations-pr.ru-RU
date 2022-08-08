@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912394"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110900"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Новые возможности, апрель 2022 — Project Operations для сценариев на основе ресурсов/без запасов
 
@@ -25,7 +25,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="features-included-in-this-release"></a>Функции, входящие в данный выпуск
 
-Категории закупаемой продукции могут использоваться в заказах на покупку по проекту и ожидающими счетами поставщиков. Дополнительные сведения см. в разделе [Использование категорий закупаемой продукции в сочетании с заказами на покупку по проекту и ожидающими счетами поставщиков](configure-procurement-categories.md).
+Категории закупаемой продукции могут использоваться в заказах на покупку по проекту и ожидающими счетами поставщиков. Дополнительные сведения см. в разделе [Использование категорий закупаемой продукции в сочетании с заказами на покупку по проекту и ожидающими счетами поставщиков](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Обновления сопоставления с двойной записью Project Operations
 

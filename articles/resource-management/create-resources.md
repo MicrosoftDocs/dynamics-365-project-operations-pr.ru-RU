@@ -6,18 +6,25 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: bcd460c489d428238d27f87968e9afb62fde0cb1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e5df0bad9d2bcab54ad0fc1c917cfdb5aeaff927
+ms.sourcegitcommit: 422d8839c7ea4648d5adb20c40640ac8eb02ecdf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912670"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125216"
 ---
 # <a name="create-resources"></a>Создание ресурсов
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 Вы можете использовать Dynamics 365 Field Service для создания резервируемых ресурсов для использования в среде Dynamics 365 Project Operations. Чтобы создать эти ресурсы, см. [Настройка резервируемых ресурсов](/dynamics365/field-service/set-up-bookable-resources).
+
+Project Operations поддерживает следующие типы ресурсов:
+- Организация
+- Контактные сведения
+- User
+- Оборудование
+- Универсальный
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
