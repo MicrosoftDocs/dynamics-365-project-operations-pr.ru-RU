@@ -56,16 +56,18 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Интеграция управления расходами
               href: environment/resource-dual-write-expense.md
-            - name: Интеграция счетов поставщика
+            - name: Интеграция счетов поставщиков
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Удаление Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Новые возможности
       items:
-        - name: "Июль 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: "Август 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Архив
           items:
+            - name: "Июль 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: "Июнь 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: "Май 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
@@ -384,6 +386,42 @@
           items:
             - name: Обзор загруженности ресурсов
               href: resource-management/resource-utilization-overview.md
+    - name: Управление субподрядом
+      items:
+        - name: Управление субподрядом в Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Основные понятия в субподряде
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Управление поставщиками и прайс-листами проектов
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Субподрядчики как резервируемые ресурсы
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Сведения в заголовке для субподрядов
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Строки субподряда для времени
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Строки субподряда для категорий расходов
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Строки субподряда для продуктов
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ресурсы для строки субподряда
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Вехи строки субподряда
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Субподряд участников рабочей группы проекта
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Параметры субподряда для участников рабочей группы проекта
+          href: pro/subcontracting/subcon-options.md
+        - name: Оценка затрат на назначения ресурсов по субподряду
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Настройка таблицы расписаний для отображения емкости сотрудников и нештатных работников
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Набор персонала по проекту с учетом емкости сотрудников и нештатных работников
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Учет времени, расходов и использования материалов для субподрядных компонентов'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Переходы между состояниями по субподряду
+          href: pro/subcontracting/subcon-states.md
     - name: Время
       items:
         - name: Обзор времени
@@ -578,8 +616,10 @@
           href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: Расширенная настройка
       items:
-        - name: 'Перенос вех выставления счетов, по которым выставлены накладные, во время переключения'
+        - name: 'Перенос вех выставления счетов, по которым выставлены счета, во время переключения'
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Синхронизация состояния проекта во избежание ввода данных в закрытые проекты
+          href: advanced-configuration/sync-project-status.md
     - name: Обновление
       items:
         - name: Рекомендации по обновлению для современных утверждений
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Новые возможности
       items:
-        - name: "Новые возможности в июле 2022\_г.\_— облегченное развертывание"
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: "Новые возможности в августе 2022\_г.\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Архив
           items:
+            - name: "Новые возможности в июле 2022\_г.\_— облегченное развертывание"
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: "Новые возможности в июне 2022\_г.\_— облегченное развертывание"
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: "Новые возможности раннего доступа волны 2 выпуска от 2021\_г.\_— облегченное развертывание"
