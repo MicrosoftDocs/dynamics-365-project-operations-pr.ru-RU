@@ -1,17 +1,17 @@
 ---
-title: Настройка и применение демонстрационных данных в Common Data Service
+title: Настройка и применение демонстрационных данных в Microsoft Dataverse
 description: В этой статье содержится информация о настройке и применении данных конфигурации в Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928034"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230268"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Настройка и применение демонстрационных данных в Common Data Service 
 
@@ -21,10 +21,10 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-Прежде чем вы начнете настраивать данные в Common Data Service (CDS), должны быть выполнены следующие предварительные условия:
+Прежде чем вы начнете настраивать данные в Microsoft Dataverse, должны быть выполнены следующие предварительные условия:
 
-1.  Подготовьте к работе среду CDS и среду Dynamics 365 Finance для Project Operations.
-2.  Информация о юридических лицах из Dynamics 365 Finance должна быть передана в среду CDS. Это означает, что сущность **Компания** в CDS имеет следующие записи компаний:
+1.  Подготовьте к работе среду Dataverse и среду Dynamics 365 Finance для Project Operations.
+2.  Информация о юридических лицах из Dynamics 365 Finance должна быть передана в среду Dataverse. Это означает, что сущность **Компания** в Dataverse имеет следующие записи компаний:
   - THPM
   - USPM
   - GBPM
