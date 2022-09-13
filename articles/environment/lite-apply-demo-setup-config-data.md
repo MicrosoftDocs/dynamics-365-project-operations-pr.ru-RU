@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922330"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410050"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Применение демонстрационных данных настройки и конфигурации для Project Operations — облегченное развертывание 
 
@@ -21,7 +21,7 @@ _**Облегченное развертывание — от сделки до 
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-Перед тем как начать настройку, вы должны иметь подготовленную среду Common Data Service (CDS) для Dynamics 365 Project Operations.
+Прежде чем вы приступите к настройке, у вас должна быть среда Dataverse, подготовленная для Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Инструкции
