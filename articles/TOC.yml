@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Копирование предложений с расценками по проекту
               href: sales/lose-quote.md
+            - name: Активация и проверка предложения с расценками по проекту
+              href: sales/activation-and-revision.md
             - name: Закрытие предложений с расценками по проекту
               href: sales/win-quote.md
         - name: Управление контрактами по проекту
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Создание графиков счетов по строкам контракта на основе проекта
                   href: sales/invoice-schedules-contract-line.md
+            - name: Копирование контрактов на основе проекта
+              href: sales/copy-project-based-contracts-sales.md
             - name: Подтверждение контракта по проекту
               href: pro/sales/confirm-contract-sales.md
             - name: Авансы и гонорары
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Переопределение прайс-листов продаж по проекту
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Разрешение значений себестоимости для оценок и фактических значений
+            - name: Определение значений себестоимости для оценок и фактических значений
               href: pricing-costing/cost-price-resolution.md
-            - name: Разрешение значений цены продажи для оценок и фактических значений
+            - name: Определение значений цены продажи для оценок и фактических значений
               href: pricing-costing/sales-price-resolution.md
             - name: Копирование прайс-листов
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Копирование предложений с расценками на основе проекта
               href: sales/lose-quote.md
+            - name: Активация и проверка предложения с расценками по проекту
+              href: sales/activation-and-revision.md
             - name: Закрытие предложений с расценками на основе проекта
               href: pro/sales/win-quote-sales.md
         - name: Управление контрактами на основе проекта
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Переопределение прайс-листов продаж по проекту
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Разрешение значений себестоимости по оценкам и фактическим значениям по проекту
+            - name: Определение значений себестоимости по оценкам и фактическим значениям по проекту
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Разрешение значений цены продажи для оценок и фактических значений по проекту
+            - name: Определение значений цены продажи для оценок и фактических значений по проекту
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Копирование прайс-листов
               href: pricing-costing/copy-price-lists.md
