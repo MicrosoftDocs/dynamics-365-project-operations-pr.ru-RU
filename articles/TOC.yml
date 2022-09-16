@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Переопределение прайс-листов продаж по проекту
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Настройка переопределений со сроком действия для определенных цен в прайс-листе
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Определение значений себестоимости для оценок и фактических значений
               href: pricing-costing/cost-price-resolution.md
             - name: Определение значений цены продажи для оценок и фактических значений
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Заказ товаров и услуг для проектов с использованием заказов на покупку по проектам
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Накладные поставщиков для субподрядов в Dataverse
+          items:
+            - name: Создание накладных поставщиков
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Проверка накладных поставщиков с утвержденными фактическими значениями
+              href: pro/subcontracting/VI-Verification.md
+            - name: Подтверждение накладных поставщиков по проекту
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Удержание поставщиков
           items:
             - name: Обзор удержания поставщиков
@@ -844,7 +854,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Переопределение прайс-листов продаж по проекту
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Определение значений себестоимости по оценкам и фактическим значениям по проекту
+            - name: Настройка переопределений со сроком действия для определенных цен в прайс-листе
+              href: pricing-costing/dateffective_price_overrides.md
+            - name: Определение значений себестоимости для оценок и фактических значений по проекту
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Определение значений цены продажи для оценок и фактических значений по проекту
               href: pro/pricing-costing/sales-price-resolution-sales.md
