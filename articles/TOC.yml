@@ -508,13 +508,15 @@
           href: approvals/cancelapproval.md
         - name: Отзыв ранее утвержденных записей
           href: approvals/recall-cancel.md
+        - name: Безопасность и утверждения
+          href: approvals/approvals-security.md
         - name: Примечания разработчика
           items:
             - name: Заметки разработчика для утверждений
               href: approvals/dev-notes-approvals.md
     - name: Фактические значения
       items:
-        - name: Бизнес-проводки в Project Operations
+        - name: Бизнес-транзакции в Project Operations
           href: actuals/businesstransactions.md
         - name: Обзор фактических значений
           href: actuals/actuals-overview.md
@@ -554,12 +556,14 @@
               href: pro/subcontracting/VI-Verification.md
             - name: Подтверждение накладных поставщиков по проекту
               href: procurement/Confirm-a-project-vendor-invoice.md
-        - name: Удержание поставщиков
+        - name: Период удержания поставщиков
           items:
-            - name: Обзор удержания поставщиков
+            - name: Обзор периода удержания поставщиков
               href: procurement/vendor-retention-overview.md
-            - name: Настройка удержания поставщиков
+            - name: Настройка периода удержания поставщиков
               href: procurement/set-up-vendor-retention.md
+            - name: Оплата после получения оплаты
+              href: procurement/Pay-when-paid.md
     - name: Выставление счетов
       items:
         - name: Обзор процесса выставления счетов
@@ -1102,13 +1106,15 @@
           href: approvals/cancelapproval.md
         - name: Отзыв ранее утвержденных записей
           href: approvals/recall-cancel.md
+        - name: Безопасность и утверждения
+          href: approvals/approvals-security.md
         - name: Примечания разработчика
           items:
             - name: Заметки разработчика для утверждений
               href: approvals/dev-notes-approvals.md
     - name: Фактические значения
       items:
-        - name: Бизнес-проводки в Project Operations
+        - name: Бизнес-транзакции в Project Operations
           href: actuals/businesstransactions.md
         - name: Обзор фактических значений
           href: actuals/actuals-overview.md
