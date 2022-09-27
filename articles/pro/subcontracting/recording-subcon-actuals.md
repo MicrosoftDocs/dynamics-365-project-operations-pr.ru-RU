@@ -2,20 +2,20 @@
 title: Учет времени, расходов и использования материалов для субподрядных компонентов
 description: В этой статье объясняется, как Microsoft Dynamics 365 Project Operations отслеживает время, расходы и использование материалов, записываемых в проектах по субподрядным компонентам.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261156"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522530"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Учет времени, расходов и использования материалов по проектам для субподрядных компонентов
 
-_**Относится к:** развертывание Lite — от сделки до счетов-проформ_
+_**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 В этой статье объясняется, как Microsoft Dynamics 365 Project Operations отслеживает время, расходы и использование материалов, записываемых в проектах по субподрядным компонентам.
 

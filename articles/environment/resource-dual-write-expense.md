@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029225"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528021"
 ---
 # <a name="expense-management-integration"></a>Интеграция управления расходами
 
@@ -34,7 +34,7 @@ _**Относится к:** Project Operations для сценариев на о
 
 ## <a name="expense-reports"></a>Отчеты о расходах
 
-Отчеты о расходах создаются и утверждаются в приложениях для управления финансами и операциями. Дополнительные сведения см. в [Создавать и обрабатывать отчеты о расходах в Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). После утверждения отчета о расходах руководителем проекта он разносится в главную книгу. В Project Operations строки отчета о расходах, связанных с проектом, разносятся с использованием специальных правил разноски:
+Отчеты о расходах создаются и утверждаются в приложениях для управления финансами и операциями. Дополнительные сведения см. в [Создавать и обрабатывать отчеты о расходах в Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). После утверждения отчета о расходах руководителем проекта он разносится в главную книгу. В Project Operations строки отчета о расходах, связанных с проектом, разносятся с использованием специальных правил разноски:
 
   - Затраты, связанные с проектом (включая невозмещаемый налог), не разносятся сразу на счет затрат проекта в главной книге, а вместо этого проводятся на счет интеграции расходов. Эта учетная запись настраивается в **Управление и учет для проектов** > **Настройка** > **Параметры управления и учета для проектов**, вкладка **Project Operations в Dynamics 365 Customer Engagement**.
   - Двойная запись синхронизируется с Dataverse с использованием сопоставления таблиц **Сущность экспорта расходов проекта интеграции Project Operations (msdyn\_expenses)**.

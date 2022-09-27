@@ -2,20 +2,20 @@
 title: Переходы между состояниями по субподряду
 description: В этой статье поясняются переходы между состояниями по субподряду в Microsoft Dynamics 365 Project Operations по мере создания, исполнения и закрытия субподряда.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261291"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522906"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Переходы между состояниями по субподряду 
 
-_**Относится к:** развертывание Lite — от сделки до счетов-проформ_
+_**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 В этой статье объясняются переходы между состояниями по субподряду в Microsoft Dynamics 365 Project Operations. Каждое состояние представлено как черновик, подтверждено, закрыто или отменено. На следующем изображении представлены переходы между состояниями.
 

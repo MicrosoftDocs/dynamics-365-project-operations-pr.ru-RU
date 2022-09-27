@@ -2,20 +2,20 @@
 title: Вехи строки субподряда
 description: В этой статье объясняется, как создать и поддерживать график выставления счетов на основе вех для субподряда с поставщиком.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261810"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522481"
 ---
 # <a name="subcontract-line-milestones"></a>Вехи строки субподряда
 
-_**Относится к:** развертывание Lite — от сделки до счетов-проформ_
+_**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 В Dynamics 365 Project Operations строка субподряда с методом выставления счетов с фиксированной ценой может указывать поставщику график выставления счетов на основе вех.
 

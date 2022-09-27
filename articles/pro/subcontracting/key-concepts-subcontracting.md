@@ -2,21 +2,21 @@
 title: Основные понятия в субподряде
 description: В этой статье объясняются некоторые ключевые понятия, применимые к субподряду в Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262186"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522765"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Основные понятия в субподряде
 
 
-_**Относится к:** развертывание Lite — от сделки до счетов-проформ_
+_**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 В статье объясняются некоторые ключевые понятия, о которых следует знать, прежде чем вы начнете использовать функции субподряда в Microsoft Dynamics 365 Project Operations.
 

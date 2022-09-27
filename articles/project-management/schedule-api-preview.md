@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230332"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541141"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Использование API расписания проекта для выполнения операций с сущностями планирования
 
 _**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 
-
-## <a name="scheduling-entities"></a>Сущности планирования
+**Сущности планирования**
 
 API расписания проекта предоставляют возможность выполнять операции создания, обновления и удаления с помощью **сущностей планирования**. Управление этими сущностями осуществляется через механизм планирования в проекте для Интернета. Операции создания, обновления и удаления с помощью **сущностей планирования** были ограничены в ранних выпусках Dynamics 365 Project Operations.
 
 В следующей таблице представлен полный список сущностей расписания проекта.
 
-| Имя сущности  | Логическое имя сущности |
-| --- | --- |
-| Project | msdyn_project |
-| Задача проекта  | msdyn_projecttask  |
-| Зависимость задач проекта  | msdyn_projecttaskdependency  |
-| Назначение ресурса | msdyn_resourceassignment |
-| Группа проекта  | msdyn_projectbucket |
-| Участник проектной группы | msdyn_projectteam |
+| **имя сущности,**         | **Логическое имя сущности**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Задача проекта            | msdyn_projecttask           |
+| Зависимость задач проекта | msdyn_projecttaskdependency |
+| Назначение ресурса     | msdyn_resourceassignment    |
+| Группа проекта          | msdyn_projectbucket         |
+| Участник проектной группы     | msdyn_projectteam           |
+| Контрольные списки проекта      | msdyn_projectchecklist      |
+| Метка проекта           | msdyn_projectlabel          |
+| Задача проекта для пометки   | msdyn_projecttasktolabel    |
+| Спринт проекта          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet — это шаблон единицы работы, который можно использовать, когда в рамках транзакции необходимо обработать несколько запросов, влияющих на расписание.
 
-## <a name="project-schedule-apis"></a>API расписания проектов
+**API расписания проектов**
 
 Ниже приводится список текущих API для расписания проекта.
 
-- **msdyn_CreateProjectV1**: этот API можно использовать для создания проекта. Проект и группа проекта по умолчанию создаются немедленно.
-- **msdyn_CreateTeamMemberV1**: этот API можно использовать для создания участника рабочей группы проекта. Запись участника рабочей группы создается немедленно.
-- **msdyn_CreateOperationSetV1**: этот API можно использовать для планирования нескольких запросов, которые должны выполняться в рамках транзакции.
-- **msdyn_PssCreateV1**: этот API можно использовать для создания сущности. Сущность может быть любой из сущностей планирования проекта, поддерживающих операцию создания.
-- **msdyn_PssUpdateV1**: этот API можно использовать для обновления сущности. Сущность может быть любой из сущностей планирования проекта, поддерживающих операцию обновления.
-- **msdyn_PssDeleteV1**: этот API можно использовать для удаления сущности. Сущность может быть любой из сущностей планирования проекта, поддерживающих операцию удаления.
-- **msdyn_ExecuteOperationSetV1**: этот API используется для выполнения всех операций в рамках данного набора операций.
+| **API**                                 | Description                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Этот API используется для создания проекта. Проект и группа проекта по умолчанию создаются немедленно.                         |
+| **msdyn_CreateTeamMemberV1**            | Этот API используется для создания участника рабочей группы проекта. Запись участника рабочей группы создается немедленно.                                  |
+| **msdyn_CreateOperationSetV1**          | Этот API используется для планирования нескольких запросов, которые должны выполняться в рамках транзакции.                                        |
+| **msdyn_PssCreateV1**                   | Этот API используется для создания сущности. Сущность может быть любой из сущностей планирования проекта, поддерживающих операцию создания. |
+| **msdyn_PssUpdateV1**                   | Этот API используется для обновления сущности. Сущность может быть любой из сущностей планирования проекта, поддерживающих операцию обновления  |
+| **msdyn_PssDeleteV1**                   | Этот API используется для удаления сущности. Сущность может быть любой из сущностей планирования проекта, поддерживающих операцию удаления. |
+| **msdyn_ExecuteOperationSetV1**         | Этот API используется для выполнения всех операций в рамках данного набора операций.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Этот API используется для обновления запланированного рабочего контура назначения ресурсов.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Использование API расписания проекта с OperationSet
+
+
+**Использование API расписания проекта с OperationSet**
 
 Поскольку записи **CreateProjectV1** и **CreateTeamMemberV1** создаются мгновенно, эти API нельзя использовать в **OperationSet** напрямую. Однако вы можете использовать API для создания необходимых записей, создайте **OperationSet**, а затем используйте эти предварительно созданные записи в **OperationSet**.
 
-## <a name="supported-operations"></a>Поддерживаемые операции
+**Поддерживаемые операции**
 
-| Сущность планирования | Создание | Обновить | DELETE | Важные замечания |
-| --- | --- | --- | --- | --- |
-Задача проекта | Да | Да | Да | Поля **Progress**, **EffortCompleted** и **EffortRemaining** можно редактировать в Project for the Web, но нельзя редактировать в Project Operations.  |
-| Зависимость задач проекта | Да |  | Да | Записи о зависимостях задач проекта не обновляются. Вместо этого можно удалить старую запись и создать новую. |
-| Назначение ресурса | Да | Да | | Не поддерживаются операции со следующими полями: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** и **PlannedWork**. Записи о назначении ресурсов не обновляются. Вместо этого можно удалить старую запись и создать новую. |
-| Группа проекта | Да | Да | Да | Группа по умолчанию создается с помощью API **CreateProjectV1**. Поддержка создания и удаления групп проекта была добавлена в выпуске-обновлении 16. |
-| Участник проектной группы | Да | Да | Да | Для операции создания используйте API **CreateTeamMemberV1**. |
-| Project | Да | Да |  | Не поддерживаются операции со следующими полями: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** и **Duration**. |
+| **Сущность планирования**   | **Создание** | **Update** | **DELETE** | **Важные замечания**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Задача проекта            | Да        | Да        | Да        | Поля **Progress**, **EffortCompleted** и **EffortRemaining** можно редактировать в Project for the Web, но нельзя редактировать в Project Operations.                                                                                                                                                                                             |
+| Зависимость задач проекта | Да        | No         | Да        | Записи о зависимостях задач проекта не обновляются. Вместо этого можно удалить старую запись и создать новую.                                                                                                                                                                                                                                 |
+| Назначение ресурса     | Да        | Да\*      | Да        | Не поддерживаются операции со следующими полями: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** и **PlannedWork**. Записи о назначении ресурсов не обновляются. Вместо этого можно удалить старую запись и создать новую. Для обновления контуров назначения ресурсов был предоставлен отдельный API. |
+| Группа проекта          | Да        | Да        | Да        | Группа по умолчанию создается с помощью API **CreateProjectV1**. Поддержка создания и удаления групп проекта была добавлена в выпуске-обновлении 16.                                                                                                                                                                                                   |
+| Участник проектной группы     | Да        | Да        | Да        | Для операции создания используйте API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
+| Project                 | Да        | Да        |            | Не поддерживаются операции со следующими полями: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** и **Duration**.                                                                                       |
+| Контрольные списки проекта      | Да        | Да        | Да        |                                                                                                                                                                                                                                                                                                                                                         |
+| Метка проекта           | No         | Да        | No         | Названия ярлыков можно изменить. Эта функция доступна только для Project for the Web                                                                                                                                                                                                                                                                      |
+| Задача проекта для пометки   | Да        | No         | Да        | Эта функция доступна только для Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Спринт проекта          | Да        | Да        | Да        | Поле **Начало** должно иметь более раннюю дату, чем поле **Конец**. Спринты одного и того же проекта не могут пересекаться друг с другом. Эта функция доступна только для Project for the Web                                                                                                                                                                    |
 
-Эти API можно вызывать с объектами сущности, которые включают настраиваемые поля.
+
+
 
 Свойство кода необязательно. Если оно указано, система пытается его использовать и выдает исключение, если оно не может быть использовано. Если оно не указано, система его сгенерирует.
 
-## <a name="restricted-fields"></a>Запрещенные поля
+**Известные проблемы и ограничения**
 
-В следующих таблицах определены поля, для которых не допускаются операции **Создать** и **Изменить.**
-
-### <a name="project-task"></a>Задача проекта
-
-| Логическое имя                           | Можно создать     | Может изменить         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Нет (да для Project)             | Нет (да для Project)               |
-| msdyn_effortremaining                  | Нет (да для Project)              | Нет (да для Project)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Нет (да для Project)             | Нет (да для Project) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Зависимость задач проекта
-
-| Логическое имя                  | Можно создать     | Может изменить     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Да            | No           |
-| msdyn_predecessortaskname     | Да            | No           |
-| msdyn_project                 | Да            | No           |
-| msdyn_projectname             | Да            | No           |
-| msdyn_projecttaskdependencyid | Да            | No           |
-| msdyn_successortask           | Да            | No           |
-| msdyn_successortaskname       | Да            | No           |
-
-### <a name="resource-assignment"></a>Назначение ресурса
-
-| Логическое имя                 | Можно создать     | Может изменить     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Да            | No           |
-| msdyn_bookableresourceidname | Да            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Да            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Участник проектной группы
-
-| Логическое имя                                     | Можно создать     | Может изменить     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Логическое имя                           | Можно создать     | Может изменить     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Да            | No           |
-| msdyn_contractorganizationalunitid     | Да            | No           |
-| msdyn_contractorganizationalunitidname | Да            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Да            | Да          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Группа проекта
-
-| Логическое имя          | Можно создать      | Может изменить     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Да             | No           |
-| msdyn_name            | Да             | Да          |
-| msdyn_project         | Да             | No           |
-| msdyn_projectbucketid | Да             | No           |
-
-## <a name="limitations-and-known-issues"></a>Известные проблемы и ограничения
 Ниже приводится список ограничений и известных проблем:
 
-- API расписания проекта могут использоваться только **пользователями с лицензией Microsoft Project.** Их не могут использовать:
+-   API расписания проекта могут использоваться только **пользователями с лицензией Microsoft Project.** Их не могут использовать:
+    -   Пользователи приложений
+    -   Системные пользователи
+    -   Пользователи-интеграторы
+    -   Другие пользователи, у которых нет необходимой лицензии
+-   У каждого **OperationSet** может быть не более 100 операций.
+-   У каждого пользователя может быть не более 10 открытых **OperationSet**.
+-   В настоящее время Project Operations поддерживает не более 500 общих задач в проекте.
+-   Каждая операция обновления контура назначения ресурсов считается одной операцией.
+-   Каждый список обновленных контуров может содержать не более 100 временных интервалов.
+-   Статус сбоя и журналы ошибок в **OperationSet** в настоящее время недоступны.
+-   Предусмотрено максимум 400 спринтов на проект.
+-   [Пределы и границы проектов и задач](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Метки в настоящее время доступны только для Project for the Web.
 
-    - Пользователи приложений
-    - Системные пользователи
-    - Пользователи-интеграторы
-    - Другие пользователи, у которых нет необходимой лицензии
+**Обработка ошибок**
 
-- У каждого **OperationSet** может быть не более 100 операций.
-- У каждого пользователя может быть не более 10 открытых **OperationSet**.
-- В настоящее время Project Operations поддерживает не более 500 общих задач в проекте.
-- Статус сбоя и журналы ошибок в **OperationSet** в настоящее время недоступны.
-- [Пределы и границы проектов и задач](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Чтобы просмотреть ошибки, сгенерированные из наборов операций, перейдите к **Параметры** \> **Интеграция расписания** \> **Наборы операций**.
+-   Чтобы просмотреть ошибки, сгенерированные службой расписания проекта, перейдите в раздел **Настройки** \> **Интеграция расписаний** \> **Журналы ошибок PSS**.
 
-## <a name="error-handling"></a>Обработка ошибок
+**Редактирование контуров назначения ресурсов**
 
-- Чтобы просмотреть ошибки, сгенерированные из наборов операций, перейдите к **Параметры** \> **Интеграция расписания** \> **Наборы операций**.
-- Чтобы просмотреть ошибки, сгенерированные службой расписания проекта, перейдите в раздел **Настройки** \> **Интеграция расписаний** \> **Журналы ошибок PSS**.
+В отличие от всех других API-интерфейсов планирования проектов, которые обновляют сущность, API-интерфейс контура назначения ресурсов несет единоличную ответственность за обновления одного поля, msdyn_plannedwork, в одной сущности, msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Пример сценария
+Данный режим расписания:
+
+-   **фиксированные единицы**
+-   календарь проекта: 9-5p, то есть 09:00-17:00 по тихоокеанскому времени, пн, вт, чт, пятница (НЕ РАБОТАЕТ ПО СРЕДАМ)
+-   и календарь ресурсов: 09:00–13:00 по тихоокеанскому времени с понедельника по пятницу
+
+Это назначение рассчитано на одну неделю, четыре часа в день. Это связано с тем, что календарь ресурса начинается с 09:00 по 13:00 по тихоокеанскому времени или четыре часа в день.
+
+| &nbsp;     | Задача | Дата начала | Дата окончания  | Количество | 13.06.2022 | 14.06.2022 | 15.06.2022 | 16.06.2022 | 17.06.2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 09-13 Рабочий |  T1  | 13.06.2022  | 17.06.2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Например, если вы хотите, чтобы рабочий работал только три часа каждый день на этой неделе и оставить один час на другие задачи.
+
+#### <a name="updatedcontours-sample-payload"></a>Пример полезных данных UpdatedContours:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Это назначение выполняется после запуска API-интерфейса обновления контура планирования.
+
+| &nbsp;     | Задача | Дата начала | Дата окончания  | Количество | 13.06.2022 | 14.06.2022 | 15.06.2022 | 16.06.2022 | 17.06.2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 09-13 Рабочий | T1   | 13.06.2022  | 17.06.2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Пример сценария**
 
 В этом сценарии вы создадите проект, участника команды, четыре задачи и два назначения ресурсов. Затем вы обновите одну задачу, обновите проект, удалите одну задачу, удалите одно назначение ресурса и создадите зависимость задачи.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Дополнительные примеры
+** Дополнительные примеры
 
 ```csharp
 #region Call actions --- Sample code ----

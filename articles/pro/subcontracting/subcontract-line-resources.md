@@ -2,20 +2,20 @@
 title: Ресурсы строки субподряда
 description: В этой статье объясняется, как указать выделенные ресурсы, предоставляемые поставщиком для конкретной строки субподряда на время.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261481"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522389"
 ---
 # <a name="subcontract-line-resources"></a>Ресурсы строки субподряда
 
-_**Относится к:** развертывание Lite — от сделки до счетов-проформ_
+_**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 В Dynamics 365 Project Operations поставщик может указать ресурсы, которые будут использоваться для обеспечения емкости ресурса, закупаемой по строке субподряда на время.
 

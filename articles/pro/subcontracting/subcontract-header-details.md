@@ -2,20 +2,20 @@
 title: Сведения о заголовке для субподрядов
 description: В этой статье объясняются функции, предоставляемые в заголовке для субподряда в Project Operations.
 author: rumant
-ms.date: 09/14/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 00b7c08235654d4bed0bcb4053d2044a3d092b54
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261434"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522577"
 ---
 # <a name="header-details-for-subcontracts"></a>Сведения о заголовке для субподрядов
 
-_**Относится к:** развертывание Lite — от сделки до счетов-проформ_
+_**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
 
 В этой статье объясняются функции, предоставляемые в заголовке для субподряда в Dynamics 365 Project Operations.
 
