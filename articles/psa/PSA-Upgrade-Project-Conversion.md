@@ -1,9 +1,9 @@
 ---
-title: Изменения функций для обновления с Project Service Automation до Project Operations
+title: Процесс перехода с Project Service Automation на планирование проектов в Project Operations
 description: В этой статье приведен обзор изменений в функциональности для перехода с Microsoft Dynamics 365 Project Service Automation на Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621273"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642585"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Изменения функций для обновления с Project Service Automation до Project Operations
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Процесс перехода с Project Service Automation на планирование проектов в Project Operations
 
 После успешного обновления проекта с Microsoft Dynamics 365 Project Service Automation 3.Х на Dynamics 365 Project Operations Lite редактирование задач проекта в структурной декомпозиции работ (WBS) сетки задач невозможно. Клиенты смогут просмотреть WBS в сетке отслеживания, где были добавлены новые поля для предоставления всех сведений, связанных с задачей. Для проектов, в которых требуются изменения в WBS, вы можете выборочно преобразовать подходящие проекты в новый интерфейс планирования Project for the Web.
 
