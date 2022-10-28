@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Как настроить поток бизнес-процесса стадий проекта?
               href: psa/FAQ-customize-bpf.md
-            - name: Рекомендации по обновлению структурной декомпозиции работ
-              href: psa/upgrade-considerations-tasks.md
         - name: Технические документы
           href: psa/white-papers.md
         - name: Руководство администратора
