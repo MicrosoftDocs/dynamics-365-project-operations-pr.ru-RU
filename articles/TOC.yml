@@ -286,6 +286,8 @@
           href: project-management/define-project-calendars.md
         - name: Режимы планирования
           href: project-management/scheduling-modes.md
+        - name: Внешнее планирование
+          href: project-management/external-scheduling.md
         - name: Обновление проекта
           href: project-management/update-project.md
         - name: Копирование проекта
@@ -914,6 +916,8 @@
           href: project-management/define-project-calendars.md
         - name: Режимы планирования
           hreF: project-management/scheduling-modes.md
+        - name: Внешнее планирование
+          href: project-management/external-scheduling.md
         - name: Обновление проекта
           href: project-management/update-project.md
         - name: Копирование проекта
