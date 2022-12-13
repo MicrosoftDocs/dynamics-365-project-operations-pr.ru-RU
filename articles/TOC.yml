@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Новые возможности
       items:
-        - name: "Сентябрь 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: "Ноябрь 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Архив
           items:
+            - name: "Октябрь 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: "Сентябрь 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: "Август 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: "Июль 2022\_г.\_— Project Operations для сценариев на основе ресурсов/без запасов"
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Подразделения
               href: sales/OrgUnits.md
-        - name: Управление интересами по проектам
+        - name: Управление интересами на основе проекта
           href: sales/manage-leads.md
-        - name: Управление возможными сделками по проектам
+        - name: Управление возможными сделками на основе проектов
           items:
             - name: Обзор управления возможными сделками по проектам
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Строки возможной сделки на основе проекта
               href: sales/project-based-lines.md
-            - name: Создание предложений с расценками по проектам на основе возможных сделок
+            - name: Создание предложений с расценками на основе возможных сделок по проектам
               href: sales/link-quotes-opportunities.md
-            - name: Копирование возможных сделок на основе проекта
+            - name: Копирование возможных сделок по проектам
               href: sales/copy-project-based-opportunity.md
             - name: Закрытие возможной сделки по проекту
               href: sales/close-opportunity.md
-        - name: Управление предложениями с расценками по проекту
+        - name: Управление предложениями с расценками на основе проекта
           items:
             - name: Обзор управления предложениями с расценками по проектам
               href: pro/sales/manage-quotes-sales.md
@@ -146,9 +150,9 @@
               href: sales/quotes-key-concepts.md
             - name: Сведения в заголовке для предложений с расценками на основе проекта
               href: sales/quote-values-budget-limits-contract.md
-            - name: Управление несколькими клиентами в предложении с расценками по проекту
+            - name: Управление несколькими клиентами в предложении с расценками на основе проекта
               href: sales/manage-multiple-customers-quote.md
-            - name: Управление прайс-листами проекта в предложении с расценками
+            - name: Прайс-листы проекта в предложениях с расценками по проекту
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Строки предложения с расценками на основе проекта
               items:
@@ -156,51 +160,49 @@
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Управление несколькими клиентами в строках предложения с расценками на основе проекта
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Сопоставление проектов и задач со строками предложения с расценками на основе проекта
+                - name: Сопоставление проектов и задач со строками предложения с расценками по проекту
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Настройка подлежащих оплате компонентов для строк предложения с расценками по проекту
+                - name: Настройка подлежащих оплате компонентов в строках предложения с расценками по проекту
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Настройка подлежащих оплате компонентов строки предложения с расценками по проекту
-                  href: sales/configure-chargeable-quoteline.md
-                - name: Оценка строки предложения с расценками проекта
-                  href: sales/create-estimate-quote-line.md
-                - name: Импорт оценок из проекта в строку предложения с расценками на основе проекта
-                  href: sales/import-estimate-quote-line.md
-                - name: Графики счетов в строках предложения с расценками на основе проекта
+                - name: Оценка строки предложения с расценками по проекту
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Импорт оценок из проекта в строку предложения с расценками по проекту
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Графики счетов в строках предложения с расценками по проекту
                   href: sales/invoice-schedule-quote-line.md
             - name: Копирование предложений с расценками по проекту
               href: sales/lose-quote.md
             - name: Активация и проверка предложения с расценками по проекту
               href: sales/activation-and-revision.md
-            - name: Закрытие предложений с расценками по проекту
+            - name: Закрытие предложений с расценками на основе проекта
               href: sales/win-quote.md
-        - name: Управление контрактами по проекту
+        - name: Управление контрактами на основе проекта
           items:
-            - name: Обзор управления контрактами по проекту
+            - name: Управление контрактами по проекту
               href: pro/sales/manage-contracts-sales.md
             - name: 'Понятия, уникальные для контрактов на основе проекта'
               href: sales/contracts-key-concepts.md
             - name: Сведения в заголовке для контрактов на основе проекта
               href: sales/project-contract-settings.md
-            - name: Управление прайс-листами проекта в контрактах по проекту
+            - name: Управление прайс-листами проекта в контрактах на основе проекта
               href: sales/contracts-manage-project-price-lists.md
-            - name: Управление несколькими клиентами в контрактах по проекту
+            - name: Управление несколькими клиентами в контрактах на основе проекта
               href: sales/manage-multiple-customers-contract.md
             - name: Строки контракта на основе проекта
               items:
-                - name: Обзор строк контракта на основе проекта
+                - name: Обзор строк контракта по проекту
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Управление несколькими клиентами в строках контракта на основе проекта
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Сопоставление проектов и задач в строке контракта по проекту
+                - name: Сопоставление проектов и задач со строкой контракта по проекту
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Настройка подлежащих оплате компонентов для строки контракта по проекту
+                - name: Настройка подлежащих оплате компонентов в строке контракта по проекту
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Оценка строки контракта проекта
+                - name: Оценка строки контракта на основе проекта
                   href: sales/create-estimate-contract-line.md
-                - name: Импорт оценок из проекта в строку контракта на основе проекта
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Создание графиков счетов по строкам контракта на основе проекта
+                - name: Импорт оценок из проекта в строку контракта по проекту
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Создание графиков счетов по строке контракта на основе проекта
                   href: sales/invoice-schedules-contract-line.md
             - name: Копирование контрактов на основе проекта
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Авансы и гонорары
               items:
-                - name: Авансы и контракты с гонораром
+                - name: Авансы и контракты с гонорарами по проекту
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Настройка расписания гонораров
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Создание специального аванса по контракту
+                - name: Создание специального аванса для контракта по проекту
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Определение цен и себестоимости
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Синхронизация состояния проекта во избежание ввода данных в закрытые проекты
           href: advanced-configuration/sync-project-status.md
+        - name: Настройка конвертации валюты для расчета цен продажи на основе ставок себестоимости
+          href: advanced-configuration/currencyconversion.md
     - name: Обновление
       items:
         - name: Рекомендации по обновлению для современных утверждений
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: Новые возможности
       items:
-        - name: "Новые возможности в сентябре 2022\_г.\_— облегченное развертывание"
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: "Новые возможности в ноябре 2022\_г.\_— облегченное развертывание"
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Архив
           items:
+            - name: "Новые возможности в октябре 2022\_г.\_— облегченное развертывание"
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: "Новые возможности в сентябре 2022\_г.\_— облегченное развертывание"
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: "Новые возможности в августе 2022\_г.\_— облегченное развертывание"
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: "Новые возможности в июле 2022\_г.\_— облегченное развертывание"
@@ -742,25 +750,25 @@
               href: sales/manage-project-based-opportunities.md
             - name: Сведения в заголовке для возможных сделок по проекту
               href: pro/sales/opportunity-header-sales.md
-            - name: Управление стоками возможной сделки на основе продуктов
+            - name: Управление строками возможной сделки на основе продуктов
               href: pro/sales/product-based-lines-sales.md
-            - name: Управление стоками возможной сделки на основе проекта
+            - name: Управление строками возможной сделки на основе проекта
               href: pro/sales/project-based-lines-sales.md
             - name: Создание предложений с расценками на основе возможных сделок по проектам
               href: sales/link-quotes-opportunities.md
-            - name: Копирование возможных сделок на основе проекта
+            - name: Копирование возможных сделок по проектам
               href: sales/copy-project-based-opportunity.md
             - name: Закрытие возможной сделки по проекту
               href: sales/close-opportunity.md
-        - name: Управление предложениями с расценками на основе проекта
+        - name: Управление предложениями с расценками по проекту
           items:
-            - name: Обзор предложений с расценками на основе проекта
+            - name: Обзор предложений с расценками по проекту
               href: pro/sales/manage-quotes-sales.md
             - name: 'Понятия, уникальные для предложений с расценками по проекту'
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Сведения в заголовке для предложений с расценками по проекту
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Несколько клиентов в предложениях с расценками по проекту
+            - name: Управление несколькими клиентами в предложениях с расценками по проекту
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Прайс-листы проекта в предложениях с расценками по проекту
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Управление сложными единицами измерения для строк предложения с расценками на основе продуктов
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Строки предложения с расценками на основе проекта
+            - name: Строки предложения с расценками по проекту
               items:
                 - name: Обзор строк предложения с расценками на основе проекта
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Управление несколькими клиентами
+                - name: Управление несколькими клиентами в строках предложения с расценками по проекту
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Сопоставление проектов и задач
+                - name: Сопоставление проектов и задач со строками предложения с расценками по проекту
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Настройка подлежащих оплате компонентов
+                - name: Настройка подлежащих оплате компонентов в строках предложения с расценками по проекту
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Оценка строки предложения с расценками на основе проекта
+                - name: Оценка строки предложения с расценками по проекту
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Импорт оценки из проекта
+                - name: Импорт оценок из проекта в строку предложения с расценками по проекту
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Управление расписаниями счетов
+                - name: Графики счетов в строках предложения с расценками по проекту
                   href: sales/invoice-schedule-quote-line.md
-            - name: Копирование предложений с расценками на основе проекта
+            - name: Копирование предложений с расценками по проекту
               href: sales/lose-quote.md
             - name: Активация и проверка предложения с расценками по проекту
               href: sales/activation-and-revision.md
-            - name: Закрытие предложений с расценками на основе проекта
+            - name: Закрытие предложений с расценками по проекту
               href: pro/sales/win-quote-sales.md
-        - name: Управление контрактами на основе проекта
+        - name: Управление контрактами по проекту
           items:
-            - name: Обзор контрактов на основе проекта
+            - name: Обзор контрактов по проекту
               href: pro/sales/manage-contracts-sales.md
             - name: 'Понятия, уникальные для контрактов по проекту'
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Сведения в заголовке для контрактов по проекту
               href: pro/sales/project-contract-settings-sales.md
-            - name: Несколько клиентов в контрактах по проекту
+            - name: Управление несколькими клиентами в контрактах по проекту
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Прайс-листы проекта по контрактам по проектам
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Управление сложными единицами измерения для строк контракта на основе продуктов
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Строки контракта на основе проекта
+            - name: Строки контракта по проекту
               items:
-                - name: Обзор строк контракта на основе проекта
+                - name: Обзор строк контракта по проекту
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Управление несколькими клиентами в контракте
+                - name: Управление несколькими клиентами в контрактах по проекту
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Сопоставление проектов и задач со строкой контракта по проекту
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Настройка подлежащих оплате компонентов в строке контракта по проекту
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Оценка строки контракта на основе проекта
+                - name: Оценка строки контракта по проекту
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Импорт оценок из проекта в строку контракта по проекту
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Управление расписаниями счетов в строке контракта по проекту
+                - name: Создание расписаний счетов в строке контракта по проекту
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Копирование контрактов по проектам
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Авансы и гонорары
               items:
-                - name: "Авансы и контракты с предоплатой\_— облегченное развертывание"
+                - name: Авансы и контракты с гонораром
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: "Настройка графика предоплаты\_— облегченное развертывание"
+                - name: Настройка расписания гонораровНастройка расписания гонораров
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: "Создание специального аванса по контракту\_— облегченное развертывание"
+                - name: Создание специального аванса для контракта по проекту
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Определение цен и себестоимости
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Новые возможности
       items:
-        - name: "Новые возможности в сентябре 2022\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: "Новые возможности в октябре 2022\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Архив
           items:
+            - name: "Новые возможности в сентябре 2022\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: "Новые возможности в июле 2022\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: "Новые возможности в июне 2022\_г.\_— Project Operations для сценариев на основе запасов/производственных заказов"
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Обзор развертывания Project Operations для сценариев на основе запасов/производственных заказов
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Обзор управления и учета для проектов
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Учет по проекту
+      items:
+        - name: Обзор управления и учета для проектов
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Корректировки проектов
+          href: project-accounting/project-adjustments.md
     - name: Процесс продаж по проекту
       items:
         - name: Предложения с расценками для проекта
