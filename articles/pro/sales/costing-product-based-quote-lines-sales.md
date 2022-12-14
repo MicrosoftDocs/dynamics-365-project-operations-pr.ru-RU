@@ -1,21 +1,21 @@
 ---
 title: Определение строк предложения с расценками на основе продуктов
 description: В этой статье содержатся инструкции по применению себестоимости к строке предложения с расценками на основе продуктов.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932588"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825628"
 ---
 # <a name="costing-product-based-quote-lines"></a>Определение строк предложения с расценками на основе продуктов
 
-_**Относится к:** Project Operations для сценариев на основе ресурсов/нескладируемых запасов, упрощенное развертывание — от сделки до выставления счетов-фактур_
+_**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
 
 Строки предложений на основе продуктов в Dynamics 365 Project Operations также имеют поле **Себестоимость**. Это поле используется для отслеживания себестоимости продукта в строке предложения с расценками и для последующих расчетов рентабельности.

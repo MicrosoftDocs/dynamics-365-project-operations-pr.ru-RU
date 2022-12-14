@@ -1,19 +1,19 @@
 ---
-title: Управление несколькими клиентами в контрактах по проекту — облегченное развертывание
+title: Управление несколькими клиентами в контрактах по проекту
 description: В этой статье содержится информация о том, как управлять несколькими клиентами в рамках контрактов по проектам.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17cd464bad81a01f5f334524a542104d6f25717b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 001c3c822a5d1cef6bd85164ef5e63e81719dafb
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917221"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824549"
 ---
-# <a name="manage-multiple-customers-on-project-contracts---lite"></a>Управление несколькими клиентами в контрактах по проекту — облегченное развертывание
+# <a name="manage-multiple-customers-on-project-contracts"></a>Управление несколькими клиентами в контрактах по проекту
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 

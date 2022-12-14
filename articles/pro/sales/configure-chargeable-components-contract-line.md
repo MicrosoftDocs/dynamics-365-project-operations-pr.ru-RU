@@ -1,23 +1,23 @@
 ---
-title: Настройка подлежащих оплате компонентов строки контракта на основе проекта
+title: Настройка подлежащих оплате компонентов в строке контракта по проекту
 description: В этой статье содержатся инструкции по добавлению подлежащих оплате компонентов в строки контракта в Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 33296c93964cc88499e7a98d499b99463e59d62a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922974"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825581"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Настройка подлежащих оплате компонентов строки контракта на основе проекта
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Настройка подлежащих оплате компонентов в строке контракта по проекту
 
 _**Относится к:** Облегченное развертывание — от сделки до счетов-проформ, Project Operations для сценариев на основе ресурсов/нескладируемых запасов_
 
-Строка контракта на основе проекта имеет *включенные* компоненты и *оплачиваемые* компоненты.
+Строка контракта по проекту имеет *включенные* компоненты и *оплачиваемые* компоненты.
 
 Включенные компоненты — это компоненты, на которые распространяется:
 

@@ -1,19 +1,19 @@
 ---
-title: Управление сложными единицами измерения, такими как по пользователям и по месяцам для строк предложения с расценками на основе продуктов — облегченное развертывание
+title: Управление сложными единицами измерения, такими как по пользователям и по месяцам для строк предложения с расценками на основе продуктов
 description: В этой статье приведены инструкции по управлению сложными единицами измерения для строк предложений с расценками на основе продуктов.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 88173468cd2e898331c4aa0a398792d9a0f3df10
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50151e9a34e8608c98e406a30131c1efc4bf2f11
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929920"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825488"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Управление сложными единицами измерения, такими как по пользователям и по месяцам для строк предложения с расценками на основе продуктов — облегченное развертывание
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Управление сложными единицами измерения, такими как по пользователям и по месяцам для строк предложения с расценками на основе продуктов
 
 _**Относится к:** развертывание Lite — от сделки до счетов-проформ_
 
