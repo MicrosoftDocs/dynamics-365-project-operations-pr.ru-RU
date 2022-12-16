@@ -208,11 +208,11 @@
               href: sales/copy-project-based-contracts-sales.md
             - name: Подтверждение контракта по проекту
               href: pro/sales/confirm-contract-sales.md
-            - name: Авансы и гонорары
+            - name: Авансы и предоплаты
               items:
-                - name: Авансы и контракты с гонорарами по проекту
+                - name: Авансы и контракты с предоплатами по проекту
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Настройка расписания гонораров
+                - name: Настройка расписания предоплат
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Создание специального аванса для контракта по проекту
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -750,7 +750,7 @@
               href: sales/manage-project-based-opportunities.md
             - name: Сведения в заголовке для возможных сделок по проекту
               href: pro/sales/opportunity-header-sales.md
-            - name: Управление строками возможной сделки на основе продуктов
+            - name: Управление стоками возможной сделки на основе продуктов
               href: pro/sales/product-based-lines-sales.md
             - name: Управление строками возможной сделки на основе проекта
               href: pro/sales/project-based-lines-sales.md
@@ -842,11 +842,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Подтверждение контракта по проекту
               href: pro/sales/confirm-contract-sales.md
-            - name: Авансы и гонорары
+            - name: Авансы и предоплаты
               items:
-                - name: Авансы и контракты с гонораром
+                - name: Авансы и контракты с предоплатой
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Настройка расписания гонораровНастройка расписания гонораров
+                - name: Настройка расписания предоплат
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Создание специального аванса для контракта по проекту
                   href: pro/sales/create-ad-hoc-advance-sales.md
